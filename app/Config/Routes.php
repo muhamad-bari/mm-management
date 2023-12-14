@@ -5,4 +5,8 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
+
+ //CMS
+
+ //FrontEnd
+ $routes->get('index', 'fr_index::index');
