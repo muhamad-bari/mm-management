@@ -10,4 +10,9 @@ class fr_index extends BaseController
     {
         echo view('fr/pages/index');
     }
+
+    public function login()
+    {
+        echo view('fr/pages/login');
+    }
 }

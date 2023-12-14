@@ -10,3 +10,4 @@ use CodeIgniter\Router\RouteCollection;
 
  //FrontEnd
  $routes->get('index', 'fr_index::index');
+ $routes->get('login', 'fr_index::login');

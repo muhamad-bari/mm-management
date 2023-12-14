@@ -515,26 +515,52 @@
               </div>
               <!-- Responsive Menu Structure-->
               <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
-                <li class="visible_list"> <a class="list-item" href="index.html"><span class="title">Home</span></a>
-                 
-                </li>
-                <li class="visible_list"> <a class="list-item" href="page-about-v2.html"><span class="title">About</span></a>
-                  
-                </li>
-                <li class="visible_list"> <a class="list-item" href="page-blog-v3.html"><span class="title">Blog</span></a>
-                  
-                </li>
-                <li> <a class="list-item pe-0" href="page-contact.html">Contact</a></li>
+                <li class="visible_list"> <a class="list-item" href="<?php echo base_url('index') ?>"><span class="title">Home</span></a></li>
+                <li class="visible_list"> <a class="list-item" href="<?php echo base_url('about') ?>"><span class="title">About</span></a></li>
+                <li class="visible_list"> <a class="list-item" href="<?php echo base_url('blog') ?>"><span class="title">Blog</span></a></li>
+                <li class="visible_list"> <a class="list-item" href="<?php echo base_url('gallery') ?>"><span class="title">Gallery</span></a></li>
+                <li> <a class="list-item pe-0" href="<?php echo base_url('contact') ?>">Contact</a></li>
               </ul>
             </div>
           </div>
           <div class="col-auto pe-0 pe-xl-3">
             <div class="d-flex align-items-center">
-              <a class="login-info mr10 home18-sign-btn px30 py-1 bdrs120" href="page-login.html">Sign in</a>
-              <a class="ud-btn btn-white add-joining home18-join-btn bdrs120" href="page-register.html">Join</a>
+              <a class="login-info mr10 home18-sign-btn px30 py-1 bdrs120" href="<?php echo base_url('login') ?>">Sign in</a>
+              <a class="ud-btn btn-white add-joining home18-join-btn bdrs120" href="<?php echo base_url('register') ?>">Join</a>
             </div>
           </div>
         </div>
       </div>
     </nav>
   </header>
+
+  <div class="hiddenbar-body-ovelay"></div>
+
+  <!-- Mobile Nav  -->
+  <div id="page" class="mobilie_header_nav stylehome1">
+    <div class="mobile-menu">
+      <div class="header bdrb1">
+        <div class="menu_and_widgets">
+          <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
+            <a class="mobile_logo" href="#"><img src="<?php echo base_url() ?>frontend/images/header-logo3.png" alt=""></a>
+            <div class="right-side text-end">
+              <a class="" href="<?php echo base_url('login') ?>">join</a>
+              <a class="menubar ml30" href="#menu"><img src="<?php echo base_url() ?>frontend/images/mobile-dark-nav-icon.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <div class="posr"><div class="mobile_menu_close_btn"><span class="far fa-times"></span></div></div>
+      </div>
+    </div>
+    <!-- /.mobile-menu -->
+    <nav id="menu" class="">
+      <ul>
+        <li><span><a href="<?php echo base_url('index') ?>">Home</a></span></li>
+        <li><span><a href="<?php echo base_url('about') ?>">About</a></span></li>
+        <li><span><a href="<?php echo base_url('blog') ?>">Blog</a></span></li>
+        <li><span><a href="<?php echo base_url('contact') ?>">contact</a></span>
+        <li><span><a href="<?php echo base_url('gallery') ?>">Gallery</a></span></li>
+        <!-- Only for Mobile View -->
+      </ul>
+    </nav>
+  </div>
