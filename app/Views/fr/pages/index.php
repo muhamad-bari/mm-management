@@ -20,10 +20,6 @@
               <div class="thumb position-relative">
                 <img class="img" src="<?php echo base_url() ?>frontend/images/about/home18-hero-img1.png" alt="">
               </div>
-              <div class="detail text-start">
-                <h5 class="text-white">Leslie Alexander</h5>
-                <p class="fz13 text-white mb-0">UX / UI Designer</p>
-              </div>
               <div class="iconbox-small1 text-start d-flex wow fadeInRight default-box-shadow4 bounce-x">
                 <span class="icon flaticon-badge"></span>
                 <div class="details pl20">
