@@ -13,10 +13,9 @@
             <div class="social-widget text-center text-md-end">
               <div class="social-style1">
                 <a class="text-white me-2 fw500 fz17" href="#">Follow us</a>
-                <a href="#"><i class="fab fa-facebook-f list-inline-item"></i></a>
-                <a href="#"><i class="fab fa-twitter list-inline-item"></i></a>
-                <a href="#"><i class="fab fa-instagram list-inline-item"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in list-inline-item"></i></a>
+                <a href="https://www.facebook.com/ptmmmanagementpjtki⁣"><i class="fab fa-facebook-f list-inline-item"></i></a>
+                <a href="https://www.instagram.com/ptmanagementpjtki_"><i class="fab fa-instagram list-inline-item"></i></a>
+                <a href="https:///www.tiktok.com/pt.mm.management⁣"><i class="fab fa-tiktok list-inline-item"></i></a>
               </div>
             </div>
           </div>
@@ -37,17 +36,17 @@
           </div>
           <div class="col-sm-6 col-lg-3">
             <div class="link-style1 mb-4 mb-sm-5">
-              <h5 class="text-white mb15">Categories</h5>
+            <h5 class="text-white mb15">Services</h5>
               <ul class="ps-0">
-                <li><a href="#">Graphics & Design</a></li>
-                <li><a href="#">Digital Marketing</a></li>
-                <li><a href="#">Writing & Translation</a></li>
-                <li><a href="#">Video & Animation</a></li>
-                <li><a href="#">Music & Audio</a></li>
-                <li><a href="#">Programming & Tech</a></li>
-                <li><a href="#">Data</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Lifestyle</a></li>
+                <li><a href="#">Asisten Rumah Tangga</a></li>
+                <li><a href="#">Baby Sitter</a></li>
+                <li><a href="#">Perawat Lansia</a></li>
+                <li><a href="#">Driver</a></li>
+                <li><a href="#">Chef</a></li>
+                <li><a href="#">Barista</a></li>
+                <li><a href="#">Penjahit</a></li>
+                <li><a href="#">Waitress</a></li>
+                <li><a href="#">Beautician</a></li>
               </ul>
             </div>
           </div>
@@ -104,18 +103,16 @@
               <ul class="p-0 m-0">
                 <li class="list-inline-item">
                   <select class="selectpicker show-tick">
-                    <option>US$ USD</option>
-                    <option>Euro</option>
-                    <option>Pound</option>
+                  <option>US$ USD</option>
+                    <option>SAR Riyal</option>
+                    <option>IDR Rupiah</option>
                   </select>
                 </li>
                 <li class="list-inline-item">
                   <select class="selectpicker show-tick">
-                    <option>English</option>
-                    <option>Frenc</option>
-                    <option>Italian</option>
-                    <option>Spanish</option>
-                    <option>Turkey</option>
+                  <option>English</option>
+                    <option>Arabian</option>
+                    <option>Indonesia</option>
                   </select>
                 </li>
               </ul>

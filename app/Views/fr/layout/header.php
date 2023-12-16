@@ -21,6 +21,7 @@
 <link rel="stylesheet" href="<?php echo base_url() ?>frontend/css/slider.css">
 <link rel="stylesheet" href="<?php echo base_url() ?>frontend/css/style.css">
 <link rel="stylesheet" href="<?php echo base_url() ?>frontend/css/ud-custom-spacing.css">
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
 <!-- Responsive stylesheet -->
 <link rel="stylesheet" href="<?php echo base_url() ?>frontend/css/responsive.css">
 <!-- Title -->
@@ -62,453 +63,32 @@
                 <div id="mega-menu">
                   <div class="text-center"><a class="btn-mega fw500 text-white" href="#"><span class="pr5 fz15 vam flaticon-menu"></span> Services</a></div>
                   <ul class="menu ps-0">
-                    <li> <a class="dropdown" href="#"> <span class="menu-icn flaticon-developer"></span> <span class="menu-title">Development & IT</span> </a>
-                      <div class="drop-menu d-flex justify-content-between">
-                        <div class="one-third">
-                          <div class="h6 cat-title">Web & App Design</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Website Design</a></li>
-                            <li><a href="#">App DesignUX Design</a></li>
-                            <li><a href="#">Landing Page Design</a></li>
-                            <li><a href="#">Icon Design</a></li>
-                          </ul>
-                          <div class="h6 cat-title">Marketing Design</div>
-                          <ul class="ps-0 mb-0">
-                            <li><a href="#">Social Media Design</a></li>
-                            <li><a href="#">Email Design</a></li>
-                            <li><a href="#">Web Banners</a></li>
-                            <li><a href="#">Signage Design</a></li>
-                          </ul>
-                        </div>
-                        <div class="one-third">
-                          <div class="h6 cat-title">Art & Illustration</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Illustration</a></li>
-                            <li><a href="#">NFT Art</a></li>
-                            <li><a href="#">Pattern Design</a></li>
-                            <li><a href="#">Portraits & Caricatures</a></li>
-                            <li><a href="#">Cartoons & Comics</a></li>
-                            <li><a href="#">Tattoo Design</a></li>
-                            <li><a href="#">Storyboards</a></li>
-                          </ul>
-                          <div class="h6 cat-title">Gaming</div>
-                          <ul class="ps-0 mb-0">
-                            <li><a href="#">Game Art</a></li>
-                            <li><a href="#">Graphics for Streamers</a></li>
-                            <li><a href="#">Twitch Store</a></li>
-                          </ul>
-                        </div>
-                        <div class="one-third">
-                          <div class="h6 cat-title">Visual Design</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Image Editing</a></li>
-                            <li><a href="#">Presentation Design</a></li>
-                            <li><a href="#">Infographic Design</a></li>
-                            <li><a href="#">Vector Tracing</a></li>
-                            <li><a href="#">Resume Design</a></li>
-                          </ul>
-                          <div class="h6 cat-title">Print Design</div>
-                          <ul class="ps-0 mb-0">
-                            <li><a href="#">T-Shirts & Merchandise</a></li>
-                            <li><a href="#">Flyer Design</a></li>
-                            <li><a href="#">Brochure Design</a></li>
-                            <li><a href="#">Poster Design</a></li>
-                            <li><a href="#">Catalog Design</a></li>
-                          </ul>
-                        </div>
-                      </div>
+                    <li> <a class="" href="#"> 
+                      <span class="menu-icn flaticon-home"></span> <span class="menu-title">Asisten Rumah Tangga</span> </a>
                     </li>
-                    <li> <a class="dropdown" href="#"> <span class="menu-icn flaticon-web-design-1"></span> <span class="menu-title">Design & Creative</span> </a>
-                      <div class="drop-menu d-flex justify-content-between">
-                        <div class="one-third">
-                          <div class="h6 cat-title">Web & App Design</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Website Design</a></li>
-                            <li><a href="#">App DesignUX Design</a></li>
-                            <li><a href="#">Landing Page Design</a></li>
-                            <li><a href="#">Icon Design</a></li>
-                          </ul>
-                          <div class="h6 cat-title">Marketing Design</div>
-                          <ul class="ps-0 mb-0">
-                            <li><a href="#">Social Media Design</a></li>
-                            <li><a href="#">Email Design</a></li>
-                            <li><a href="#">Web Banners</a></li>
-                            <li><a href="#">Signage Design</a></li>
-                          </ul>
-                        </div>
-                        <div class="one-third">
-                          <div class="h6 cat-title">Art & Illustration</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Illustration</a></li>
-                            <li><a href="#">NFT Art</a></li>
-                            <li><a href="#">Pattern Design</a></li>
-                            <li><a href="#">Portraits & Caricatures</a></li>
-                            <li><a href="#">Cartoons & Comics</a></li>
-                            <li><a href="#">Tattoo Design</a></li>
-                            <li><a href="#">Storyboards</a></li>
-                          </ul>
-                          <div class="h6 cat-title">Gaming</div>
-                          <ul class="ps-0 mb-0">
-                            <li><a href="#">Game Art</a></li>
-                            <li><a href="#">Graphics for Streamers</a></li>
-                            <li><a href="#">Twitch Store</a></li>
-                          </ul>
-                        </div>
-                        <div class="one-third">
-                          <div class="h6 cat-title">Visual Design</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Image Editing</a></li>
-                            <li><a href="#">Presentation Design</a></li>
-                            <li><a href="#">Infographic Design</a></li>
-                            <li><a href="#">Vector Tracing</a></li>
-                            <li><a href="#">Resume Design</a></li>
-                          </ul>
-                          <div class="h6 cat-title">Print Design</div>
-                          <ul class="ps-0 mb-0">
-                            <li><a href="#">T-Shirts & Merchandise</a></li>
-                            <li><a href="#">Flyer Design</a></li>
-                            <li><a href="#">Brochure Design</a></li>
-                            <li><a href="#">Poster Design</a></li>
-                            <li><a href="#">Catalog Design</a></li>
-                          </ul>
-                        </div>
-                      </div>
+                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-child-head"></span> 
+                    <span class="menu-title">Baby Sitter</span> </a>
                     </li>
-                    <li> <a class="dropdown" href="#"> <span class="menu-icn flaticon-digital-marketing"></span> <span class="menu-title">Digital Marketing</span> </a>
-                      <div class="drop-menu d-flex justify-content-between">
-                        <div class="one-third">
-                          <div class="h6 cat-title">Web & App Design</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Website Design</a></li>
-                            <li><a href="#">App DesignUX Design</a></li>
-                            <li><a href="#">Landing Page Design</a></li>
-                            <li><a href="#">Icon Design</a></li>
-                          </ul>
-                          <div class="h6 cat-title">Marketing Design</div>
-                          <ul class="ps-0 mb-0">
-                            <li><a href="#">Social Media Design</a></li>
-                            <li><a href="#">Email Design</a></li>
-                            <li><a href="#">Web Banners</a></li>
-                            <li><a href="#">Signage Design</a></li>
-                          </ul>
-                        </div>
-                        <div class="one-third">
-                          <div class="h6 cat-title">Art & Illustration</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Illustration</a></li>
-                            <li><a href="#">NFT Art</a></li>
-                            <li><a href="#">Pattern Design</a></li>
-                            <li><a href="#">Portraits & Caricatures</a></li>
-                            <li><a href="#">Cartoons & Comics</a></li>
-                            <li><a href="#">Tattoo Design</a></li>
-                            <li><a href="#">Storyboards</a></li>
-                          </ul>
-                          <div class="h6 cat-title">Gaming</div>
-                          <ul class="ps-0 mb-0">
-                            <li><a href="#">Game Art</a></li>
-                            <li><a href="#">Graphics for Streamers</a></li>
-                            <li><a href="#">Twitch Store</a></li>
-                          </ul>
-                        </div>
-                        <div class="one-third">
-                          <div class="h6 cat-title">Visual Design</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Image Editing</a></li>
-                            <li><a href="#">Presentation Design</a></li>
-                            <li><a href="#">Infographic Design</a></li>
-                            <li><a href="#">Vector Tracing</a></li>
-                            <li><a href="#">Resume Design</a></li>
-                          </ul>
-                          <div class="h6 cat-title">Print Design</div>
-                          <ul class="ps-0 mb-0">
-                            <li><a href="#">T-Shirts & Merchandise</a></li>
-                            <li><a href="#">Flyer Design</a></li>
-                            <li><a href="#">Brochure Design</a></li>
-                            <li><a href="#">Poster Design</a></li>
-                            <li><a href="#">Catalog Design</a></li>
-                          </ul>
-                        </div>
-                      </div>
+                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-user-nurse"></span> 
+                    <span class="menu-title">Perawat Lansia</span> </a>
                     </li>
-                    <li> <a class="dropdown" href="#"> <span class="menu-icn flaticon-translator"></span> <span class="menu-title">Writing & Translation</span> </a>
-                      <div class="drop-menu d-flex justify-content-between">
-                        <div class="one-third">
-                          <div class="h6 cat-title">Web & App Design</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Website Design</a></li>
-                            <li><a href="#">App DesignUX Design</a></li>
-                            <li><a href="#">Landing Page Design</a></li>
-                            <li><a href="#">Icon Design</a></li>
-                          </ul>
-                          <div class="h6 cat-title">Marketing Design</div>
-                          <ul class="ps-0 mb-0">
-                            <li><a href="#">Social Media Design</a></li>
-                            <li><a href="#">Email Design</a></li>
-                            <li><a href="#">Web Banners</a></li>
-                            <li><a href="#">Signage Design</a></li>
-                          </ul>
-                        </div>
-                        <div class="one-third">
-                          <div class="h6 cat-title">Art & Illustration</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Illustration</a></li>
-                            <li><a href="#">NFT Art</a></li>
-                            <li><a href="#">Pattern Design</a></li>
-                            <li><a href="#">Portraits & Caricatures</a></li>
-                            <li><a href="#">Cartoons & Comics</a></li>
-                            <li><a href="#">Tattoo Design</a></li>
-                            <li><a href="#">Storyboards</a></li>
-                          </ul>
-                          <div class="h6 cat-title">Gaming</div>
-                          <ul class="ps-0 mb-0">
-                            <li><a href="#">Game Art</a></li>
-                            <li><a href="#">Graphics for Streamers</a></li>
-                            <li><a href="#">Twitch Store</a></li>
-                          </ul>
-                        </div>
-                        <div class="one-third">
-                          <div class="h6 cat-title">Visual Design</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Image Editing</a></li>
-                            <li><a href="#">Presentation Design</a></li>
-                            <li><a href="#">Infographic Design</a></li>
-                            <li><a href="#">Vector Tracing</a></li>
-                            <li><a href="#">Resume Design</a></li>
-                          </ul>
-                          <div class="h6 cat-title">Print Design</div>
-                          <ul class="ps-0 mb-0">
-                            <li><a href="#">T-Shirts & Merchandise</a></li>
-                            <li><a href="#">Flyer Design</a></li>
-                            <li><a href="#">Brochure Design</a></li>
-                            <li><a href="#">Poster Design</a></li>
-                            <li><a href="#">Catalog Design</a></li>
-                          </ul>
-                        </div>
-                      </div>
+                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-car-side"></span> 
+                    <span class="menu-title">Driver</span> </a>
                     </li>
-                    <li> <a class="dropdown" href="#"> <span class="menu-icn flaticon-microphone"></span> <span class="menu-title">Music & Audio</span> </a>
-                      <div class="drop-menu d-flex justify-content-between">
-                        <div class="one-third">
-                          <div class="h6 cat-title">Web & App Design</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Website Design</a></li>
-                            <li><a href="#">App DesignUX Design</a></li>
-                            <li><a href="#">Landing Page Design</a></li>
-                            <li><a href="#">Icon Design</a></li>
-                          </ul>
-                          <div class="h6 cat-title">Marketing Design</div>
-                          <ul class="ps-0 mb-0">
-                            <li><a href="#">Social Media Design</a></li>
-                            <li><a href="#">Email Design</a></li>
-                            <li><a href="#">Web Banners</a></li>
-                            <li><a href="#">Signage Design</a></li>
-                          </ul>
-                        </div>
-                        <div class="one-third">
-                          <div class="h6 cat-title">Art & Illustration</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Illustration</a></li>
-                            <li><a href="#">NFT Art</a></li>
-                            <li><a href="#">Pattern Design</a></li>
-                            <li><a href="#">Portraits & Caricatures</a></li>
-                            <li><a href="#">Cartoons & Comics</a></li>
-                            <li><a href="#">Tattoo Design</a></li>
-                            <li><a href="#">Storyboards</a></li>
-                          </ul>
-                          <div class="h6 cat-title">Gaming</div>
-                          <ul class="ps-0 mb-0">
-                            <li><a href="#">Game Art</a></li>
-                            <li><a href="#">Graphics for Streamers</a></li>
-                            <li><a href="#">Twitch Store</a></li>
-                          </ul>
-                        </div>
-                        <div class="one-third">
-                          <div class="h6 cat-title">Visual Design</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Image Editing</a></li>
-                            <li><a href="#">Presentation Design</a></li>
-                            <li><a href="#">Infographic Design</a></li>
-                            <li><a href="#">Vector Tracing</a></li>
-                            <li><a href="#">Resume Design</a></li>
-                          </ul>
-                          <div class="h6 cat-title">Print Design</div>
-                          <ul class="ps-0 mb-0">
-                            <li><a href="#">T-Shirts & Merchandise</a></li>
-                            <li><a href="#">Flyer Design</a></li>
-                            <li><a href="#">Brochure Design</a></li>
-                            <li><a href="#">Poster Design</a></li>
-                            <li><a href="#">Catalog Design</a></li>
-                          </ul>
-                        </div>
-                      </div>
+                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-hat-chef"></span> 
+                    <span class="menu-title">Chef</span> </a>
                     </li>
-                    <li> <a class="dropdown" href="#"> <span class="menu-icn flaticon-video-file"></span> <span class="menu-title">Video & Animation</span> </a>
-                      <div class="drop-menu d-flex justify-content-between">
-                        <div class="one-third">
-                          <div class="h6 cat-title">Web & App Design</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Website Design</a></li>
-                            <li><a href="#">App DesignUX Design</a></li>
-                            <li><a href="#">Landing Page Design</a></li>
-                            <li><a href="#">Icon Design</a></li>
-                          </ul>
-                          <div class="h6 cat-title">Marketing Design</div>
-                          <ul class="ps-0 mb-0">
-                            <li><a href="#">Social Media Design</a></li>
-                            <li><a href="#">Email Design</a></li>
-                            <li><a href="#">Web Banners</a></li>
-                            <li><a href="#">Signage Design</a></li>
-                          </ul>
-                        </div>
-                        <div class="one-third">
-                          <div class="h6 cat-title">Art & Illustration</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Illustration</a></li>
-                            <li><a href="#">NFT Art</a></li>
-                            <li><a href="#">Pattern Design</a></li>
-                            <li><a href="#">Portraits & Caricatures</a></li>
-                            <li><a href="#">Cartoons & Comics</a></li>
-                            <li><a href="#">Tattoo Design</a></li>
-                            <li><a href="#">Storyboards</a></li>
-                          </ul>
-                          <div class="h6 cat-title">Gaming</div>
-                          <ul class="ps-0 mb-0">
-                            <li><a href="#">Game Art</a></li>
-                            <li><a href="#">Graphics for Streamers</a></li>
-                            <li><a href="#">Twitch Store</a></li>
-                          </ul>
-                        </div>
-                        <div class="one-third">
-                          <div class="h6 cat-title">Visual Design</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Image Editing</a></li>
-                            <li><a href="#">Presentation Design</a></li>
-                            <li><a href="#">Infographic Design</a></li>
-                            <li><a href="#">Vector Tracing</a></li>
-                            <li><a href="#">Resume Design</a></li>
-                          </ul>
-                          <div class="h6 cat-title">Print Design</div>
-                          <ul class="ps-0 mb-0">
-                            <li><a href="#">T-Shirts & Merchandise</a></li>
-                            <li><a href="#">Flyer Design</a></li>
-                            <li><a href="#">Brochure Design</a></li>
-                            <li><a href="#">Poster Design</a></li>
-                            <li><a href="#">Catalog Design</a></li>
-                          </ul>
-                        </div>
-                      </div>
+                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-mug-hot-alt"></span> 
+                    <span class="menu-title">Barista</span> </a>
                     </li>
-                    <li> <a class="dropdown" href="#"> <span class="menu-icn flaticon-ruler"></span> <span class="menu-title">Engineering & Architecture</span> </a>
-                      <div class="drop-menu d-flex justify-content-between">
-                        <div class="one-third">
-                          <div class="h6 cat-title">Web & App Design</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Website Design</a></li>
-                            <li><a href="#">App DesignUX Design</a></li>
-                            <li><a href="#">Landing Page Design</a></li>
-                            <li><a href="#">Icon Design</a></li>
-                          </ul>
-                          <div class="h6 cat-title">Marketing Design</div>
-                          <ul class="ps-0 mb-0">
-                            <li><a href="#">Social Media Design</a></li>
-                            <li><a href="#">Email Design</a></li>
-                            <li><a href="#">Web Banners</a></li>
-                            <li><a href="#">Signage Design</a></li>
-                          </ul>
-                        </div>
-                        <div class="one-third">
-                          <div class="h6 cat-title">Art & Illustration</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Illustration</a></li>
-                            <li><a href="#">NFT Art</a></li>
-                            <li><a href="#">Pattern Design</a></li>
-                            <li><a href="#">Portraits & Caricatures</a></li>
-                            <li><a href="#">Cartoons & Comics</a></li>
-                            <li><a href="#">Tattoo Design</a></li>
-                            <li><a href="#">Storyboards</a></li>
-                          </ul>
-                          <div class="h6 cat-title">Gaming</div>
-                          <ul class="ps-0 mb-0">
-                            <li><a href="#">Game Art</a></li>
-                            <li><a href="#">Graphics for Streamers</a></li>
-                            <li><a href="#">Twitch Store</a></li>
-                          </ul>
-                        </div>
-                        <div class="one-third">
-                          <div class="h6 cat-title">Visual Design</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Image Editing</a></li>
-                            <li><a href="#">Presentation Design</a></li>
-                            <li><a href="#">Infographic Design</a></li>
-                            <li><a href="#">Vector Tracing</a></li>
-                            <li><a href="#">Resume Design</a></li>
-                          </ul>
-                          <div class="h6 cat-title">Print Design</div>
-                          <ul class="ps-0 mb-0">
-                            <li><a href="#">T-Shirts & Merchandise</a></li>
-                            <li><a href="#">Flyer Design</a></li>
-                            <li><a href="#">Brochure Design</a></li>
-                            <li><a href="#">Poster Design</a></li>
-                            <li><a href="#">Catalog Design</a></li>
-                          </ul>
-                        </div>
-                      </div>
+                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-circle-user"></span> 
+                    <span class="menu-title">Waitress</span> </a>
                     </li>
-                    <li> <a class="dropdown" href="#"> <span class="menu-icn flaticon-goal"></span> <span class="menu-title">Finance & Accounting</span> </a>
-                      <div class="drop-menu d-flex justify-content-between">
-                        <div class="one-third">
-                          <div class="h6 cat-title">Web & App Design</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Website Design</a></li>
-                            <li><a href="#">App DesignUX Design</a></li>
-                            <li><a href="#">Landing Page Design</a></li>
-                            <li><a href="#">Icon Design</a></li>
-                          </ul>
-                          <div class="h6 cat-title">Marketing Design</div>
-                          <ul class="ps-0 mb-0">
-                            <li><a href="#">Social Media Design</a></li>
-                            <li><a href="#">Email Design</a></li>
-                            <li><a href="#">Web Banners</a></li>
-                            <li><a href="#">Signage Design</a></li>
-                          </ul>
-                        </div>
-                        <div class="one-third">
-                          <div class="h6 cat-title">Art & Illustration</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Illustration</a></li>
-                            <li><a href="#">NFT Art</a></li>
-                            <li><a href="#">Pattern Design</a></li>
-                            <li><a href="#">Portraits & Caricatures</a></li>
-                            <li><a href="#">Cartoons & Comics</a></li>
-                            <li><a href="#">Tattoo Design</a></li>
-                            <li><a href="#">Storyboards</a></li>
-                          </ul>
-                          <div class="h6 cat-title">Gaming</div>
-                          <ul class="ps-0 mb-0">
-                            <li><a href="#">Game Art</a></li>
-                            <li><a href="#">Graphics for Streamers</a></li>
-                            <li><a href="#">Twitch Store</a></li>
-                          </ul>
-                        </div>
-                        <div class="one-third">
-                          <div class="h6 cat-title">Visual Design</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Image Editing</a></li>
-                            <li><a href="#">Presentation Design</a></li>
-                            <li><a href="#">Infographic Design</a></li>
-                            <li><a href="#">Vector Tracing</a></li>
-                            <li><a href="#">Resume Design</a></li>
-                          </ul>
-                          <div class="h6 cat-title">Print Design</div>
-                          <ul class="ps-0 mb-0">
-                            <li><a href="#">T-Shirts & Merchandise</a></li>
-                            <li><a href="#">Flyer Design</a></li>
-                            <li><a href="#">Brochure Design</a></li>
-                            <li><a href="#">Poster Design</a></li>
-                            <li><a href="#">Catalog Design</a></li>
-                          </ul>
-                        </div>
-                      </div>
+                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-cash-register"></span> 
+                    <span class="menu-title">Penjahit</span> </a>
+                    </li>
+                    <li> <a class="" href="#"> <span class="menu-icn fi-rr-makeup-brush"></span> 
+                    <span class="menu-title">Beautician</span> </a>
                     </li>
                   </ul>
                 </div>
@@ -519,7 +99,7 @@
                 <li class="visible_list"> <a class="list-item" href="<?php echo base_url('about') ?>"><span class="title">About</span></a></li>
                 <li class="visible_list"> <a class="list-item" href="<?php echo base_url('blog') ?>"><span class="title">Blog</span></a></li>
                 <li class="visible_list"> <a class="list-item" href="<?php echo base_url('gallery') ?>"><span class="title">Gallery</span></a></li>
-                <li> <a class="list-item pe-0" href="<?php echo base_url('contact') ?>">Contact</a></li>
+                <li> <a class="list-item pe-0" href="<?php echo base_url('contact') ?>">Contact Us</a></li>
               </ul>
             </div>
           </div>

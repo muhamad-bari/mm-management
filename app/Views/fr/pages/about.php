@@ -9,7 +9,7 @@
             <div class="col-xl-5">
               <div class="position-relative">
                 <h2 class="text-white">About</h2>
-                <p class="text-white mb30">Give your visitor a smooth online experience with a solid UX design</p>
+                <p class="text-white mb30">Give visitor a smooth online experience with a solid UX design</p>
               </div>
             </div>
           </div>
@@ -28,74 +28,16 @@
           </div>
           <div class="col-md-6 col-xl-5 offset-xl-1">
             <div class="position-relative wow fadeInLeft" data-wow-delay="300ms">
-              <h2 class="mb25">Join World's Best Marketplace <br class="d-none d-xl-block"> for Workers</h2>
-              <p class="text mb25">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-              <div class="list-style2">
-                <ul class="mb20">
-                  <li><i class="far fa-check"></i>Connect to freelancers with proven business experience</li>
-                  <li><i class="far fa-check"></i>Get matched with the perfect talent by a customer success manager</li>
-                  <li><i class="far fa-check"></i>Unmatched quality of remote, hybrid, and flexible jobs</li>
-                </ul>
-              </div>
+              <h2 class="mb25">About Us</h2>
+              <p class="text mb25">PT. Management Mandiri Internasional adalah salah satu perusahaan penempatan tenaga kerja Indonesia berlisensi untuk pasar luar negeri. Sebagai spesialis penempatan di luar negeri, kami fokus untuk memahami kebutuhan klien kami, menawarkan konsultasi, dan menyediakan pekerja yang sesuai dengan permintaan klien.
+              <br class="d-none d-md-block"> Saat ini, persyaratan dan peraturan yang berkaitan dengan sumber daya manusia terus berubah. Banyak perusahaan berusaha keras untuk mendapatkan layanan pasokan tenaga kerja dan pekerja yang sesuai untuk kebutuhan perusahaan mereka, namun, menemukan solusi yang tepat mungkin menjadi tantangan.
+              </p>
               <a href="<?= base_url('talent') ?>" class="ud-btn btn-thm-border">Find Talent<i class="fal fa-arrow-right-long"></i></a>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- Funfact -->
-    <section class="pb0 pt60">
-      <div class="container maxw1600 bdrb1 pb60">
-        <div class="row justify-content-center wow fadeInUp" data-wow-delay="300ms">
-          <div class="col-6 col-md-3">
-            <div class="funfact_one text-center">
-              <div class="details">
-                <ul class="ps-0 mb-0 d-flex justify-content-center">
-                  <li><div class="timer">834</div></li>
-                  <li><span>M</span></li>
-                </ul>
-                <p class="text mb-0">Total Freelancer</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-3">
-            <div class="funfact_one text-center">
-              <div class="details">
-                <ul class="ps-0 mb-0 d-flex justify-content-center">
-                  <li><div class="timer">732</div></li>
-                  <li><span>M</span></li>
-                </ul>
-                <p class="text mb-0">Positive Review</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-3">
-            <div class="funfact_one text-center">
-              <div class="details">
-                <ul class="ps-0 mb-0 d-flex justify-content-center">
-                  <li><div class="timer">90</div></li>
-                  <li><span>M</span></li>
-                </ul>
-                <p class="text mb-0">Order recieved</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-3">
-            <div class="funfact_one text-center">
-              <div class="details">
-                <ul class="ps-0 mb-0 d-flex justify-content-center">
-                  <li><div class="timer">236</div></li>
-                  <li><span>M</span></li>
-                </ul>
-                <p class="text mb-0">Projects Completed</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- CTA Banner -->
     <section class="p-0">
       <div class="cta-banner mx-auto maxw1600 pt120 pt60-lg pb90 pb60-lg position-relative overflow-hidden mx20-lg">
@@ -147,9 +89,8 @@
         <div class="row align-items-center">
           <div class="col-md-6 col-xl-4 offset-xl-1 wow fadeInRight" data-wow-delay="100ms">
             <div class="cta-style6 mb30-sm">
-              <h2 class="cta-title mb25">Find the talent needed to <br class="d-none d-lg-block">get your business growing.</h2>
-              <p class="text-thm2 fz15 mb25">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br class="d-none d-md-block"> do eiusmod tempor incididunt.</p>
-              <a href="<?= base_url('service') ?>" class="ud-btn btn-thm">Get Started <i class="fal fa-arrow-right-long"></i></a>
+            <h2 class="mb25">Why Management Mandiri Internasional?</h2>
+              <p class="text-thm2 fz15 mb25"> Perusahaan kami bertujuan untuk memberikan solusi tenaga kerja yang tepat. Kami berharap dapat menyediakan pekerja yang paling sesuai untuk kebutuhan klien. Dengan keahlian kami dalam rekrutmen, kami yakin dapat menyediakan pekerja yang sesuai dengan kebutuhan perusahaan / klien.</p>
             </div>
           </div>
           <div class="col-md-6 col-xl-6 offset-xl-1 wow fadeInLeft" data-wow-delay="300ms">
@@ -351,41 +292,6 @@
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Our Partners --> 
-    <section class="our-partners pt0 pb90">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 wow fadeInUp">
-            <div class="main-title text-center">
-              <h6>Trusted by the world’s best</h6>
-            </div>
-          </div>
-          <div class="col-lg-12">
-            <div class="dots_none nav_none slider-dib-sm slider-6-grid owl-carousel owl-theme wow fadeInUp" data-wow-delay="300ms">
-              <div class="item">
-                <div class="partner_item"><img class="wa m-auto" src="<?= base_url() ?>frontend/images/partners/1.png" alt="1.png"></div>
-              </div>
-              <div class="item">
-                <div class="partner_item"><img class="wa m-auto" src="<?= base_url() ?>frontend/images/partners/2.png" alt="2.png"></div>
-              </div>
-              <div class="item">
-                <div class="partner_item"><img class="wa m-auto" src="<?= base_url() ?>frontend/images/partners/3.png" alt="3.png"></div>
-              </div>
-              <div class="item">
-                <div class="partner_item"><img class="wa m-auto" src="<?= base_url() ?>frontend/images/partners/4.png" alt="4.png"></div>
-              </div>
-              <div class="item">
-                <div class="partner_item"><img class="wa m-auto" src="<?= base_url() ?>frontend/images/partners/5.png" alt="5.png"></div>
-              </div>
-              <div class="item">
-                <div class="partner_item"><img class="wa m-auto" src="<?= base_url() ?>frontend/images/partners/6.png" alt="6.png"></div>
               </div>
             </div>
           </div>

@@ -27,27 +27,27 @@
             <div class="position-relative mt40">
               <div class="main-title">
                 <h4 class="form-title mb25">Keep In Touch With Us.</h4>
-                <p class="text">Neque convallis a cras semper auctor. Libero id faucibus nisl tincidunt egetnvallis.</p>
+                <p class="text">Subscribe To Get Latest News Update!</p>
               </div>
               <div class="iconbox-style1 contact-style d-flex align-items-start mb30">
                 <div class="icon flex-shrink-0"><span class="flaticon-tracking"></span></div>
                 <div class="details">
                   <h5 class="title">Address</h5>
-                  <p class="mb-0 text">328 Queensberry Street, North <br> Melbourne VIC 3051, Australia.</p>
+                  <p class="mb-0 text">Jl. Tebet Barat IX No.2, DKI Jakarta 12810</p>
                 </div>
               </div>
               <div class="iconbox-style1 contact-style d-flex align-items-start mb30">
                 <div class="icon flex-shrink-0"><span class="flaticon-call"></span></div>
                 <div class="details">
-                  <h5 class="title">Phone</h5>
-                  <p class="mb-0 text">+(0) 392 94 03 01</p>
+                  <h5 class="title">WhatsApp</h5>
+                  <p class="mb-0 text">+62 83894176515</p>
                 </div>
               </div>
               <div class="iconbox-style1 contact-style d-flex align-items-start mb30">
                 <div class="icon flex-shrink-0"><span class="flaticon-mail"></span></div>
                 <div class="details">
                   <h5 class="title">Email</h5>
-                  <p class="mb-0 text">hello@freeio.com</p>
+                  <p class="mb-0 text">admin@pt-managementinternasional.com</p>
                 </div>
               </div>
             </div>
@@ -92,7 +92,8 @@
     <!-- Google Map -->
     <section class="p-0 wow fadeInUp" data-wow-delay="300ms">
       <div class="mx-auto maxw1700 bdrs16 position-relative mx20-lg">
-        <iframe class="contact-page-map" loading="lazy" src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=near" title="London Eye, London, United Kingdom" aria-label="London Eye, London, United Kingdom"></iframe>
+      <iframe class="contact-page-map" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3966.193561376233!2d106.84912507499051!3d-6.238199993750064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMTQnMTcuNSJTIDEwNsKwNTEnMDYuMSJF!5e0!3m2!1sid!2sid!4v1702720274823!5m2!1sid!2sid"loading="lazy"></iframe>
+        <!-- <iframe class="contact-page-map" loading="lazy" src="https://maps.google.com/maps?q=-6.238200,106.851700&entry=gps&g_ep=CAESCjExLjEwOC4xMDAYACDXggMqEjQ3MDY4NjE1LCw0NzA3NTkxNUICSUQ%3D&shorturl=1" title="London Eye, London, United Kingdom" aria-label="London Eye, London, United Kingdom"></iframe> -->
       </div>
     </section>
 

@@ -21,3 +21,4 @@ $routes->get('details-talent', 'fr_index::details_talent');
 $routes->get('details-service', 'fr_index::details_service');
 $routes->get('service', 'fr_index::service');
 $routes->get('post', 'fr_index::post');
+$routes->get('error', 'fr_index::error');

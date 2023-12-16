@@ -20,6 +20,8 @@
 <link rel="stylesheet" href="<?= base_url() ?>frontend/css/jquery-ui.min.css">
 <link rel="stylesheet" href="<?= base_url() ?>frontend/css/slider.css">
 <link rel="stylesheet" href="<?= base_url() ?>frontend/css/style.css">
+<link rel="stylesheet" href="<?= base_url() ?>frontend/css/galer.css">
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
 <!-- Responsive stylesheet -->
 <link rel="stylesheet" href="<?= base_url() ?>frontend/css/responsive.css">
 
@@ -60,12 +62,35 @@
                       <div class="drop-menu d-flex justify-content-between">
                         <div class="one-third">
                           <div class="h6 cat-title">Web & App Design</div>
-                          <ul class="ps-0 mb40">
-                            <li><a href="#">Website Design</a></li>
-                            <li><a href="#">App DesignUX Design</a></li>
-                            <li><a href="#">Landing Page Design</a></li>
-                            <li><a href="#">Icon Design</a></li>
-                          </ul>
+                          <ul class="menu ps-0">
+                    <li> <a class="" href="#"> 
+                      <span class="menu-icn flaticon-home"></span> <span class="menu-title">Asisten Rumah Tangga</span> </a>
+                    </li>
+                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-child-head"></span> 
+                    <span class="menu-title">Baby Sitter</span> </a>
+                    </li>
+                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-user-nurse"></span> 
+                    <span class="menu-title">Perawat Lansia</span> </a>
+                    </li>
+                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-car-side"></span> 
+                    <span class="menu-title">Driver</span> </a>
+                    </li>
+                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-hat-chef"></span> 
+                    <span class="menu-title">Chef</span> </a>
+                    </li>
+                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-mug-hot-alt"></span> 
+                    <span class="menu-title">Barista</span> </a>
+                    </li>
+                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-circle-user"></span> 
+                    <span class="menu-title">Waitress</span> </a>
+                    </li>
+                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-cash-register"></span> 
+                    <span class="menu-title">Penjahit</span> </a>
+                    </li>
+                    <li> <a class="" href="#"> <span class="menu-icn fi-rr-makeup-brush"></span> 
+                    <span class="menu-title">Beautician</span> </a>
+                    </li>
+                  </ul>
                           <div class="h6 cat-title">Marketing Design</div>
                           <ul class="ps-0 mb-0">
                             <li><a href="#">Social Media Design</a></li>

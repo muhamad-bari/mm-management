@@ -65,4 +65,9 @@ class fr_index extends BaseController
     {
         echo view('fr/pages/post');
     }
+
+    public function error()
+    {
+        echo view('fr/pages/error');
+    }
 }
