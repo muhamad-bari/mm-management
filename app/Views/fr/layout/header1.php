@@ -138,9 +138,9 @@
       <div class="header bdrb1">
         <div class="menu_and_widgets">
           <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
-            <a class="mobile_logo" href="#"><img src="<?= base_url() ?>frontend/images/header-logo-dark.png" alt=""></a>
+            <a class="mobile_logo" href="<?= base_url('/') ?>"><img src="<?= base_url() ?>frontend/images/header-logo-dark.png" alt=""></a>
             <div class="right-side text-end">
-              <a class="" href="page-login.html">join</a>
+              <a class="" href="<?= base_url('login') ?>">join</a>
               <a class="menubar ml30" href="#menu"><img src="<?= base_url() ?>frontend/images/mobile-dark-nav-icon.svg" alt=""></a>
             </div>
           </div>
