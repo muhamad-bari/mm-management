@@ -137,6 +137,7 @@
 <script src="<?= base_url() ?>frontend/js/ace-responsive-menu.js"></script>
 <script src="<?= base_url() ?>frontend/js/jquery-scrolltofixed-min.js"></script>
 <script src="<?= base_url() ?>frontend/js/wow.min.js"></script>
+<script src="<?= base_url() ?>frontend/js/isotop.js"></script> 
 <script src="<?= base_url() ?>frontend/js/owl.js"></script>
 <script src="<?= base_url() ?>frontend/js/pricing-table.js"></script>
 <!-- Custom script for all pages -->

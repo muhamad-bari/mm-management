@@ -45,9 +45,9 @@
                     <img class="mr10" src="<?= base_url() ?>frontend/images/blog/author-1.png" alt=""><a class="pr15 body-light-color" href="#">Leslie Alexander</a><a class="ml15 pr15 body-light-color" href="#">Business</a><a class="ml15 body-light-color" href="#">December 2, 2022</a>
                   </div>
                 </div>
-                <h3 class="title mt-1 mb10"><a href="page-blog-single.html">Start an online business and work from home</a></h3>
+                <h3 class="title mt-1 mb10"><a href="<?= base_url('post') ?>">Start an online business and work from home</a></h3>
                 <p class="text mb25">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
-                <a href="page-blog-single.html" class="ud-btn btn-light-thm">Read More<i class="fal fa-arrow-right-long"></i></a>
+                <a href="<?= base_url('post') ?>" class="ud-btn btn-light-thm">Read More<i class="fal fa-arrow-right-long"></i></a>
               </div>
             </div>
             <div class="blog-style1 large-size mb20">
@@ -58,9 +58,9 @@
                     <img class="mr10" src="<?= base_url() ?>frontend/images/blog/author-1.png" alt=""><a class="pr15 body-light-color" href="#">Leslie Alexander</a><a class="ml15 pr15 body-light-color" href="#">Business</a><a class="ml15 body-light-color" href="#">December 2, 2022</a>
                   </div>
                 </div>
-                <h3 class="title mt-1 mb10"><a href="page-blog-single.html">Engendering a culture of professional development</a></h3>
+                <h3 class="title mt-1 mb10"><a href="<?= base_url('post') ?>">Engendering a culture of professional development</a></h3>
                 <p class="text mb25">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
-                <a href="page-blog-single.html" class="ud-btn btn-light-thm">Read More<i class="fal fa-arrow-right-long"></i></a>
+                <a href="<?= base_url('post') ?>" class="ud-btn btn-light-thm">Read More<i class="fal fa-arrow-right-long"></i></a>
               </div>
             </div>
             <div class="blog-style1 large-size mb50">
@@ -71,9 +71,9 @@
                     <img class="mr10" src="<?= base_url() ?>frontend/images/blog/author-1.png" alt=""><a class="pr15 body-light-color" href="#">Leslie Alexander</a><a class="ml15 pr15 body-light-color" href="#">Business</a><a class="ml15 body-light-color" href="#">December 2, 2022</a>
                   </div>
                 </div>
-                <h3 class="title mt-1 mb10"><a href="page-blog-single.html">Hey Job Seeker, It’s Time To Get Up And Get Hired</a></h3>
+                <h3 class="title mt-1 mb10"><a href="<?= base_url('post') ?>">Hey Job Seeker, It’s Time To Get Up And Get Hired</a></h3>
                 <p class="text mb25">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
-                <a href="page-blog-single.html" class="ud-btn btn-light-thm">Read More<i class="fal fa-arrow-right-long"></i></a>
+                <a href="<?= base_url('post') ?>" class="ud-btn btn-light-thm">Read More<i class="fal fa-arrow-right-long"></i></a>
               </div>
             </div>
             <div class="row">

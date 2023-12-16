@@ -37,7 +37,7 @@
                   <li><i class="far fa-check"></i>Unmatched quality of remote, hybrid, and flexible jobs</li>
                 </ul>
               </div>
-              <a href="page-freelancer-v1.html" class="ud-btn btn-thm-border">Find Talent<i class="fal fa-arrow-right-long"></i></a>
+              <a href="<?= base_url('talent') ?>" class="ud-btn btn-thm-border">Find Talent<i class="fal fa-arrow-right-long"></i></a>
             </div>
           </div>
         </div>
@@ -149,7 +149,7 @@
             <div class="cta-style6 mb30-sm">
               <h2 class="cta-title mb25">Find the talent needed to <br class="d-none d-lg-block">get your business growing.</h2>
               <p class="text-thm2 fz15 mb25">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br class="d-none d-md-block"> do eiusmod tempor incididunt.</p>
-              <a href="page-contact.html" class="ud-btn btn-thm">Get Started <i class="fal fa-arrow-right-long"></i></a>
+              <a href="<?= base_url('service') ?>" class="ud-btn btn-thm">Get Started <i class="fal fa-arrow-right-long"></i></a>
             </div>
           </div>
           <div class="col-md-6 col-xl-6 offset-xl-1 wow fadeInLeft" data-wow-delay="300ms">

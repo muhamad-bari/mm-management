@@ -41,8 +41,28 @@ class fr_index extends BaseController
         echo view('fr/pages/contact');
     }
 
+    public function talent()
+    {
+        echo view('fr/pages/talent');
+    }
+
+    public function details_talent()
+    {
+        echo view('fr/pages/details-talent');
+    }
+
+    public function details_service()
+    {
+        echo view('fr/pages/details-service');
+    }
+
     public function service()
     {
         echo view('fr/pages/service');
+    }
+
+    public function post()
+    {
+        echo view('fr/pages/post');
     }
 }

@@ -16,4 +16,8 @@ $routes->get('about', 'fr_index::about');
 $routes->get('blog', 'fr_index::blog');
 $routes->get('gallery', 'fr_index::gallery');
 $routes->get('contact', 'fr_index::contact');
+$routes->get('talent', 'fr_index::talent');
+$routes->get('details-talent', 'fr_index::details_talent');
+$routes->get('details-service', 'fr_index::details_service');
 $routes->get('service', 'fr_index::service');
+$routes->get('post', 'fr_index::post');

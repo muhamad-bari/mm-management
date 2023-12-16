@@ -11,14 +11,14 @@
               <h1 class="banner-title animate-up-1 mb25">Freelance Services For <br class="d-none d-xl-block">Your Business</h1>
               <p class="text-white text animate-up-2">Work with talented people at the most affordable price to get the most <br class="d-none d-lg-block">out of your time and cost</p>
               <div class="d-sm-flex align-items-center mt30 animate-up-3">
-                <a href="page-freelancer-v1.html" class="ud-btn btn-thm4 me-3 bdrs120 btn-1">Services</a>
+                <a href="<?= base_url('service') ?>" class="ud-btn btn-thm4 me-3 bdrs120 btn-1">Services</a>
               </div>
             </div>
           </div>
           <div class="col-xl-5 d-none d-xl-block">
             <div class="home18-hero-img text-end animate-up-1">
               <div class="thumb position-relative">
-                <img class="img" src="<?php echo base_url() ?>frontend/images/about/home18-hero-img1.png" alt="">
+                <img class="img" src="<?= base_url() ?>frontend/images/about/home18-hero-img1.png" alt="">
               </div>
               <div class="iconbox-small1 text-start d-flex wow fadeInRight default-box-shadow4 bounce-x">
                 <span class="icon flaticon-badge"></span>
@@ -27,9 +27,9 @@
                   <p class="text fz13 mb-0">Lorem Ipsum Dolar Amet</p>
                 </div>
               </div>
-              <img class="img-1 bounce-y" src="<?php echo base_url() ?>frontend/images/about/happy-client-1.png" alt="">
-              <img class="img-2 bounce-y" src="<?php echo base_url() ?>frontend/images/about/element-15.png" alt="">
-              <img class="img-3 spin-right" src="<?php echo base_url() ?>frontend/images/about/element-16.png" alt="">
+              <img class="img-1 bounce-y" src="<?= base_url() ?>frontend/images/about/happy-client-1.png" alt="">
+              <img class="img-2 bounce-y" src="<?= base_url() ?>frontend/images/about/element-15.png" alt="">
+              <img class="img-3 spin-right" src="<?= base_url() ?>frontend/images/about/element-16.png" alt="">
             </div>
           </div>
         </div>
@@ -229,21 +229,21 @@
               <div class="item">
                 <div class="listing-style1 hover-box-shadow bdrs12">
                   <div class="list-thumb m10 bdrs12 overflow-hidden">
-                    <img class="w-100" src="<?php echo base_url() ?>frontend/images/listings/g-1.jpg" alt="">
+                    <img class="w-100" src="<?= base_url() ?>frontend/images/listings/g-1.jpg" alt="">
                     <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                   </div>
                   <div class="list-content">
                     <p class="list-text body-color fz14 mb-1">Web & App Design</p>
-                    <h5 class="list-title"><a href="page-services-single.html">I will design modern websites in figma or adobe xd</a></h5>
+                    <h5 class="list-title"><a href="<?= base_url('details-service') ?>">I will design modern websites in figma or adobe xd</a></h5>
                     <div class="review-meta d-flex align-items-center">
                       <i class="fas fa-star fz10 review-color me-2"></i>
                       <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
                     </div>
                     <hr class="my-2">
                     <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                      <a class="d-flex" href="#">
+                      <a class="d-flex" href="<?= base_url('details-talent') ?>">
                         <span class="position-relative mr10">
-                          <img class="rounded-circle wa" src="<?php echo base_url() ?>frontend/images/team/fl-s-1.png" alt="Freelancer Photo">
+                          <img class="rounded-circle wa" src="<?= base_url() ?>frontend/images/team/fl-s-1.png" alt="Freelancer Photo">
                           <span class="online-badges"></span>
                         </span>
                         <span class="fz14">Wanda Runo</span>
@@ -258,21 +258,21 @@
               <div class="item">
                 <div class="listing-style1 hover-box-shadow bdrs12">
                   <div class="list-thumb m10 bdrs12 overflow-hidden">
-                    <img class="w-100" src="<?php echo base_url() ?>frontend/images/listings/g-2.jpg" alt="">
+                    <img class="w-100" src="<?= base_url() ?>frontend/images/listings/g-2.jpg" alt="">
                     <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                   </div>
                   <div class="list-content">
                     <p class="list-text body-color fz14 mb-1">Art & Illustration</p>
-                    <h5 class="list-title"><a href="page-services-single.html">I will create modern flat design illustration</a></h5>
+                    <h5 class="list-title"><a href="<?= base_url('details-service') ?>">I will create modern flat design illustration</a></h5>
                     <div class="review-meta d-flex align-items-center">
                       <i class="fas fa-star fz10 review-color me-2"></i>
                       <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
                     </div>
                     <hr class="my-2">
                     <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                      <a class="d-flex" href="#">
+                      <a class="d-flex" href="<?= base_url('details-talent') ?>">
                         <span class="position-relative mr10">
-                          <img class="rounded-circle wa" src="<?php echo base_url() ?>frontend/images/team/fl-s-2.png" alt="Freelancer Photo">
+                          <img class="rounded-circle wa" src="<?= base_url() ?>frontend/images/team/fl-s-2.png" alt="Freelancer Photo">
                           <span class="online-badges"></span>
                         </span>
                         <span class="fz14">Ali Tufan</span>
@@ -287,21 +287,21 @@
               <div class="item">
                 <div class="listing-style1 hover-box-shadow bdrs12">
                   <div class="list-thumb m10 bdrs12 overflow-hidden">
-                    <img class="w-100" src="<?php echo base_url() ?>frontend/images/listings/g-3.jpg" alt="">
+                    <img class="w-100" src="<?= base_url() ?>frontend/images/listings/g-3.jpg" alt="">
                     <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                   </div>
                   <div class="list-content">
                     <p class="list-text body-color fz14 mb-1">Design & Creative</p>
-                    <h5 class="list-title line-clamp2"><a href="page-services-single.html">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</a></h5>
+                    <h5 class="list-title line-clamp2"><a href="<?= base_url('details-service') ?>">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</a></h5>
                     <div class="review-meta d-flex align-items-center">
                       <i class="fas fa-star fz10 review-color me-2"></i>
                       <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
                     </div>
                     <hr class="my-2">
                     <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                      <a class="d-flex" href="#">
+                      <a class="d-flex" href="<?= base_url('details-talent') ?>">
                         <span class="position-relative mr10">
-                          <img class="rounded-circle" src="<?php echo base_url() ?>frontend/images/team/fl-s-3.png" alt="Freelancer Photo">
+                          <img class="rounded-circle" src="<?= base_url() ?>frontend/images/team/fl-s-3.png" alt="Freelancer Photo">
                           <span class="online-badges"></span>
                         </span>
                         <span class="fz14">Wanda Runo</span>
@@ -316,21 +316,21 @@
               <div class="item">
                 <div class="listing-style1 hover-box-shadow bdrs12">
                   <div class="list-thumb m10 bdrs12 overflow-hidden">
-                    <img class="w-100" src="<?php echo base_url() ?>frontend/images/listings/g-4.jpg" alt="">
+                    <img class="w-100" src="<?= base_url() ?>frontend/images/listings/g-4.jpg" alt="">
                     <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                   </div>
                   <div class="list-content">
                     <p class="list-text body-color fz14 mb-1">Web & App Design</p>
-                    <h5 class="list-title line-clamp2"><a href="page-services-single.html">I will do mobile app development for ios and android</a></h5>
+                    <h5 class="list-title line-clamp2"><a href="<?= base_url('details-service') ?>">I will do mobile app development for ios and android</a></h5>
                     <div class="review-meta d-flex align-items-center">
                       <i class="fas fa-star fz10 review-color me-2"></i>
                       <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
                     </div>
                     <hr class="my-2">
                     <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                      <a class="d-flex" href="#">
+                      <a class="d-flex" href="<?= base_url('details-talent') ?>">
                         <span class="position-relative mr10">
-                          <img class="rounded-circle" src="<?php echo base_url() ?>frontend/images/team/fl-s-4.png" alt="Freelancer Photo">
+                          <img class="rounded-circle" src="<?= base_url() ?>frontend/images/team/fl-s-4.png" alt="Freelancer Photo">
                           <span class="online-badges"></span>
                         </span>
                         <span class="fz14">Wanda Runo</span>
@@ -345,21 +345,21 @@
               <div class="item">
                 <div class="listing-style1 hover-box-shadow bdrs12">
                   <div class="list-thumb m10 bdrs12 overflow-hidden">
-                    <img class="w-100" src="<?php echo base_url() ?>frontend/images/listings/g-5.jpg" alt="">
+                    <img class="w-100" src="<?= base_url() ?>frontend/images/listings/g-5.jpg" alt="">
                     <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                   </div>
                   <div class="list-content">
                     <p class="list-text body-color fz14 mb-1">Web & App Design</p>
-                    <h5 class="list-title"><a href="page-services-single.html">I will design modern websites in figma or adobe xd</a></h5>
+                    <h5 class="list-title"><a href="<?= base_url('details-service') ?>">I will design modern websites in figma or adobe xd</a></h5>
                     <div class="review-meta d-flex align-items-center">
                       <i class="fas fa-star fz10 review-color me-2"></i>
                       <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
                     </div>
                     <hr class="my-2">
                     <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                      <a class="d-flex" href="#">
+                      <a class="d-flex" href="<?= base_url('details-talent') ?>">
                         <span class="position-relative mr10">
-                          <img class="rounded-circle" src="<?php echo base_url() ?>frontend/images/team/fl-s-1.png" alt="Freelancer Photo">
+                          <img class="rounded-circle" src="<?= base_url() ?>frontend/images/team/fl-s-1.png" alt="Freelancer Photo">
                           <span class="online-badges"></span>
                         </span>
                         <span class="fz14">Wanda Runo</span>
@@ -374,21 +374,21 @@
               <div class="item">
                 <div class="listing-style1 hover-box-shadow bdrs12">
                   <div class="list-thumb m10 bdrs12 overflow-hidden">
-                    <img class="w-100" src="<?php echo base_url() ?>frontend/images/listings/g-6.jpg" alt="">
+                    <img class="w-100" src="<?= base_url() ?>frontend/images/listings/g-6.jpg" alt="">
                     <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                   </div>
                   <div class="list-content">
                     <p class="list-text body-color fz14 mb-1">Web & App Design</p>
-                    <h5 class="list-title"><a href="page-services-single.html">I will design modern websites in figma or adobe xd</a></h5>
+                    <h5 class="list-title"><a href="<?= base_url('details-service') ?>">I will design modern websites in figma or adobe xd</a></h5>
                     <div class="review-meta d-flex align-items-center">
                       <i class="fas fa-star fz10 review-color me-2"></i>
                       <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
                     </div>
                     <hr class="my-2">
                     <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                      <a class="d-flex" href="#">
+                      <a class="d-flex" href="<?= base_url('details-talent') ?>">
                         <span class="position-relative mr10">
-                          <img class="rounded-circle" src="<?php echo base_url() ?>frontend/images/team/fl-s-2.png" alt="Freelancer Photo">
+                          <img class="rounded-circle" src="<?= base_url() ?>frontend/images/team/fl-s-2.png" alt="Freelancer Photo">
                           <span class="online-badges"></span>
                         </span>
                         <span class="fz14">Wanda Runo</span>
@@ -403,21 +403,21 @@
               <div class="item">
                 <div class="listing-style1 hover-box-shadow bdrs12">
                   <div class="list-thumb m10 bdrs12 overflow-hidden">
-                    <img class="w-100" src="<?php echo base_url() ?>frontend/images/listings/g-7.jpg" alt="">
+                    <img class="w-100" src="<?= base_url() ?>frontend/images/listings/g-7.jpg" alt="">
                     <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                   </div>
                   <div class="list-content">
                     <p class="list-text body-color fz14 mb-1">Design & Creative</p>
-                    <h5 class="list-title line-clamp2"><a href="page-services-single.html">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</a></h5>
+                    <h5 class="list-title line-clamp2"><a href="<?= base_url('details-service') ?>">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</a></h5>
                     <div class="review-meta d-flex align-items-center">
                       <i class="fas fa-star fz10 review-color me-2"></i>
                       <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
                     </div>
                     <hr class="my-2">
                     <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                      <a class="d-flex" href="#">
+                      <a class="d-flex" href="<?= base_url('details-talent') ?>">
                         <span class="position-relative mr10">
-                          <img class="rounded-circle" src="<?php echo base_url() ?>frontend/images/team/fl-s-3.png" alt="Freelancer Photo">
+                          <img class="rounded-circle" src="<?= base_url() ?>frontend/images/team/fl-s-3.png" alt="Freelancer Photo">
                           <span class="online-badges"></span>
                         </span>
                         <span class="fz14">Wanda Runo</span>
@@ -432,21 +432,21 @@
               <div class="item">
                 <div class="listing-style1 hover-box-shadow bdrs12">
                   <div class="list-thumb m10 bdrs12 overflow-hidden">
-                    <img class="w-100" src="<?php echo base_url() ?>frontend/images/listings/g-1.jpg" alt="">
+                    <img class="w-100" src="<?= base_url() ?>frontend/images/listings/g-1.jpg" alt="">
                     <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                   </div>
                   <div class="list-content">
                     <p class="list-text body-color fz14 mb-1">Web & App Design</p>
-                    <h5 class="list-title"><a href="page-services-single.html">I will design modern websites in figma or adobe xd</a></h5>
+                    <h5 class="list-title"><a href="<?= base_url('details-service') ?>">I will design modern websites in figma or adobe xd</a></h5>
                     <div class="review-meta d-flex align-items-center">
                       <i class="fas fa-star fz10 review-color me-2"></i>
                       <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
                     </div>
                     <hr class="my-2">
                     <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                      <a class="d-flex" href="#">
+                      <a class="d-flex" href="<?= base_url('details-talent') ?>">
                         <span class="position-relative mr10">
-                          <img class="rounded-circle wa" src="<?php echo base_url() ?>frontend/images/team/fl-s-1.png" alt="Freelancer Photo">
+                          <img class="rounded-circle wa" src="<?= base_url() ?>frontend/images/team/fl-s-1.png" alt="Freelancer Photo">
                           <span class="online-badges"></span>
                         </span>
                         <span class="fz14">Wanda Runo</span>
@@ -461,21 +461,21 @@
               <div class="item">
                 <div class="listing-style1 hover-box-shadow bdrs12">
                   <div class="list-thumb m10 bdrs12 overflow-hidden">
-                    <img class="w-100" src="<?php echo base_url() ?>frontend/images/listings/g-2.jpg" alt="">
+                    <img class="w-100" src="<?= base_url() ?>frontend/images/listings/g-2.jpg" alt="">
                     <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                   </div>
                   <div class="list-content">
                     <p class="list-text body-color fz14 mb-1">Art & Illustration</p>
-                    <h5 class="list-title"><a href="page-services-single.html">I will create modern flat design illustration</a></h5>
+                    <h5 class="list-title"><a href="<?= base_url('details-service') ?>">I will create modern flat design illustration</a></h5>
                     <div class="review-meta d-flex align-items-center">
                       <i class="fas fa-star fz10 review-color me-2"></i>
                       <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
                     </div>
                     <hr class="my-2">
                     <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                      <a class="d-flex" href="#">
+                      <a class="d-flex" href="<?= base_url('details-talent') ?>">
                         <span class="position-relative mr10">
-                          <img class="rounded-circle wa" src="<?php echo base_url() ?>frontend/images/team/fl-s-2.png" alt="Freelancer Photo">
+                          <img class="rounded-circle wa" src="<?= base_url() ?>frontend/images/team/fl-s-2.png" alt="Freelancer Photo">
                           <span class="online-badges"></span>
                         </span>
                         <span class="fz14">Ali Tufan</span>
@@ -495,7 +495,7 @@
 
     <!-- CTA Banner -->
     <section class="cta-banner-about2 at-home18 mx-auto maxw1700 position-relative pt60-lg pb60-lg">
-      <img class="cta-about2-img bdrs24 d-none d-xl-block" src="<?php echo base_url() ?>frontend/images/about/about-18.jpg" alt="">
+      <img class="cta-about2-img bdrs24 d-none d-xl-block" src="<?= base_url() ?>frontend/images/about/about-18.jpg" alt="">
       <div class="container">
         <div class="row">
           <div class="col-md-11 wow fadeInUp" data-wow-delay="200ms">
@@ -604,7 +604,7 @@
             <div class="vam_nav_style dots_none slider-4-grid2 owl-carousel owl-theme">
               <div class="item">
                 <div class="feature-style2 mb30">
-                  <div class="feature-img bdrs12"><img class="bdrs12" src="<?php echo base_url() ?>frontend/images/team/home18-team-1.jpg" alt=""></div>
+                  <div class="feature-img bdrs12"><img class="bdrs12" src="<?= base_url() ?>frontend/images/team/home18-team-1.jpg" alt=""></div>
                   <div class="feature-content pt15">
                     <h5 class="title mb-2">Robert Fox <span class="float-end fz15"><i class="fas fa-star fz10 pr10"></i>4.9</span></h5>
                     <p class="text fz15">Scrum Master</p>
@@ -613,7 +613,7 @@
               </div>
               <div class="item">
                 <div class="feature-style2 mb30">
-                  <div class="feature-img bdrs12"><img class="bdrs12" src="<?php echo base_url() ?>frontend/images/team/home18-team-2.jpg" alt=""></div>
+                  <div class="feature-img bdrs12"><img class="bdrs12" src="<?= base_url() ?>frontend/images/team/home18-team-2.jpg" alt=""></div>
                   <div class="feature-content pt15">
                     <h5 class="title mb-2">Floyd Miles <span class="float-end fz15"><i class="fas fa-star fz10 pr10"></i>4.9</span></h5>
                     <p class="text fz15">Software Developer</p>
@@ -622,7 +622,7 @@
               </div>
               <div class="item">
                 <div class="feature-style2 mb30">
-                  <div class="feature-img bdrs12"><img class="bdrs12" src="<?php echo base_url() ?>frontend/images/team/home18-team-3.jpg" alt=""></div>
+                  <div class="feature-img bdrs12"><img class="bdrs12" src="<?= base_url() ?>frontend/images/team/home18-team-3.jpg" alt=""></div>
                   <div class="feature-content pt15">
                     <h5 class="title mb-2">Brooklyn Simmons <span class="float-end fz15"><i class="fas fa-star fz10 pr10"></i>4.9</span></h5>
                     <p class="text fz15">Software Tester</p>
@@ -631,7 +631,7 @@
               </div>
               <div class="item">
                 <div class="feature-style2 mb30">
-                  <div class="feature-img bdrs12"><img class="bdrs12" src="<?php echo base_url() ?>frontend/images/team/home18-team-4.jpg" alt=""></div>
+                  <div class="feature-img bdrs12"><img class="bdrs12" src="<?= base_url() ?>frontend/images/team/home18-team-4.jpg" alt=""></div>
                   <div class="feature-content pt15">
                     <h5 class="title mb-2">Jane Cooper <span class="float-end fz15"><i class="fas fa-star fz10 pr10"></i>4.9</span></h5>
                     <p class="text fz15">UI/UX Designer</p>
@@ -654,7 +654,7 @@
                 <div class="row align-items-center">
                   <div class="col-lg-5 col-xl-5">
                     <div class="testimonial-style4-img position-relative">
-                      <img class="bdrs12" src="<?php echo base_url() ?>frontend/images/about/about-16.jpg" alt="">
+                      <img class="bdrs12" src="<?= base_url() ?>frontend/images/about/about-16.jpg" alt="">
                       <a class="video-button-home11 at-home13 popup-iframe popup-youtube" href="https://www.youtube.com/watch?v=1WdiUn9JaX0"><i class="far fa-play"></i></a>
                     </div>
                   </div>
@@ -672,7 +672,7 @@
                 <div class="row align-items-center">
                   <div class="col-lg-5 col-xl-5">
                     <div class="testimonial-style4-img position-relative">
-                      <img class="bdrs12" src="<?php echo base_url() ?>frontend/images/about/about-16.jpg" alt="">
+                      <img class="bdrs12" src="<?= base_url() ?>frontend/images/about/about-16.jpg" alt="">
                       <a class="video-button-home11 popup-iframe popup-youtube" href="https://www.youtube.com/watch?v=1WdiUn9JaX0"><i class="far fa-play"></i></a>
                     </div>
                   </div>
@@ -698,7 +698,7 @@
         <div class="row align-items-center wow fadeInUp mb100 mb0-md">
           <div class="col-md-6 col-xl-6">
             <div class="text-center mb30-sm">
-              <img class="w-100 bdrs4" src="<?php echo base_url() ?>frontend/images/about/about-14.jpg" alt="">
+              <img class="w-100 bdrs4" src="<?= base_url() ?>frontend/images/about/about-14.jpg" alt="">
             </div>
           </div>
           <div class="col-md-6 col-xl-4 offset-xl-1">
@@ -707,7 +707,7 @@
               <h2 class="title">Find talent <br class="d-none d-lg-block">your way</h2>
               <p class="paragraph">Work with the largest network of independent professionals and get things done—from quick turnarounds to big transformations.</p>
             </div>
-            <a href="page-contact.html" class="ud-btn btn-white2 bdrs60">Get Started <i class="fal fa-arrow-right-long"></i></a>
+            <a href="<?= base_url('talent') ?>" class="ud-btn btn-white2 bdrs60">Get Started <i class="fal fa-arrow-right-long"></i></a>
           </div>
         </div>
         <div class="row align-items-center wow fadeInUp mt20">
@@ -717,11 +717,11 @@
               <h2 class="title">Find great <br class="d-none d-lg-block">work</h2>
               <p class="paragraph">Work with the largest network of independent professionals and get things done—from quick turnarounds to big transformations.</p>
             </div>
-            <a href="page-contact.html" class="ud-btn btn-white2 bdrs60">Contact Us <i class="fal fa-arrow-right-long"></i></a>
+            <a href="<?= base_url('contact') ?>" class="ud-btn btn-white2 bdrs60">Contact Us <i class="fal fa-arrow-right-long"></i></a>
           </div>
           <div class="col-md-6 col-xl-6 offset-xl-1">
             <div class="text-center mt30-sm">
-              <img class="w-100 bdrs4" src="<?php echo base_url() ?>frontend/images/about/about-15.jpg" alt="">
+              <img class="w-100 bdrs4" src="<?= base_url() ?>frontend/images/about/about-15.jpg" alt="">
             </div>
           </div>
         </div>
