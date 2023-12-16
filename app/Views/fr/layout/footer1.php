@@ -128,17 +128,19 @@
   </div>
 </div>
 <!-- Wrapper End --> 
-<script src="<?php echo base_url() ?>frontend/js/jquery-3.6.4.min.js"></script>
-<script src="<?php echo base_url() ?>frontend/js/jquery-migrate-3.0.0.min.js"></script>
-<script src="<?php echo base_url() ?>frontend/js/popper.min.js"></script>
-<script src="<?php echo base_url() ?>frontend/js/bootstrap.min.js"></script>
-<script src="<?php echo base_url() ?>frontend/js/bootstrap-select.min.js"></script>
-<script src="<?php echo base_url() ?>frontend/js/jquery.mmenu.all.js"></script>
-<script src="<?php echo base_url() ?>frontend/js/ace-responsive-menu.js"></script>
-<script src="<?php echo base_url() ?>frontend/js/jquery-scrolltofixed-min.js"></script>
-<script src="<?php echo base_url() ?>frontend/js/wow.min.js"></script>
+<script src="<?= base_url() ?>frontend/js/jquery-3.6.4.min.js"></script>
+<script src="<?= base_url() ?>frontend/js/jquery-migrate-3.0.0.min.js"></script>
+<script src="<?= base_url() ?>frontend/js/popper.min.js"></script>
+<script src="<?= base_url() ?>frontend/js/bootstrap.min.js"></script>
+<script src="<?= base_url() ?>frontend/js/bootstrap-select.min.js"></script>
+<script src="<?= base_url() ?>frontend/js/jquery.mmenu.all.js"></script>
+<script src="<?= base_url() ?>frontend/js/ace-responsive-menu.js"></script>
+<script src="<?= base_url() ?>frontend/js/jquery-scrolltofixed-min.js"></script>
+<script src="<?= base_url() ?>frontend/js/wow.min.js"></script>
+<script src="<?= base_url() ?>frontend/js/owl.js"></script>
+<script src="<?= base_url() ?>frontend/js/pricing-table.js"></script>
 <!-- Custom script for all pages -->
-<script src="<?php echo base_url() ?>frontend/js/script.js"></script>
+<script src="<?= base_url() ?>frontend/js/script.js"></script>
 </body>
 
 </html>

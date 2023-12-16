@@ -55,8 +55,8 @@
           <div class="col-auto px-0 px-xl-3">
             <div class="d-flex align-items-center justify-content-between">
               <div class="logos">
-                <a class="header-logo logo1" href="<?php echo base_url('index') ?>"><img src="<?php echo base_url() ?>frontend/images/header-logo-white.png" alt="Header Logo"></a>
-                <a class="header-logo logo2" href="<?php echo base_url('index') ?>"><img src="<?php echo base_url() ?>frontend/images/header-logo2.png" alt="Header Logo"></a>
+                <a class="header-logo logo1" href="<?php echo base_url('/') ?>"><img src="<?php echo base_url() ?>frontend/images/header-logo-white.png" alt="Header Logo"></a>
+                <a class="header-logo logo2" href="<?php echo base_url('/') ?>"><img src="<?php echo base_url() ?>frontend/images/header-logo2.png" alt="Header Logo"></a>
               </div>
               <div class="home1_style at-home18 mx20">
                 <div id="mega-menu">
@@ -515,7 +515,7 @@
               </div>
               <!-- Responsive Menu Structure-->
               <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
-                <li class="visible_list"> <a class="list-item" href="<?php echo base_url('index') ?>"><span class="title">Home</span></a></li>
+                <li class="visible_list"> <a class="list-item" href="<?php echo base_url('/') ?>"><span class="title">Home</span></a></li>
                 <li class="visible_list"> <a class="list-item" href="<?php echo base_url('about') ?>"><span class="title">About</span></a></li>
                 <li class="visible_list"> <a class="list-item" href="<?php echo base_url('blog') ?>"><span class="title">Blog</span></a></li>
                 <li class="visible_list"> <a class="list-item" href="<?php echo base_url('gallery') ?>"><span class="title">Gallery</span></a></li>
@@ -555,7 +555,7 @@
     <!-- /.mobile-menu -->
     <nav id="menu" class="">
       <ul>
-        <li><span><a href="<?php echo base_url('index') ?>">Home</a></span></li>
+        <li><span><a href="<?php echo base_url('/') ?>">Home</a></span></li>
         <li><span><a href="<?php echo base_url('about') ?>">About</a></span></li>
         <li><span><a href="<?php echo base_url('blog') ?>">Blog</a></span></li>
         <li><span><a href="<?php echo base_url('contact') ?>">contact</a></span>
