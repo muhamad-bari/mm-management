@@ -233,21 +233,14 @@
                     <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                   </div>
                   <div class="list-content">
-                    <p class="list-text body-color fz14 mb-1">Web & App Design</p>
-                    <h5 class="list-title"><a href="<?= base_url('details-service') ?>">I will design modern websites in figma or adobe xd</a></h5>
+                    <p class="list-text body-color fz14 mb-1">Service</p>
+                    <h5 class="list-title"><a href="<?= base_url('details-service') ?>">Asisten Rumah Tangga</a></h5>
                     <div class="review-meta d-flex align-items-center">
                       <i class="fas fa-star fz10 review-color me-2"></i>
                       <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
                     </div>
                     <hr class="my-2">
                     <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                      <a class="d-flex" href="<?= base_url('details-talent') ?>">
-                        <span class="position-relative mr10">
-                          <img class="rounded-circle wa" src="<?= base_url() ?>frontend/images/team/fl-s-1.png" alt="Freelancer Photo">
-                          <span class="online-badges"></span>
-                        </span>
-                        <span class="fz14">Wanda Runo</span>
-                      </a>
                       <div class="budget">
                         <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">$983</span></p>
                       </div>
@@ -262,21 +255,14 @@
                     <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                   </div>
                   <div class="list-content">
-                    <p class="list-text body-color fz14 mb-1">Art & Illustration</p>
-                    <h5 class="list-title"><a href="<?= base_url('details-service') ?>">I will create modern flat design illustration</a></h5>
+                    <p class="list-text body-color fz14 mb-1">Service</p>
+                    <h5 class="list-title"><a href="<?= base_url('details-service') ?>">Baby Sitter</a></h5>
                     <div class="review-meta d-flex align-items-center">
                       <i class="fas fa-star fz10 review-color me-2"></i>
                       <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
                     </div>
                     <hr class="my-2">
                     <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                      <a class="d-flex" href="<?= base_url('details-talent') ?>">
-                        <span class="position-relative mr10">
-                          <img class="rounded-circle wa" src="<?= base_url() ?>frontend/images/team/fl-s-2.png" alt="Freelancer Photo">
-                          <span class="online-badges"></span>
-                        </span>
-                        <span class="fz14">Ali Tufan</span>
-                      </a>
                       <div class="budget">
                         <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">$983</span></p>
                       </div>
@@ -291,21 +277,14 @@
                     <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                   </div>
                   <div class="list-content">
-                    <p class="list-text body-color fz14 mb-1">Design & Creative</p>
-                    <h5 class="list-title line-clamp2"><a href="<?= base_url('details-service') ?>">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</a></h5>
+                    <p class="list-text body-color fz14 mb-1">Service</p>
+                    <h5 class="list-title line-clamp2"><a href="<?= base_url('details-service') ?>">Perawat Lansia</a></h5>
                     <div class="review-meta d-flex align-items-center">
                       <i class="fas fa-star fz10 review-color me-2"></i>
                       <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
                     </div>
                     <hr class="my-2">
                     <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                      <a class="d-flex" href="<?= base_url('details-talent') ?>">
-                        <span class="position-relative mr10">
-                          <img class="rounded-circle" src="<?= base_url() ?>frontend/images/team/fl-s-3.png" alt="Freelancer Photo">
-                          <span class="online-badges"></span>
-                        </span>
-                        <span class="fz14">Wanda Runo</span>
-                      </a>
                       <div class="budget">
                         <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">$983</span></p>
                       </div>
@@ -320,21 +299,14 @@
                     <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                   </div>
                   <div class="list-content">
-                    <p class="list-text body-color fz14 mb-1">Web & App Design</p>
-                    <h5 class="list-title line-clamp2"><a href="<?= base_url('details-service') ?>">I will do mobile app development for ios and android</a></h5>
+                    <p class="list-text body-color fz14 mb-1">Service</p>
+                    <h5 class="list-title line-clamp2"><a href="<?= base_url('details-service') ?>">Driver</a></h5>
                     <div class="review-meta d-flex align-items-center">
                       <i class="fas fa-star fz10 review-color me-2"></i>
                       <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
                     </div>
                     <hr class="my-2">
                     <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                      <a class="d-flex" href="<?= base_url('details-talent') ?>">
-                        <span class="position-relative mr10">
-                          <img class="rounded-circle" src="<?= base_url() ?>frontend/images/team/fl-s-4.png" alt="Freelancer Photo">
-                          <span class="online-badges"></span>
-                        </span>
-                        <span class="fz14">Wanda Runo</span>
-                      </a>
                       <div class="budget">
                         <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">$983</span></p>
                       </div>
@@ -349,21 +321,14 @@
                     <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                   </div>
                   <div class="list-content">
-                    <p class="list-text body-color fz14 mb-1">Web & App Design</p>
-                    <h5 class="list-title"><a href="<?= base_url('details-service') ?>">I will design modern websites in figma or adobe xd</a></h5>
+                    <p class="list-text body-color fz14 mb-1">Service</p>
+                    <h5 class="list-title"><a href="<?= base_url('details-service') ?>">Chef</a></h5>
                     <div class="review-meta d-flex align-items-center">
                       <i class="fas fa-star fz10 review-color me-2"></i>
                       <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
                     </div>
                     <hr class="my-2">
                     <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                      <a class="d-flex" href="<?= base_url('details-talent') ?>">
-                        <span class="position-relative mr10">
-                          <img class="rounded-circle" src="<?= base_url() ?>frontend/images/team/fl-s-1.png" alt="Freelancer Photo">
-                          <span class="online-badges"></span>
-                        </span>
-                        <span class="fz14">Wanda Runo</span>
-                      </a>
                       <div class="budget">
                         <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">$983</span></p>
                       </div>
@@ -378,79 +343,14 @@
                     <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                   </div>
                   <div class="list-content">
-                    <p class="list-text body-color fz14 mb-1">Web & App Design</p>
-                    <h5 class="list-title"><a href="<?= base_url('details-service') ?>">I will design modern websites in figma or adobe xd</a></h5>
+                    <p class="list-text body-color fz14 mb-1">Service</p>
+                    <h5 class="list-title"><a href="<?= base_url('details-service') ?>">Barista</a></h5>
                     <div class="review-meta d-flex align-items-center">
                       <i class="fas fa-star fz10 review-color me-2"></i>
                       <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
                     </div>
                     <hr class="my-2">
                     <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                      <a class="d-flex" href="<?= base_url('details-talent') ?>">
-                        <span class="position-relative mr10">
-                          <img class="rounded-circle" src="<?= base_url() ?>frontend/images/team/fl-s-2.png" alt="Freelancer Photo">
-                          <span class="online-badges"></span>
-                        </span>
-                        <span class="fz14">Wanda Runo</span>
-                      </a>
-                      <div class="budget">
-                        <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">$983</span></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="listing-style1 hover-box-shadow bdrs12">
-                  <div class="list-thumb m10 bdrs12 overflow-hidden">
-                    <img class="w-100" src="<?= base_url() ?>frontend/images/listings/g-7.jpg" alt="">
-                    <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
-                  </div>
-                  <div class="list-content">
-                    <p class="list-text body-color fz14 mb-1">Design & Creative</p>
-                    <h5 class="list-title line-clamp2"><a href="<?= base_url('details-service') ?>">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</a></h5>
-                    <div class="review-meta d-flex align-items-center">
-                      <i class="fas fa-star fz10 review-color me-2"></i>
-                      <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
-                    </div>
-                    <hr class="my-2">
-                    <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                      <a class="d-flex" href="<?= base_url('details-talent') ?>">
-                        <span class="position-relative mr10">
-                          <img class="rounded-circle" src="<?= base_url() ?>frontend/images/team/fl-s-3.png" alt="Freelancer Photo">
-                          <span class="online-badges"></span>
-                        </span>
-                        <span class="fz14">Wanda Runo</span>
-                      </a>
-                      <div class="budget">
-                        <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">$983</span></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="listing-style1 hover-box-shadow bdrs12">
-                  <div class="list-thumb m10 bdrs12 overflow-hidden">
-                    <img class="w-100" src="<?= base_url() ?>frontend/images/listings/g-1.jpg" alt="">
-                    <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
-                  </div>
-                  <div class="list-content">
-                    <p class="list-text body-color fz14 mb-1">Web & App Design</p>
-                    <h5 class="list-title"><a href="<?= base_url('details-service') ?>">I will design modern websites in figma or adobe xd</a></h5>
-                    <div class="review-meta d-flex align-items-center">
-                      <i class="fas fa-star fz10 review-color me-2"></i>
-                      <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
-                    </div>
-                    <hr class="my-2">
-                    <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                      <a class="d-flex" href="<?= base_url('details-talent') ?>">
-                        <span class="position-relative mr10">
-                          <img class="rounded-circle wa" src="<?= base_url() ?>frontend/images/team/fl-s-1.png" alt="Freelancer Photo">
-                          <span class="online-badges"></span>
-                        </span>
-                        <span class="fz14">Wanda Runo</span>
-                      </a>
                       <div class="budget">
                         <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">$983</span></p>
                       </div>
@@ -590,7 +490,7 @@
           <div class="col-md-6 col-lg-8 wow fadeInLeft">
             <div class="cta-style3">
               <h2 class="cta-title">About Us</h2>
-              <p class="cta-text">PT. Management Mandiri Internasional adalah salah satu perusahaan penempatan tenaga kerja Indonesia berlisensi untuk pasar luar negeri. Sebagai spesialis penempatan di luar negeri, kami fokus untuk memahami kebutuhan klien kami, menawarkan konsultasi, dan menyediakan pekerja yang sesuai dengan permintaan klien.</p>
+              <p class="cta-text">PT. Management Mandiri Internasional is one of the licensed Indonesian labor placement companies for overseas markets. As an overseas placement specialist, we focus on understanding our client's needs, offering consultation, and providing workers that match the client's demands.</p>
               <a href="<?= base_url('about')?>" class="ud-btn btn-dark default-box-shadow1 bdrs16 mr20">Read More <i class="fal fa-arrow-right-long"></i></a>
             </div>
           </div>
@@ -603,79 +503,70 @@
     </section>
     <!-- Customers Testimonials -->
     <section class="our-testimonial">
-      <div class="container">
+        <div class="container wow fadeInUp" data-wow-delay="300ms">
         <div class="row">
-          <div class="col-lg-6 mx-auto wow fadeInUp" data-wow-delay="300ms">
+          <div class="col-lg-6 m-auto">
             <div class="main-title text-center">
-              <h2>Testimonials</h2>
-              <p class="paragraph">Interdum et malesuada fames ac ante ipsum</p>
+              <h2 class="title">What our talent have to say</h2>
+              <p class="paragraph mt10">Discover your perfect program in our courses.</p>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-8 m-auto wow fadeInUp" data-wow-delay="500ms">
-            <div class="testimonial-style2">
-              <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade" id="pills-1st" role="tabpanel" aria-labelledby="pills-1st-tab">
-                  <div class="testi-content text-md-center">
-                    <span class="icon fas fa-quote-left"></span>
-                    <h4 class="testi-text">"Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. "</h4>
-                    <h6 class="name">Ali Tufan</h6>
-                    <p class="design">Product Manager, Apple Inc</p>
+        <div class="row justify-content-center">
+          <div class="col-xl-10 mx-auto">
+            <div class="home2_testimonial_tabs position-relative">
+              <div class="tab-content" id="pills-tabContent2">
+                <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                  <div class="testimonial-style2 at-about2 text-center">
+                    <div class="testi-content text-center">
+                      <span class="icon fas fa-quote-left"></span>
+                      <h4 class="testi-text">"Keakraban dan Penuh Kekeluargaan, antara pimpinan dan staff kpd semua TKInya, Proses yang cepat dan zero cost, hanya ada di PT Management Mandiri Internasional "</h4>
+                    </div>
                   </div>
                 </div>
-                <div class="tab-pane fade show active" id="pills-2nd" role="tabpanel" aria-labelledby="pills-2nd-tab">
-                  <div class="testi-content text-md-center">
-                    <span class="icon fas fa-quote-left"></span>
-                    <h4 class="testi-text">"Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. "</h4>
-                    <h6 class="name">Ali Tufan</h6>
-                    <p class="design">Product Manager, Apple Inc</p>
+                <div class="tab-pane fade show active" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                  <div class="testimonial-style2 at-about2 text-center">
+                    <div class="testi-content text-center">
+                      <span class="icon fas fa-quote-left"></span>
+                      <h4 class="testi-text">"PT Management Mandiri Internasioanal memberikan bukti zero cost, mksh sukses terus buat PT Management "</h4>
+                    </div>
                   </div>
                 </div>
-                <div class="tab-pane fade" id="pills-3rd" role="tabpanel" aria-labelledby="pills-3rd-tab">
-                  <div class="testi-content text-md-center">
-                    <span class="icon fas fa-quote-left"></span>
-                    <h4 class="testi-text">"Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. "</h4>
-                    <h6 class="name">Ali Tufan</h6>
-                    <p class="design">Product Manager, Apple Inc</p>
-                  </div>
-                </div>
-                <div class="tab-pane fade" id="pills-4th" role="tabpanel" aria-labelledby="pills-4th-tab">
-                  <div class="testi-content text-md-center">
-                    <span class="icon fas fa-quote-left"></span>
-                    <h4 class="testi-text">"Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. "</h4>
-                    <h6 class="name">Ali Tufan</h6>
-                    <p class="design">Product Manager, Apple Inc</p>
-                  </div>
-                </div>
-                <div class="tab-pane fade" id="pills-5th" role="tabpanel" aria-labelledby="pills-5th-tab">
-                  <div class="testi-content text-md-center">
-                    <span class="icon fas fa-quote-left"></span>
-                    <h4 class="testi-text">"Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. "</h4>
-                    <h6 class="name">Ali Tufan</h6>
-                    <p class="design">Product Manager, Apple Inc</p>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                  <div class="testimonial-style2 at-about2 text-center">
+                    <div class="testi-content text-center">
+                      <span class="icon fas fa-quote-left"></span>
+                      <h4 class="testi-text">"Alhamdulillah Lewt, Temen Saya masuk PT Management Mandiri Internasional yang bner" Tanpa Potongan dan Semoga PT Management Makin jaya "</h4>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="tab-list position-relative">
-                <ul class="nav nav-pills justify-content-md-center" id="pills-tab" role="tablist">
-                  <li class="nav-item" role="presentation">
-                    <button class="nav-link ps-0" id="pills-1st-tab" data-bs-toggle="pill" data-bs-target="#pills-1st" type="button" role="tab" aria-controls="pills-1st" aria-selected="true"><img src="<?= base_url('') ?>frontend/images/testimonials/testi-1.png" alt=""></button>
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="pills-2nd-tab" data-bs-toggle="pill" data-bs-target="#pills-2nd" type="button" role="tab" aria-controls="pills-2nd" aria-selected="false"><img src="<?= base_url('') ?>frontend/images/testimonials/testi-2.png" alt=""></button>
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-3rd-tab" data-bs-toggle="pill" data-bs-target="#pills-3rd" type="button" role="tab" aria-controls="pills-3rd" aria-selected="false"><img src="<?= base_url('') ?>frontend/images/testimonials/testi-3.png" alt=""></button>
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-4th-tab" data-bs-toggle="pill" data-bs-target="#pills-4th" type="button" role="tab" aria-controls="pills-4th" aria-selected="false"><img src="<?= base_url('') ?>frontend/images/testimonials/testi-4.png" alt=""></button>
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <button class="nav-link pe-0" id="pills-5th-tab" data-bs-toggle="pill" data-bs-target="#pills-5th" type="button" role="tab" aria-controls="pills-5th" aria-selected="false"><img src="<?= base_url('') ?>frontend/images/testimonials/testi-5.png" alt=""></button>
-                  </li>
-                </ul>
-              </div>
+              <ul class="nav justify-content-center" id="pills-tab2" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+                    <div class="thumb d-flex align-items-center">
+                      <img class="rounded-circle" src="<?= base_url() ?>frontend/images/testimonials/1.png" alt="1.png">
+                      <h6 class="title ml30 ml15-xl mb-0">Lia Noorsyah P<br><small>Asisten Rumah Tangga</small></h6>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link active" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">
+                    <div class="thumb d-flex align-items-center">
+                      <img class="rounded-circle" src="<?= base_url() ?>frontend/images/testimonials/1.png" alt="1.png">
+                      <h6 class="title ml30 ml15-xl mb-0">Triyati Slamet<br><small>Chef</small></h6>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">
+                    <div class="thumb d-flex align-items-center">
+                      <img class="rounded-circle" src="<?= base_url() ?>frontend/images/testimonials/1.png" alt="1.png">
+                      <h6 class="title ml30 ml15-xl mb-0">Putri Pantura<br><small>Beautycian</small></h6>
+                    </div>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

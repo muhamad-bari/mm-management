@@ -4,8 +4,8 @@
         <div class="row bb-white-light pb10 mb60">
           <div class="col-md-7">
             <div class="d-block text-center text-md-start justify-content-center justify-content-md-start d-md-flex align-items-center mb-3 mb-md-0">
-              <a class="fz17 fw500 text-white mr15-md mr30" href="#">Terms of Service</a>
-              <a class="fz17 fw500 text-white mr15-md mr30" href="#">Privacy Policy</a>
+              <a class="fz17 fw500 text-white mr15-md mr30" href="<?= base_url('terms')?>">Terms of Service</a>
+              <a class="fz17 fw500 text-white mr15-md mr30" href="<?= base_url('privacy')?>">Privacy Policy</a>
               <a class="fz17 fw500 text-white" href="#">Site Map</a>
             </div>
           </div>
@@ -16,6 +16,7 @@
                 <a href="https://www.facebook.com/ptmmmanagementpjtki⁣"><i class="fab fa-facebook-f list-inline-item"></i></a>
                 <a href="https://www.instagram.com/ptmanagementpjtki_"><i class="fab fa-instagram list-inline-item"></i></a>
                 <a href="https:///www.tiktok.com/pt.mm.management⁣"><i class="fab fa-tiktok list-inline-item"></i></a>
+                <a href="https://www.youtube.com/@PTMMMANAGEMENTPJTKI"><i class="fab fa-youtube list-inline-item"></i></a>
               </div>
             </div>
           </div>
@@ -28,8 +29,8 @@
                 <a href="#">Careers</a>
                 <a href="#">Press & News</a>
                 <a href="#">Partnerships</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms of Service</a>
+                <a href="<?= base_url('privacy')?>">Privacy Policy</a>
+                <a href="<?= base_url('terms')?>">Terms of Service</a>
                 <a href="#">Investor Relations</a>
               </div>
             </div>
@@ -46,7 +47,7 @@
                 <li><a href="#">Barista</a></li>
                 <li><a href="#">Penjahit</a></li>
                 <li><a href="#">Waitress</a></li>
-                <li><a href="#">Beautician</a></li>
+                <li><a href="#">Beautycian</a></li>
               </ul>
             </div>
           </div>
@@ -56,8 +57,6 @@
               <ul class="ps-0">
                 <li><a href="#">Help & Support</a></li>
                 <li><a href="#">Trust & Safety</a></li>
-                <li><a href="#">Selling on Freeio</a></li>
-                <li><a href="#">Buying on Freeio</a></li>
               </ul>
             </div>
           </div>
@@ -95,7 +94,7 @@
         <div class="row align-items-center">
           <div class="col-md-6">
             <div class="text-center text-lg-start">
-            <p class="copyright-text mb-2 mb-md-0 text-white-light ff-heading">© PT. MM Management 2023. All rights reserved.</p>
+            <p class="copyright-text mb-2 mb-md-0 text-white-light ff-heading">© PT. Management Mandiri 2023. All rights reserved.</p>
             </div>
           </div>
           <div class="col-md-6">
@@ -124,6 +123,43 @@
     <a class="scrollToHome" href="#"><i class="fas fa-angle-up"></i></a>
   </div>
 </div>
+<!-- chat floating -->
+<script src="https://getchat.app/assets/js/min/getchatapp.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var gcaMain = new GetChatApp({
+    'mobileNumber' : '',
+    'titleMessage' : '👋 Chat with me on WhatsApp!',
+    'welcomeMessage': 'Hey there!🙌<br /> <br /> Get in touch with me by typing a message here. It will go straight to my phone! 🔥<br /> <br /> ~Admin',
+    'position' : 'left',
+    'platforms' : {
+        'whatsapp' : true,
+        'facebook' : false,
+        'email' : false,
+        'instagram' : false,
+        'telegram' : false,
+        'x' : false,
+        'tiktok' : false,
+        'linkedin' : false,
+        'phone' : false,
+        'customLink' : false,
+    },
+    'facebookPageId' : '',
+    'facebookMessage' : 'Hi there! Start chatting with us now!',
+    'facebookReplyTime' : 'a day',
+    'gcaEmailAddress' : '',
+    'gcaEmailSubject' : '',
+    'gcaInstagramUsername' : '',
+    'gcaTelegramUsername' : '',
+    'gcaXUsername' : '',
+    'gcaTiktokUsername' : '',
+    'gcaLinkedinUsername' : '',
+    'gcaPhoneNumber' : '',
+    'gcaCustomLink' : '',
+    'multipleContacts' : false
+  });
+});
+</script>
 <!-- Wrapper End --> 
 <script src="<?= base_url() ?>frontend/js/jquery-3.6.4.min.js"></script>
 <script src="<?= base_url() ?>frontend/js/jquery-migrate-3.0.0.min.js"></script>

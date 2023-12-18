@@ -39,12 +39,12 @@
               <div class="d-grid mb20">
                 <button class="ud-btn btn-thm default-box-shadow2" type="button">Creat Account <i class="fal fa-arrow-right-long"></i></button>
               </div>
-              <div class="hr_content mb20"><hr><span class="hr_top_text">OR</span></div>
+              <!-- <div class="hr_content mb20"><hr><span class="hr_top_text">OR</span></div>
               <div class="d-md-flex justify-content-between">
                 <button class="ud-btn btn-fb fz14 fw400 mb-2 mb-md-0" type="button"><i class="fab fa-facebook-f pr10"></i> Continue Facebook</button>
                 <button class="ud-btn btn-google fz14 fw400 mb-2 mb-md-0" type="button"><i class="fab fa-google"></i> Continue Google</button>
                 <button class="ud-btn btn-apple fz14 fw400" type="button"><i class="fab fa-apple"></i> Continue Apple</button>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>

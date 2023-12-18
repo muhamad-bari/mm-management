@@ -2,28 +2,6 @@
 <?= $this->section ('content') ?>
 <title>Service Details</title>
 <div class="body_content">
-    <section class="categories_list_section overflow-hidden">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="listings_category_nav_list_menu">
-              <ul class="mb0 d-flex ps-0">
-                <li><a class="active" href="#">All Categories</a></li>
-                <li><a href="#">Graphics & Design</a></li>
-                <li><a href="#">Digital Marketing</a></li>
-                <li><a href="#">Writing & Translation</a></li>
-                <li><a href="#">Video & Animation</a></li>
-                <li><a href="#">Music & Audio</a></li>
-                <li><a href="#">Programming & Tech</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Lifestyle</a></li>
-                <li><a href="#">Trending</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     <!-- Breadcumb Sections -->
     <section class="breadcumb-section">
       <div class="container">
@@ -62,15 +40,8 @@
           <div class="row wow fadeInUp">
             <div class="col-xl-7">
               <div class="position-relative">
-                <h2>I will design website UI UX in adobe xd or figma</h2>
+                <h2>Asisten Rumah Tangga</h2>
                 <div class="list-meta mt30">
-                  <a class="list-inline-item mb5-sm" href="<?= base_url('details-talent') ?>">
-                    <span class="position-relative mr10">
-                      <img class="rounded-circle" src="<?= base_url('') ?>frontend/images/team/fl-d-1.png" alt="Freelancer Photo">
-                      <span class="online-badge"></span>
-                    </span>
-                    <span class="fz14">Eleanor Pena</span>
-                  </a>
                   <p class="mb-0 dark-color fz14 list-inline-item ml25 ml15-sm mb5-sm ml0-xs"><i class="fas fa-star vam fz10 review-color me-2"></i> 4.82 94 reviews</p>
                   <p class="mb-0 dark-color fz14 list-inline-item ml25 ml15-sm mb5-sm ml0-xs"><i class="flaticon-file-1 vam fz20 me-2"></i> 2 Order in Queue</p>
                   <p class="mb-0 dark-color fz14 list-inline-item ml25 ml15-sm mb5-sm ml0-xs"><i class="flaticon-website vam fz20 me-2"></i> 902 Views</p>
@@ -94,7 +65,7 @@
                     <div class="icon flex-shrink-0"><span class="flaticon-calendar"></span></div>
                     <div class="details">
                       <h5 class="title">Delivery Time</h5>
-                      <p class="mb-0 text">1-3 Days</p>
+                      <p class="mb-0 text">3-6 Month</p>
                     </div>
                   </div>
                 </div>
@@ -102,7 +73,7 @@
                   <div class="iconbox-style1 contact-style d-flex align-items-start mb30">
                     <div class="icon flex-shrink-0"><span class="flaticon-goal"></span></div>
                     <div class="details">
-                      <h5 class="title">English Level</h5>
+                      <h5 class="title">Language Level</h5>
                       <p class="mb-0 text">Professional</p>
                     </div>
                   </div>
@@ -112,7 +83,7 @@
                     <div class="icon flex-shrink-0"><span class="flaticon-tracking"></span></div>
                     <div class="details">
                       <h5 class="title">Location</h5>
-                      <p class="mb-0 text">New York</p>
+                      <p class="mb-0 text">Indonesia</p>
                     </div>
                   </div>
                 </div>
@@ -512,30 +483,7 @@
                     </div>
                   </div>              
                 </div>
-                <div class="freelancer-style1 service-single mb-0">
-                  <div class="wrapper d-flex align-items-center">
-                    <div class="thumb position-relative mb25">
-                      <img class="rounded-circle mx-auto" src="<?= base_url('') ?>frontend/images/team/fl-1.png" alt="">
-                      <span class="online"></span>
-                    </div>
-                    <div class="ml20">
-                      <h5 class="title mb-1">Kristin Watson</h5>
-                      <p class="mb-0">Dog Trainer</p>
-                      <div class="review"><p><i class="fas fa-star fz10 review-color pr10"></i><span class="dark-color">4.9</span> (595 reviews)</p></div>
-                    </div>
-                  </div>
-                  <hr class="opacity-100">
-                  <div class="details">
-                    <div class="fl-meta d-flex align-items-center justify-content-between">
-                      <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">London</span></a>
-                      <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$90 / hr</span></a>
-                      <a class="meta fw500 text-start">Job Success<br><span class="fz14 fw400">%98</span></a>
-                    </div>
-                  </div>
-                  <div class="d-grid mt30">
-                    <a href="<?= base_url('contact') ?>" class="ud-btn btn-thm-border">Contact Me<i class="fal fa-arrow-right-long"></i></a>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
@@ -562,21 +510,14 @@
                 <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
               </div>
               <div class="list-content">
-                <p class="list-text body-color fz14 mb-1">Web & App Design</p>
-                <h5 class="list-title"><a href="<?= base_url('details-service') ?>">I will design modern websites in figma or adobe xd</a></h5>
+                <p class="list-text body-color fz14 mb-1">Service</p>
+                <h5 class="list-title"><a href="<?= base_url('details-service') ?>">Asisten Rumah Tangga</a></h5>
                 <div class="review-meta d-flex align-items-center">
                   <i class="fas fa-star fz10 review-color me-2"></i>
                   <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
                 </div>
                 <hr class="my-2">
                 <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                  <a href="#">
-                    <span class="position-relative mr10">
-                      <img class="rounded-circle" src="<?= base_url('') ?>frontend/images/team/fl-s-1.png" alt="Freelancer Photo">
-                      <span class="online-badge"></span>
-                    </span>
-                    <span class="fz14">Wanda Runo</span>
-                  </a>
                   <div class="budget">
                     <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">$983</span></p>
                   </div>
@@ -607,21 +548,14 @@
                 </div>
               </div>
               <div class="list-content">
-                <p class="list-text body-color fz14 mb-1">Art & Illustration</p>
-                <h5 class="list-title"><a href="<?= base_url('details-service') ?>">I will create modern flat design illustration</a></h5>
+                <p class="list-text body-color fz14 mb-1">Service</p>
+                <h5 class="list-title"><a href="<?= base_url('details-service') ?>">Baby Sitter</a></h5>
                 <div class="review-meta d-flex align-items-center">
                   <i class="fas fa-star fz10 review-color me-2"></i>
                   <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
                 </div>
                 <hr class="my-2">
                 <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                  <a href="#">
-                    <span class="position-relative mr10">
-                      <img class="rounded-circle" src="<?= base_url('') ?>frontend/images/team/fl-s-2.png" alt="Freelancer Photo">
-                      <span class="online-badge"></span>
-                    </span>
-                    <span class="fz14">Ali Tufan</span>
-                  </a>
                   <div class="budget">
                     <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">$983</span></p>
                   </div>
@@ -636,21 +570,14 @@
                 <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
               </div>
               <div class="list-content">
-                <p class="list-text body-color fz14 mb-1">Design & Creative</p>
-                <h5 class="list-title line-clamp2"><a href="<?= base_url('details-service') ?>">I will build a fully responsive design in HTML,CSS, bootstrap, and javascript</a></h5>
+                <p class="list-text body-color fz14 mb-1">Service</p>
+                <h5 class="list-title line-clamp2"><a href="<?= base_url('details-service') ?>">Perawat Lansia</a></h5>
                 <div class="review-meta d-flex align-items-center">
                   <i class="fas fa-star fz10 review-color me-2"></i>
                   <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
                 </div>
                 <hr class="my-2">
                 <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                  <a href="#">
-                    <span class="position-relative mr10">
-                      <img class="rounded-circle" src="<?= base_url('') ?>frontend/images/team/fl-s-3.png" alt="Freelancer Photo">
-                      <span class="online-badge"></span>
-                    </span>
-                    <span class="fz14">Wanda Runo</span>
-                  </a>
                   <div class="budget">
                     <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">$983</span></p>
                   </div>
@@ -661,25 +588,18 @@
           <div class="col-sm-6 col-lg-3">
             <div class="listing-style1">
               <div class="list-thumb">
-                <img class="w-100" src="<?= base_url('') ?>frontend/<?= base_url('') ?>frontend/images/listings/g-4.jpg" alt="">
+                <img class="w-100" src="<?= base_url('') ?>frontend/images/listings/g-4.jpg" alt="">
                 <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
               </div>
               <div class="list-content">
-                <p class="list-text body-color fz14 mb-1">Web & App Design</p>
-                <h5 class="list-title"><a href="<?= base_url('details-service') ?>">I will do mobile app development for ios and android</a></h5>
+                <p class="list-text body-color fz14 mb-1">Service</p>
+                <h5 class="list-title"><a href="<?= base_url('details-service') ?>">Driver</a></h5>
                 <div class="review-meta d-flex align-items-center">
                   <i class="fas fa-star fz10 review-color me-2"></i>
                   <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
                 </div>
                 <hr class="my-2">
                 <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                  <a href="#">
-                    <span class="position-relative mr10">
-                      <img class="rounded-circle" src="<?= base_url('') ?>frontend/images/team/fl-s-4.png" alt="Freelancer Photo">
-                      <span class="online-badge"></span>
-                    </span>
-                    <span class="fz14">Wanda Runo</span>
-                  </a>
                   <div class="budget">
                     <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">$983</span></p>
                   </div>

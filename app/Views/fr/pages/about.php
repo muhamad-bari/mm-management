@@ -29,8 +29,8 @@
           <div class="col-md-6 col-xl-5 offset-xl-1">
             <div class="position-relative wow fadeInLeft" data-wow-delay="300ms">
               <h2 class="mb25">About Us</h2>
-              <p class="text mb25">PT. Management Mandiri Internasional adalah salah satu perusahaan penempatan tenaga kerja Indonesia berlisensi untuk pasar luar negeri. Sebagai spesialis penempatan di luar negeri, kami fokus untuk memahami kebutuhan klien kami, menawarkan konsultasi, dan menyediakan pekerja yang sesuai dengan permintaan klien.
-              <br class="d-none d-md-block"> Saat ini, persyaratan dan peraturan yang berkaitan dengan sumber daya manusia terus berubah. Banyak perusahaan berusaha keras untuk mendapatkan layanan pasokan tenaga kerja dan pekerja yang sesuai untuk kebutuhan perusahaan mereka, namun, menemukan solusi yang tepat mungkin menjadi tantangan.
+              <p class="text mb25">PT. Management Mandiri Internasional is one of the licensed Indonesian labor placement companies for overseas markets. As an overseas placement specialist, we focus on understanding our client's needs, offering consultation, and providing workers that match the client's demands.
+              <br class="d-none d-md-block"> Now, requirements and regulations pertaining to human resources are constantly changing. Many companies strive to obtain labor supply services and workers that are suitable for their company's needs, however, finding the right solution may be a challenge.
               </p>
               <a href="<?= base_url('talent') ?>" class="ud-btn btn-thm-border">Find Talent<i class="fal fa-arrow-right-long"></i></a>
             </div>
@@ -46,7 +46,7 @@
             <div class="col-md-6 col-xl-5 pl30-md pl15-xs wow fadeInRight" data-wow-delay="500ms">
               <div class="mb30">
                 <div class="main-title">
-                  <h2 class="title">A whole world of freelance <br class="d-none d-lg-block"> talent at your fingertips</h2>
+                  <h2 class="title">A whole world of distributor <br class="d-none d-lg-block"> talent at your fingertips</h2>
                 </div>
               </div>
               <div class="why-chose-list">
@@ -90,7 +90,7 @@
           <div class="col-md-6 col-xl-4 offset-xl-1 wow fadeInRight" data-wow-delay="100ms">
             <div class="cta-style6 mb30-sm">
             <h2 class="mb25">Why Management Mandiri Internasional?</h2>
-              <p class="text-thm2 fz15 mb25"> Perusahaan kami bertujuan untuk memberikan solusi tenaga kerja yang tepat. Kami berharap dapat menyediakan pekerja yang paling sesuai untuk kebutuhan klien. Dengan keahlian kami dalam rekrutmen, kami yakin dapat menyediakan pekerja yang sesuai dengan kebutuhan perusahaan / klien.</p>
+              <p class="text-thm2 fz15 mb25"> Our company aims to provide the right labor solutions. We hope to provide the most suitable workers for the client's needs. With our expertise in recruitment, we are confident that we can provide workers that match the needs of the company/client.</p>
             </div>
           </div>
           <div class="col-md-6 col-xl-6 offset-xl-1 wow fadeInLeft" data-wow-delay="300ms">
@@ -101,7 +101,7 @@
                     <li><div class="timer title mb15">4</div></li>
                     <li><span>.9/5</span></li>
                   </ul>
-                  <p class="fz15 dark-color">Clients rate <br>professionals on Freeio</p>
+                  <p class="fz15 dark-color">Clients rate <br>professionals on Management Mandiri Internasional</p>
                 </div>
                 <div class="funfact-style1 bdrs16 text-center ms-md-auto">
                   <ul class="ps-0 mb-0 d-flex justify-content-center">
@@ -131,7 +131,7 @@
         <div class="row">
           <div class="col-lg-6 m-auto">
             <div class="main-title text-center">
-              <h2 class="title">What our students have to say</h2>
+              <h2 class="title">What our talent have to say</h2>
               <p class="paragraph mt10">Discover your perfect program in our courses.</p>
             </div>
           </div>
@@ -144,7 +144,7 @@
                   <div class="testimonial-style2 at-about2 text-center">
                     <div class="testi-content text-center">
                       <span class="icon fas fa-quote-left"></span>
-                      <h4 class="testi-text">"Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. "</h4>
+                      <h4 class="testi-text">"Keakraban dan Penuh Kekeluargaan, antara pimpinan dan staff kpd semua TKInya, Proses yang cepat dan zero cost, hanya ada di PT Management Mandiri Internasional "</h4>
                     </div>
                   </div>
                 </div>
@@ -152,7 +152,7 @@
                   <div class="testimonial-style2 at-about2 text-center">
                     <div class="testi-content text-center">
                       <span class="icon fas fa-quote-left"></span>
-                      <h4 class="testi-text">"Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. "</h4>
+                      <h4 class="testi-text">"PT Management Mandiri Internasioanal memberikan bukti zero cost, mksh sukses terus buat PT Management "</h4>
                     </div>
                   </div>
                 </div>
@@ -160,7 +160,7 @@
                   <div class="testimonial-style2 at-about2 text-center">
                     <div class="testi-content text-center">
                       <span class="icon fas fa-quote-left"></span>
-                      <h4 class="testi-text">"Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. "</h4>
+                      <h4 class="testi-text">"Alhamdulillah Lewt, Temen Saya masuk PT Management Mandiri Internasional yang bner" Tanpa Potongan dan Semoga PT Management Makin jaya "</h4>
                     </div>
                   </div>
                 </div>
@@ -169,24 +169,24 @@
                 <li class="nav-item" role="presentation">
                   <a class="nav-link" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
                     <div class="thumb d-flex align-items-center">
-                      <img class="rounded-circle" src="<?= base_url() ?>frontend/images/testimonials/1.jpg" alt="1.jpg">
-                      <h6 class="title ml30 ml15-xl mb-0">Albert Cole<br><small>Designer</small></h6>
+                      <img class="rounded-circle" src="<?= base_url() ?>frontend/images/testimonials/1.png" alt="1.png">
+                      <h6 class="title ml30 ml15-xl mb-0">Lia Noorsyah P<br><small>Asisten Rumah Tangga</small></h6>
                     </div>
                   </a>
                 </li>
                 <li class="nav-item" role="presentation">
                   <a class="nav-link active" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">
                     <div class="thumb d-flex align-items-center">
-                      <img class="rounded-circle" src="<?= base_url() ?>frontend/images/testimonials/2.jpg" alt="2.jpg">
-                      <h6 class="title ml30 ml15-xl mb-0">Alison Dawn<br><small>WP Developer</small></h6>
+                      <img class="rounded-circle" src="<?= base_url() ?>frontend/images/testimonials/1.png" alt="1.png">
+                      <h6 class="title ml30 ml15-xl mb-0">Triyati Slamet<br><small>Chef</small></h6>
                     </div>
                   </a>
                 </li>
                 <li class="nav-item" role="presentation">
                   <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">
                     <div class="thumb d-flex align-items-center">
-                      <img class="rounded-circle" src="<?= base_url() ?>frontend/images/testimonials/3.jpg" alt="3.jpg">
-                      <h6 class="title ml30 ml15-xl mb-0">Daniel Parker<br><small>Front-end Developer</small></h6>
+                      <img class="rounded-circle" src="<?= base_url() ?>frontend/images/testimonials/1.png" alt="1.png">
+                      <h6 class="title ml30 ml15-xl mb-0">Putri Pantura<br><small>Beautycian</small></h6>
                     </div>
                   </a>
                 </li>
@@ -213,22 +213,22 @@
           <div class="col-sm-6 col-lg-4 col-xl-3">
             <div class="iconbox-style9 default-box-shadow1 bgc-white p40 bdrs12 position-relative mb30">
               <span class="icon fz40 flaticon-cv"></span>
-              <h4 class="iconbox-title mt20">Post a job</h4>
-              <p class="text mb-0">It’s free and easy to post a job.<br class="d-none d-md-block"> Simply fill in a title, description.</p>
+              <h4 class="iconbox-title mt20">Search a service</h4>
+              <p class="text mb-0">It’s free and easy to post a service.<br class="d-none d-md-block"> Simply fill in a title, description.</p>
             </div>
           </div>
           <div class="col-sm-6 col-lg-4 col-xl-3">
             <div class="iconbox-style9 default-box-shadow1 bgc-white p40 bdrs12 position-relative mb30">
               <span class="icon fz40 flaticon-web-design"></span>
-              <h4 class="iconbox-title mt20">Choose freelancers</h4>
-              <p class="text mb-0">It’s free and easy to post a job.<br class="d-none d-md-block"> Simply fill in a title, description.</p>
+              <h4 class="iconbox-title mt20">Choose Talent</h4>
+              <p class="text mb-0">It’s free and easy to choose a talent.<br class="d-none d-md-block"> Simply fill in a title, description.</p>
             </div>
           </div>
           <div class="col-sm-6 col-lg-4 col-xl-3">
             <div class="iconbox-style9 default-box-shadow1 bgc-white p40 bdrs12 position-relative mb30">
               <span class="icon fz40 flaticon-secure"></span>
               <h4 class="iconbox-title mt20">Pay safely</h4>
-              <p class="text mb-0">It’s free and easy to post a job.<br class="d-none d-md-block"> Simply fill in a title, description.</p>
+              <p class="text mb-0">It’s free and easy to pay safely.<br class="d-none d-md-block"> Simply fill in a title, description.</p>
             </div>
           </div>
         </div>

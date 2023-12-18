@@ -2,7 +2,7 @@
 <?= $this->section('content') ?>
 <title>Talents</title>
 <div class="body_content">
-    <section class="categories_list_section overflow-hidden">
+    <!-- <section class="categories_list_section overflow-hidden">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -23,7 +23,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Breadcumb Sections -->
     <section class="breadcumb-section">
       <div class="container">
@@ -49,7 +49,7 @@
           <div class="row wow fadeInUp">
             <div class="col-xl-5">
               <div class="position-relative">
-                <h2>Freelancer List</h2>
+                <h2>Talent List</h2>
                 <p class="text mb-0">All the Lorem Ipsum generators on the Internet tend to repeat.</p>
               </div>
             </div>
@@ -227,18 +227,14 @@
               </div>
               <div class="details">
                 <h5 class="title mb-1">Robert Fox</h5>
-                <p class="mb-0">Nursing Assistant</p>
-                <div class="review"><p><i class="fas fa-star fz10 review-color pr10"></i><span class="dark-color fw500">4.9</span> (595 reviews)</p></div>
+                <p class="mb-0">Perawat Lansia</p>
                 <div class="skill-tags d-flex align-items-center justify-content-center mb5">
-                  <span class="tag">Figma</span>
-                  <span class="tag mx10">Sketch</span>
-                  <span class="tag">HTML5</span>
+                  <span class="tag">Waitress</span>
                 </div>
                 <hr class="opacity-100 mt20 mb15">
                 <div class="fl-meta d-flex align-items-center justify-content-between">
-                  <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">London</span></a>
-                  <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$90 / hr</span></a>
-                  <a class="meta fw500 text-start">Job Success<br><span class="fz14 fw400">%98</span></a>
+                  <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">Indonesia</span></a>
+                  <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$900 / month</span></a>
                 </div>
                 <div class="d-grid mt15">
                   <a href="<?= base_url('details-talent') ?>" class="ud-btn btn-light-thm">View Profile<i class="fal fa-arrow-right-long"></i></a>
@@ -254,18 +250,14 @@
               </div>
               <div class="details">
                 <h5 class="title mb-1">Kristin Watson</h5>
-                <p class="mb-0">Dog Trainer</p>
-                <div class="review"><p><i class="fas fa-star fz10 review-color pr10"></i><span class="dark-color fw500">4.9</span> (595 reviews)</p></div>
+                <p class="mb-0">Talent</p>
                 <div class="skill-tags d-flex align-items-center justify-content-center mb5">
-                  <span class="tag">Figma</span>
-                  <span class="tag mx10">Sketch</span>
-                  <span class="tag">HTML5</span>
+                  <span class="tag">Waitress</span>
                 </div>
                 <hr class="opacity-100 mt20 mb15">
                 <div class="fl-meta d-flex align-items-center justify-content-between">
-                  <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">London</span></a>
-                  <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$90 / hr</span></a>
-                  <a class="meta fw500 text-start">Job Success<br><span class="fz14 fw400">%98</span></a>
+                  <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">Indonesia</span></a>
+                  <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$900 / month</span></a>
                 </div>
                 <div class="d-grid mt15">
                   <a href="<?= base_url('details-talent') ?>" class="ud-btn btn-light-thm">View Profile<i class="fal fa-arrow-right-long"></i></a>
@@ -281,18 +273,14 @@
               </div>
               <div class="details">
                 <h5 class="title mb-1">Darrell Steward</h5>
-                <p class="mb-0">Medical Assistant</p>
-                <div class="review"><p><i class="fas fa-star fz10 review-color pr10"></i><span class="dark-color fw500">4.9</span> (595 reviews)</p></div>
+                <p class="mb-0">Talent</p>
                 <div class="skill-tags d-flex align-items-center justify-content-center mb5">
-                  <span class="tag">Figma</span>
-                  <span class="tag mx10">Sketch</span>
-                  <span class="tag">HTML5</span>
+                  <span class="tag">Driver</span>
                 </div>
                 <hr class="opacity-100 mt20 mb15">
                 <div class="fl-meta d-flex align-items-center justify-content-between">
-                  <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">London</span></a>
-                  <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$90 / hr</span></a>
-                  <a class="meta fw500 text-start">Job Success<br><span class="fz14 fw400">%98</span></a>
+                  <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">Indonesia</span></a>
+                  <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$900 / month</span></a>
                 </div>
                 <div class="d-grid mt15">
                   <a href="<?= base_url('details-talent') ?>" class="ud-btn btn-light-thm">View Profile<i class="fal fa-arrow-right-long"></i></a>
@@ -308,18 +296,14 @@
               </div>
               <div class="details">
                 <h5 class="title mb-1">Theresa Webb</h5>
-                <p class="mb-0">Marketing Coordinator</p>
-                <div class="review"><p><i class="fas fa-star fz10 review-color pr10"></i><span class="dark-color fw500">4.9</span> (595 reviews)</p></div>
+                <p class="mb-0">Talent</p>
                 <div class="skill-tags d-flex align-items-center justify-content-center mb5">
-                  <span class="tag">Figma</span>
-                  <span class="tag mx10">Sketch</span>
-                  <span class="tag">HTML5</span>
+                  <span class="tag">Penjahit</span>
                 </div>
                 <hr class="opacity-100 mt20 mb15">
                 <div class="fl-meta d-flex align-items-center justify-content-between">
-                  <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">London</span></a>
-                  <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$90 / hr</span></a>
-                  <a class="meta fw500 text-start">Job Success<br><span class="fz14 fw400">%98</span></a>
+                  <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">Indonesia</span></a>
+                  <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$900 / month</span></a>
                 </div>
                 <div class="d-grid mt15">
                   <a href="<?= base_url('details-talent') ?>" class="ud-btn btn-light-thm">View Profile<i class="fal fa-arrow-right-long"></i></a>
@@ -335,18 +319,15 @@
               </div>
               <div class="details">
                 <h5 class="title mb-1">Robert Fox</h5>
-                <p class="mb-0">Nursing Assistant</p>
-                <div class="review"><p><i class="fas fa-star fz10 review-color pr10"></i><span class="dark-color fw500">4.9</span> (595 reviews)</p></div>
+                <p class="mb-0">Talent</p>
                 <div class="skill-tags d-flex align-items-center justify-content-center mb5">
-                  <span class="tag">Figma</span>
-                  <span class="tag mx10">Sketch</span>
-                  <span class="tag">HTML5</span>
+                  <span class="tag">Baby Sitter</span>
+                  <span class="tag">Driver</span>
                 </div>
                 <hr class="opacity-100 mt20 mb15">
                 <div class="fl-meta d-flex align-items-center justify-content-between">
-                  <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">London</span></a>
-                  <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$90 / hr</span></a>
-                  <a class="meta fw500 text-start">Job Success<br><span class="fz14 fw400">%98</span></a>
+                  <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">Indonesia</span></a>
+                  <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$900 / month</span></a>
                 </div>
                 <div class="d-grid mt15">
                   <a href="<?= base_url('details-talent') ?>" class="ud-btn btn-light-thm">View Profile<i class="fal fa-arrow-right-long"></i></a>
@@ -362,18 +343,15 @@
               </div>
               <div class="details">
                 <h5 class="title mb-1">Kristin Watson</h5>
-                <p class="mb-0">Dog Trainer</p>
-                <div class="review"><p><i class="fas fa-star fz10 review-color pr10"></i><span class="dark-color fw500">4.9</span> (595 reviews)</p></div>
+                <p class="mb-0">Talent</p>
                 <div class="skill-tags d-flex align-items-center justify-content-center mb5">
-                  <span class="tag">Figma</span>
-                  <span class="tag mx10">Sketch</span>
-                  <span class="tag">HTML5</span>
+                  <span class="tag">Waitress</span>
+                  <span class="tag mx10">Barista</span>
                 </div>
                 <hr class="opacity-100 mt20 mb15">
                 <div class="fl-meta d-flex align-items-center justify-content-between">
-                  <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">London</span></a>
-                  <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$90 / hr</span></a>
-                  <a class="meta fw500 text-start">Job Success<br><span class="fz14 fw400">%98</span></a>
+                  <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">Indonesia</span></a>
+                  <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$900 / month</span></a>
                 </div>
                 <div class="d-grid mt15">
                   <a href="<?= base_url('details-talent') ?>" class="ud-btn btn-light-thm">View Profile<i class="fal fa-arrow-right-long"></i></a>
@@ -389,18 +367,15 @@
               </div>
               <div class="details">
                 <h5 class="title mb-1">Darrell Steward</h5>
-                <p class="mb-0">Medical Assistant</p>
-                <div class="review"><p><i class="fas fa-star fz10 review-color pr10"></i><span class="dark-color fw500">4.9</span> (595 reviews)</p></div>
+                <p class="mb-0">Talent</p>
                 <div class="skill-tags d-flex align-items-center justify-content-center mb5">
-                  <span class="tag">Figma</span>
-                  <span class="tag mx10">Sketch</span>
-                  <span class="tag">HTML5</span>
+                  <span class="tag mx10">Barista</span>
+                  <span class="tag">Driver</span>
                 </div>
                 <hr class="opacity-100 mt20 mb15">
                 <div class="fl-meta d-flex align-items-center justify-content-between">
-                  <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">London</span></a>
-                  <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$90 / hr</span></a>
-                  <a class="meta fw500 text-start">Job Success<br><span class="fz14 fw400">%98</span></a>
+                  <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">Indonesia</span></a>
+                  <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$900 / month</span></a>
                 </div>
                 <div class="d-grid mt15">
                   <a href="<?= base_url('details-talent') ?>" class="ud-btn btn-light-thm">View Profile<i class="fal fa-arrow-right-long"></i></a>
@@ -416,18 +391,14 @@
               </div>
               <div class="details">
                 <h5 class="title mb-1">Theresa Webb</h5>
-                <p class="mb-0">Marketing Coordinator</p>
-                <div class="review"><p><i class="fas fa-star fz10 review-color pr10"></i><span class="dark-color fw500">4.9</span> (595 reviews)</p></div>
+                <p class="mb-0">Talent</p>
                 <div class="skill-tags d-flex align-items-center justify-content-center mb5">
-                  <span class="tag">Figma</span>
-                  <span class="tag mx10">Sketch</span>
-                  <span class="tag">HTML5</span>
+                  <span class="tag">Perawat Lansia</span>
                 </div>
                 <hr class="opacity-100 mt20 mb15">
                 <div class="fl-meta d-flex align-items-center justify-content-between">
-                  <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">London</span></a>
-                  <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$90 / hr</span></a>
-                  <a class="meta fw500 text-start">Job Success<br><span class="fz14 fw400">%98</span></a>
+                  <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">Indonesia</span></a>
+                  <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$900 / month</span></a>
                 </div>
                 <div class="d-grid mt15">
                   <a href="<?= base_url('details-talent') ?>" class="ud-btn btn-light-thm">View Profile<i class="fal fa-arrow-right-long"></i></a>
@@ -443,18 +414,14 @@
               </div>
               <div class="details">
                 <h5 class="title mb-1">Robert Fox</h5>
-                <p class="mb-0">Nursing Assistant</p>
-                <div class="review"><p><i class="fas fa-star fz10 review-color pr10"></i><span class="dark-color fw500">4.9</span> (595 reviews)</p></div>
+                <p class="mb-0">Talent</p>
                 <div class="skill-tags d-flex align-items-center justify-content-center mb5">
-                  <span class="tag">Figma</span>
-                  <span class="tag mx10">Sketch</span>
-                  <span class="tag">HTML5</span>
+                  <span class="tag">Asisten Rumah Tangga</span>
                 </div>
                 <hr class="opacity-100 mt20 mb15">
                 <div class="fl-meta d-flex align-items-center justify-content-between">
-                  <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">London</span></a>
-                  <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$90 / hr</span></a>
-                  <a class="meta fw500 text-start">Job Success<br><span class="fz14 fw400">%98</span></a>
+                  <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">Indonesia</span></a>
+                  <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$900 / month</span></a>
                 </div>
                 <div class="d-grid mt15">
                   <a href="<?= base_url('details-talent') ?>" class="ud-btn btn-light-thm">View Profile<i class="fal fa-arrow-right-long"></i></a>
@@ -470,18 +437,15 @@
               </div>
               <div class="details">
                 <h5 class="title mb-1">Kristin Watson</h5>
-                <p class="mb-0">Dog Trainer</p>
-                <div class="review"><p><i class="fas fa-star fz10 review-color pr10"></i><span class="dark-color fw500">4.9</span> (595 reviews)</p></div>
+                <p class="mb-0">Talent</p>
                 <div class="skill-tags d-flex align-items-center justify-content-center mb5">
-                  <span class="tag">Figma</span>
-                  <span class="tag mx10">Sketch</span>
-                  <span class="tag">HTML5</span>
+                  <span class="tag">Beautycian</span>
+                  <span class="tag mx10">Barista</span>
                 </div>
                 <hr class="opacity-100 mt20 mb15">
                 <div class="fl-meta d-flex align-items-center justify-content-between">
-                  <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">London</span></a>
-                  <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$90 / hr</span></a>
-                  <a class="meta fw500 text-start">Job Success<br><span class="fz14 fw400">%98</span></a>
+                  <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">Indonesia</span></a>
+                  <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$900 / month</span></a>
                 </div>
                 <div class="d-grid mt15">
                   <a href="<?= base_url('details-talent') ?>" class="ud-btn btn-light-thm">View Profile<i class="fal fa-arrow-right-long"></i></a>
@@ -497,18 +461,16 @@
               </div>
               <div class="details">
                 <h5 class="title mb-1">Darrell Steward</h5>
-                <p class="mb-0">Medical Assistant</p>
-                <div class="review"><p><i class="fas fa-star fz10 review-color pr10"></i><span class="dark-color fw500">4.9</span> (595 reviews)</p></div>
+                <p class="mb-0">Talent</p>
                 <div class="skill-tags d-flex align-items-center justify-content-center mb5">
-                  <span class="tag">Figma</span>
-                  <span class="tag mx10">Sketch</span>
-                  <span class="tag">HTML5</span>
+                  <span class="tag">Waitress</span>
+                  <span class="tag mx10">Barista</span>
+                  <span class="tag">Driver</span>
                 </div>
                 <hr class="opacity-100 mt20 mb15">
                 <div class="fl-meta d-flex align-items-center justify-content-between">
-                  <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">London</span></a>
-                  <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$90 / hr</span></a>
-                  <a class="meta fw500 text-start">Job Success<br><span class="fz14 fw400">%98</span></a>
+                  <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">Indonesia</span></a>
+                  <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$900 / month</span></a>
                 </div>
                 <div class="d-grid mt15">
                   <a href="<?= base_url('details-talent') ?>" class="ud-btn btn-light-thm">View Profile<i class="fal fa-arrow-right-long"></i></a>
@@ -524,18 +486,14 @@
               </div>
               <div class="details">
                 <h5 class="title mb-1">Theresa Webb</h5>
-                <p class="mb-0">Marketing Coordinator</p>
-                <div class="review"><p><i class="fas fa-star fz10 review-color pr10"></i><span class="dark-color fw500">4.9</span> (595 reviews)</p></div>
+                <p class="mb-0">Talent</p>
                 <div class="skill-tags d-flex align-items-center justify-content-center mb5">
-                  <span class="tag">Figma</span>
-                  <span class="tag mx10">Sketch</span>
-                  <span class="tag">HTML5</span>
+                  <span class="tag">Perawat Lansia</span>
                 </div>
                 <hr class="opacity-100 mt20 mb15">
                 <div class="fl-meta d-flex align-items-center justify-content-between">
-                  <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">London</span></a>
-                  <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$90 / hr</span></a>
-                  <a class="meta fw500 text-start">Job Success<br><span class="fz14 fw400">%98</span></a>
+                  <a class="meta fw500 text-start">Location<br><span class="fz14 fw400">Indonesia</span></a>
+                  <a class="meta fw500 text-start">Rate<br><span class="fz14 fw400">$900 / month</span></a>
                 </div>
                 <div class="d-grid mt15">
                   <a href="<?= base_url('details-talent') ?>" class="ud-btn btn-light-thm">View Profile<i class="fal fa-arrow-right-long"></i></a>
@@ -550,10 +508,10 @@
               <li class="page-item">
                 <a class="page-link" href="#"> <span class="fas fa-angle-left"></span></a>
               </li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
               <li class="page-item active" aria-current="page">
-                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                <a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
               </li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
               <li class="page-item"><a class="page-link" href="#">3</a></li>
               <li class="page-item"><a class="page-link" href="#">4</a></li>
               <li class="page-item d-inline-block d-sm-none"><a class="page-link" href="#">...</a></li>
@@ -564,7 +522,7 @@
                 <a class="page-link" href="#"><span class="fas fa-angle-right"></span></a>
               </li>
             </ul>
-            <p class="mt10 mb-0 pagination_page_count text-center">1 – 20 of 300+ property available</p>
+            <p class="mt10 mb-0 pagination_page_count text-center">1 – 20 of 300+ Talent available</p>
           </div>
         </div>
       </div>

@@ -22,3 +22,6 @@ $routes->get('details-service', 'fr_index::details_service');
 $routes->get('service', 'fr_index::service');
 $routes->get('post', 'fr_index::post');
 $routes->get('error', 'fr_index::error');
+$routes->get('terms', 'fr_index::terms');
+$routes->get('privacy', 'fr_index::privacy');
+$routes->get('forget', 'fr_index::forget');

@@ -83,7 +83,7 @@
                     <span class="menu-title">Penjahit</span> </a>
                     </li>
                     <li> <a class="" href="#"> <span class="menu-icn fi-rr-makeup-brush"></span> 
-                    <span class="menu-title">Beautician</span> </a>
+                    <span class="menu-title">Beautycian</span> </a>
                     </li>
                   </ul>
                 </div>
@@ -138,7 +138,7 @@
       <div class="header bdrb1">
         <div class="menu_and_widgets">
           <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
-            <a class="mobile_logo" href="<?= base_url('/') ?>"><img src="<?= base_url() ?>frontend/images/header-logo-dark.png" alt=""></a>
+            <a class="mobile_logo" href="<?= base_url('/') ?>"><img src="<?= base_url() ?>frontend/images/header-logo-mobile.png" alt=""></a>
             <div class="right-side text-end">
               <a class="" href="<?= base_url('login') ?>">join</a>
               <a class="menubar ml30" href="#menu"><img src="<?= base_url() ?>frontend/images/mobile-dark-nav-icon.svg" alt=""></a>
@@ -151,11 +151,11 @@
     <!-- /.mobile-menu -->
     <nav id="menu" class="">
     <ul>
-        <li><span><a href="<?= base_url('/') ?>">Home</a></span></li>
-        <li><span><a href="<?= base_url('about') ?>">About</a></span></li>
-        <li><span><a href="<?= base_url('blog') ?>">Blog</a></span></li>
-        <li><span><a href="<?= base_url('contact') ?>">contact</a></span>
-        <li><span><a href="<?= base_url('gallery') ?>">Gallery</a></span></li>
+        <li><a href="<?= base_url('/') ?>">Home</a></li>
+        <li><a href="<?= base_url('about') ?>">About</a></li>
+        <li><a href="<?= base_url('blog') ?>">Blog</a></span></li>
+        <li><a href="<?= base_url('contact') ?>">contact</a>
+        <li><a href="<?= base_url('gallery') ?>">Gallery</a></li>
         <!-- Only for Mobile View -->
       </ul>
     </nav>

@@ -70,4 +70,19 @@ class fr_index extends BaseController
     {
         echo view('fr/pages/error');
     }
+
+    public function terms()
+    {
+        echo view('fr/pages/terms');
+    }
+
+    public function privacy()
+    {
+        echo view('fr/pages/privacy');
+    }
+
+    public function forget()
+    {
+        echo view('fr/pages/forget');
+    }
 }
