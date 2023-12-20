@@ -2,41 +2,41 @@
 <html dir="ltr" lang="en">
 
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="keywords" content="bidding, fiverr, freelance marketplace, freelancers, freelancing, gigs, hiring, job board, job portal, job posting, jobs marketplace, peopleperhour, proposals, sell services, upwork">
-<meta name="description" content="About">
-<meta name="CreativeLayers" content="ATFN">
-<!-- css file -->
-<link rel="stylesheet" href="<?= base_url() ?>frontend/css/bootstrap.min.css">
-<link rel="stylesheet" href="<?= base_url() ?>frontend/css/ace-responsive-menu.css">
-<link rel="stylesheet" href="<?= base_url() ?>frontend/css/menu.css">
-<link rel="stylesheet" href="<?= base_url() ?>frontend/css/fontawesome.css">
-<link rel="stylesheet" href="<?= base_url() ?>frontend/css/flaticon.css">
-<link rel="stylesheet" href="<?= base_url() ?>frontend/css/bootstrap-select.min.css">
-<link rel="stylesheet" href="<?= base_url() ?>frontend/css/ud-custom-spacing.css">
-<link rel="stylesheet" href="<?= base_url() ?>frontend/css/animate.css">
-<link rel="stylesheet" href="<?= base_url() ?>frontend/css/jquery-ui.min.css">
-<link rel="stylesheet" href="<?= base_url() ?>frontend/css/slider.css">
-<link rel="stylesheet" href="<?= base_url() ?>frontend/css/style.css">
-<link rel="stylesheet" href="<?= base_url() ?>frontend/css/galer.css">
-<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-<!-- Responsive stylesheet -->
-<link rel="stylesheet" href="<?= base_url() ?>frontend/css/responsive.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="bidding, fiverr, freelance marketplace, freelancers, freelancing, gigs, hiring, job board, job portal, job posting, jobs marketplace, peopleperhour, proposals, sell services, upwork">
+  <meta name="description" content="About">
+  <meta name="CreativeLayers" content="ATFN">
+  <!-- css file -->
+  <link rel="stylesheet" href="<?= base_url() ?>frontend/css/bootstrap.min.css">
+  <link rel="stylesheet" href="<?= base_url() ?>frontend/css/ace-responsive-menu.css">
+  <link rel="stylesheet" href="<?= base_url() ?>frontend/css/menu.css">
+  <link rel="stylesheet" href="<?= base_url() ?>frontend/css/fontawesome.css">
+  <link rel="stylesheet" href="<?= base_url() ?>frontend/css/flaticon.css">
+  <link rel="stylesheet" href="<?= base_url() ?>frontend/css/bootstrap-select.min.css">
+  <link rel="stylesheet" href="<?= base_url() ?>frontend/css/ud-custom-spacing.css">
+  <link rel="stylesheet" href="<?= base_url() ?>frontend/css/animate.css">
+  <link rel="stylesheet" href="<?= base_url() ?>frontend/css/jquery-ui.min.css">
+  <link rel="stylesheet" href="<?= base_url() ?>frontend/css/slider.css">
+  <link rel="stylesheet" href="<?= base_url() ?>frontend/css/style.css">
+  <link rel="stylesheet" href="<?= base_url() ?>frontend/css/galer.css">
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+  <!-- Responsive stylesheet -->
+  <link rel="stylesheet" href="<?= base_url() ?>frontend/css/responsive.css">
 
-<!-- Favicon -->
-<link href="<?= base_url() ?>frontend/images/logo.png" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
-<link href="<?= base_url() ?>frontend/images/logo.png" sizes="128x128" rel="shortcut icon" />
-<!-- Apple Touch Icon -->
-<link href="<?= base_url() ?>frontend/images/apple-touch-icon-60x60.png" sizes="60x60" rel="apple-touch-icon">
-<link href="<?= base_url() ?>frontend/images/apple-touch-icon-72x72.png" sizes="72x72" rel="apple-touch-icon">
-<link href="<?= base_url() ?>frontend/images/apple-touch-icon-114x114.png" sizes="114x114" rel="apple-touch-icon">
-<link href="<?= base_url() ?>frontend/images/apple-touch-icon-180x180.png" sizes="180x180" rel="apple-touch-icon">
+  <!-- Favicon -->
+  <link href="<?= base_url() ?>frontend/images/logo.png" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
+  <link href="<?= base_url() ?>frontend/images/logo.png" sizes="128x128" rel="shortcut icon" />
+  <!-- Apple Touch Icon -->
+  <link href="<?= base_url() ?>frontend/images/apple-touch-icon-60x60.png" sizes="60x60" rel="apple-touch-icon">
+  <link href="<?= base_url() ?>frontend/images/apple-touch-icon-72x72.png" sizes="72x72" rel="apple-touch-icon">
+  <link href="<?= base_url() ?>frontend/images/apple-touch-icon-114x114.png" sizes="114x114" rel="apple-touch-icon">
+  <link href="<?= base_url() ?>frontend/images/apple-touch-icon-180x180.png" sizes="180x180" rel="apple-touch-icon">
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
@@ -44,11 +44,11 @@
 <!-- <body class="bgc-thm4"> -->
 <div class="wrapper ovh">
   <div class="preloader"></div>
-  
+
   <!-- Main Header Nav -->
   <header class="header-nav nav-innerpage-style main-menu">
     <!-- Ace Responsive Menu -->
-    <nav class="posr"> 
+    <nav class="posr">
       <div class="container-fluid posr menu_bdrt1">
         <div class="row align-items-center justify-content-between">
           <div class="col-auto pe-0">
@@ -58,32 +58,32 @@
                 <div id="mega-menu">
                   <a class="btn-mega fw500" href="#"><span class="pl30 pl10-xl pr5 fz15 vam flaticon-menu"></span> Services</a>
                   <ul class="menu ps-0">
-                    <li> <a class="" href="#"> 
-                      <span class="menu-icn flaticon-home"></span> <span class="menu-title">Asisten Rumah Tangga</span> </a>
+                    <li> <a class="" href="#">
+                        <span class="menu-icn flaticon-home"></span> <span class="menu-title">Household assistant</span> </a>
                     </li>
-                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-child-head"></span> 
-                    <span class="menu-title">Baby Sitter</span> </a>
+                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-child-head"></span>
+                        <span class="menu-title">Baby Sitter</span> </a>
                     </li>
-                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-user-nurse"></span> 
-                    <span class="menu-title">Perawat Lansia</span> </a>
+                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-user-nurse"></span>
+                        <span class="menu-title">Elderly Nurse</span> </a>
                     </li>
-                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-car-side"></span> 
-                    <span class="menu-title">Driver</span> </a>
+                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-car-side"></span>
+                        <span class="menu-title">Driver</span> </a>
                     </li>
-                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-hat-chef"></span> 
-                    <span class="menu-title">Chef</span> </a>
+                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-hat-chef"></span>
+                        <span class="menu-title">Chef</span> </a>
                     </li>
-                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-mug-hot-alt"></span> 
-                    <span class="menu-title">Barista</span> </a>
+                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-mug-hot-alt"></span>
+                        <span class="menu-title">Barista</span> </a>
                     </li>
-                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-circle-user"></span> 
-                    <span class="menu-title">Waitress</span> </a>
+                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-circle-user"></span>
+                        <span class="menu-title">Waitress</span> </a>
                     </li>
-                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-cash-register"></span> 
-                    <span class="menu-title">Penjahit</span> </a>
+                    <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-cash-register"></span>
+                        <span class="menu-title">Tailor</span> </a>
                     </li>
-                    <li> <a class="" href="#"> <span class="menu-icn fi-rr-makeup-brush"></span> 
-                    <span class="menu-title">Beautycian</span> </a>
+                    <li> <a class="" href="#"> <span class="menu-icn fi-rr-makeup-brush"></span>
+                        <span class="menu-title">Beautycian</span> </a>
                     </li>
                   </ul>
                 </div>
@@ -145,12 +145,14 @@
             </div>
           </div>
         </div>
-        <div class="posr"><div class="mobile_menu_close_btn"><span class="far fa-times"></span></div></div>
+        <div class="posr">
+          <div class="mobile_menu_close_btn"><span class="far fa-times"></span></div>
+        </div>
       </div>
     </div>
     <!-- /.mobile-menu -->
     <nav id="menu" class="">
-    <ul>
+      <ul>
         <li><a href="<?= base_url('/') ?>">Home</a></li>
         <li><a href="<?= base_url('about') ?>">About</a></li>
         <li><a href="<?= base_url('blog') ?>">Blog</a></span></li>

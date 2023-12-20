@@ -25,3 +25,6 @@ $routes->get('error', 'fr_index::error');
 $routes->get('terms', 'fr_index::terms');
 $routes->get('privacy', 'fr_index::privacy');
 $routes->get('forget', 'fr_index::forget');
+$routes->get('blog1', 'fr_index::blog1');
+$routes->get('blog2', 'fr_index::blog2');
+$routes->get('blog3', 'fr_index::blog3');

@@ -85,4 +85,19 @@ class fr_index extends BaseController
     {
         echo view('fr/pages/forget');
     }
+
+    public function blog1()
+    {
+        echo view('fr/pages/blog1');
+    }
+
+    public function blog2()
+    {
+        echo view('fr/pages/blog2');
+    }
+
+    public function blog3()
+    {
+        echo view('fr/pages/blog3');
+    }
 }
