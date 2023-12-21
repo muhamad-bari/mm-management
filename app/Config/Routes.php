@@ -28,3 +28,4 @@ $routes->get('forget', 'fr_index::forget');
 $routes->get('blog1', 'fr_index::blog1');
 $routes->get('blog2', 'fr_index::blog2');
 $routes->get('blog3', 'fr_index::blog3');
+$routes->get('career', 'fr_index::career');

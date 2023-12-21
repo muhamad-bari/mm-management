@@ -100,4 +100,9 @@ class fr_index extends BaseController
     {
         echo view('fr/pages/blog3');
     }
+
+    public function career()
+    {
+        echo view('fr/pages/career');
+    }
 }

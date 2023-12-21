@@ -22,7 +22,7 @@
          </div>
        </div>
        <div class="row">
-         <div class="col-sm-6 col-lg-3">
+         <div class="col-sm-6 col-lg-2">
            <div class="link-style1 mb-4 mb-sm-5">
              <h5 class="text-white mb15">About</h5>
              <div class="link-list">
@@ -35,7 +35,7 @@
              </div>
            </div>
          </div>
-         <div class="col-sm-6 col-lg-3">
+         <div class="col-sm-6 col-lg-2">
            <div class="link-style1 mb-4 mb-sm-5">
              <h5 class="text-white mb15">Services</h5>
              <ul class="ps-0">
@@ -51,12 +51,15 @@
              </ul>
            </div>
          </div>
-         <div class="col-sm-6 col-lg-3">
+         <div class="col-sm-6 col-lg-4">
            <div class="link-style1 mb-4 mb-sm-5">
-             <h5 class="text-white mb15">Support</h5>
+             <h5 class="text-white mb15">Proses Pendaftaran</h5>
              <ul class="ps-0">
-               <li><a href="#">Help & Support</a></li>
-               <li><a href="#">Trust & Safety</a></li>
+              <li><a href="#"><i class="far fa-check"></i> Menunggu Interview</a></li>
+               <li><a href="#"><i class="far fa-check"></i> Mengikuti Pelatihan</a></li>
+               <li><a href="#"><i class="far fa-check"></i> Mengisi Formulir Online dan Registrasi</a></li>
+               <li><a href="#"><i class="far fa-check"></i> Jika diterima, Melakukan Medical Check Up</a></li>
+               
              </ul>
            </div>
          </div>

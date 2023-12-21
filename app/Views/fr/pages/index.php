@@ -12,6 +12,7 @@
             <p class="text-white text animate-up-2">Work with talented people at the most affordable price to get the most <br class="d-none d-lg-block">out of your time and cost</p>
             <div class="d-sm-flex align-items-center mt30 animate-up-3">
               <a href="<?= base_url('service') ?>" class="ud-btn btn-thm4 me-3 bdrs120 btn-1">Our Services</a>
+              <a href="<?= base_url('career') ?>" class="ud-btn btn-white bdr1 bdrs120 btn-2">Find Work</a>
             </div>
           </div>
         </div>
