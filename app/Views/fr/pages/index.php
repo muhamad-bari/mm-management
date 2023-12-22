@@ -235,7 +235,7 @@
                 </div>
                 <div class="list-content">
                   <p class="list-text body-color fz14 mb-1">Service</p>
-                  <h5 class="list-title"><a href="<?= base_url('details-service') ?>">Asisten Rumah Tangga</a></h5>
+                  <h5 class="list-title"><a href="<?= base_url('details-service') ?>">Household Assistant</a></h5>
                   <div class="review-meta d-flex align-items-center">
                     <i class="fas fa-star fz10 review-color me-2"></i>
                     <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -279,7 +279,7 @@
                 </div>
                 <div class="list-content">
                   <p class="list-text body-color fz14 mb-1">Service</p>
-                  <h5 class="list-title line-clamp2"><a href="<?= base_url('details-service') ?>">Perawat Lansia</a></h5>
+                  <h5 class="list-title line-clamp2"><a href="<?= base_url('details-service') ?>">Elderly Nurse</a></h5>
                   <div class="review-meta d-flex align-items-center">
                     <i class="fas fa-star fz10 review-color me-2"></i>
                     <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -366,104 +366,105 @@
   </section>
 
   <!-- CTA Banner -->
-  <section class="cta-banner-about2 at-home18 mx-auto maxw1700 position-relative pt60-lg pb60-lg">
-    <img class="cta-about2-img bdrs24 d-none d-xl-block" src="<?= base_url() ?>frontend/images/about/about-18.jpg" alt="">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-11 wow fadeInUp" data-wow-delay="200ms">
-          <div class="main-title">
-            <h2 class="title text-capitalize">Need something done?</h2>
-            <p class="text">Most viewed and all-time top-selling services</p>
+  <section class="pb90 pb30-md">
+      <div class="container">
+        <div class="row align-items-center wow fadeInUp">
+          <div class="col-lg-9">
+            <div class="main-title mb50">
+              <h2 class="title">Our Latest Jobs</h2>
+              <p class="paragraph">Know your worth and find the job that qualify your life</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="text-start text-lg-end mb-4 mb-lg-2">
+              <a class="ud-btn2" href="<?= base_url('career') ?>">Browse All<i class="fal fa-arrow-right-long"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="job-list-style1 default-box-shadow1 bdrs8 bdr1">
+              <div class="d-xl-flex align-items-start">
+                <div class="icon d-flex align-items-center mb20">
+                  <img class="wa" src="<?= base_url('') ?>frontend/images/team/client-2.png" alt="">
+                  <span class="fav-icon flaticon-star"></span>
+                </div>
+                <div class="details ml20 ml0-xl">
+                  <h5>Elderly Nurse</h5>
+                  <h6 class="mb-3 text-thm">PT. Management Mandiri Internasional</h6>
+                  <p class="list-inline-item mb-0 bdrl1 pl10">Singapore</p>
+                  <p class="list-inline-item mb-0 bdrl1 pl10">Japan</p>
+                  <p class="list-inline-item mb-0 bdrl1 pl10">Malaysia</p>
+                  <div class="list-meta d-flex justify-content-between align-items-center mt15">
+                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="job-list-style1 bdrs8 bdr1">
+              <div class="d-xl-flex align-items-start">
+                <div class="icon d-flex align-items-center mb20">
+                  <img class="wa" src="<?= base_url('') ?>frontend/images/team/client-1.png" alt="">
+                  <span class="fav-icon flaticon-star"></span>
+                </div>
+                <div class="details ml20 ml0-xl">
+                  <h5>Household Assistant</h5>
+                  <h6 class="mb-3 text-thm">PT. Management Mandiri Internasional</h6>
+                  <p class="list-inline-item mb-0 bdrl1 pl10">Malaysia</p>
+                  <p class="list-inline-item mb-0 bdrl1 pl10">Japan</p>
+                  <p class="list-inline-item mb-0 bdrl1 pl10">Singapore</p>
+                  <div class="list-meta d-flex justify-content-between align-items-center mt15">
+                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="job-list-style1 bdrs8 bdr1">
+              <div class="d-xl-flex align-items-start">
+                <div class="icon d-flex align-items-center mb20">
+                  <img class="wa" src="<?= base_url('') ?>frontend/images/team/client-3.png" alt="">
+                  <span class="fav-icon flaticon-star"></span>
+                </div>
+                <div class="details ml20 ml0-xl">
+                  <h5>Barista</h5>
+                  <h6 class="mb-3 text-thm">PT. Management Mandiri Internasional</h6>
+                  <p class="list-inline-item mb-0 bdrl1 pl10">Japan</p>
+                  <p class="list-inline-item mb-0 bdrl1 pl10">Hongkong</p>
+                  <p class="list-inline-item mb-0 bdrl1 pl10">Singapore</p>
+                  <div class="list-meta d-flex justify-content-between align-items-center mt15">
+                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="job-list-style1 bdrs8 bdr1">
+              <div class="d-xl-flex align-items-start">
+                <div class="icon d-flex align-items-center mb20">
+                  <img class="wa" src="<?= base_url('') ?>frontend/images/team/client-6.png" alt="">
+                  <span class="fav-icon flaticon-star"></span>
+                </div>
+                <div class="details ml20 ml0-xl">
+                  <h5>Waitress</h5>
+                  <h6 class="mb-3 text-thm">PT. Management Mandiri Internasional</h6>
+                  <p class="list-inline-item mb-0 bdrl1 pl10">Singapore</p>
+                  <p class="list-inline-item mb-0 bdrl1 pl10">Malaysia</p>
+                  <div class="list-meta d-flex justify-content-between align-items-center mt15">
+                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="row wow fadeInDown" data-wow-delay="400ms">
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="iconbox-style9 default-box-shadow1 bgc-white p40 bdrs12 position-relative mb30">
-            <span class="icon fz40 flaticon-cv"></span>
-            <h4 class="iconbox-title mt20">Search a Service</h4>
-            <p class="text mb-0">It’s free and easy to search a service.<br class="d-none d-md-block"> Simply fill in a title, description.</p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="iconbox-style9 default-box-shadow1 bgc-white p40 bdrs12 position-relative mb30">
-            <span class="icon fz40 flaticon-web-design"></span>
-            <h4 class="iconbox-title mt20">Choose Talent</h4>
-            <p class="text mb-0">It’s free and easy to choose a talent.<br class="d-none d-md-block"> Simply fill in a title, description.</p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="iconbox-style9 default-box-shadow1 bgc-white p40 bdrs12 position-relative mb30">
-            <span class="icon fz40 flaticon-secure"></span>
-            <h4 class="iconbox-title mt20">Pay safely</h4>
-            <p class="text mb-0">It’s free and easy to pay safely.<br class="d-none d-md-block"> Simply fill in a title, description.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Funfact -->
-  <section class="pb0 pt60">
-    <div class="container maxw1600 bdrb1 pb60">
-      <div class="row justify-content-center wow fadeInUp" data-wow-delay="300ms">
-        <div class="col-6 col-md-3">
-          <div class="funfact_one mb20-sm text-center">
-            <div class="details">
-              <ul class="ps-0 mb-0 d-flex justify-content-center">
-                <li>
-                  <div class="timer">800</div>
-                </li>
-                <li><span>+</span></li>
-              </ul>
-              <p class="text mb-0">Total Talent</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-6 col-md-3">
-          <div class="funfact_one mb20-sm text-center">
-            <div class="details">
-              <ul class="ps-0 mb-0 d-flex justify-content-center">
-                <li>
-                  <div class="timer">732</div>
-                </li>
-                <li><span>+</span></li>
-              </ul>
-              <p class="text mb-0">Positive Review</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-6 col-md-3">
-          <div class="funfact_one mb20-sm text-center">
-            <div class="details">
-              <ul class="ps-0 mb-0 d-flex justify-content-center">
-                <li>
-                  <div class="timer">539</div>
-                </li>
-                <li><span>+</span></li>
-              </ul>
-              <p class="text mb-0">employer happy</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-6 col-md-3">
-          <div class="funfact_one mb20-sm text-center">
-            <div class="details">
-              <ul class="ps-0 mb-0 d-flex justify-content-center">
-                <li>
-                  <div class="timer">236</div>
-                </li>
-                <li><span>+</span></li>
-              </ul>
-              <p class="text mb-0">Contract Completed</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
   <br class="d-none d-xl-block">
-  <br>
   <!-- Our CTA -->
   <section class="home11-cta-3 at-home15 bgc-thm4 bdrs24 mx30">
     <div class="container">
@@ -557,7 +558,7 @@
   <!-- For Clien -->
   <section class="pb120 pb60-sm">
     <div class="container">
-      <div class="row align-items-center wow fadeInUp mb100 mb0-md">
+      <!-- <div class="row align-items-center wow fadeInUp mb100 mb0-md">
         <div class="col-md-6 col-xl-6">
           <div class="text-center mb30-sm">
             <img class="w-100 bdrs4" src="<?= base_url() ?>frontend/images/about/about-14.jpg" alt="">
@@ -571,7 +572,7 @@
           </div>
           <a href="<?= base_url('talent') ?>" class="ud-btn btn-white2 bdrs60">Get Started <i class="fal fa-arrow-right-long"></i></a>
         </div>
-      </div>
+      </div> -->
       <div class="row align-items-center wow fadeInUp mt20">
         <div class="col-md-6 col-xl-4">
           <div class="main-title">

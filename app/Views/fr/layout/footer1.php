@@ -53,12 +53,12 @@
          </div>
          <div class="col-sm-6 col-lg-4">
            <div class="link-style1 mb-4 mb-sm-5">
-             <h5 class="text-white mb15">Proses Pendaftaran</h5>
+           <h5 class="text-white mb15">Registration Process</h5>
              <ul class="ps-0">
-              <li><a href="#"><i class="far fa-check"></i> Menunggu Interview</a></li>
-               <li><a href="#"><i class="far fa-check"></i> Mengikuti Pelatihan</a></li>
-               <li><a href="#"><i class="far fa-check"></i> Mengisi Formulir Online dan Registrasi</a></li>
-               <li><a href="#"><i class="far fa-check"></i> Jika diterima, Melakukan Medical Check Up</a></li>
+              <li><a href="#"><i class="far fa-check"></i> Waiting for an interview</a></li>
+               <li><a href="#"><i class="far fa-check"></i> Attend Training</a></li>
+               <li><a href="#"><i class="far fa-check"></i> Filling Online Form and Registration</a></li>
+               <li><a href="#"><i class="far fa-check"></i> If accepted, do a medical check-up</a></li>
                
              </ul>
            </div>
