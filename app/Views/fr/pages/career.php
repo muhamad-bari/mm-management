@@ -50,7 +50,7 @@
                   <button type="button" class="open-btn filter-btn-left"> <img class="me-2" src="<?= base_url() ?>frontend/images/icon/all-filter-icon.svg" alt=""> All Filter</button>
                 </li>
                 <li class="list-inline-item position-relative d-none d-xl-inline-block">
-                  <button class="open-btn mb10 dropdown-toggle" type="button" data-bs-toggle="dropdown">Negara <i class="fa fa-angle-down ms-2"></i></button>
+                  <button class="open-btn mb10 dropdown-toggle" type="button" data-bs-toggle="dropdown">Country <i class="fa fa-angle-down ms-2"></i></button>
                   <div class="dropdown-menu dd4 pb20">
                     <div class="widget-wrapper pr20">
                       <div class="checkbox-style1">
@@ -80,7 +80,7 @@
                   </div>
                 </li>
                 <li class="list-inline-item position-relative d-none d-xl-inline-block">
-                  <button class="open-btn mb10 dropdown-toggle" type="button" data-bs-toggle="dropdown">Jenis Pekerjaan <i class="fa fa-angle-down ms-2"></i></button>
+                  <button class="open-btn mb10 dropdown-toggle" type="button" data-bs-toggle="dropdown">Job Type <i class="fa fa-angle-down ms-2"></i></button>
                   <div class="dropdown-menu">
                     <div class="widget-wrapper pb25 mb0">
                       <div class="checkbox-style1">
