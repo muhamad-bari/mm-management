@@ -235,7 +235,7 @@
                 </div>
                 <div class="list-content">
                   <p class="list-text body-color fz14 mb-1">Service</p>
-                  <h5 class="list-title"><a href="<?= base_url('details-service') ?>">Household Assistant</a></h5>
+                  <h5 class="list-title"><a href="<?= base_url('login') ?>">Household Assistant</a></h5>
                   <div class="review-meta d-flex align-items-center">
                     <i class="fas fa-star fz10 review-color me-2"></i>
                     <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -257,7 +257,7 @@
                 </div>
                 <div class="list-content">
                   <p class="list-text body-color fz14 mb-1">Service</p>
-                  <h5 class="list-title"><a href="<?= base_url('details-service') ?>">Baby Sitter</a></h5>
+                  <h5 class="list-title"><a href="<?= base_url('login') ?>">Baby Sitter</a></h5>
                   <div class="review-meta d-flex align-items-center">
                     <i class="fas fa-star fz10 review-color me-2"></i>
                     <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -279,7 +279,7 @@
                 </div>
                 <div class="list-content">
                   <p class="list-text body-color fz14 mb-1">Service</p>
-                  <h5 class="list-title line-clamp2"><a href="<?= base_url('details-service') ?>">Elderly Nurse</a></h5>
+                  <h5 class="list-title line-clamp2"><a href="<?= base_url('login') ?>">Elderly Nurse</a></h5>
                   <div class="review-meta d-flex align-items-center">
                     <i class="fas fa-star fz10 review-color me-2"></i>
                     <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -301,7 +301,7 @@
                 </div>
                 <div class="list-content">
                   <p class="list-text body-color fz14 mb-1">Service</p>
-                  <h5 class="list-title line-clamp2"><a href="<?= base_url('details-service') ?>">Driver</a></h5>
+                  <h5 class="list-title line-clamp2"><a href="<?= base_url('login') ?>">Driver</a></h5>
                   <div class="review-meta d-flex align-items-center">
                     <i class="fas fa-star fz10 review-color me-2"></i>
                     <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -323,7 +323,7 @@
                 </div>
                 <div class="list-content">
                   <p class="list-text body-color fz14 mb-1">Service</p>
-                  <h5 class="list-title"><a href="<?= base_url('details-service') ?>">Chef</a></h5>
+                  <h5 class="list-title"><a href="<?= base_url('login') ?>">Chef</a></h5>
                   <div class="review-meta d-flex align-items-center">
                     <i class="fas fa-star fz10 review-color me-2"></i>
                     <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -345,7 +345,7 @@
                 </div>
                 <div class="list-content">
                   <p class="list-text body-color fz14 mb-1">Service</p>
-                  <h5 class="list-title"><a href="<?= base_url('details-service') ?>">Barista</a></h5>
+                  <h5 class="list-title"><a href="<?= base_url('login') ?>">Barista</a></h5>
                   <div class="review-meta d-flex align-items-center">
                     <i class="fas fa-star fz10 review-color me-2"></i>
                     <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>

@@ -129,40 +129,40 @@
 <!-- chat floating -->
 <script src="https://getchat.app/assets/js/min/getchatapp.js"></script>
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    var gcaMain = new GetChatApp({
-      'mobileNumber': '',
-      'titleMessage': '👋 Chat with me on WhatsApp!',
-      'welcomeMessage': 'Hey there!🙌<br /> <br /> Get in touch with me by typing a message here. It will go straight to my phone! 🔥<br /> <br /> ~Admin',
-      'position': 'left',
-      'platforms': {
-        'whatsapp': true,
-        'facebook': false,
-        'email': false,
-        'instagram': false,
-        'telegram': false,
-        'x': false,
-        'tiktok': false,
-        'linkedin': false,
-        'phone': false,
-        'customLink': false,
-      },
-      'facebookPageId': '',
-      'facebookMessage': 'Hi there! Start chatting with us now!',
-      'facebookReplyTime': 'a day',
-      'gcaEmailAddress': '',
-      'gcaEmailSubject': '',
-      'gcaInstagramUsername': '',
-      'gcaTelegramUsername': '',
-      'gcaXUsername': '',
-      'gcaTiktokUsername': '',
-      'gcaLinkedinUsername': '',
-      'gcaPhoneNumber': '',
-      'gcaCustomLink': '',
-      'multipleContacts': false
-    });
-  });
-</script>
+     document.addEventListener("DOMContentLoaded", function() {
+       var gcaMain = new GetChatApp({
+         'mobileNumber': '',
+         'titleMessage': '👋 Chat with me on WhatsApp!',
+         'welcomeMessage': 'Hey there!🙌<br /> <br /> Get in touch with me by typing a message here. It will go straight to my phone! 🔥<br /> <br /> ~Admin',
+         'position': 'left',
+         'platforms': {
+           'whatsapp': true,
+           'facebook': false,
+           'email': false,
+           'instagram': false,
+           'telegram': false,
+           'x': false,
+           'tiktok': false,
+           'linkedin': false,
+           'phone': false,
+           'customLink': false,
+         },
+         'facebookPageId': '',
+         'facebookMessage': 'Hi there! Start chatting with us now!',
+         'facebookReplyTime': 'a day',
+         'gcaEmailAddress': '',
+         'gcaEmailSubject': '',
+         'gcaInstagramUsername': '',
+         'gcaTelegramUsername': '',
+         'gcaXUsername': '',
+         'gcaTiktokUsername': '',
+         'gcaLinkedinUsername': '',
+         'gcaPhoneNumber': '',
+         'gcaCustomLink': '',
+         'multipleContacts': false
+       });
+     });
+   </script>
 <!-- Wrapper End -->
 <script src="<?php echo base_url() ?>frontend/js/jquery-3.6.4.min.js"></script>
 <script src="<?php echo base_url() ?>frontend/js/jquery-migrate-3.0.0.min.js"></script>
