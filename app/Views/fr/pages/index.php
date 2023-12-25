@@ -21,13 +21,7 @@
             <div class="thumb position-relative">
               <img class="img" src="<?= base_url() ?>frontend/images/about/home18-hero-img1.png" alt="">
             </div>
-            <div class="iconbox-small1 text-start d-flex wow fadeInRight default-box-shadow4 bounce-x">
-              <span class="icon flaticon-badge"></span>
-              <div class="details pl20">
-                <h6 class="mb-1">Proof of quality</h6>
-                <p class="text fz13 mb-0">Lorem Ipsum Dolar Amet</p>
-              </div>
-            </div>
+            
             <img class="img-1 bounce-y" src="<?= base_url() ?>frontend/images/about/happy-client-1.png" alt="">
             <img class="img-2 bounce-y" src="<?= base_url() ?>frontend/images/about/element-15.png" alt="">
             <img class="img-3 spin-right" src="<?= base_url() ?>frontend/images/about/element-16.png" alt="">

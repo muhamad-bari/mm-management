@@ -107,11 +107,11 @@
                 <li class="visible_list"> <a class="list-item" href="<?= base_url('about') ?>"><span class="title">About</span></a></li>
                 <li class="visible_list"> <a class="list-item" href="<?= base_url('blog') ?>"><span class="title">Blog</span></a></li>
                 <li class="visible_list"> <a class="list-item" href="<?= base_url('gallery') ?>"><span class="title">Gallery</span></a></li>
-                <li> <a class="list-item" href="<?= base_url('contact') ?>">Contact</a></li>
+                <li class=""> <a class="list-item" href="<?= base_url('contact') ?>"><span class="title">Contact Us</span></a></li>
               </ul>
               <a class="login-info bdrl1 pl15-lg pl30" data-bs-toggle="modal" href="#exampleModalToggle" role="button"><span class="flaticon-loupe"></span></a>
               <a class="login-info mx15-lg mx30" href="<?= base_url('login') ?>"><span class="d-none d-xl-inline-block">Sign</span> in</a>
-              <a class="ud-btn btn-thm add-joining" href="<?= base_url('register') ?>">Join</a>
+              <a class="ud-btn btn-thm2 add-joining" href="<?= base_url('register') ?>">Join</a>
             </div>
           </div>
         </div>

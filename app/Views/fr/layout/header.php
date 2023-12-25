@@ -111,7 +111,7 @@
                   <li class="visible_list"> <a class="list-item" href="<?php echo base_url('about') ?>"><span class="title">About</span></a></li>
                   <li class="visible_list"> <a class="list-item" href="<?php echo base_url('blog') ?>"><span class="title">Blog</span></a></li>
                   <li class="visible_list"> <a class="list-item" href="<?php echo base_url('gallery') ?>"><span class="title">Gallery</span></a></li>
-                  <li> <a class="list-item pe-0" href="<?php echo base_url('contact') ?>">Contact Us</a></li>
+                  <li class=""> <a class="list-item pe-0" href="<?php echo base_url('contact') ?>"><span class="title">Contact Us</span></a></li>
                 </ul>
               </div>
             </div>
