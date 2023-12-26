@@ -11816,7 +11816,7 @@ input:focus-visible {
 }
 
 .bgc-thm2 {
-  background-color: #1F4B3F;
+  background: linear-gradient(to right, #3498db, #8e44ad);
 }
 
 .bgc-thm3 {
