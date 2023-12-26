@@ -7,8 +7,8 @@ use App\Controllers\BaseController;
 class fr_index extends BaseController
 {
     public function index()
-    {
-        echo view('fr/pages/index');
+    {   $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/index', $data);
     }
 
     public function login()
@@ -23,32 +23,38 @@ class fr_index extends BaseController
 
     public function about()
     {
-        echo view('fr/pages/about');
+        $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/about', $data);
     }
 
     public function blog()
     {
-        echo view('fr/pages/blog');
+        $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/blog', $data);
     }
 
     public function gallery()
     {
-        echo view('fr/pages/gallery');
+        $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/gallery', $data);
     }
 
     public function contact()
     {
-        echo view('fr/pages/contact');
+        $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/contact', $data);
     }
 
     public function talent()
     {
-        echo view('fr/pages/talent');
+        $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/talent', $data);
     }
 
     public function details_talent()
     {
-        echo view('fr/pages/details-talent');
+        $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/details-talent', $data);
     }
 
     public function details_service()
@@ -58,42 +64,50 @@ class fr_index extends BaseController
 
     public function service()
     {
-        echo view('fr/pages/service');
+        $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/service', $data);
     }
 
     public function post()
     {
-        echo view('fr/pages/post');
+        $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/post', $data);
     }
 
     public function error()
     {
-        echo view('fr/pages/error');
+        $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/error', $data);
     }
 
     public function terms()
     {
-        echo view('fr/pages/terms');
+        $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/terms', $data);
     }
 
     public function privacy()
     {
-        echo view('fr/pages/privacy');
+        $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/privacy', $data);
     }
 
     public function forget()
     {
-        echo view('fr/pages/forget');
+        $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/forget', $data);
     }
 
     public function blog1()
     {
-        echo view('fr/pages/blog1');
+        $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/blog1', $data);
     }
 
     public function blog2()
     {
-        echo view('fr/pages/blog2');
+        $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/blog2', $data);
     }
 
     public function blog3()

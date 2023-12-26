@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
+<html dir="ltr" lang="<?= $locale ?>">
 
 <head>
   <meta charset="utf-8">
@@ -65,34 +65,34 @@
               <a class="header-logo bdrr1 pr30 pr5-xl" href="<?= base_url('/') ?>"><img src="<?= base_url() ?>frontend/images/header-logo-dark.png" alt="Header Logo"></a>
               <div class="home1_style">
                 <div id="mega-menu">
-                  <a class="btn-mega fw500" href="#"><span class="pl30 pl10-xl pr5 fz15 vam flaticon-menu"></span> Services</a>
+                  <a class="btn-mega fw500" href="#"><span class="pl30 pl10-xl pr5 fz15 vam flaticon-menu"></span><?= lang('Header.services')?></a>
                   <ul class="menu ps-0">
                     <li> <a class="" href="#">
-                        <span class="menu-icn flaticon-home"></span> <span class="menu-title">Household assistant</span> </a>
+                        <span class="menu-icn flaticon-home"></span> <span class="menu-title"><?= lang('Header.house')?></span> </a>
                     </li>
                     <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-child-head"></span>
-                        <span class="menu-title">Baby Sitter</span> </a>
+                        <span class="menu-title"><?= lang('Header.baby')?></span> </a>
                     </li>
                     <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-user-nurse"></span>
-                        <span class="menu-title">Elderly Nurse</span> </a>
+                        <span class="menu-title"><?= lang('Header.elder')?></span> </a>
                     </li>
                     <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-car-side"></span>
-                        <span class="menu-title">Driver</span> </a>
+                        <span class="menu-title"><?= lang('Header.driver')?></span> </a>
                     </li>
                     <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-hat-chef"></span>
-                        <span class="menu-title">Chef</span> </a>
+                        <span class="menu-title"><?= lang('Header.chef')?></span> </a>
                     </li>
                     <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-mug-hot-alt"></span>
-                        <span class="menu-title">Barista</span> </a>
+                        <span class="menu-title"><?= lang('Header.Barista')?></span> </a>
                     </li>
                     <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-circle-user"></span>
-                        <span class="menu-title">Waitress</span> </a>
+                        <span class="menu-title"><?= lang('Header.Waitress')?></span> </a>
                     </li>
                     <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-cash-register"></span>
-                        <span class="menu-title">Tailor</span> </a>
+                        <span class="menu-title"><?= lang('Header.Tailor')?></span> </a>
                     </li>
                     <li> <a class="" href="#"> <span class="menu-icn fi-rr-makeup-brush"></span>
-                        <span class="menu-title">Beautycian</span> </a>
+                        <span class="menu-title"><?= lang('Header.Beautycian')?></span> </a>
                     </li>
                   </ul>
                 </div>
@@ -103,15 +103,15 @@
             <div class="d-flex align-items-center">
               <!-- Responsive Menu Structure-->
               <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
-                <li class="visible_list"> <a class="list-item" href="<?= base_url('/') ?>"><span class="title">Home</span></a></li>
-                <li class="visible_list"> <a class="list-item" href="<?= base_url('about') ?>"><span class="title">About</span></a></li>
-                <li class="visible_list"> <a class="list-item" href="<?= base_url('blog') ?>"><span class="title">Blog</span></a></li>
-                <li class="visible_list"> <a class="list-item" href="<?= base_url('gallery') ?>"><span class="title">Gallery</span></a></li>
-                <li class=""> <a class="list-item" href="<?= base_url('contact') ?>"><span class="title">Contact Us</span></a></li>
+                <li class="visible_list"> <a class="list-item" href="<?= base_url('/').$locale ?>"><span class="title"><?= lang('Header.home')?></span></a></li>
+                <li class="visible_list"> <a class="list-item" href="<?= base_url($locale.'/about/') ?>"><span class="title"><?= lang('Header.about')?></span></a></li>
+                <li class="visible_list"> <a class="list-item" href="<?= base_url($locale.'/blog/') ?>"><span class="title"><?= lang('Header.blog')?></span></a></li>
+                <li class="visible_list"> <a class="list-item" href="<?= base_url($locale.'/gallery/') ?>"><span class="title"><?= lang('Header.gallery')?></span></a></li>
+                <li> <a class="list-item" href="<?= base_url($locale.'/contact/') ?>"><?= lang('Header.contact')?></a></li>
               </ul>
               <a class="login-info bdrl1 pl15-lg pl30" data-bs-toggle="modal" href="#exampleModalToggle" role="button"><span class="flaticon-loupe"></span></a>
-              <a class="login-info mx15-lg mx30" href="<?= base_url('login') ?>"><span class="d-none d-xl-inline-block">Sign</span> in</a>
-              <a class="ud-btn btn-thm2 add-joining" href="<?= base_url('register') ?>">Join</a>
+              <a class="login-info mx15-lg mx30" href="<?= base_url('login') ?>"><span class="d-none d-xl-inline-block"><?= lang('Header.sign')?></span> </a>
+              <a class="ud-btn btn-thm add-joining" href="<?= base_url('register') ?>"><?= lang('Header.join')?></a>
             </div>
           </div>
         </div>
@@ -147,9 +147,9 @@
       <div class="header bdrb1">
         <div class="menu_and_widgets">
           <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
-            <a class="mobile_logo" href="<?= base_url('/') ?>"><img src="<?= base_url() ?>frontend/images/header-logo-mobile.png" alt=""></a>
+            <a class="mobile_logo" href="<?= base_url('/').$locale ?>"><img src="<?= base_url() ?>frontend/images/header-logo-mobile.png" alt=""></a>
             <div class="right-side text-end">
-              <a class="" href="<?= base_url('login') ?>">join</a>
+              <a class="" href="<?= base_url('login') ?>"><?= lang('Header.join')?></a>
               <a class="menubar ml30" href="#menu"><img src="<?= base_url() ?>frontend/images/mobile-dark-nav-icon.svg" alt=""></a>
             </div>
           </div>
@@ -162,11 +162,11 @@
     <!-- /.mobile-menu -->
     <nav id="menu" class="">
       <ul>
-        <li><a href="<?= base_url('/') ?>">Home</a></li>
-        <li><a href="<?= base_url('about') ?>">About</a></li>
-        <li><a href="<?= base_url('blog') ?>">Blog</a></span></li>
-        <li><a href="<?= base_url('contact') ?>">contact</a>
-        <li><a href="<?= base_url('gallery') ?>">Gallery</a></li>
+        <li><a href="<?= base_url('/').$locale ?>"><?= lang('Header.home')?></a></li>
+        <li><a href="<?= base_url($locale.'/about/') ?>"><?= lang('Header.about')?></a></li>
+        <li><a href="<?= base_url($locale.'/blog/') ?>"><?= lang('Header.blog')?></a></span></li>
+        <li><a href="<?= base_url($locale.'/contact/') ?>"><?= lang('Header.contact')?></a>
+        <li><a href="<?= base_url($locale.'/gallery/') ?>"><?= lang('Header.gallery')?></a></li>
         <!-- Only for Mobile View -->
       </ul>
     </nav>
