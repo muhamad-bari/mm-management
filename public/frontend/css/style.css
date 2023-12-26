@@ -4232,7 +4232,7 @@ section {
 }
 
 .scrollToHome:hover {
-  background-color: #1F4B3F;
+  background: linear-gradient(to right, #3498db, #8e44ad);
   color: #ffffff;
 }
 
