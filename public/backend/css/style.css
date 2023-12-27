@@ -1,0 +1,149 @@
+/* Public Page Settings */
+:root {
+    --font-color:#edece8;
+    --nav-height:10vh;
+    --side-color:#265c1a;
+    --side-sub:#2a472f;
+    --body-color:#2f2f2f;
+    --btn-cancel:rgb(190, 190, 190);
+    --btn-submit:rgb(79, 51, 151);
+    --btn-active:rgb(132, 101, 210);
+}
+* {
+    font-size: 0.9rem;
+}
+h1, h2, h3, h4, h5, h6, p, a, span {
+    color: var(--body-color);
+    text-decoration:none;
+}
+p, a, span {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a:hover {
+    color:var(--btn-cancel);
+}
+/* End Public Page Setting */
+/* Main Page CSS */
+
+body {
+    background:var(--font-color);
+}
+.wrapper    {
+    min-height:100vh;
+    width:100vw;
+    display:flex;
+}
+.side-bar   {
+    width:250px;
+    transition:0.3s ease-in-out;
+    background:var(--btn-submit);
+}
+.side-bar-toggled {
+    margin-left:-250px;
+}
+.side-bar .close-btn  {
+    display:none;
+}
+.side-menu {
+    list-style:none;
+}
+.side-menu li {
+    width:100%;
+    padding:3px;
+}
+.side-menu .side-menu-active {
+    background:var(--btn-active);
+}
+.side-menu li a {
+    color:var(--font-color);
+}
+.sub-menu {
+    transition:0.3s ease-in-out;
+    list-style:none;
+    background:var(--btn-active);
+    width:100%;
+}
+.nv-bar {
+    height:50px;
+    background-color: var(--body-color);
+}
+@media(max-width:768px) {
+    .side-bar {
+        position: absolute;
+        margin-left:-250px;
+        min-height: 100vh;
+        transition:0.3s ease-in-out;
+        z-index:100;
+    }
+    .side-bar-toggled {
+        margin-left:0px;
+    }
+    .side-bar .close-btn  {
+        display:block;
+    }
+}
+
+
+
+/* End Main Page CSS */
+
+
+/* custom css */
+.card-login {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.c-header {
+    background: var(--body-color);
+    padding:10px;
+}
+.cheader h1,h2,h3,h4,h5 {
+    color: var(--font-color);
+}
+.c-body {
+    padding:1rem;
+}
+.c-footer {
+    padding:5px;
+    border-top:solid 0.5px var(--body-color)
+}
+.fpass {
+    text-decoration: underline;
+}
+.form-text {
+    width:100%;
+    padding:5px;
+    color: var(--body-color);
+    border-radius:3px;
+    border:solid 0.3px var(--body-color);
+}
+.form-text:focus {
+    box-shadow: 0px 0px 2px 2px var(--btn-submit);
+    border:solid 0.5px var(--body-color);
+    outline:none;
+}
+.form-text[readonly] {
+    background:rgb(190, 190, 190);
+}
+.card-form {
+    border:solid 0.6px var(--body-color);
+    box-shadow:5px 5px 0 var(--body-color);
+}
+.btn-submit {
+    background:var(--btn-submit);
+    color:var(--font-color);
+}
+.btn-cancel {
+    background:var(--btn-cancel);
+    
+}
+.btn-active {
+    background:var(--btn-active);
+    color:var(--font-color);
+    
+}
+.dark-text {
+    color: var(--body-color);
+}
+.small-text {
+    font-size:0.8rem;
+}

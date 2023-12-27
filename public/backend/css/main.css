@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+:root {
+    --accent:hsl(45, 97%, 39%);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'roboto condensed','system-ui', Helvetica, sans-serif;
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth !important;
+}
+.all {
+    position: fixed;
+    width: 100%;
+background: #000000;
+min-height:100vh; 
+}
+.main {
+min-height:100vh; 
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ animation: fadeIn 0.5s forwards;
+}
+.main h3 {
+    color:gray;
+}
+.main h2 {
+    color:#ffffff;
+    font-weight:bolder;
+}
+.main h1{
+    font-size:3.5rem;
+    color:var(--accent);
+    font-weight:bolder;
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    width:100%;
+}
+.menu {
+    margin-top:20px;
+}
+
+.menu ul {
+    display:flex;
+    justify-content: flex-end;
+    gap:1px; 
+}
+.menu ul li a[data-switcher] {
+    color: whitesmoke;
+    padding: 2px; 
+    margin:5px;
+    font-weight:bolder;
+    text-decoration: none;
+}
+.menu ul .active a[data-switcher],.menu ul li:hover a  {
+    transition: 0.2s ease-in-out;
+    color:var(--accent);
+    font-weight:bolder;
+    cursor:pointer;
+    border-bottom:solid 3px var(--accent);
+}
+
+.pages .page {
+    display: none;
+
+
+}
+.pages .active {
+    margin-left:0;
+    display: block;
+    
+}
+@keyframes fadeIn {
+    0% {
+        margin-left: -100px;
+    }
+    100% {
+        margin-top: 0px;
+    }
+}
+
+footer  {
+    position: fixed;
+    bottom: 0;
+}
+.container h6 {
+    color:white;
+}
+@media (max-width:990px) {
+    .wrapper {
+        position:absolute;
+        height:100vh;
+        top:0;
+        width:100%;
+        justify-content: center;
+        background:#000000;
+        left:0;
+    }
+    .button {
+        z-index:1;
+    }
+    .menu .navbar-nav li  {
+        color:white;
+        padding:10px;
+        border-bottom: 0.8px solid white;
+        width:300px;
+        opacity:1;
+        text-align: center;
+    }
+    
+}
