@@ -71,7 +71,7 @@
                   <a class="header-logo logo1" href="<?php echo base_url('/') ?>"><img src="<?php echo base_url() ?>frontend/images/header-logo-white.png" alt="Header Logo"></a>
                   <a class="header-logo logo2" href="<?php echo base_url('/') ?>"><img src="<?php echo base_url() ?>frontend/images/header-logo2.png" alt="Header Logo"></a>
                 </div>
-                <div class="home1_style at-home18 mx15">
+                <div class="home1_style at-home18 mx20">
                   <div id="mega-menu">
                     <div class="text-center"><a class="btn-mega fw500 text-white" href="#"><span class="pr5 fz15 vam flaticon-menu"></span> <?= lang('Header.services')?></a></div>
                     <ul class="menu ps-0">
