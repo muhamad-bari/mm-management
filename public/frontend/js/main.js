@@ -3,5 +3,7 @@ $('.language').on('change', function() {
     var currentUrl = window.location.href;
     console.log(currentUrl)
     var baseURL = currentUrl.split('/').slice(0, 3).join('/');
-window.location.href = baseURL + '/' + lang;
+
+var page = currentUrl.split('/')
+window.location.href = baseURL + '/' + lang +'/'+ page[4];
 });

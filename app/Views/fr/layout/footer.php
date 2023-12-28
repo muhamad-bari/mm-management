@@ -111,7 +111,7 @@
               </select>
             </li>
             <li class="list-inline-item">
-              <select class="selectpicker language" id="language">
+              <select class="selectpicker language" id="language_one">
               <?php
                 $lang = [
                     'en' => 'English',
@@ -124,7 +124,6 @@
                     echo "<option value='$lid' $selected>$language</option>";
                 }
                 ?>
-
               </select>
             </li>
           </ul>
@@ -187,6 +186,7 @@
 <script src="<?php echo base_url() ?>frontend/js/jquery.counterup.js"></script>
 <script src="<?php echo base_url() ?>frontend/js/isotop.js"></script>
 <script src="<?php echo base_url() ?>frontend/js/main.js"></script>
+<script src="<?= base_url() ?>frontend/js/pricing-table.js"></script>
 <!-- Custom script for all pages -->
 <script src="<?php echo base_url() ?>frontend/js/script.js"></script>
 </body>
