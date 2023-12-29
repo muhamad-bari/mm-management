@@ -40,7 +40,7 @@
                 <div class="icon flex-shrink-0"><span class="flaticon-call"></span></div>
                 <div class="details">
                   <h5 class="title">WhatsApp</h5>
-                  <p class="mb-0 text">+62 83894176515</p>
+                  <p class="mb-0 text">+62 852-1994-9685</p>
                 </div>
               </div>
               <div class="iconbox-style1 contact-style d-flex align-items-start mb30">

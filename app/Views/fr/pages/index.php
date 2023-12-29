@@ -8,7 +8,7 @@
       <div class="row align-items-center">
         <div class="col-xl-7">
           <div class="home18-hero-content">
-            <h1 class="banner-title animate-up-1 mb25">provider or distributor of <br class="d-none d-xl-block">Indonesian labor services</h1>
+            <h1 class="banner-title animate-up-1 mb25">PROVIDER OR DISTRIBUTOR <br class="d-none d-xl-block">INDONESIAN LABOR SERVICES</h1>
             <p class="text-white text animate-up-2">Work with talented people at the most affordable price to get the most <br class="d-none d-lg-block">out of your time and cost</p>
             <div class="d-sm-flex align-items-center mt30 animate-up-3">
               <a href="<?= base_url('service') ?>" class="ud-btn btn-thm4 me-3 bdrs120 btn-1">Our Services</a>
