@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="keywords" content="bidding, fiverr, freelance marketplace, freelancers, freelancing, gigs, hiring, job board, job portal, job posting, jobs marketplace, peopleperhour, proposals, sell services, upwork">
+  <meta name="keywords" content="PJTKI, Indonesia, Tenaga Kerja Indonesia, Management mandiri, Management Internasional, PT MM Management, TKI, Terpercaya, Tumbuh, Kembang, Mandiri, Management, Internasional, Loker Luar Negeri">
   <meta name="description" content="#">
   <meta name="CreativeLayers" content="ATFN">
   <!-- css file -->
@@ -37,15 +37,33 @@
 
   <!-- Titok Piksel -->
   <script>
-		!function (w, d, t) {
-		  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++
-)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
-		
-		  ttq.load('CM446PBC77U0VR5LIDN0');
-		  ttq.page();
-		}(window, document, 'ttq');
-	</script>
-                           
+    ! function(w, d, t) {
+      w.TiktokAnalyticsObject = t;
+      var ttq = w[t] = w[t] || [];
+      ttq.methods = ["page", "track", "identify", "instances", "debug", "on", "off", "once", "ready", "alias", "group", "enableCookie", "disableCookie"], ttq.setAndDefer = function(t, e) {
+        t[e] = function() {
+          t.push([e].concat(Array.prototype.slice.call(arguments, 0)))
+        }
+      };
+      for (var i = 0; i < ttq.methods.length; i++) ttq.setAndDefer(ttq, ttq.methods[i]);
+      ttq.instance = function(t) {
+        for (var e = ttq._i[t] || [], n = 0; n < ttq.methods.length; n++) ttq.setAndDefer(e, ttq.methods[n]);
+        return e
+      }, ttq.load = function(e, n) {
+        var i = "https://analytics.tiktok.com/i18n/pixel/events.js";
+        ttq._i = ttq._i || {}, ttq._i[e] = [], ttq._i[e]._u = i, ttq._t = ttq._t || {}, ttq._t[e] = +new Date, ttq._o = ttq._o || {}, ttq._o[e] = n || {};
+        n = document.createElement("script");
+        n.type = "text/javascript", n.async = !0, n.src = i + "?sdkid=" + e + "&lib=" + t;
+        e = document.getElementsByTagName("script")[0];
+        e.parentNode.insertBefore(n, e)
+      };
+
+      ttq.load('CM3E05BC77U3QO244DD0');
+      ttq.page();
+    }(window, document, 'ttq');
+  </script>
+  <!-- End Titok Piksel -->
+
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -73,52 +91,52 @@
                 </div>
                 <div class="home1_style at-home18 mx20">
                   <div id="mega-menu">
-                    <div class="text-center"><a class="btn-mega fw500 text-white" href="#"><span class="pr5 fz15 vam flaticon-menu"></span> <?= lang('Header.services')?></a></div>
+                    <div class="text-center"><a class="btn-mega fw500 text-white" href="#"><span class="pr5 fz15 vam flaticon-menu"></span> <?= lang('Header.services') ?></a></div>
                     <ul class="menu ps-0">
                       <li> <a class="" href="#">
-                          <span class="menu-icn flaticon-home"></span> <span class="menu-title"><?= lang('Header.house')?></span> </a>
+                          <span class="menu-icn flaticon-home"></span> <span class="menu-title"><?= lang('Header.house') ?></span> </a>
                       </li>
                       <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-child-head"></span>
-                          <span class="menu-title"><?= lang('Header.baby')?></span> </a>
+                          <span class="menu-title"><?= lang('Header.baby') ?></span> </a>
                       </li>
                       <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-user-nurse"></span>
-                          <span class="menu-title"><?= lang('Header.elder')?></span> </a>
+                          <span class="menu-title"><?= lang('Header.elder') ?></span> </a>
                       </li>
                       <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-car-side"></span>
-                          <span class="menu-title"><?= lang('Header.driver')?></span> </a>
+                          <span class="menu-title"><?= lang('Header.driver') ?></span> </a>
                       </li>
                       <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-hat-chef"></span>
-                          <span class="menu-title"><?= lang('Header.chef')?></span> </a>
+                          <span class="menu-title"><?= lang('Header.chef') ?></span> </a>
                       </li>
                       <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-mug-hot-alt"></span>
-                          <span class="menu-title"><?= lang('Header.Barista')?></span> </a>
+                          <span class="menu-title"><?= lang('Header.Barista') ?></span> </a>
                       </li>
                       <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-circle-user"></span>
-                          <span class="menu-title"><?= lang('Header.Waitress')?></span> </a>
+                          <span class="menu-title"><?= lang('Header.Waitress') ?></span> </a>
                       </li>
                       <li> <a class="" href="#"> <span class="menu-icn fi fi-rr-cash-register"></span>
-                          <span class="menu-title"><?= lang('Header.Tailor')?></span> </a>
+                          <span class="menu-title"><?= lang('Header.Tailor') ?></span> </a>
                       </li>
                       <li> <a class="" href="#"> <span class="menu-icn fi-rr-makeup-brush"></span>
-                          <span class="menu-title"><?= lang('Header.Beautycian')?></span> </a>
+                          <span class="menu-title"><?= lang('Header.Beautycian') ?></span> </a>
                       </li>
                     </ul>
                   </div>
                 </div>
                 <!-- Responsive Menu Structure-->
                 <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
-                  <li class="visible_list"> <a class="list-item" href="<?php echo base_url('/').$locale ?>"><span class="title"><?= lang('Header.home')?></span></a></li>
-                  <li class="visible_list"> <a class="list-item" href="<?php echo base_url($locale.'/about/') ?>"><span class="title"><?= lang('Header.about')?></span></a></li>
-                  <li class="visible_list"> <a class="list-item" href="<?php echo base_url($locale.'/blog/') ?>"><span class="title"><?= lang('Header.blog')?></span></a></li>
-                  <li class="visible_list"> <a class="list-item" href="<?php echo base_url($locale.'/gallery/') ?>"><span class="title"><?= lang('Header.gallery')?></span></a></li>
-                  <li> <a class="list-item pe-0" href="<?php echo base_url($locale.'/contact/') ?>"><?= lang('Header.contact')?></a></li>
+                  <li class="visible_list"> <a class="list-item" href="<?php echo base_url('/') . $locale ?>"><span class="title"><?= lang('Header.home') ?></span></a></li>
+                  <li class="visible_list"> <a class="list-item" href="<?php echo base_url($locale . '/about/') ?>"><span class="title"><?= lang('Header.about') ?></span></a></li>
+                  <li class="visible_list"> <a class="list-item" href="<?php echo base_url($locale . '/blog/') ?>"><span class="title"><?= lang('Header.blog') ?></span></a></li>
+                  <li class="visible_list"> <a class="list-item" href="<?php echo base_url($locale . '/gallery/') ?>"><span class="title"><?= lang('Header.gallery') ?></span></a></li>
+                  <li> <a class="list-item pe-0" href="<?php echo base_url($locale . '/contact/') ?>"><?= lang('Header.contact') ?></a></li>
                 </ul>
               </div>
             </div>
             <div class="col-auto pe-0 pe-xl-3">
               <div class="d-flex align-items-center">
-                <a class="login-info mr10 home18-sign-btn px30 py-1 bdrs120" href="<?php echo base_url('login') ?>"><?= lang('Header.sign')?></a>
-                <a class="ud-btn btn-white add-joining home18-join-btn bdrs120" href="<?php echo base_url('register') ?>"><?= lang('Header.join')?></a>
+                <a class="login-info mr10 home18-sign-btn px30 py-1 bdrs120" href="<?php echo base_url('login') ?>"><?= lang('Header.sign') ?></a>
+                <a class="ud-btn btn-white add-joining home18-join-btn bdrs120" href="<?php echo base_url('register') ?>"><?= lang('Header.join') ?></a>
               </div>
             </div>
           </div>
@@ -149,11 +167,11 @@
       <!-- /.mobile-menu -->
       <nav id="menu" class="">
         <ul>
-          <li><a href="<?= base_url('/').$locale ?>"><?= lang('Header.home')?></a></li>
-          <li><a href="<?= base_url($locale.'/about/') ?>"><?= lang('Header.about')?></a></li>
-          <li><a href="<?= base_url($locale.'/blog/') ?>"><?= lang('Header.blog')?></a></span></li>
-          <li><a href="<?= base_url($locale.'/contact/') ?>"><?= lang('Header.contact')?></a>
-          <li><a href="<?= base_url($locale.'/gallery/') ?>"><?= lang('Header.gallery')?></a></li>
+          <li><a href="<?= base_url('/') . $locale ?>"><?= lang('Header.home') ?></a></li>
+          <li><a href="<?= base_url($locale . '/about/') ?>"><?= lang('Header.about') ?></a></li>
+          <li><a href="<?= base_url($locale . '/blog/') ?>"><?= lang('Header.blog') ?></a></span></li>
+          <li><a href="<?= base_url($locale . '/contact/') ?>"><?= lang('Header.contact') ?></a>
+          <li><a href="<?= base_url($locale . '/gallery/') ?>"><?= lang('Header.gallery') ?></a></li>
           <!-- Only for Mobile View -->
         </ul>
       </nav>
