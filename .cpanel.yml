@@ -2,7 +2,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/ptmanage/public_html/
     - /bin/cp -r public/ $DEPLOYPATH
-    - export COREPATH=/home/example/pt-managementinternasional.com/
+    - export COREPATH=/home/ptmanage/pt-managementinternasional.com/
     - /bin/cp -r app/ $COREPATH
     - /bin/cp -r tests/ $COREPATH
     - /bin/cp -r vendor/ $COREPATH
