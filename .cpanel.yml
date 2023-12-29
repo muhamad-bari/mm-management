@@ -1,7 +1,12 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/ptmanage/public_html/
-    - /bin/cp -r public/ $DEPLOYPATH
+    - /bin/cp -r public/frontend/ $DEPLOYPATH
+    - /bin/cp -r public/.htaccess $DEPLOYPATH
+    - /bin/cp -r public/error_log $DEPLOYPATH
+    - /bin/cp -r public/favicon.ico $DEPLOYPATH
+    - /bin/cp -r public/index.php $DEPLOYPATH
+    - /bin/cp -r public/robots.txt $DEPLOYPATH
     - export COREPATH=/home/ptmanage/pt-managementinternasional.com/
     - /bin/cp -r app/ $COREPATH
     - /bin/cp -r tests/ $COREPATH
