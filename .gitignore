@@ -1,2 +1,8 @@
 #zip file
 *.zip
+
+#database
+/app/Config/Database.php
+
+#environment
+.env

@@ -4,7 +4,6 @@ deployment:
     - /bin/cp -r public/frontend/ $DEPLOYPATH
     - /bin/cp public/.htaccess $DEPLOYPATH
     - /bin/cp public/favicon.ico $DEPLOYPATH
-    - /bin/cp public/index.php $DEPLOYPATH
     - /bin/cp public/robots.txt $DEPLOYPATH
     - export COREPATH=/home/ptmanage/pt-managementinternasional.com/
     - /bin/cp -r app/ $COREPATH
