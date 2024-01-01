@@ -512,7 +512,7 @@
                 <div class="testimonial-style2 at-about2 text-center">
                   <div class="testi-content text-center">
                     <span class="icon fas fa-quote-left"></span>
-                    <h4 class="testi-text">"Alhamdulillah Lewt, Temen Saya masuk PT Management Mandiri Internasional yang bner" Tanpa Potongan dan Semoga PT Management Makin jaya "</h4>
+                    <h4 class="testi-text">"Alhamdulillah Lewt, Tmn Saya masuk PT Management Mandiri Internasional yang bner" Tanpa Potongan dan Semoga PT Management Makin jaya "</h4>
                   </div>
                 </div>
               </div>
