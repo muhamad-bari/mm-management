@@ -21,8 +21,8 @@
     <div class="row">
       <div class="col-lg-12">
         <div class="main-title mb50">
-          <h2 class="title">Our Blog</h2>
-          <p class="text mb-0">Get Latest Update News about this company</p>
+          <h2 class="title"><?= lang('blog.ourblog') ?></h2>
+          <p class="text mb-0"><?= lang('blog.subourblog') ?></p>
         </div>
       </div>
     </div>

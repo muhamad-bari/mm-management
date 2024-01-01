@@ -11,8 +11,8 @@
           <div class="row">
             <div class="col-xl-5">
               <div class="position-relative wow fadeInUp" data-wow-delay="300ms">
-                <h2 class="text-white">Gallery</h2>
-                <p class="text mb30 text-white">Give your visitor a smooth online experience with a solid UX design.</p>
+                <h2 class="text-white"><?= lang('gallery.gallery') ?></h2>
+                <p class="text mb30 text-white"><?= lang('gallery.subgallery') ?></p>
               </div>
             </div>
           </div>

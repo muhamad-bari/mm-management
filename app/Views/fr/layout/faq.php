@@ -3,8 +3,8 @@
         <div class="row">
           <div class="col-lg-6 m-auto wow fadeInUp" data-wow-delay="300ms">
             <div class="main-title text-center">
-              <h2 class="title">Frequently Asked Questions</h2>
-              <p class="paragraph mt10">Lorem ipsum dolor sit amet, consectetur.</p>
+              <h2 class="title"><?= lang('faq.faq') ?></h2>
+              <p class="paragraph mt10"><?= lang('faq.subfaq') ?></p>
             </div>
           </div>
         </div>

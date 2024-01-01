@@ -10,9 +10,9 @@ use CodeIgniter\Router\RouteCollection;
 
 //FrontEnd
 $routes->get('/', 'fr_index::index');
-$routes->get('/{locale}', 'fr_index::index');
-$routes->get('login', 'fr_index::login');
-$routes->get('register', 'fr_index::register');
+$routes->get('{locale}/', 'fr_index::index');
+$routes->get('{locale}login', 'fr_index::login');
+$routes->get('{locale}register', 'fr_index::register');
 $routes->get('{locale}/about/', 'fr_index::about');
 $routes->get('{locale}/blog/', 'fr_index::blog');
 $routes->get('{locale}/gallery/', 'fr_index::gallery');
@@ -27,6 +27,6 @@ $routes->get('{locale}terms/', 'fr_index::terms');
 $routes->get('{locale}/privacy/', 'fr_index::privacy');
 $routes->get('{locale}/forget/', 'fr_index::forget');
 $routes->get('blog1', 'fr_index::blog1');
-$routes->get('blog2', 'fr_index::blog2');
-$routes->get('blog3', 'fr_index::blog3');
-$routes->get('career', 'fr_index::career');
+$routes->get('{locale}blog2', 'fr_index::blog2');
+$routes->get('{locale}blog3', 'fr_index::blog3');
+$routes->get('{locale}career', 'fr_index::career');

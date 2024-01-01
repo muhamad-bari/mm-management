@@ -13,7 +13,8 @@ class fr_index extends BaseController
 
     public function login()
     {
-        echo view('fr/pages/login');
+        $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/login'), $data;
     }
 
     public function register()
@@ -100,8 +101,7 @@ class fr_index extends BaseController
 
     public function blog1()
     {
-        $data['locale'] = $this->request->getLocale();
-        echo view('fr/pages/blog1', $data);
+        echo view('fr/pages/blog1');
     }
 
     public function blog2()

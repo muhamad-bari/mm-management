@@ -125,7 +125,7 @@
                 </div>
                 <!-- Responsive Menu Structure-->
                 <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
-                  <li class="visible_list"> <a class="list-item" href="<?php echo base_url('/') . $locale ?>"><span class="title"><?= lang('Header.home') ?></span></a></li>
+                  <li class="visible_list"> <a class="list-item" href="<?php echo base_url($locale . '/') ?>"><span class="title"><?= lang('Header.home') ?></span></a></li>
                   <li class="visible_list"> <a class="list-item" href="<?php echo base_url($locale . '/about/') ?>"><span class="title"><?= lang('Header.about') ?></span></a></li>
                   <li class="visible_list"> <a class="list-item" href="<?php echo base_url($locale . '/blog/') ?>"><span class="title"><?= lang('Header.blog') ?></span></a></li>
                   <li class="visible_list"> <a class="list-item" href="<?php echo base_url($locale . '/gallery/') ?>"><span class="title"><?= lang('Header.gallery') ?></span></a></li>
