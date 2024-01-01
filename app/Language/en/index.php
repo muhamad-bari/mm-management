@@ -4,7 +4,7 @@ return [
     'subtit' => 'Work with talented people at the most affordable price to get the most out of your time and cost',
 
     'ourSer' => 'Our Services',
-    'findWor' => 'Find Work',
+    'findwork' => 'Find Work',
 
     'trendingSer' => 'Trending Services',
     'mostView' => 'Most viewed and all-time top-selling services',

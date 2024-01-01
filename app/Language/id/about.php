@@ -1,0 +1,50 @@
+<?php
+return [
+    'aboutus' => 'Tentang Kami',
+    'subtitle' => 'Terus Berinovasi untuk Memberikan Pelayanan Penempatan Tenaga Kerja yang Terkemuka dan Efektif',
+    'about' => 'PT. Management Mandiri Internasional adalah salah satu perusahaan penempatan tenaga kerja Indonesia yang berlisensi untuk pasar luar negeri. Sebagai spesialis penempatan di luar negeri, kami fokus pada pemahaman kebutuhan klien kami, menawarkan konsultasi, dan menyediakan pekerja yang sesuai dengan permintaan klien.', 
+    'about2' => 'Saat ini, persyaratan dan peraturan terkait sumber daya manusia terus berubah. Banyak perusahaan yang berusaha keras untuk mendapatkan layanan penyediaan tenaga kerja dan pekerja yang sesuai dengan kebutuhan perusahaannya, namun menemukan solusi yang tepat mungkin merupakan sebuah tantangan.',
+    'findt' => 'Temukan Talent',
+
+    'awhole' => 'Seluruh dunia distributor bakat di ujung jari Anda',
+    'proofof' => 'Bukti kualitas',
+    'subproofof' => 'Periksa contoh pekerjaan profesional, ulasan klien, dan identitas verifikasi.',
+    'nocost' => 'Tidak ada biaya sampai Anda bekerja atau mempekerjakan',
+    'subnocost' => 'Wawancarai calon yang cocok untuk pekerjaan Anda, negosiasikan tarif, dan hanya bayar untuk pekerjaan yang Anda setujui.',
+    'subsafeand' => 'Fokus pada pekerjaan Anda karena kami tahu kami membantu melindungi data dan privasi Anda. Kami siap memberikan dukungan 24/7 jika Anda membutuhkannya.',
+    'safeand' => 'Aman Dan Nyaman',
+    
+    'why' => 'Kenapa Management Mandiri Internasional?',
+    'subwhy' => 'Perusahaan kami bertujuan untuk memberikan solusi ketenagakerjaan yang tepat. Kami berharap dapat menyediakan pekerja yang paling sesuai untuk kebutuhan klien. Dengan keahlian kami di bidang rekrutmen, kami yakin dapat menyediakan tenaga kerja yang sesuai dengan kebutuhan perusahaan/klien.',
+    'iso' => 'Sertifikasi ISO',
+    'subiso' => 'Terdaftar Secara Internasional dan Bersertifikasi ISO 9001:2015, ISO 45001:2018, ISO, 14001:2015, dan ISO 37001:2016',
+    'accredited' => 'Terakreditasi',
+    'subofficial' => 'Telah diakui dan disertifikasi secara resmi oleh Badan Perlindungan Pekerja Migran Indonesia',
+    'subaccredited' => 'Diakreditasi oleh Komite Akreditasi Nasional dengan SNI ISO/IEC 17021-1:2015 and SNI ISO/IEC 17021-3:2017',
+    'official' => 'Resmi',
+    
+    'havetosay' => 'Apa yang dikatakan oleh Talent kita',
+    'subhavetosay' => 'Temukan program sempurna Anda di pelatihan kami.',
+    'allSer' => 'Semua Layanan',
+    'services' => 'Layanan',
+    'house' => 'Asisten Rumah Tangga',
+    'baby' => 'Pengasuh Bayi',
+    'elder' => 'Perawat Lansia',
+    'driver' => 'Pengemudi',
+    'chef' => 'Koki',
+    'barista' => 'Barista',
+    'waitress' => 'Pramusaji',
+    'tailor' => 'Penjahit',
+    'beautycian' => 'Ahli Kecantikan',
+
+    'needs' => 'Perlu Sesuatu Untuk Diselesaikan?',
+    'subneeds' => 'Menyatukan Para Ahli dalam Penempatan Tenaga Kerja untuk Menjamin Kesuksesan Anda.',
+
+    'searcha' => 'Cari Layanan',
+    'subsearcha' => 'Bebas dan mudah untuk mencari layanan.',
+    'choosea' => 'Memilih Talent',
+    'subchoosea' => 'Bebas dan mudah untuk memilih talent.',
+    'paysafe' => 'Membayar Dengan Aman',
+    'subpaysafe' => 'Membayar dengan Aman dan Nyaman',
+];
+?>

@@ -5,7 +5,7 @@ return [
     menghabiskan waktu dan biaya Anda',
 
     'ourSer' => 'Layanan Kami',
-    'findWor' => 'Temukan Pekerjaan',
+    'findwork' => 'Temukan Pekerjaan',
 
     'trendingSer' => 'Layanan Trending',
     'mostView' => 'Layanan yang paling banyak dilihat dan terlaris sepanjang masa',
