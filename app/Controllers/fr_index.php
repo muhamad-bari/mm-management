@@ -117,6 +117,7 @@ class fr_index extends BaseController
 
     public function career()
     {
+        $data['locale'] = $this->request->getLocale();
         echo view('fr/pages/career');
     }
 }
