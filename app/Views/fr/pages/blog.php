@@ -54,8 +54,8 @@
                     <div class="blog-img"><img class="w-100" src="<?= base_url() ?>frontend/images/blog/blog-1.jpg" alt=""></div>
                     <div class="blog-content">
                       <a class="date" href="#">March 16, 2022</a>
-                      <h4 class="title mt-1"><a href="<?= base_url('blog1') ?>">Informasi Ketenagakerjaan : Bagi Pekerja Migran Indonesia (PMI) khususnya yang bekerja di Perusahaan (Muassasah / Syarikah)</a></h4>
-                      <p class="text mb-0">Bagi Pekerja di Perusahaan (Muassasah / Syarikah) yang tidak diperpanjang izin tinggalnya (iqomah), <a href="<?= base_url('blog1') ?>">Read More...</a></p>
+                      <h4 class="title mt-1"><a href="<?= base_url($locale . '/blog1') ?>">Informasi Ketenagakerjaan : Bagi Pekerja Migran Indonesia (PMI) khususnya yang bekerja di Perusahaan (Muassasah / Syarikah)</a></h4>
+                      <p class="text mb-0">Bagi Pekerja di Perusahaan (Muassasah / Syarikah) yang tidak diperpanjang izin tinggalnya (iqomah), <a href="<?= base_url($locale . '/blog1') ?>">Read More...</a></p>
                     </div>
                   </div>
                 </div>
@@ -64,8 +64,8 @@
                     <div class="blog-img"><img class="w-100" src="<?= base_url() ?>frontend/images/blog/blog-2.jpg" alt=""></div>
                     <div class="blog-content">
                       <a class="date" href="#">August 25, 2023</a>
-                      <h4 class="title mt-1"><a href="<?= base_url('blog2') ?>">Bertemu PMI di Arab Saudi, Menaker Ida: Yang Mau Kerja di Arab Harus Lewat Syarikah</a></h4>
-                      <p class="text mb-0">Menteri Ketenagakerjaan (Menaker) Ida Fauziyah mengatakan, <a href="<?= base_url('blog2') ?>">Read More...</a></p>
+                      <h4 class="title mt-1"><a href="<?= base_url($locale . '/blog2') ?>">Bertemu PMI di Arab Saudi, Menaker Ida: Yang Mau Kerja di Arab Harus Lewat Syarikah</a></h4>
+                      <p class="text mb-0">Menteri Ketenagakerjaan (Menaker) Ida Fauziyah mengatakan, <a href="<?= base_url($locale . '/blog2') ?>">Read More...</a></p>
                     </div>
                   </div>
                 </div>
@@ -74,8 +74,8 @@
                     <div class="blog-img"><img class="w-100" src="<?= base_url() ?>frontend/images/blog/blog-3.jpg" alt=""></div>
                     <div class="blog-content">
                       <a class="date" href="#">August 26, 2023</a>
-                      <h4 class="title mt-1"><a href="<?= base_url('blog3') ?>">Temui Pekerja Migran di Arab Saudi, Menaker Ingatkan Pentingnya Kompetensi</a></h4>
-                      <p class="text mb-0">Menteri Ketenagakerjaan, Ida Fauziyah kembali menemui Pekerja Migran Indonesia (PMI) <a href="<?= base_url('blog3') ?>">Read More...</a></p>
+                      <h4 class="title mt-1"><a href="<?= base_url($locale . '/blog3') ?>">Temui Pekerja Migran di Arab Saudi, Menaker Ingatkan Pentingnya Kompetensi</a></h4>
+                      <p class="text mb-0">Menteri Ketenagakerjaan, Ida Fauziyah kembali menemui Pekerja Migran Indonesia (PMI) <a href="<?= base_url($locale . '/blog3') ?>">Read More...</a></p>
                     </div>
                   </div>
                 </div>
