@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="<?= $locale ?>">
+<html dir="ltr" lang="<?= ($locale) ? $locale : 'en' ?>">
 
 <head>
   <meta charset="utf-8">

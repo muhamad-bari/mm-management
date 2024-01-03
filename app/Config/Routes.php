@@ -8,12 +8,19 @@ use CodeIgniter\Router\RouteCollection;
 
 //CMS
 $routes->get('cms/', 'BeCms::index');
+$routes->post('chk_login/', 'BeCms::check_login');
+$routes->get('cms/dashboard', 'BeCms::dashboard',['filter' => 'Auth']);
+$routes->get('logout', 'BeCms::logout');
+$routes->get('cms/galeri', 'BeCms::gallery',['filter' => 'Auth']);
+$routes->post('cms/add_ktg_gl', 'BeCms::add_ktg_gl',['filter' => 'Auth']);
+
 //FrontEnd
 $routes->get('/', 'fr_index::index');
 $routes->get('/{locale}', 'fr_index::index');
 $routes->get('login', 'fr_index::login');
 $routes->get('register', 'fr_index::register');
 $routes->get('{locale}/about/', 'fr_index::about');
+$routes->get('about/', 'fr_index::about');
 $routes->get('{locale}/blog/', 'fr_index::blog');
 $routes->get('{locale}/gallery/', 'fr_index::gallery');
 $routes->get('{locale}/contact/', 'fr_index::contact');

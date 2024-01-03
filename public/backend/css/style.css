@@ -46,10 +46,11 @@ body {
 }
 .side-menu {
     list-style:none;
+    width:250px;
 }
 .side-menu li {
     width:100%;
-    padding:3px;
+    padding:5px;
 }
 .side-menu .side-menu-active {
     background:var(--btn-active);
@@ -126,7 +127,7 @@ body {
 }
 .card-form {
     border:solid 0.6px var(--body-color);
-    box-shadow:5px 5px 0 var(--body-color);
+    /* box-shadow:5px 5px 0 var(--body-color); */
 }
 .btn-submit {
     background:var(--btn-submit);

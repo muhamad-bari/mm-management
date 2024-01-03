@@ -104,3 +104,13 @@ $('#jenis').on('change', function() {
         $('#rek_terima').prop('type', 'number').val('0');
     }
 })
+
+// 
+$('#tambah-ktg').on('click', function() {
+    var ktg = $('#ktg').val();
+    if(ktg.length < 3 || ktg.length > 15)
+    {
+        $('#err').html('Minimal 3 Karakter Maksimal 15');
+        return false;
+    }
+})

@@ -1,6 +1,17 @@
 <?= $this->extend('fr/layout/base1') ?>
 <?= $this->section('content') ?>
 <title>Gallery</title>
+
+<!-- Modal -->
+<div class="modal fade" id="galeri-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog w-100 bg-warning d-flex flex-column">
+	  <div class="d-flex justify-content-end">
+	  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	  </div>
+	  <img src="" id="pop-img"alt="Gallery" />
+    </div>
+</div>
+
 <div class="body_content" data-target=".ownavigation">
     <!-- Breadcumb Sections -->
     <section class="breadcumb-section wow fadeInUp mt40">
@@ -20,19 +31,21 @@
       </div>
     </section>
     <!-- Our Agents -->
-    <div class="container-fluid portfolio-section portfolio-4-col">				
+    <div class="container-fluid portfolio-section portfolio-4-col">	
+				<button class="btn btn-info" data-ktg='berangkat'>Keberangkatan</button>			
+				<button class="btn btn-info" data-ktg='pelatihan'>pelatihan</button>			
 				<!-- Portfolio List -->
 				<div class="row portfolio-list">						
-					<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 portfolio-box">						
+					<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 portfolio-box" data-ktr='berangkat'>						
 						<div class="portfolio-detail">
 							<i><img src="<?= base_url('') ?>frontend/images/gallery/home-portfolio-1.jpg" alt="Gallery" /></i>
 							<div class="portfolio-content">
 								<a href="#">Pelatihan Lanayan Baby Sitter</a>
-								<a href="<?= base_url('') ?>frontend/images/gallery/home-portfolio-1.jpg" class="zoom" title="Work Title Goes right here"><i class="fa fa-search"></i></a>
+								<a href="#" data-img="<?= base_url() ?>frontend/images/gallery/home-portfolio-1.jpg" data-bs-toggle="modal" data-bs-target="#galeri-modal"class="zoom" title="Work Title Goes right here"><i class="fa fa-search"></i></a>
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 portfolio-box">						
+					<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 portfolio-box" data-ktr='pelatihan'>						
 						<div class="portfolio-detail">
 							<i><img src="<?= base_url('') ?>frontend/images/gallery/home-portfolio-2.jpg" alt="Gallery" /></i>
 							<div class="portfolio-content">

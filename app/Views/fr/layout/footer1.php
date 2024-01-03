@@ -111,7 +111,7 @@
                  </select>
                </li>
                <li class="list-inline-item">
-               <select class="selectpicker language" id="language_one">
+               <select class="selectpicker language" id="languages">
               <?php
                 $lang = [
                     'en' => 'English',
@@ -188,6 +188,7 @@
    <script src="<?= base_url() ?>frontend/js/pricing-table.js"></script>
    <!-- Custom script for all pages -->
    <script src="<?= base_url() ?>frontend/js/script.js"></script>
+   <script src="<?= base_url() ?>frontend/js/main.js"></script>
    </body>
 
    </html>
