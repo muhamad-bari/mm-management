@@ -30,3 +30,4 @@ $routes->get('{locale}/blog1', 'fr_index::blog1');
 $routes->get('{locale}/blog2', 'fr_index::blog2');
 $routes->get('{locale}/blog3', 'fr_index::blog3');
 $routes->get('{locale}/career', 'fr_index::career');
+$routes->get('{locale}/user-dashboard', 'fr_index::dashboardUser');

@@ -125,4 +125,10 @@ class fr_index extends BaseController
         $data['locale'] = $this->request->getLocale();
         echo view('fr/pages/career', $data);
     }
+
+    public function dashboardUser()
+    {
+        $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/user-dashboard', $data);
+    }
 }

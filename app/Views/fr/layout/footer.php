@@ -97,7 +97,7 @@
     <div class="row align-items-center">
       <div class="col-md-6">
         <div class="text-center text-lg-start">
-          <p class="copyright-text mb-2 mb-md-0 text-white-light ff-heading">© PT. MM Management 2023. All rights reserved.</p>
+          <p class="copyright-text mb-2 mb-md-0 text-white-light ff-heading">© PT. Management Mandiri 2023. All rights reserved.</p>
         </div>
       </div>
       <div class="col-md-6">

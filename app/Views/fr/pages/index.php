@@ -380,7 +380,7 @@
           <div class="job-list-style1 default-box-shadow1 bdrs8 bdr1">
             <div class="d-xl-flex align-items-start">
               <div class="icon d-flex align-items-center mb20">
-                <img class="wa" src="<?= base_url($locale . '/') ?>frontend/images/team/client-2.png" alt="">
+                <img class="wa" src="<?= base_url() ?>frontend/images/team/client-2.png" alt="">
                 <span class="fav-icon flaticon-star"></span>
               </div>
               <div class="details ml20 ml0-xl">
@@ -400,7 +400,7 @@
           <div class="job-list-style1 bdrs8 bdr1">
             <div class="d-xl-flex align-items-start">
               <div class="icon d-flex align-items-center mb20">
-                <img class="wa" src="<?= base_url($locale . '/') ?>frontend/images/team/client-1.png" alt="">
+                <img class="wa" src="<?= base_url() ?>frontend/images/team/client-1.png" alt="">
                 <span class="fav-icon flaticon-star"></span>
               </div>
               <div class="details ml20 ml0-xl">
@@ -420,7 +420,7 @@
           <div class="job-list-style1 bdrs8 bdr1">
             <div class="d-xl-flex align-items-start">
               <div class="icon d-flex align-items-center mb20">
-                <img class="wa" src="<?= base_url($locale . '/') ?>frontend/images/team/client-3.png" alt="">
+                <img class="wa" src="<?= base_url() ?>frontend/images/team/client-3.png" alt="">
                 <span class="fav-icon flaticon-star"></span>
               </div>
               <div class="details ml20 ml0-xl">
@@ -440,7 +440,7 @@
           <div class="job-list-style1 bdrs8 bdr1">
             <div class="d-xl-flex align-items-start">
               <div class="icon d-flex align-items-center mb20">
-                <img class="wa" src="<?= base_url($locale . '/') ?>frontend/images/team/client-6.png" alt="">
+                <img class="wa" src="<?= base_url() ?>frontend/images/team/client-6.png" alt="">
                 <span class="fav-icon flaticon-star"></span>
               </div>
               <div class="details ml20 ml0-xl">

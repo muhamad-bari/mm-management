@@ -18,9 +18,12 @@
   <link rel="stylesheet" href="<?= base_url() ?>frontend/css/ud-custom-spacing.css">
   <link rel="stylesheet" href="<?= base_url() ?>frontend/css/animate.css">
   <link rel="stylesheet" href="<?= base_url() ?>frontend/css/jquery-ui.min.css">
+<link rel="stylesheet" href="<?= base_url() ?>frontend/css/magnific-popup.css">
   <link rel="stylesheet" href="<?= base_url() ?>frontend/css/slider.css">
   <link rel="stylesheet" href="<?= base_url() ?>frontend/css/style.css">
   <link rel="stylesheet" href="<?= base_url() ?>frontend/css/galer.css">
+  <link rel="stylesheet" href="css/dashbord_navitaion.css">
+  <link rel="stylesheet" href="css/ud-custom-spacing.css">
   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
   <!-- Responsive stylesheet -->
   <link rel="stylesheet" href="<?= base_url() ?>frontend/css/responsive.css">
