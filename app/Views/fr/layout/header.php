@@ -86,8 +86,8 @@
             <div class="col-auto px-0 px-xl-3">
               <div class="d-flex align-items-center justify-content-between">
                 <div class="logos">
-                  <a class="header-logo logo1" href="<?php echo base_url('/') ?>"><img src="<?php echo base_url() ?>frontend/images/header-logo-white.png" alt="Header Logo"></a>
-                  <a class="header-logo logo2" href="<?php echo base_url('/') ?>"><img src="<?php echo base_url() ?>frontend/images/header-logo2.png" alt="Header Logo"></a>
+                  <a class="header-logo logo1" href="<?php echo base_url($locale . '/') ?>"><img src="<?php echo base_url() ?>frontend/images/header-logo-white.png" alt="Header Logo"></a>
+                  <a class="header-logo logo2" href="<?php echo base_url($locale . '/') ?>"><img src="<?php echo base_url() ?>frontend/images/header-logo2.png" alt="Header Logo"></a>
                 </div>
                 <div class="home1_style at-home18 mx20">
                   <div id="mega-menu">
@@ -126,17 +126,17 @@
                 <!-- Responsive Menu Structure-->
                 <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
                   <li class="visible_list"> <a class="list-item" href="<?php echo base_url($locale . '/') ?>"><span class="title"><?= lang('Header.home') ?></span></a></li>
-                  <li class="visible_list"> <a class="list-item" href="<?php echo base_url($locale . '/about/') ?>"><span class="title"><?= lang('Header.about') ?></span></a></li>
-                  <li class="visible_list"> <a class="list-item" href="<?php echo base_url($locale . '/blog/') ?>"><span class="title"><?= lang('Header.blog') ?></span></a></li>
-                  <li class="visible_list"> <a class="list-item" href="<?php echo base_url($locale . '/gallery/') ?>"><span class="title"><?= lang('Header.gallery') ?></span></a></li>
-                  <li> <a class="list-item pe-0" href="<?php echo base_url($locale . '/contact/') ?>"><?= lang('Header.contact') ?></a></li>
+                  <li class="visible_list"> <a class="list-item" href="<?php echo base_url($locale . '/about') ?>"><span class="title"><?= lang('Header.about') ?></span></a></li>
+                  <li class="visible_list"> <a class="list-item" href="<?php echo base_url($locale . '/blog') ?>"><span class="title"><?= lang('Header.blog') ?></span></a></li>
+                  <li class="visible_list"> <a class="list-item" href="<?php echo base_url($locale . '/gallery') ?>"><span class="title"><?= lang('Header.gallery') ?></span></a></li>
+                  <li> <a class="list-item pe-0" href="<?php echo base_url($locale . '/contact') ?>"><?= lang('Header.contact') ?></a></li>
                 </ul>
               </div>
             </div>
             <div class="col-auto pe-0 pe-xl-3">
               <div class="d-flex align-items-center">
-                <a class="login-info mr10 home18-sign-btn px30 py-1 bdrs120" href="<?php echo base_url('login') ?>"><?= lang('Header.sign') ?></a>
-                <a class="ud-btn btn-white add-joining home18-join-btn bdrs120" href="<?php echo base_url('register') ?>"><?= lang('Header.join') ?></a>
+                <a class="login-info mr10 home18-sign-btn px30 py-1 bdrs120" href="<?php echo base_url($locale . '/login') ?>"><?= lang('Header.sign') ?></a>
+                <a class="ud-btn btn-white add-joining home18-join-btn bdrs120" href="<?php echo base_url($locale . '/register') ?>"><?= lang('Header.join') ?></a>
               </div>
             </div>
           </div>
@@ -154,7 +154,7 @@
             <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
               <a class="mobile_logo" href="#"><img src="<?php echo base_url() ?>frontend/images/header-logo-mobile.png" alt=""></a>
               <div class="right-side text-end">
-                <a class="" href="<?php echo base_url('login') ?>">join</a>
+                <a class="" href="<?php echo base_url($locale . '/login') ?>">join</a>
                 <a class="menubar ml30" href="#menu"><img src="<?php echo base_url() ?>frontend/images/mobile-dark-nav-icon.svg" alt=""></a>
               </div>
             </div>
@@ -167,11 +167,11 @@
       <!-- /.mobile-menu -->
       <nav id="menu" class="">
         <ul>
-          <li><a href="<?= base_url('/') . $locale ?>"><?= lang('Header.home') ?></a></li>
-          <li><a href="<?= base_url($locale . '/about/') ?>"><?= lang('Header.about') ?></a></li>
-          <li><a href="<?= base_url($locale . '/blog/') ?>"><?= lang('Header.blog') ?></a></span></li>
-          <li><a href="<?= base_url($locale . '/contact/') ?>"><?= lang('Header.contact') ?></a>
-          <li><a href="<?= base_url($locale . '/gallery/') ?>"><?= lang('Header.gallery') ?></a></li>
+          <li><a href="<?= base_url($locale . '/') . $locale ?>"><?= lang('Header.home') ?></a></li>
+          <li><a href="<?= base_url($locale . '/about') ?>"><?= lang('Header.about') ?></a></li>
+          <li><a href="<?= base_url($locale . '/blog') ?>"><?= lang('Header.blog') ?></a></span></li>
+          <li><a href="<?= base_url($locale . '/contact') ?>"><?= lang('Header.contact') ?></a>
+          <li><a href="<?= base_url($locale . '/gallery') ?>"><?= lang('Header.gallery') ?></a></li>
           <!-- Only for Mobile View -->
         </ul>
       </nav>

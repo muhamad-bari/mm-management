@@ -4,8 +4,8 @@
     <div class="row bb-white-light pb10 mb60">
       <div class="col-md-7">
         <div class="d-block text-center text-md-start justify-content-center justify-content-md-start d-md-flex align-items-center mb-3 mb-md-0">
-          <a class="fz17 fw500 text-white mr15-md mr30" href="<?= base_url('terms') ?>"><?= lang('footer.terms') ?></a>
-          <a class="fz17 fw500 text-white mr15-md mr30" href="<?= base_url('privacy') ?>"><?= lang('footer.privacy') ?></a>
+          <a class="fz17 fw500 text-white mr15-md mr30" href="<?= base_url($locale . '/terms') ?>"><?= lang('footer.terms') ?></a>
+          <a class="fz17 fw500 text-white mr15-md mr30" href="<?= base_url($locale . '/privacy') ?>"><?= lang('footer.privacy') ?></a>
           <a class="fz17 fw500 text-white" href="#"><?= lang('footer.Site') ?></a>
         </div>
       </div>
@@ -29,8 +29,8 @@
             <a href="#"><?= lang('footer.careers') ?></a>
             <a href="#"><?= lang('footer.press') ?></a>
             <a href="#"><?= lang('footer.partner') ?></a>
-            <a href="<?= base_url('privacy') ?>"><?= lang('footer.privacy') ?></a>
-            <a href="<?= base_url('terms') ?>"><?= lang('footer.terms') ?></a>
+            <a href="<?= base_url($locale . '/privacy') ?>"><?= lang('footer.privacy') ?></a>
+            <a href="<?= base_url($locale . '/terms') ?>"><?= lang('footer.terms') ?></a>
             <a href="#"><?= lang('footer.investor') ?></a>
           </div>
         </div>
@@ -52,17 +52,17 @@
         </div>
       </div>
       <div class="col-sm-6 col-lg-4">
-           <div class="link-style1 mb-4 mb-sm-5">
-             <h5 class="text-white mb15"><?= lang('footer.Regist') ?></h5>
-             <ul class="ps-0">
-              <li><a href="#"><i class="far fa-check"></i> <?= lang('footer.inter') ?></a></li>
-               <li><a href="#"><i class="far fa-check"></i> <?= lang('footer.train') ?></a></li>
-               <li><a href="#"><i class="far fa-check"></i> <?= lang('footer.Fill') ?></a></li>
-               <li><a href="#"><i class="far fa-check"></i> <?= lang('footer.accept') ?></a></li>
-               
-             </ul>
-           </div>
-         </div>
+        <div class="link-style1 mb-4 mb-sm-5">
+          <h5 class="text-white mb15"><?= lang('footer.Regist') ?></h5>
+          <ul class="ps-0">
+            <li><a href="#"><i class="far fa-check"></i> <?= lang('footer.inter') ?></a></li>
+            <li><a href="#"><i class="far fa-check"></i> <?= lang('footer.train') ?></a></li>
+            <li><a href="#"><i class="far fa-check"></i> <?= lang('footer.Fill') ?></a></li>
+            <li><a href="#"><i class="far fa-check"></i> <?= lang('footer.accept') ?></a></li>
+
+          </ul>
+        </div>
+      </div>
       <div class="col-sm-6 col-lg-3">
         <div class="footer-widget">
           <div class="footer-widget mb-4 mb-sm-5">
@@ -112,16 +112,16 @@
             </li>
             <li class="list-inline-item">
               <select class="selectpicker language" id="language_one">
-              <?php
+                <?php
                 $lang = [
-                    'en' => 'English',
-                    'id' => 'Indonesia',
-                    'ar' => 'Arabic'
+                  'en' => 'English',
+                  'id' => 'Indonesia',
+                  'ar' => 'Arabic'
                 ];
 
                 foreach ($lang as $lid => $language) {
-                    $selected = ($locale == $lid) ? 'selected' : '';
-                    echo "<option value='$lid' $selected>$language</option>";
+                  $selected = ($locale == $lid) ? 'selected' : '';
+                  echo "<option value='$lid' $selected>$language</option>";
                 }
                 ?>
               </select>
