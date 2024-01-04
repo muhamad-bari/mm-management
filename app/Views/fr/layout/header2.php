@@ -88,7 +88,7 @@
             <div class="col-6 col-lg-auto">
               <div class="text-center text-lg-start d-flex align-items-center">
                 <div class="dashboard_header_logo position-relative me-2 me-xl-5">
-                  <a href="<?= base_url() ?>frontend/index.html" class="logo"><img src=" <?= base_url() ?>frontend/images/header-logo-mobile.png" alt=""></a>
+                  <a href="<?= base_url('/') ?>" class="logo"><img src=" <?= base_url() ?>frontend/images/header-logo-mobile.png" alt=""></a>
                 </div>
                 <div class="fz20 ml90">
                   <a href="#" class="dashboard_sidebar_toggle_icon vam"><img src=" <?= base_url() ?>frontend/images/dashboard-navicon.svg" alt=""></a>
