@@ -223,10 +223,10 @@
                       <div class="dropdown-menu">
                         <div class="user_setting_content">
                           <p class="fz15 fw400 ff-heading mb10 pl30">Start</p>
-                          <a class="dropdown-item active" href="<?= base_url($locale . '/user-dashboard') ?><i class=" flaticon-home mr10"></i>Dashboard</a>
-                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-proposal') ?><i class=" flaticon-document mr10"></i>My Proposals</a>
-                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-save') ?><i class=" flaticon-like mr10"></i>Saved</a>
-                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-message') ?><i class=" flaticon-chat mr10"></i>Message</a>
+                          <a class="dropdown-item active" href="<?= base_url($locale . '/user-dashboard') ?>"><i class=" flaticon-home mr10"></i>Dashboard</a>
+                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-proposal') ?>"><i class=" flaticon-document mr10"></i>My Proposals</a>
+                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-save') ?>"><i class=" flaticon-like mr10"></i>Saved</a>
+                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-message') ?>"><i class=" flaticon-chat mr10"></i>Message</a>
                           <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-reviews') ?>"><i class="flaticon-review-1 mr10"></i>Reviews</a>
                           <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-invoice') ?>"><i class="flaticon-receipt mr10"></i>Invoice</a>
                           <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-payouts') ?>"><i class="flaticon-dollar mr10"></i>Payouts</a>
