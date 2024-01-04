@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
+<html dir="ltr" lang="<?= $locale ?>">
 
 <head>
   <meta charset="utf-8">
@@ -96,7 +96,7 @@
                 <a class="login-info d-block d-xl-none ml40 vam" data-bs-toggle="modal" href="#exampleModalToggle" role="button"><span class="flaticon-loupe"></span></a>
                 <div class="ml40 d-none d-xl-block">
                   <div class="search_area dashboard-style">
-                    <input type="text" class="form-control border-0" placeholder="What service are you looking for today?">
+                    <input type="text" class="form-control border-0" placeholder="<?= lang('Header.whatservice') ?>">
                     <label><span class="flaticon-loupe"></span></label>
                   </div>
                 </div>
@@ -112,36 +112,36 @@
                         <div class="notif_list d-flex align-items-center bdrb1 pb15 mb10">
                           <img src=" <?= base_url() ?>frontend/images/resource/notif-1.png" alt="">
                           <div class="details ml10">
-                            <p class="text mb-0">Your resume</p>
-                            <p class="text mb-0">updated!</p>
+                            <p class="text mb-0"><?= lang('Header.resume') ?></p>
+                            <p class="text mb-0"><?= lang('Header.updated') ?></p>
                           </div>
                         </div>
                         <div class="notif_list d-flex align-items-center bdrb1 pb15 mb10">
                           <img src=" <?= base_url() ?>frontend/images/resource/notif-2.png" alt="">
                           <div class="details ml10">
-                            <p class="text mb-0">You changed</p>
-                            <p class="text mb-0">password</p>
+                            <p class="text mb-0"><?= lang('Header.changed') ?></p>
+                            <p class="text mb-0"><?= lang('Header.password') ?></p>
                           </div>
                         </div>
                         <div class="notif_list d-flex align-items-center bdrb1 pb15 mb10">
                           <img src=" <?= base_url() ?>frontend/images/resource/notif-3.png" alt="">
                           <div class="details ml10">
-                            <p class="text mb-0">Your account has been</p>
-                            <p class="text mb-0">created successfully</p>
+                            <p class="text mb-0"><?= lang('Header.accountcreated') ?></p>
+                            <p class="text mb-0"><?= lang('Header.successfully') ?></p>
                           </div>
                         </div>
                         <div class="notif_list d-flex align-items-center bdrb1 pb15 mb10">
                           <img src=" <?= base_url() ?>frontend/images/resource/notif-4.png" alt="">
                           <div class="details ml10">
-                            <p class="text mb-0">You applied for a job </p>
-                            <p class="text mb-0">Front-end Developer</p>
+                            <p class="text mb-0"><?= lang('Header.applied') ?></p>
+                            <p class="text mb-0"><?= lang('Header.house') ?></p>
                           </div>
                         </div>
                         <div class="notif_list d-flex align-items-center">
                           <img src=" <?= base_url() ?>frontend/images/resource/notif-5.png" alt="">
                           <div class="details ml10">
-                            <p class="text mb-0">Your course uploaded</p>
-                            <p class="text mb-0">successfully</p>
+                            <p class="text mb-0"><?= lang('Header.uploaded') ?></p>
+                            <p class="text mb-0"><?= lang('Header.successfully') ?></p>
                           </div>
                         </div>
                       </div>
@@ -168,7 +168,7 @@
                           </div>
                         </div>
                         <div class="d-grid">
-                          <a href="<?= base_url($locale . '/dashboard-message') ?>" class="ud-btn btn-thm w-100">View All Messages<i class="fal fa-arrow-right-long"></i></a>
+                          <a href="<?= base_url($locale . '/dashboard-message') ?>" class="ud-btn btn-thm w-100"><?= lang('Header.viewall') ?><i class="fal fa-arrow-right-long"></i></a>
                         </div>
                       </div>
                     </div>
@@ -180,36 +180,36 @@
                         <div class="notif_list d-flex align-items-center bdrb1 pb15 mb10">
                           <img src=" <?= base_url() ?>frontend/images/resource/notif-1.png" alt="">
                           <div class="details ml10">
-                            <p class="text mb-0">Your resume</p>
-                            <p class="text mb-0">updated!</p>
+                            <p class="text mb-0"><?= lang('Header.resume') ?></p>
+                            <p class="text mb-0"><?= lang('Header.updated') ?></p>
                           </div>
                         </div>
                         <div class="notif_list d-flex align-items-center bdrb1 pb15 mb10">
                           <img src=" <?= base_url() ?>frontend/images/resource/notif-2.png" alt="">
                           <div class="details ml10">
-                            <p class="text mb-0">You changed</p>
-                            <p class="text mb-0">password</p>
+                            <p class="text mb-0"><?= lang('Header.changed') ?></p>
+                            <p class="text mb-0"><?= lang('Header.password') ?></p>
                           </div>
                         </div>
                         <div class="notif_list d-flex align-items-center bdrb1 pb15 mb10">
                           <img src=" <?= base_url() ?>frontend/images/resource/notif-3.png" alt="">
                           <div class="details ml10">
-                            <p class="text mb-0">Your account has been</p>
-                            <p class="text mb-0">created successfully</p>
+                            <p class="text mb-0"><?= lang('Header.accountcreated') ?></p>
+                            <p class="text mb-0"><?= lang('Header.successfully') ?></p>
                           </div>
                         </div>
                         <div class="notif_list d-flex align-items-center bdrb1 pb15 mb10">
                           <img src=" <?= base_url() ?>frontend/images/resource/notif-4.png" alt="">
                           <div class="details ml10">
-                            <p class="text mb-0">You applied for a job </p>
-                            <p class="text mb-0">Front-end Developer</p>
+                            <p class="text mb-0"><?= lang('Header.applied') ?></p>
+                            <p class="text mb-0"><?= lang('Header.house') ?></p>
                           </div>
                         </div>
                         <div class="notif_list d-flex align-items-center">
                           <img src=" <?= base_url() ?>frontend/images/resource/notif-5.png" alt="">
                           <div class="details ml10">
-                            <p class="text mb-0">Your course uploaded</p>
-                            <p class="text mb-0">successfully</p>
+                            <p class="text mb-0"><?= lang('Header.uploaded') ?></p>
+                            <p class="text mb-0"><?= lang('Header.successfully') ?></p>
                           </div>
                         </div>
                       </div>
@@ -222,22 +222,22 @@
                       </a>
                       <div class="dropdown-menu">
                         <div class="user_setting_content">
-                          <p class="fz15 fw400 ff-heading mb10 pl30">Start</p>
-                          <a class="dropdown-item active" href="<?= base_url($locale . '/user-dashboard') ?>"><i class=" flaticon-home mr10"></i>Dashboard</a>
-                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-proposal') ?>"><i class=" flaticon-document mr10"></i>My Proposals</a>
-                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-save') ?>"><i class=" flaticon-like mr10"></i>Saved</a>
-                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-message') ?>"><i class=" flaticon-chat mr10"></i>Message</a>
-                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-reviews') ?>"><i class="flaticon-review-1 mr10"></i>Reviews</a>
-                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-invoice') ?>"><i class="flaticon-receipt mr10"></i>Invoice</a>
-                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-payouts') ?>"><i class="flaticon-dollar mr10"></i>Payouts</a>
-                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-statement') ?>"><i class="flaticon-web mr10"></i>Statements</a>
+                          <p class="fz15 fw400 ff-heading mb10 pl30"><?= lang('Header.start') ?></p>
+                          <a class="dropdown-item active" href="<?= base_url($locale . '/user-dashboard') ?>"><i class=" flaticon-home mr10"></i><?= lang('Header.dashboard') ?></a>
+                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-proposal') ?>"><i class=" flaticon-document mr10"></i><?= lang('Header.proposal') ?></a>
+                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-save') ?>"><i class=" flaticon-like mr10"></i><?= lang('Header.saved') ?></a>
+                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-message') ?>"><i class=" flaticon-chat mr10"></i><?= lang('Header.message') ?></a>
+                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-reviews') ?>"><i class="flaticon-review-1 mr10"></i><?= lang('Header.reviews') ?></a>
+                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-invoice') ?>"><i class="flaticon-receipt mr10"></i><?= lang('Header.invoice') ?></a>
+                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-payouts') ?>"><i class="flaticon-dollar mr10"></i><?= lang('Header.payouts') ?></a>
+                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-statement') ?>"><i class="flaticon-web mr10"></i><?= lang('Header.statement') ?></a>
                           <p class="fz15 fw400 ff-heading mt30 pl30">Organize and Manage</p>
-                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-manage-service') ?>"><i class="flaticon-presentation mr10"></i>Manage Services</a>
-                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-manage-jobs') ?>"><i class="flaticon-briefcase mr10"></i>Manage Jobs</a>
-                          <a class="dropdown-item" href="<?= base_url() ?>frontend/page-dashboard-favorites.html"><i class="flaticon-content mr10"></i>Manage Project</a>
+                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-manage-service') ?>"><i class="flaticon-presentation mr10"></i><?= lang('Header.manageservices') ?></a>
+                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-manage-jobs') ?>"><i class="flaticon-briefcase mr10"></i><?= lang('Header.managejobs') ?></a>
+                          <a class="dropdown-item" href="<?= base_url() ?>frontend/page-dashboard-favorites.html"><i class="flaticon-content mr10"></i><?= lang('Header.manageprojects') ?></a>
                           <p class="fz15 fw400 ff-heading mt30 pl30">Account</p>
-                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-profile') ?>"><i class="flaticon-photo mr10"></i>My Profile</a>
-                          <a class="dropdown-item" href="<?= base_url($locale . '/login') ?>"><i class="flaticon-logout mr10"></i>Logout</a>
+                          <a class="dropdown-item" href="<?= base_url($locale . '/dashboard-profile') ?>"><i class="flaticon-photo mr10"></i><?= lang('Header.myprofile') ?></a>
+                          <a class="dropdown-item" href="<?= base_url($locale . '/login') ?>"><i class="flaticon-logout mr10"></i><?= lang('Header.logout') ?></a>
                         </div>
                       </div>
                     </div>
@@ -260,9 +260,9 @@
             </div>
             <div class="modal-body">
               <div class="popup-search-field search_area">
-                <input type="text" class="form-control border-0" placeholder="What service are you looking for today?">
+                <input type="text" class="form-control border-0" placeholder="<?= lang('Header.whatservice') ?>">
                 <label><span class="far fa-magnifying-glass"></span></label>
-                <button class="ud-btn btn-thm" type="submit">Search</button>
+                <button class="ud-btn btn-thm" type="submit"><?= lang('Header.search') ?></button>
               </div>
             </div>
           </div>
@@ -278,7 +278,7 @@
             <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
               <a class="mobile_logo" href="#"><img src=" <?= base_url() ?>frontend/images/header-logo-mobile.png" alt=""></a>
               <div class="right-side text-end">
-                <a class="" href="<?= base_url($locale . '/login') ?>">join</a>
+                <a class="" href="<?= base_url($locale . '/login') ?>"><?= lang('Header.join') ?></a>
                 <a class="menubar ml30" href="#menu"><img src=" <?= base_url() ?>frontend/images/mobile-dark-nav-icon.svg" alt=""></a>
               </div>
             </div>
@@ -307,45 +307,45 @@
           <div class="dashboard_sidebar_list">
             <p class="fz15 fw400 ff-heading pl30">Start</p>
             <div class="sidebar_list_item">
-              <a href="<?= base_url($locale . '/user-dashboard') ?>" class="items-center -is-active"><i class="flaticon-home mr15"></i>Dashboard</a>
+              <a href="<?= base_url($locale . '/user-dashboard') ?>" class="items-center -is-active"><i class="flaticon-home mr15"></i><?= lang('Header.dashboard') ?></a>
             </div>
             <div class="sidebar_list_item">
-              <a href="<?= base_url($locale . '/dashboard-proposal') ?>" class="items-center"><i class="flaticon-document mr15"></i>My Proposals</a>
+              <a href="<?= base_url($locale . '/dashboard-proposal') ?>" class="items-center"><i class="flaticon-document mr15"></i><?= lang('Header.proposal') ?></a>
             </div>
             <div class="sidebar_list_item">
-              <a href="<?= base_url($locale . '/dashboard-save') ?>" class="items-center"><i class="flaticon-like mr15"></i>Saved</a>
+              <a href="<?= base_url($locale . '/dashboard-save') ?>" class="items-center"><i class="flaticon-like mr15"></i><?= lang('Header.saved') ?></a>
             </div>
             <div class="sidebar_list_item ">
-              <a href="<?= base_url($locale . '/dashboard-message') ?>" class="items-center"><i class="flaticon-chat mr15"></i>Message</a>
+              <a href="<?= base_url($locale . '/dashboard-message') ?>" class="items-center"><i class="flaticon-chat mr15"></i><?= lang('Header.message') ?></a>
             </div>
             <div class="sidebar_list_item ">
-              <a href="<?= base_url($locale . '/dashboard-reviews') ?>" class="items-center"><i class="flaticon-review-1 mr15"></i>Reviews</a>
+              <a href="<?= base_url($locale . '/dashboard-reviews') ?>" class="items-center"><i class="flaticon-review-1 mr15"></i><?= lang('Header.reviews') ?></a>
             </div>
             <div class="sidebar_list_item">
-              <a href="<?= base_url($locale . '/dashboard-invoice') ?>" class="items-center"><i class="flaticon-receipt mr15"></i>Invoice</a>
+              <a href="<?= base_url($locale . '/dashboard-invoice') ?>" class="items-center"><i class="flaticon-receipt mr15"></i><?= lang('Header.invoice') ?></a>
             </div>
             <div class="sidebar_list_item">
-              <a href="<?= base_url($locale . '/dashboard-payouts') ?>" class="items-center"><i class="flaticon-dollar mr15"></i>Payouts</a>
+              <a href="<?= base_url($locale . '/dashboard-payouts') ?>" class="items-center"><i class="flaticon-dollar mr15"></i><?= lang('Header.payouts') ?></a>
             </div>
             <div class="sidebar_list_item">
-              <a href="<?= base_url($locale . '/dashboard-statement') ?>" class="items-center"><i class="flaticon-web mr15"></i>Statements</a>
+              <a href="<?= base_url($locale . '/dashboard-statement') ?>" class="items-center"><i class="flaticon-web mr15"></i><?= lang('Header.statement') ?></a>
             </div>
-            <p class="fz15 fw400 ff-heading pl30 mt30">Organize and Manage</p>
+            <p class="fz15 fw400 ff-heading pl30 mt30"><?= lang('Header.organizeand') ?></p>
             <div class="sidebar_list_item ">
-              <a href="<?= base_url($locale . '/dashboard-manage-service') ?>" class="items-center"><i class="flaticon-presentation mr15"></i>Manage Services</a>
-            </div>
-            <div class="sidebar_list_item ">
-              <a href="<?= base_url($locale . '/dashboard-manage-jobs') ?>" class="items-center"><i class="flaticon-briefcase mr15"></i>Manage Jobs</a>
+              <a href="<?= base_url($locale . '/dashboard-manage-service') ?>" class="items-center"><i class="flaticon-presentation mr15"></i><?= lang('Header.manageservices') ?></a>
             </div>
             <div class="sidebar_list_item ">
-              <a href="<?= base_url($locale . '/dashboard-manage-project') ?>" class="items-center"><i class="flaticon-content mr15"></i>Manage Project</a>
-            </div>
-            <p class="fz15 fw400 ff-heading pl30 mt30">Account</p>
-            <div class="sidebar_list_item ">
-              <a href="<?= base_url($locale . '/dashboard-profile') ?>" class="items-center"><i class="flaticon-photo mr15"></i>My Profile</a>
+              <a href="<?= base_url($locale . '/dashboard-manage-jobs') ?>" class="items-center"><i class="flaticon-briefcase mr15"></i><?= lang('Header.managejobs') ?></a>
             </div>
             <div class="sidebar_list_item ">
-              <a href="<?= base_url($locale . '/login') ?>" class="items-center"><i class="flaticon-logout mr15"></i>Logout</a>
+              <a href="<?= base_url($locale . '/dashboard-manage-project') ?>" class="items-center"><i class="flaticon-content mr15"></i><?= lang('Header.manageprojects') ?></a>
+            </div>
+            <p class="fz15 fw400 ff-heading pl30 mt30"><?= lang('Header.account') ?></p>
+            <div class="sidebar_list_item ">
+              <a href="<?= base_url($locale . '/dashboard-profile') ?>" class="items-center"><i class="flaticon-photo mr15"></i><?= lang('Header.myprofile') ?></a>
+            </div>
+            <div class="sidebar_list_item ">
+              <a href="<?= base_url($locale . '/login') ?>" class="items-center"><i class="flaticon-logout mr15"></i><?= lang('Header.logout') ?></a>
             </div>
           </div>
         </div>
@@ -355,30 +355,30 @@
               <div class="col-lg-12">
                 <div class="dashboard_navigationbar d-block d-lg-none">
                   <div class="dropdown">
-                    <button onclick="myFunction()" class="dropbtn"><i class="fa fa-bars pr10"></i> Dashboard Navigation</button>
+                    <button onclick="myFunction()" class="dropbtn"><i class="fa fa-bars pr10"></i> <?= lang('Header.dashboardnav') ?></button>
                     <ul id="myDropdown" class="dropdown-content">
                       <li>
-                        <p class="fz15 fw400 ff-heading mt30 pl30">Start</p>
+                        <p class="fz15 fw400 ff-heading mt30 pl30"><?= lang('Header.start') ?></p>
                       </li>
-                      <li class="active"><a href="<?= base_url($locale . '/user-dashboard') ?>"><i class=" flaticon-home mr10"></i>Dashboard</a></li>
-                      <li><a href="<?= base_url($locale . '/dashboard-proposal') ?>"><i class=" flaticon-document mr10"></i>My Proposals</a></li>
-                      <li><a href="<?= base_url($locale . '/dashboard-save') ?>"><i class=" flaticon-like mr10"></i>Saved</a></li>
-                      <li><a href="<?= base_url($locale . '/dashboard-message') ?>"><i class=" flaticon-chat mr10"></i>Message</a></li>
-                      <li><a href="<?= base_url($locale . '/dashboard-reviews') ?>"><i class="flaticon-review-1 mr10"></i>Reviews</a></li>
-                      <li><a href="<?= base_url($locale . '/dashboard-invoice') ?>"><i class="flaticon-receipt mr10"></i>Invoice</a></li>
-                      <li><a href="<?= base_url($locale . '/dashboard-payouts') ?>"><i class="flaticon-dollar mr10"></i>Payouts</a></li>
-                      <li><a href="<?= base_url($locale . '/dashboard-statement') ?>"><i class="flaticon-web mr10"></i>Statements</a></li>
+                      <li class="active"><a href="<?= base_url($locale . '/user-dashboard') ?>"><i class=" flaticon-home mr10"></i><?= lang('Header.dashboard') ?></a></li>
+                      <li><a href="<?= base_url($locale . '/dashboard-proposal') ?>"><i class=" flaticon-document mr10"></i><?= lang('Header.proposal') ?></a></li>
+                      <li><a href="<?= base_url($locale . '/dashboard-save') ?>"><i class=" flaticon-like mr10"></i><?= lang('Header.saved') ?></a></li>
+                      <li><a href="<?= base_url($locale . '/dashboard-message') ?>"><i class=" flaticon-chat mr10"></i><?= lang('Header.message') ?></a></li>
+                      <li><a href="<?= base_url($locale . '/dashboard-reviews') ?>"><i class="flaticon-review-1 mr10"></i><?= lang('Header.reviews') ?></a></li>
+                      <li><a href="<?= base_url($locale . '/dashboard-invoice') ?>"><i class="flaticon-receipt mr10"></i><?= lang('Header.invoice') ?></a></li>
+                      <li><a href="<?= base_url($locale . '/dashboard-payouts') ?>"><i class="flaticon-dollar mr10"></i><?= lang('Header.payouts') ?></a></li>
+                      <li><a href="<?= base_url($locale . '/dashboard-statement') ?>"><i class="flaticon-web mr10"></i><?= lang('Header.statement') ?></a></li>
                       <li>
-                        <p class="fz15 fw400 ff-heading mt30 pl30">Organize and Manage</p>
+                        <p class="fz15 fw400 ff-heading mt30 pl30"><?= lang('Header.organizeand') ?></p>
                       </li>
-                      <li><a href="<?= base_url($locale . '/dashboard-manage-service') ?>"><i class="flaticon-presentation mr10"></i>Manage Services</a></li>
-                      <li><a href="<?= base_url($locale . '/dashboard-manage-jobs') ?>"><i class="flaticon-briefcase mr10"></i>Manage Jobs</a></li>
-                      <li><a href="<?= base_url($locale . '/dashboard-manage-project') ?>"><i class="flaticon-content mr10"></i>Manage Project</a></li>
+                      <li><a href="<?= base_url($locale . '/dashboard-manage-service') ?>"><i class="flaticon-presentation mr10"></i><?= lang('Header.manageservices') ?></a></li>
+                      <li><a href="<?= base_url($locale . '/dashboard-manage-jobs') ?>"><i class="flaticon-briefcase mr10"></i><?= lang('Header.managejobs') ?></a></li>
+                      <li><a href="<?= base_url($locale . '/dashboard-manage-project') ?>"><i class="flaticon-content mr10"></i><?= lang('Header.manageprojects') ?></a></li>
                       <li>
-                        <p class="fz15 fw400 ff-heading mt30 pl30">Account</p>
+                        <p class="fz15 fw400 ff-heading mt30 pl30"><?= lang('Header.account') ?></p>
                       </li>
-                      <li><a href="<?= base_url($locale . '/dashboard-profile') ?>"><i class="flaticon-photo mr10"></i>My Profile</a></li>
-                      <li><a href="<?= base_url($locale . '/login') ?>"><i class="flaticon-logout mr10"></i>Logout</a></li>
+                      <li><a href="<?= base_url($locale . '/dashboard-profile') ?>"><i class="flaticon-photo mr10"></i><?= lang('Header.myprofile') ?></a></li>
+                      <li><a href="<?= base_url($locale . '/login') ?>"><i class="flaticon-logout mr10"></i><?= lang('Header.logout') ?></a></li>
                     </ul>
                   </div>
                 </div>

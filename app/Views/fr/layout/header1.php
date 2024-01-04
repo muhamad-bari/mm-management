@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="<?= base_url() ?>frontend/css/ud-custom-spacing.css">
   <link rel="stylesheet" href="<?= base_url() ?>frontend/css/animate.css">
   <link rel="stylesheet" href="<?= base_url() ?>frontend/css/jquery-ui.min.css">
-<link rel="stylesheet" href="<?= base_url() ?>frontend/css/magnific-popup.css">
+  <link rel="stylesheet" href="<?= base_url() ?>frontend/css/magnific-popup.css">
   <link rel="stylesheet" href="<?= base_url() ?>frontend/css/slider.css">
   <link rel="stylesheet" href="<?= base_url() ?>frontend/css/style.css">
   <link rel="stylesheet" href="<?= base_url() ?>frontend/css/galer.css">
