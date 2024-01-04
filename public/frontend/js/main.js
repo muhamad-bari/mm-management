@@ -1,15 +1,15 @@
 
 $(document).ready(function () {
-    $('#language').on('change', function() {
-    var lang = $(this).val();
-    var currentUrl = window.location.href;
-    console.log(currentUrl)
-    var baseURL = currentUrl.split('/').slice(0, 3).join('/');
-    var restUrl = currentUrl.split('/')
-    var rest = restUrl.slice(4, restUrl.length).join('/')
-    window.location.href = baseURL + '/' + lang+ '/'+rest;
+    $('#language').on('change', function () {
+        var lang = $(this).val();
+        var currentUrl = window.location.href;
+        console.log(currentUrl)
+        var baseURL = currentUrl.split('/').slice(0, 3).join('/');
+        var restUrl = currentUrl.split('/')
+        var rest = restUrl.slice(4, restUrl.length).join('/')
+        window.location.href = baseURL + '/' + lang + '/' + rest;
     });
-    $('#languages').on('change', function() {
+    $('#languages').on('change', function () {
         var lang = $(this).val();
         var currentUrl = window.location.href;
         console.log(currentUrl)
@@ -17,7 +17,7 @@ $(document).ready(function () {
         var restUrl = currentUrl.split('/')
         var rest = restUrl.slice(4, restUrl.length).join('/')
         window.location.href = baseURL + '/' + lang+ '/'+rest;
-        });
+    });
 
 });
 
@@ -29,7 +29,7 @@ $(document).ready(function () {
         $('#cp-img').text(img);
     });
     $('.portfolio-box').show();
-    $('button').click(function() {
+    $('button').click(function () {
         var category = $(this).data('ktg');
 
         $('.portfolio-box').hide();
