@@ -1,0 +1,72 @@
+CRITICAL - 2024-01-03 01:52:21 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::extend() in D:\xampp\htdocs\mm-management\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(241): include()
+#1 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404, 'D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Debug\Exceptions.php(149): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Page Not Found
+#0 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound(NULL)
+#1 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 D:\xampp\htdocs\mm-management\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#4 {main}
+in APPPATH\Views\errors\html\error_404.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 02:04:24 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::extend() in D:\xampp\htdocs\mm-management\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(241): include()
+#1 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404, 'D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Debug\Exceptions.php(149): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Page Not Found
+#0 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound(NULL)
+#1 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 D:\xampp\htdocs\mm-management\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#4 {main}
+in APPPATH\Views\errors\html\error_404.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 15:17:18 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::extend() in C:\xampp\htdocs\mm-management\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Debug\Exceptions.php(149): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#4 [internal function]: CodeIgniter\Debug\Except
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Page Not Found
+#0 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound(NULL)
+#1 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\mm-management\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+in APPPATH\Views\errors\html\error_404.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-03 15:19:01 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::extend() in C:\xampp\htdocs\mm-management\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Debug\Exceptions.php(149): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#4 [internal function]: CodeIgniter\Debug\Except
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Page Not Found
+#0 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound(NULL)
+#1 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\mm-management\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+in APPPATH\Views\errors\html\error_404.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

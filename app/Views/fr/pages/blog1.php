@@ -8,8 +8,8 @@
             <div class="col-lg-12">
                 <div class="breadcumb-style1">
                     <div class="breadcumb-list">
-                        <a href="<?= base_url('/') ?>">Home</a>
-                        <a href="<?= base_url('blog') ?>">Blog</a>
+                        <a href="<?= base_url($locale . '/') ?>">Home</a>
+                        <a href="<?= base_url($locale . '/blog') ?>">Blog</a>
                     </div>
                 </div>
             </div>

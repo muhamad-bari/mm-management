@@ -7,18 +7,21 @@ use App\Controllers\BaseController;
 class fr_index extends BaseController
 {
     public function index()
-    {   $data['locale'] = $this->request->getLocale();
+    {
+        $data['locale'] = $this->request->getLocale();
         echo view('fr/pages/index', $data);
     }
 
     public function login()
     {
-        echo view('fr/pages/login');
+        $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/login', $data);
     }
 
     public function register()
     {
-        echo view('fr/pages/register');
+        $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/register', $data);
     }
 
     public function about()
@@ -59,7 +62,8 @@ class fr_index extends BaseController
 
     public function details_service()
     {
-        echo view('fr/pages/details-service');
+        $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/details-service', $data);
     }
 
     public function service()
@@ -112,11 +116,19 @@ class fr_index extends BaseController
 
     public function blog3()
     {
-        echo view('fr/pages/blog3');
+        $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/blog3', $data);
     }
 
     public function career()
     {
-        echo view('fr/pages/career');
+        $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/career', $data);
+    }
+
+    public function dashboardUser()
+    {
+        $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/user-dashboard', $data);
     }
 }

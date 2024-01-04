@@ -4,8 +4,8 @@
     <div class="row bb-white-light pb10 mb60">
       <div class="col-md-7">
         <div class="d-block text-center text-md-start justify-content-center justify-content-md-start d-md-flex align-items-center mb-3 mb-md-0">
-          <a class="fz17 fw500 text-white mr15-md mr30" href="<?= base_url('terms') ?>"><?= lang('footer.terms') ?></a>
-          <a class="fz17 fw500 text-white mr15-md mr30" href="<?= base_url('privacy') ?>"><?= lang('footer.privacy') ?></a>
+          <a class="fz17 fw500 text-white mr15-md mr30" href="<?= base_url($locale . '/terms') ?>"><?= lang('footer.terms') ?></a>
+          <a class="fz17 fw500 text-white mr15-md mr30" href="<?= base_url($locale . '/privacy') ?>"><?= lang('footer.privacy') ?></a>
           <a class="fz17 fw500 text-white" href="#"><?= lang('footer.Site') ?></a>
         </div>
       </div>
@@ -29,8 +29,8 @@
             <a href="#"><?= lang('footer.careers') ?></a>
             <a href="#"><?= lang('footer.press') ?></a>
             <a href="#"><?= lang('footer.partner') ?></a>
-            <a href="<?= base_url('privacy') ?>"><?= lang('footer.privacy') ?></a>
-            <a href="<?= base_url('terms') ?>"><?= lang('footer.terms') ?></a>
+            <a href="<?= base_url($locale . '/privacy') ?>"><?= lang('footer.privacy') ?></a>
+            <a href="<?= base_url($locale . '/terms') ?>"><?= lang('footer.terms') ?></a>
             <a href="#"><?= lang('footer.investor') ?></a>
           </div>
         </div>
@@ -52,17 +52,17 @@
         </div>
       </div>
       <div class="col-sm-6 col-lg-4">
-           <div class="link-style1 mb-4 mb-sm-5">
-             <h5 class="text-white mb15"><?= lang('footer.Regist') ?></h5>
-             <ul class="ps-0">
-              <li><a href="#"><i class="far fa-check"></i> <?= lang('footer.inter') ?></a></li>
-               <li><a href="#"><i class="far fa-check"></i> <?= lang('footer.train') ?></a></li>
-               <li><a href="#"><i class="far fa-check"></i> <?= lang('footer.Fill') ?></a></li>
-               <li><a href="#"><i class="far fa-check"></i> <?= lang('footer.accept') ?></a></li>
-               
-             </ul>
-           </div>
-         </div>
+        <div class="link-style1 mb-4 mb-sm-5">
+          <h5 class="text-white mb15"><?= lang('footer.Regist') ?></h5>
+          <ul class="ps-0">
+            <li><a href="#"><i class="far fa-check"></i> <?= lang('footer.inter') ?></a></li>
+            <li><a href="#"><i class="far fa-check"></i> <?= lang('footer.train') ?></a></li>
+            <li><a href="#"><i class="far fa-check"></i> <?= lang('footer.Fill') ?></a></li>
+            <li><a href="#"><i class="far fa-check"></i> <?= lang('footer.accept') ?></a></li>
+
+          </ul>
+        </div>
+      </div>
       <div class="col-sm-6 col-lg-3">
         <div class="footer-widget">
           <div class="footer-widget mb-4 mb-sm-5">
@@ -97,7 +97,7 @@
     <div class="row align-items-center">
       <div class="col-md-6">
         <div class="text-center text-lg-start">
-          <p class="copyright-text mb-2 mb-md-0 text-white-light ff-heading">© PT. MM Management 2023. All rights reserved.</p>
+          <p class="copyright-text mb-2 mb-md-0 text-white-light ff-heading">© PT. Management Mandiri 2023. All rights reserved.</p>
         </div>
       </div>
       <div class="col-md-6">
@@ -111,20 +111,19 @@
               </select>
             </li>
             <li class="list-inline-item">
-              <select class="selectpicker language" id="language">
-              <?php
+              <select class="selectpicker language" id="language_one">
+                <?php
                 $lang = [
-                    'en' => 'English',
-                    'id' => 'Indonesia',
-                    'ar' => 'Arabic'
+                  'en' => 'English',
+                  'id' => 'Indonesia',
+                  'ar' => 'Arabic'
                 ];
 
                 foreach ($lang as $lid => $language) {
-                    $selected = ($locale == $lid) ? 'selected' : '';
-                    echo "<option value='$lid' $selected>$language</option>";
+                  $selected = ($locale == $lid) ? 'selected' : '';
+                  echo "<option value='$lid' $selected>$language</option>";
                 }
                 ?>
-
               </select>
             </li>
           </ul>
@@ -187,6 +186,7 @@
 <script src="<?php echo base_url() ?>frontend/js/jquery.counterup.js"></script>
 <script src="<?php echo base_url() ?>frontend/js/isotop.js"></script>
 <script src="<?php echo base_url() ?>frontend/js/main.js"></script>
+<script src="<?= base_url() ?>frontend/js/pricing-table.js"></script>
 <!-- Custom script for all pages -->
 <script src="<?php echo base_url() ?>frontend/js/script.js"></script>
 </body>

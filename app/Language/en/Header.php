@@ -8,7 +8,7 @@ return [
 
     'sign' => 'Sign In',
     'join' => 'Join',
-    
+
     'services' => 'Services',
     'house' => 'Household Assistant',
     'baby' => 'Baby Sitter',
@@ -19,4 +19,36 @@ return [
     'Waitress' => 'Waitress',
     'Tailor' => 'Tailor',
     'Beautycian' => 'Beautycian',
+    // dashboard
+
+    'resume' => 'Resume',
+    'updated' => 'Updated',
+    'password' => 'Password',
+    'changed' => 'Changed',
+    'accountcreated' => 'Account has been Created',
+    'applied' => 'Applied',
+    'successfully' => 'Successfully',
+    'courseupload' => 'Your course uploaded',
+    'viewall' => 'View All Messages',
+    'myprofile' => 'My Profile',
+    'dashboard' => 'Dashboard',
+    'dashboardnav' => 'Dashboard Navigation',
+    'saved' => 'Saved',
+    'message' => 'Message',
+    'reviews' => 'Reviews',
+    'invoice' => 'Invoice',
+    'payouts' => 'Payouts',
+    'proposal' => 'Proposal',
+    'statement' => 'Statement',
+    'start' => 'Start',
+    'organizeand' => 'Organize and Manage',
+    'manageservices' => 'Manage Services',
+    'managejobs' => 'Manage Jobs',
+    'manageprojects' => 'Manage Projects',
+    'account' => 'Account',
+    'logout' => 'Logout',
+    'whatservice' => 'What Service are you looking for today?',
+    'uploaded' => 'Uploaded',
+    'search' => 'Search',
+
 ];

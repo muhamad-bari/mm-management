@@ -1,0 +1,51 @@
+<?php
+return [
+    'aboutus' => 'About Us',
+    'subtitle' => 'Continuously Innovate to Provide Leading and Effective Workforce Placement Services.',
+    'about' => 'PT. Management Mandiri Internasional is one of the licensed Indonesian labor placement companies for overseas markets. As an overseas placement specialist, we focus on understanding our clients needs, offering consultation, and providing workers that match the clients demands.',
+    'about2' => 'Now, requirements and regulations pertaining to human resources are constantly changing. Many companies strive to obtain labor supply services and workers that are suitable for their companys needs, however, finding the right solution may be a challenge.',
+    'findt' => 'Find Talent',
+
+    'awhole' => 'A whole world of distributor talent at your fingertips',
+    'proofof' => 'Proof of quality',
+    'subproofof' => 'Check any pro’s work samples, client reviews, and identity verification.',
+    'nocost' => 'No cost until you work or hire',
+    'subnocost' => 'Interview potential fits for your job, negotiate rates, and only pay for work you approve.',
+    'subsafeand' => 'Focus on your work knowing we help protect your data and privacy. We’re here with 24/7 support if you need it.',
+    'safeand' => 'Safe and Secure',
+
+    'why' => 'Why Management Mandiri Internasional?',
+    'subwhy' => 'Our company aims to provide the right labor solutions. We hope to provide the most suitable workers for the clients needs. With our expertise in recruitment, we are confident that we can provide workers that match the needs of the company/client.',
+    'iso' => 'ISO Certified',
+    'subiso' => 'Internationally Registered and Certified with ISO 9001:2015, ISO 45001:2018, ISO, 14001:2015, and ISO 37001:2016',
+    'accredited' => 'Accredited',
+    'subofficial' => 'Has been officially recognized and certified by Indonesian Migrant Workers Protection Agency',
+    'subaccredited' => 'Accredited by National Accreditation Committee with SNI ISO/IEC 17021-1:2015 and SNI ISO/IEC 17021-3:2017',
+    'official' => 'Official',
+    
+    'havetosay' => 'What our talent have to say',
+    'subhavetosay' => 'Discover your perfect program in our courses.',
+    'allSer' => 'All Services',
+    'services' => 'Services',
+    'house' => 'Household Assistant',
+    'baby' => 'Baby Sitter',
+    'elder' => 'Elderly Nurse',
+    'driver' => 'Driver',
+    'chef' => 'Chef',
+    'barista' => 'Barista',
+    'waitress' => 'Waitress',
+    'tailor' => 'Tailor',
+    'beautycian' => 'Beautycian',
+    'startingat' => 'Starting At',
+
+    'needs' => 'Need Something Done?',
+    'subneeds' => 'Bringing together Experts in Workforce Placement to Guarantee Your Success.',
+
+    'searcha' => 'Search a service',
+    'subsearcha' => 'Free and easy to search for services.',
+    'choosea' => 'Choose A Talent',
+    'subchoosea' => 'Free and easy to choose talent.',
+    'paysafe' => 'Pay safely',
+    'subpaysafe' => 'Pay Safely and Conveniently',
+];
+?>

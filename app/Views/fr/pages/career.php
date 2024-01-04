@@ -2,76 +2,75 @@
 <?= $this->section('content') ?>
 <title>Careers</title>
 <div class="lefttside-hidden-bar">
-    <div class="hsidebar-header bdrb1">
-      <h4 class="list-title">All filters</h4>
-      <div class="sidebar-close-icon"><span class="far fa-times"></span></div>
-    </div>
-    <div class="hsidebar-content">
-      <div class="widget-wrapper">
-        <div class="sidebar-accordion">
-          <div class="accordion" id="accordionExample2">
-            <div class="card mb20 pb10">
-              <div class="card-header active" id="headingZero">
-                <h4>
-                  <button class="btn btn-link ps-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseZero" aria-expanded="true" aria-controls="collapseZero">Country</button>
-                </h4>
-              </div>
-              <div id="collapseZero" class="collapse show" aria-labelledby="headingZero" data-parent="#accordionExample">
-                <div class="card-body card-body px-0 pt-0">
-                  <div class="checkbox-style1">
-                    <label class="custom_checkbox">Hongkong
-                      <input type="checkbox">
-                      <span class="checkmark"></span>
-                    </label>
-                    <label class="custom_checkbox">Japan
-                      <input type="checkbox" checked="checked">
-                      <span class="checkmark"></span>
-                    </label>
-                    <label class="custom_checkbox">Malaysia
-                      <input type="checkbox">
-                      <span class="checkmark"></span>
-                    </label>
-                    <label class="custom_checkbox">Singapore
-                      <input type="checkbox">
-                      <span class="checkmark"></span>
-                    </label>
-                    <label class="custom_checkbox">Taiwan
-                      <input type="checkbox">
-                      <span class="checkmark"></span>
-                    </label>
-                  </div>
-                  <a class="text-thm" href="#">+20 more</a>
+  <div class="hsidebar-header bdrb1">
+    <h4 class="list-title">All filters</h4>
+    <div class="sidebar-close-icon"><span class="far fa-times"></span></div>
+  </div>
+  <div class="hsidebar-content">
+    <div class="widget-wrapper">
+      <div class="sidebar-accordion">
+        <div class="accordion" id="accordionExample2">
+          <div class="card mb20 pb10">
+            <div class="card-header active" id="headingZero">
+              <h4>
+                <button class="btn btn-link ps-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseZero" aria-expanded="true" aria-controls="collapseZero">Country</button>
+              </h4>
+            </div>
+            <div id="collapseZero" class="collapse show" aria-labelledby="headingZero" data-parent="#accordionExample">
+              <div class="card-body card-body px-0 pt-0">
+                <div class="checkbox-style1">
+                  <label class="custom_checkbox">Hongkong
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="custom_checkbox">Japan
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="custom_checkbox">Malaysia
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="custom_checkbox">Singapore
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="custom_checkbox">Taiwan
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
                 </div>
+                <a class="text-thm" href="#">+20 more</a>
               </div>
             </div>
-            <div class="card mb20 pb5">
-              <div class="card-header" id="headingThrees">
-                <h4>
-                  <button class="btn btn-link ps-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThrees" aria-expanded="true" aria-controls="collapseThrees">Job Type</button>
-                </h4>
-              </div>
-              <div id="collapseThrees" class="collapse" aria-labelledby="headingThrees" data-parent="#accordionExample">
-                <div class="card-body card-body px-0 pt-0">
-                  <div class="checkbox-style1">
-                    <label class="custom_checkbox">All
-                      <input type="checkbox">
-                      <span class="checkmark"></span>
-                    </label>
-                    <label class="custom_checkbox">household Assistant
-                      <input type="checkbox" checked="checked">
-                      <span class="checkmark"></span>
-                    </label>
-                    <label class="custom_checkbox">Baby Sitter
-                      <input type="checkbox">
-                      <span class="checkmark"></span>
-                    </label>
-                    <label class="custom_checkbox">Eldrly Nurse
-                      <input type="checkbox">
-                      <span class="checkmark"></span>
-                    </label>
-                  </div>
-                  <a class="teext-thm" href="#">Other</a>
+          </div>
+          <div class="card mb20 pb5">
+            <div class="card-header" id="headingThrees">
+              <h4>
+                <button class="btn btn-link ps-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThrees" aria-expanded="true" aria-controls="collapseThrees">Job Type</button>
+              </h4>
+            </div>
+            <div id="collapseThrees" class="collapse" aria-labelledby="headingThrees" data-parent="#accordionExample">
+              <div class="card-body card-body px-0 pt-0">
+                <div class="checkbox-style1">
+                  <label class="custom_checkbox">All
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="custom_checkbox">household Assistant
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="custom_checkbox">Baby Sitter
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="custom_checkbox">Eldrly Nurse
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
                 </div>
+                <a class="teext-thm" href="#">Other</a>
               </div>
             </div>
           </div>
@@ -79,6 +78,7 @@
       </div>
     </div>
   </div>
+</div>
 
 <div class="body_content">
 
@@ -239,10 +239,11 @@
             <div class="details">
               <h5 class="mb20">Caddy Golf</h5>
               <p class="list-inline-item mb-3 bdrl1 pl15">Malaysia</p>
-              <p class="list-inline-item mb-0 bdrl1 pl15">Japan</p><div class="list-meta d-flex justify-content-between align-items-center mt15">
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
-                  </div>
-                </div>
+              <p class="list-inline-item mb-0 bdrl1 pl15">Japan</p>
+              <div class="list-meta d-flex justify-content-between align-items-center mt15">
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-3">
@@ -257,8 +258,8 @@
               <p class="list-inline-item mb-3 bdrl1 pl15">Singapore</p>
               <p class="list-inline-item mb-0 bdrl1 pl15">Malaysia</p>
               <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
-                  </div>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
+              </div>
             </div>
           </div>
         </div>
@@ -274,8 +275,8 @@
               <p class="list-inline-item mb-3 bdrl1 pl15">Malaysia</p>
               <p class="list-inline-item mb-0 bdrl1 pl15">Hongkong</p>
               <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
-                  </div>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
+              </div>
             </div>
           </div>
         </div>
@@ -292,8 +293,8 @@
               <p class="list-inline-item mb-0 bdrl1 pl15">Japan</p>
               <p class="list-inline-item mb-0 bdrl1 pl15">Malaysia</p>
               <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
-                  </div>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
+              </div>
             </div>
           </div>
         </div>
@@ -308,8 +309,8 @@
               <h5 class="mb20">Electronic Factory</h5>
               <p class="list-inline-item mb-3 bdrl1 pl15">Malaysia</p>
               <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
-                  </div>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
+              </div>
             </div>
           </div>
         </div>
@@ -324,8 +325,8 @@
               <h5 class="mb20">Chicken Farm</h5>
               <p class="list-inline-item mb-3 bdrl1 pl15">Malaysia</p>
               <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
-                  </div>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
+              </div>
             </div>
           </div>
         </div>
@@ -342,8 +343,8 @@
               <p class="list-inline-item mb-0 bdrl1 pl15">Taiwan</p>
               <p class="list-inline-item mb-0 bdrl1 pl15">Japan</p>
               <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
-                  </div>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
+              </div>
             </div>
           </div>
         </div>
@@ -358,8 +359,8 @@
               <h5 class="mb20">Cow Farm</h5>
               <p class="list-inline-item mb-3 bdrl1 pl15">Malaysia</p>
               <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
-                  </div>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
+              </div>
             </div>
           </div>
         </div>
@@ -376,8 +377,8 @@
               <p class="list-inline-item mb-0 bdrl1 pl15">Japan</p>
               <p class="list-inline-item mb-0 bdrl1 pl15">Taiwan</p>
               <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
-                  </div>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
+              </div>
             </div>
           </div>
         </div>
@@ -394,8 +395,8 @@
               <p class="list-inline-item mb-0 bdrl1 pl15">Japan</p>
               <p class="list-inline-item mb-0 bdrl1 pl15">Singapore</p>
               <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
-                  </div>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
+              </div>
             </div>
           </div>
         </div>
@@ -411,8 +412,8 @@
               <p class="list-inline-item mb-3 bdrl1 pl15">Singapore</p>
               <p class="list-inline-item mb-0 bdrl1 pl15">Malaysia</p>
               <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
-                  </div>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
+              </div>
             </div>
           </div>
         </div>
@@ -427,8 +428,8 @@
               <h5 class="mb20">Tailor</h5>
               <p class="list-inline-item mb-3 bdrl1 pl15">Malaysia</p>
               <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
-                  </div>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
+              </div>
             </div>
           </div>
         </div>
@@ -444,8 +445,8 @@
               <p class="list-inline-item mb-3 bdrl1 pl15">Japan</p>
               <p class="list-inline-item mb-0 bdrl1 pl15">Malaysia</p>
               <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
-                  </div>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
+              </div>
             </div>
           </div>
         </div>
@@ -462,8 +463,8 @@
               <p class="list-inline-item mb-0 bdrl1 pl15">Japan</p>
               <p class="list-inline-item mb-0 bdrl1 pl15">Singapore</p>
               <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
-                  </div>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
+              </div>
             </div>
           </div>
         </div>
@@ -479,8 +480,8 @@
               <p class="list-inline-item mb-3 bdrl1 pl15">Malaysia</p>
               <p class="list-inline-item mb-0 bdrl1 pl15">Singapore</p>
               <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
-                  </div>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
+              </div>
             </div>
           </div>
         </div>
@@ -497,8 +498,8 @@
               <p class="list-inline-item mb-0 bdrl1 pl15">Hongkong</p>
               <p class="list-inline-item mb-0 bdrl1 pl15">Singapore</p>
               <div class="list-meta d-flex justify-content-between align-items-center mt15">
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
-                  </div>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQy7K3nzsHM6kKAgdAfrK6b5g0cUBZBv0NrlhitnS_pDC5bA/viewform" class="ud-btn btn-white2 mb25 me-4 w100">Apply<i class="fal fa-arrow-right-long"></i></a>
+              </div>
             </div>
           </div>
         </div>

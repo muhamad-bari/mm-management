@@ -1,0 +1,20 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ptmanage/public_html/
+    - /bin/cp -r public/frontend/ $DEPLOYPATH
+    - /bin/cp public/.htaccess $DEPLOYPATH
+    - /bin/cp public/favicon.ico $DEPLOYPATH
+    - /bin/cp public/robots.txt $DEPLOYPATH
+    - export COREPATH=/home/ptmanage/pt-managementinternasional.com/
+    - /bin/cp -r app/ $COREPATH
+    - /bin/cp -r tests/ $COREPATH
+    - /bin/cp -r vendor/ $COREPATH
+    - /bin/cp -r writable/ $COREPATH
+    - /bin/cp builds $COREPATH
+    - /bin/cp composer.json $COREPATH
+    - /bin/cp composer.lock $COREPATH
+    - /bin/cp LICENSE $COREPATH
+    - /bin/cp phpunit.xml.dist $COREPATH
+    - /bin/cp preload.php $COREPATH
+    - /bin/cp README.md $COREPATH
+    - /bin/cp spark $COREPATH

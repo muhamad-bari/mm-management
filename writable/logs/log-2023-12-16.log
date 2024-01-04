@@ -1,0 +1,90 @@
+CRITICAL - 2023-12-16 00:05:14 --> Invalid file: "fr/pages/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fr/pages/about.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('fr/pages/about', [], true)
+ 3 APPPATH\Controllers\fr_index.php(26): view('fr/pages/about')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\fr_index->about()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fr_index))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mm-management\\public\\index.php')
+CRITICAL - 2023-12-16 01:08:29 --> Invalid file: "fr/pages/gallery.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fr/pages/gallery.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('fr/pages/gallery', [], true)
+ 3 APPPATH\Controllers\fr_index.php(36): view('fr/pages/gallery')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\fr_index->gallery()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fr_index))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mm-management\\public\\index.php')
+CRITICAL - 2023-12-16 01:08:36 --> Invalid file: "fr/pages/contact.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fr/pages/contact.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('fr/pages/contact', [], true)
+ 3 APPPATH\Controllers\fr_index.php(41): view('fr/pages/contact')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\fr_index->contact()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fr_index))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mm-management\\public\\index.php')
+CRITICAL - 2023-12-16 01:54:21 --> Invalid file: "fr/pages/gallery.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fr/pages/gallery.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('fr/pages/gallery', [], true)
+ 3 APPPATH\Controllers\fr_index.php(36): view('fr/pages/gallery')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\fr_index->gallery()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fr_index))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mm-management\\public\\index.php')
+CRITICAL - 2023-12-16 01:54:31 --> Invalid file: "fr/pages/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fr/pages/register.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('fr/pages/register', [], true)
+ 3 APPPATH\Controllers\fr_index.php(21): view('fr/pages/register')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\fr_index->register()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fr_index))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mm-management\\public\\index.php')
+CRITICAL - 2023-12-16 04:52:52 --> Invalid file: "fr/pages/gallery.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fr/pages/gallery.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('fr/pages/gallery', [], true)
+ 3 APPPATH\Controllers\fr_index.php(36): view('fr/pages/gallery')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\fr_index->gallery()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fr_index))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mm-management\\public\\index.php')
+CRITICAL - 2023-12-16 04:57:33 --> Invalid file: "fr/pages/gallery.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fr/pages/gallery.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('fr/pages/gallery', [], true)
+ 3 APPPATH\Controllers\fr_index.php(36): view('fr/pages/gallery')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\fr_index->gallery()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fr_index))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mm-management\\public\\index.php')
+CRITICAL - 2023-12-16 04:57:49 --> Invalid file: "fr/pages/gallery.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fr/pages/gallery.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('fr/pages/gallery', [], true)
+ 3 APPPATH\Controllers\fr_index.php(36): view('fr/pages/gallery')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\fr_index->gallery()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fr_index))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mm-management\\public\\index.php')
+CRITICAL - 2023-12-16 08:04:21 --> Invalid file: "fr/pages/gallery.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fr/pages/gallery.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('fr/pages/gallery', [], true)
+ 3 APPPATH\Controllers\fr_index.php(36): view('fr/pages/gallery')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\fr_index->gallery()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fr_index))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mm-management\\public\\index.php')

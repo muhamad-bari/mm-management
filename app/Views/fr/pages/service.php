@@ -31,8 +31,8 @@
         <div class="col-lg-12">
           <div class="breadcumb-style1">
             <div class="breadcumb-list">
-              <a href="<?= base_url('/') ?>">Home</a>
-              <a href="<?= base_url('service') ?>">Services</a>
+              <a href="<?= base_url($locale . '/') ?>"><?= lang('service.home') ?></a>
+              <a href="<?= base_url($locale . '/service') ?>"><?= lang('service.service') ?></a>
             </div>
           </div>
         </div>
@@ -49,11 +49,11 @@
         <div class="row wow fadeInUp">
           <div class="col-xl-5">
             <div class="position-relative">
-              <h2>Service</h2>
-              <p class="text mb30">Give your visitor a smooth online experience with a solid UX design</p>
+              <h2><?= lang('service.service') ?></h2>
+              <p class="text mb30"><?= lang('service.subservice') ?></p>
               <div class="d-flex align-items-center">
                 <a class="video-btn mr10 popup-iframe popup-youtube" href="#"><i class="fal fa-play"></i></a>
-                <h6 class="mb-0">How Management Mandiri Internasional Works</h6>
+                <h6 class="mb-0"><?= lang('service.vid') ?></h6>
               </div>
             </div>
           </div>
@@ -178,11 +178,11 @@
         </div>
         <div class="col-6 col-sm-6 col-lg-3 px-0">
           <div class="page_control_shorting mb10 d-flex align-items-center justify-content-center justify-content-sm-end">
-            <div class="pcs_dropdown dark-color pr10 pr0-xs"><span>Sort by</span>
+            <div class="pcs_dropdown dark-color pr10 pr0-xs"><span><?= lang('service.sort') ?></span>
               <select class="selectpicker show-tick">
-                <option>Best Seller</option>
-                <option>Recommended</option>
-                <option>New Arrivals</option>
+                <option><?= lang('service.best') ?></option>
+                <option><?= lang('service.recommended') ?></option>
+                <option><?= lang('service.new') ?></option>
               </select>
             </div>
           </div>
@@ -196,16 +196,16 @@
               <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
             </div>
             <div class="list-content">
-              <p class="list-text body-color fz14 mb-1">Service</p>
-              <h5 class="list-title"><a href="<?= base_url('login') ?>">Household assistant</a></h5>
+              <p class="list-text body-color fz14 mb-1"><?= lang('service.service') ?></p>
+              <h5 class="list-title"><a href="<?= base_url($locale . '/login') ?>"><?= lang('service.house') ?></a></h5>
               <div class="review-meta d-flex align-items-center">
                 <i class="fas fa-star fz10 review-color me-2"></i>
-                <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
+                <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 <?= lang('service.reviews') ?></p>
               </div>
               <hr class="my-2">
               <div class="list-meta d-flex justify-content-between align-items-center mt15">
                 <div class="budget">
-                  <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">SAR 12.000 / $3.199</span></p>
+                  <p class="mb-0 body-color"><?= lang('service.starting') ?><span class="fz17 fw500 dark-color ms-1">SAR 12.000 / $3.199</span></p>
                 </div>
               </div>
             </div>
@@ -234,16 +234,16 @@
               </div>
             </div>
             <div class="list-content">
-              <p class="list-text body-color fz14 mb-1">Service</p>
-              <h5 class="list-title"><a href="<?= base_url('login') ?>">Baby Sitter</a></h5>
+              <p class="list-text body-color fz14 mb-1"><?= lang('service.service') ?></p>
+              <h5 class="list-title"><a href="<?= base_url($locale . '/login') ?>"><?= lang('service.baby') ?></a></h5>
               <div class="review-meta d-flex align-items-center">
                 <i class="fas fa-star fz10 review-color me-2"></i>
-                <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
+                <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 <?= lang('service.reviews') ?></p>
               </div>
               <hr class="my-2">
               <div class="list-meta d-flex justify-content-between align-items-center mt15">
                 <div class="budget">
-                  <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">SAR 12.000 / $3.199</span></p>
+                  <p class="mb-0 body-color"><?= lang('service.starting') ?><span class="fz17 fw500 dark-color ms-1">SAR 12.000 / $3.199</span></p>
                 </div>
               </div>
             </div>
@@ -256,16 +256,16 @@
               <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
             </div>
             <div class="list-content">
-              <p class="list-text body-color fz14 mb-1">Service</p>
-              <h5 class="list-title line-clamp2"><a href="<?= base_url('login') ?>">Elderly Nurse</a></h5>
+              <p class="list-text body-color fz14 mb-1"><?= lang('service.service') ?></p>
+              <h5 class="list-title line-clamp2"><a href="<?= base_url($locale . '/login') ?>"><?= lang('service.elder') ?></a></h5>
               <div class="review-meta d-flex align-items-center">
                 <i class="fas fa-star fz10 review-color me-2"></i>
-                <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
+                <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 <?= lang('service.reviews') ?></p>
               </div>
               <hr class="my-2">
               <div class="list-meta d-flex justify-content-between align-items-center mt15">
                 <div class="budget">
-                  <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">SAR 12.000 / $3.199</span></p>
+                  <p class="mb-0 body-color"><?= lang('service.starting') ?><span class="fz17 fw500 dark-color ms-1">SAR 12.000 / $3.199</span></p>
                 </div>
               </div>
             </div>
@@ -278,16 +278,16 @@
               <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
             </div>
             <div class="list-content">
-              <p class="list-text body-color fz14 mb-1">Service</p>
-              <h5 class="list-title"><a href="<?= base_url('login') ?>">Driver</a></h5>
+              <p class="list-text body-color fz14 mb-1"><?= lang('service.service') ?></p>
+              <h5 class="list-title"><a href="<?= base_url($locale . '/login') ?>"><?= lang('service.driver') ?></a></h5>
               <div class="review-meta d-flex align-items-center">
                 <i class="fas fa-star fz10 review-color me-2"></i>
-                <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
+                <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 <?= lang('service.reviews') ?></p>
               </div>
               <hr class="my-2">
               <div class="list-meta d-flex justify-content-between align-items-center mt15">
                 <div class="budget">
-                  <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">SAR 12.000 / $3.199</span></p>
+                  <p class="mb-0 body-color"><?= lang('service.starting') ?><span class="fz17 fw500 dark-color ms-1">SAR 12.000 / $3.199</span></p>
                 </div>
               </div>
             </div>
@@ -300,16 +300,16 @@
               <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
             </div>
             <div class="list-content">
-              <p class="list-text body-color fz14 mb-1">Service</p>
-              <h5 class="list-title"><a href="<?= base_url('login') ?>">Chef</a></h5>
+              <p class="list-text body-color fz14 mb-1"><?= lang('service.service') ?></p>
+              <h5 class="list-title"><a href="<?= base_url($locale . '/login') ?>"><?= lang('service.chef') ?></a></h5>
               <div class="review-meta d-flex align-items-center">
                 <i class="fas fa-star fz10 review-color me-2"></i>
-                <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
+                <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 <?= lang('service.reviews') ?></p>
               </div>
               <hr class="my-2">
               <div class="list-meta d-flex justify-content-between align-items-center mt15">
                 <div class="budget">
-                  <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">SAR 12.000 / $3.199</span></p>
+                  <p class="mb-0 body-color"><?= lang('service.starting') ?><span class="fz17 fw500 dark-color ms-1">SAR 12.000 / $3.199</span></p>
                 </div>
               </div>
             </div>
@@ -322,16 +322,16 @@
               <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
             </div>
             <div class="list-content">
-              <p class="list-text body-color fz14 mb-1">Service</p>
-              <h5 class="list-title"><a href="<?= base_url('login') ?>">Barista</a></h5>
+              <p class="list-text body-color fz14 mb-1"><?= lang('service.service') ?></p>
+              <h5 class="list-title"><a href="<?= base_url($locale . '/login') ?>"><?= lang('service.Barista') ?></a></h5>
               <div class="review-meta d-flex align-items-center">
                 <i class="fas fa-star fz10 review-color me-2"></i>
-                <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
+                <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 <?= lang('service.reviews') ?></p>
               </div>
               <hr class="my-2">
               <div class="list-meta d-flex justify-content-between align-items-center mt15">
                 <div class="budget">
-                  <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">SAR 12.000 / $3.199</span></p>
+                  <p class="mb-0 body-color"><?= lang('service.starting') ?><span class="fz17 fw500 dark-color ms-1">SAR 12.000 / $3.199</span></p>
                 </div>
               </div>
             </div>
@@ -344,16 +344,16 @@
               <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
             </div>
             <div class="list-content">
-              <p class="list-text body-color fz14 mb-1">Service</p>
-              <h5 class="list-title line-clamp2"><a href="<?= base_url('login') ?>">Waitress</a></h5>
+              <p class="list-text body-color fz14 mb-1"><?= lang('service.service') ?></p>
+              <h5 class="list-title line-clamp2"><a href="<?= base_url($locale . '/login') ?>"><?= lang('service.Waitress') ?></a></h5>
               <div class="review-meta d-flex align-items-center">
                 <i class="fas fa-star fz10 review-color me-2"></i>
-                <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
+                <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 <?= lang('service.reviews') ?></p>
               </div>
               <hr class="my-2">
               <div class="list-meta d-flex justify-content-between align-items-center mt15">
                 <div class="budget">
-                  <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">SAR 12.000 / $3.199</span></p>
+                  <p class="mb-0 body-color"><?= lang('service.starting') ?><span class="fz17 fw500 dark-color ms-1">SAR 12.000 / $3.199</span></p>
                 </div>
               </div>
             </div>
@@ -366,16 +366,16 @@
               <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
             </div>
             <div class="list-content">
-              <p class="list-text body-color fz14 mb-1">Service</p>
-              <h5 class="list-title"><a href="<?= base_url('login') ?>">Tailor</a></h5>
+              <p class="list-text body-color fz14 mb-1"><?= lang('service.service') ?></p>
+              <h5 class="list-title"><a href="<?= base_url($locale . '/login') ?>"><?= lang('service.Tailor') ?></a></h5>
               <div class="review-meta d-flex align-items-center">
                 <i class="fas fa-star fz10 review-color me-2"></i>
-                <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
+                <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 <?= lang('service.reviews') ?></p>
               </div>
               <hr class="my-2">
               <div class="list-meta d-flex justify-content-between align-items-center mt15">
                 <div class="budget">
-                  <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">SAR 12.000 / $3.199</span></p>
+                  <p class="mb-0 body-color"><?= lang('service.starting') ?><span class="fz17 fw500 dark-color ms-1">SAR 12.000 / $3.199</span></p>
                 </div>
               </div>
             </div>
@@ -388,16 +388,16 @@
               <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
             </div>
             <div class="list-content">
-              <p class="list-text body-color fz14 mb-1">Service</p>
-              <h5 class="list-title"><a href="<?= base_url('login') ?>">Beautycian</a></h5>
+              <p class="list-text body-color fz14 mb-1"><?= lang('service.service') ?></p>
+              <h5 class="list-title"><a href="<?= base_url($locale . '/login') ?>"><?= lang('service.Beautycian') ?></a></h5>
               <div class="review-meta d-flex align-items-center">
                 <i class="fas fa-star fz10 review-color me-2"></i>
-                <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
+                <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 <?= lang('service.reviews') ?></p>
               </div>
               <hr class="my-2">
               <div class="list-meta d-flex justify-content-between align-items-center mt15">
                 <div class="budget">
-                  <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">SAR 12.000 / $3.199</span></p>
+                  <p class="mb-0 body-color"><?= lang('service.starting') ?><span class="fz17 fw500 dark-color ms-1">SAR 12.000 / $3.199</span></p>
                 </div>
               </div>
             </div>

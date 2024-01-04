@@ -8,7 +8,7 @@ return [
 
     'sign' => 'تسجيل الدخول',
     'join' => 'ينضم',
-    
+
     'services' => 'خدمات',
     'house' => 'مساعد منزلي',
     'baby' => 'جليسه اطفال',
@@ -19,4 +19,36 @@ return [
     'Waitress' => 'نادلة',
     'Tailor' => 'خياط',
     'Beautycian' => 'التجميل',
+
+    // dashboard
+
+    'resume' => 'سيرة ذاتية',
+    'updated' => 'محدث',
+    'password' => 'كلمة المرور',
+    'changed' => 'تغير',
+    'accountcreated' => 'تم إنشاء الحساب بنجاح',
+    'applied' => 'مُطبَّق',
+    'successfully' => 'نجاح',
+    'courseupload' => 'التدريب المرفوع',
+    'viewall' => 'عرض جميع الرسائل',
+    'myprofile' => 'ملفي',
+    'dashboard' => 'لوحة القيادة',
+    'dashboardnav' => 'التنقل في لوحة القيادة',
+    'saved' => 'مخزن',
+    'message' => 'رسالة',
+    'reviews' => 'مراجعة',
+    'invoice' => 'فاتورة',
+    'payouts' => 'قسط',
+    'proposal' => 'عرض',
+    'statement' => 'إفادة',
+    'start' => 'يبدأ',
+    'organizeand' => 'التنظيم والإدارة',
+    'manageservices' => 'إدارة الخدمات',
+    'managejobs' => 'إدارة الوظائف',
+    'manageprojects' => 'إدارة المشاريع',
+    'account' => 'حساب',
+    'logout' => 'الخروج',
+    'whatservice' => 'ما هي الخدمات التي تبحث عنها اليوم؟',
+    'uploaded' => 'تم الرفع',
+    'search' => 'يبحث',
 ];
