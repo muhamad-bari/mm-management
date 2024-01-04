@@ -14,8 +14,8 @@
                 <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button></div>";
             }?>
         <div class=" d-flex justify-content-center align-items-center">
-        <button data-bs-target="#tambah-ktg-modal" class="btn btn-sm btn-submit mx-1" data-bs-toggle="modal">Tambah Kategeori</button>
-        <button data-bs-target="#tambah-gl-modal" class="btn btn-sm btn-success mx-1" data-bs-toggle="modal">Tambah Galeri</button>
+        <!-- <button data-bs-target="#tambah-ktg-modal" class="btn btn-sm btn-submit mx-1" data-bs-toggle="modal">Tambah Kategeori</button> -->
+        <button data-bs-target="#tambah-gl-modal" class="btn btn-sm btn-success mx-1" data-bs-toggle="modal">Tambah Item Galeri</button>
         </div>
     </div>
 </div>
@@ -53,18 +53,18 @@
 	  <div class="modal-content">
       <div class="card-form">
         <div class="c-header d-flex justify-content-between align-items-center">
-            <h4>Tambah Kategori Galeri</h4>
+            <h4>Tambah Galeri</h4>
             <span type="button" data-bs-dismiss="modal" class="text-light" aria-label="Close"><i class="fa-solid fa-xl fa-xmark"></i></span>
         </div>
-        <form action="<?= base_url('cms/add_ktg_gl')?>" method="post">
+        <form action="<?= base_url('cms/add_ktg_gl')?>" method="post" enctype="multipart/form-data">
         <input type="hidden" name="<?= csrf_token() ?>" value="<?= csrf_hash()?>">
         <div class="c-body">
-            <label for="">Nama Kategori</label>
-            <input type="text" name="ktg" id="ktg" class="form-text"  placeholder="Nama Kategori"required>
-            <div id="err" style="color:red; font-size:0.7rem"></div>
+           <div class="form-group mt-2">
+                <input type="text" name="" id="" data-role="tagsinput" class="form-text">
+           </div>
         </div>
         <div class="c-footer text-center">
-            <input type="submit" value="Tambah" name="tambah-ktg" id="tambah-ktg"class="btn btn-sm btn-submit">
+            <input type="submit" value="Tambah" name="tambah-galeri" id="tambah-ktg"class="btn btn-sm btn-submit">
         </div>
         </form>
       </div>

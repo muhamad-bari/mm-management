@@ -66,6 +66,8 @@ class BeCms extends BaseController
     // Pages Load
     public function gallery()
     {
+        $ktgm = new KtgGl();
+        $data['lktg'] = $ktgm->findAll();
         $data['title'] = "Gallery Edit Page";
         return view('cms/pages/gallery', $data);
     }
