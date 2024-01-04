@@ -19,6 +19,9 @@ $(document).ready(function () {
         window.location.href = baseURL + '/' + lang+ '/'+rest;
         });
 
+});
+
+
     $('a.zoom').on('click', function(event) {
         event.preventDefault();
         var img = $(this).data('img');
@@ -32,5 +35,4 @@ $(document).ready(function () {
         $('.portfolio-box').hide();
         $('.portfolio-box[data-ktr="' + category + '"]').show();
     });
-});
 

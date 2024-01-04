@@ -15,7 +15,7 @@
             }?>
         <div class=" d-flex justify-content-center align-items-center">
         <!-- <button data-bs-target="#tambah-ktg-modal" class="btn btn-sm btn-submit mx-1" data-bs-toggle="modal">Tambah Kategeori</button> -->
-        <button data-bs-target="#tambah-gl-modal" class="btn btn-sm btn-success mx-1" data-bs-toggle="modal">Tambah Item Galeri</button>
+        <button data-bs-target="#tambah-gl-modal" class="btn btn-sm btn-terti mx-1" data-bs-toggle="modal">Tambah Item Galeri</button>
         </div>
     </div>
 </div>

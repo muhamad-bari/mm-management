@@ -4,10 +4,13 @@
     --nav-height:10vh;
     --side-color:#265c1a;
     --side-sub:#2a472f;
-    --body-color:#2f2f2f;
+    --body-color:#353535;
     --btn-cancel:rgb(190, 190, 190);
-    --btn-submit:rgb(79, 51, 151);
-    --btn-active:rgb(132, 101, 210);
+    --btn-submit:rgb(191, 56, 233);
+    --btn-accent:rgb(119, 97, 245);
+    --btn-secondary:rgb(231, 193, 68);
+    --btn-tertiary:rgb(228, 142, 29);
+    --btn-active:rgb(184, 161, 241);
 }
 * {
     font-size: 0.9rem;
@@ -36,7 +39,7 @@ body {
 .side-bar   {
     width:250px;
     transition:0.3s ease-in-out;
-    background:var(--btn-submit);
+    background:linear-gradient(0deg,var(--btn-submit),var(--btn-accent) );
 }
 .side-bar-toggled {
     margin-left:-250px;
@@ -53,7 +56,7 @@ body {
     padding:5px;
 }
 .side-menu .side-menu-active {
-    background:var(--btn-active);
+    background:var(--btn-tertiary);
 }
 .side-menu li a {
     color:var(--font-color);
@@ -94,7 +97,7 @@ body {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 .c-header {
-    background: var(--body-color);
+    background: var(--btn-accent);
     padding:10px;
 }
 .cheader h1,h2,h3,h4,h5 {
@@ -135,12 +138,22 @@ body {
 }
 .btn-cancel {
     background:var(--btn-cancel);
-    
 }
 .btn-active {
     background:var(--btn-active);
-    color:var(--font-color);
-    
+    color:var(--font-color); 
+}
+.btn-second {
+    background:var(--btn-secondary);
+    color:var(--font-color); 
+}
+.btn-accent {
+    background:var(--btn-accent);
+    color:var(--font-color); 
+}
+.btn-terti {
+    background:var(--btn-tertiary);
+    color:var(--font-color); 
 }
 .dark-text {
     color: var(--body-color);
