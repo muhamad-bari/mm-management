@@ -1,4 +1,5 @@
-// import { CKFinder } from '../ckeditor/ckeditor5-ckfinder';
+var csrfToken = $('meta[name="csrf-token"]').attr('content');
+
 $('#menu-button').on('click', ()=> {
     $('.side-bar').toggleClass('side-bar-toggled');
 })
@@ -39,71 +40,69 @@ $('.menu-link').each((i, e) => {
     }
 })
 
-$(document).ready(function () {
-    var canvas = $('#signature')[0];
-    var context = canvas.getContext('2d');
-    var isDrawing = false;
-    $(canvas).mousedown(function (e) {
-        isDrawing = true;
-        context.beginPath();
-        context.moveTo(e.pageX - $(this).offset().left, e.pageY - $(this).offset().top);
-    });
-    $(canvas).mousemove(function (e) {
-        if (isDrawing) {
-            context.lineTo(e.pageX - $(this).offset().left, e.pageY - $(this).offset().top);
-            context.stroke();
-        }
-    });
-    $(document).mouseup(function () {
-        isDrawing = false;
-        context.closePath();
-    });
+// $(document).ready(function () {
+//     var canvas = $('#signature')[0];
+//     var context = canvas.getContext('2d');
+//     var isDrawing = false;
+//     $(canvas).mousedown(function (e) {
+//         isDrawing = true;
+//         context.beginPath();
+//         context.moveTo(e.pageX - $(this).offset().left, e.pageY - $(this).offset().top);
+//     });
+//     $(canvas).mousemove(function (e) {
+//         if (isDrawing) {
+//             context.lineTo(e.pageX - $(this).offset().left, e.pageY - $(this).offset().top);
+//             context.stroke();
+//         }
+//     });
+//     $(document).mouseup(function () {
+//         isDrawing = false;
+//         context.closePath();
+//     });
 
-    // Handle the "Konfirmasi" button click
-    $('#konf-sign').click(function () {
-        // Capture the signature data as an image
-        var imageData = canvas.toDataURL('image/png');
 
-        // Display the image in the .bukti div
-        $('.bukti').html('<h4>Signature Image</h4><img src="' + imageData + '">');
+//     $('#konf-sign').click(function () {
 
-        // Optionally, you can save the imageData in a hidden input field for form submission
-        $('#signature64').val(imageData);
-        $('#sign-modal').modal('hide')
-        return false
-    });
-    $('#reset-sign').click(function() {
-        context.clearRect(0, 0, canvas.width, canvas.height);
-        return false
-    })
-});
+//         var imageData = canvas.toDataURL('image/png');
 
-$('#pay_method').on('change', function() {
-    if($('#pay_method').val()==="1")
-    {
-        $('#rek_kirim').prop('readonly', true).val('0');
-        $('#rek_terima').prop('readonly', true).val('0');
-    }
-    else
-    {
-        $('#rek_kirim').prop('readonly', false);
-        $('#rek_terima').prop('readonly', false);
-    }
-})
-$('#jenis').on('change', function() {
-    if($('#jenis').val()==="1")
-    {
-        $('#label_rek').html('Rekening Pengirim');
-        $('#rek_kirim').prop('type', 'number').val('0');
-        $('#rek_terima').prop('type', 'hidden').val('0');
-    }
-    else
-    {
-        $('#label_rek').html('Rekening Penerima');
-        $('#rek_kirim').prop('type', 'hidden').val('0');
-        $('#rek_terima').prop('type', 'number').val('0');
-    }
-})
+//         $('.bukti').html('<h4>Signature Image</h4><img src="' + imageData + '">');
+
+//         $('#signature64').val(imageData);
+//         $('#sign-modal').modal('hide')
+//         return false
+//     });
+//     $('#reset-sign').click(function() {
+//         context.clearRect(0, 0, canvas.width, canvas.height);
+//         return false
+//     })
+// });
+
+// $('#pay_method').on('change', function() {
+//     if($('#pay_method').val()==="1")
+//     {
+//         $('#rek_kirim').prop('readonly', true).val('0');
+//         $('#rek_terima').prop('readonly', true).val('0');
+//     }
+//     else
+//     {
+//         $('#rek_kirim').prop('readonly', false);
+//         $('#rek_terima').prop('readonly', false);
+//     }
+// })
+// $('#jenis').on('change', function() {
+//     if($('#jenis').val()==="1")
+//     {
+//         $('#label_rek').html('Rekening Pengirim');
+//         $('#rek_kirim').prop('type', 'number').val('0');
+//         $('#rek_terima').prop('type', 'hidden').val('0');
+//     }
+//     else
+//     {
+//         $('#label_rek').html('Rekening Penerima');
+//         $('#rek_kirim').prop('type', 'hidden').val('0');
+//         $('#rek_terima').prop('type', 'number').val('0');
+//     }
+// })
 
 // 
 $('#tambah-ktg').on('click', function() {
@@ -136,3 +135,84 @@ $('.tag-input')
           );
         })
         .trigger('change');
+
+
+        
+            $.ajax({
+                url: '/cms/pagegaleri',
+                method: 'GET',
+                dataType: 'json',
+                headers: {
+                    'X-CSRF-TOKEN': csrfToken
+                },
+                success: function(response) {
+                    
+                    var ktg = response.map((e) => e.kategori.split(',')).reduce((acc, cur) => acc.concat(cur),[])
+                    var uniqueKtg = [...new Set(ktg)];
+                    $('#kategori').html(uniqueKtg.map((e) => 
+                            `<span class="btn btn-sm btn-accent mx-1" role="button" data-kategori='${e}'>${e}</span>`
+                    ))
+                   
+                    // button item
+                    var itemperPage =  5
+                    var totalpage = Math.ceil(response.length/itemperPage)
+                    var buttonitem=''
+                    for(i=1; i<=totalpage; i++)
+                    {
+                       
+                           buttonitem += `<button data-page='${i}' class='page-button'>${i}</button>`
+                       
+                    }
+                    $('#pageButtons').html(buttonitem)
+
+                    //updateui
+                        var sliceddata1 = response.slice(0, itemperPage)
+                        $('#data-container').html(sliceddata1.map((e, i) => {
+                            var fsplit = e.file.split('.')
+                            var extf = fsplit[fsplit.length - 1]
+                            var ext  = ['jpg', 'png', 'svg', 'bmp', 'webp' ,'gif']
+                            if(ext.includes(extf))
+                            {
+                            return `<img src='../../uploads/galeri/${e.file}' width='250' height='250'>` 
+                            }
+                            else
+                            {
+                             return   `<video width="250" height="250" controls>
+                                <source src="../../uploads/galeri/${e.file}" type="video/${extf}">
+                                </video>`
+                            }
+                            }))
+
+                    $('.page-button').on('click', function() {
+                        var page = $(this).data('page')
+                        var currentindex = (page-1)*itemperPage
+                        var sliceddata = response.slice(currentindex, currentindex+itemperPage)
+                        $('#data-container').html(sliceddata.map((e, i) => {
+                            var fsplit = e.file.split('.')
+                            var extf = fsplit[fsplit.length - 1]
+                            var ext  = ['jpg', 'png', 'svg', 'bmp', 'webp' ,'gif']
+                            if(ext.includes(extf))
+                            {
+                            return `<img src='../../uploads/galeri/${e.file}' width='250' height='250'>` 
+                            }
+                            else
+                            {
+                             return   `<video width="250" height="250" controls>
+                                <source src="../../uploads/galeri/${e.file}" type="video/${extf}">
+                                </video>`
+                            }
+                            }))
+                    })
+
+                    
+                        
+
+                },
+                error: function(err) {
+                    console.error('Error:', err);
+                }
+            });
+        
+    
+        // Function to update the UI with fetched data
+    

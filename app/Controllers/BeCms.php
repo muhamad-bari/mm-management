@@ -5,6 +5,7 @@ namespace App\Controllers;
 use App\Controllers\BaseController;
 use App\Models\User;
 use App\Models\KtgGl;
+use App\Models\Galeri;
 
 class BeCms extends BaseController
 {
@@ -66,8 +67,8 @@ class BeCms extends BaseController
     // Pages Load
     public function gallery()
     {
-        $ktgm = new KtgGl();
-        $data['lktg'] = $ktgm->findAll();
+        $ktgm = new Galeri();
+        $data['glr'] = $ktgm->findAll();
         $data['title'] = "Gallery Edit Page";
         return view('cms/pages/gallery', $data);
     }
@@ -97,5 +98,56 @@ class BeCms extends BaseController
             session()->setFlashdata('err', 'Kategori Sudah Ada, Silahkan Pilih Kategori Lain');
             return redirect()->to('cms/galeri');
         }
+    }
+
+    public function addgaleri()
+    {
+        $totalFile = 0;
+        $kategori = $this->request->getVar('kategori_gl');
+        $deskripsi = $this->request->getVar('desc_gl');
+        if($this->request->getFileMultiple('file_gl'))
+        {
+            $files = $this->request->getFileMultiple('file_gl');
+            foreach($files as $file)
+            {
+                if($file->isValid() && ! $file->hasMoved())
+                {
+                    $name = $file->getRandomName();
+                    $file->move('uploads/galeri/', $name);
+                    $data = [
+                        'kategori' => $kategori,
+                        'desc' => $deskripsi,
+                        'file' => $name
+                    ];
+                    $glM = new Galeri;
+                    $insgl = $glM->save($data);
+                    $totalFile++;
+                }
+            }
+            if($totalFile <= 0 && !$insgl)
+            {
+                session()->setFlashdata('err',"Gagal Upload Data");
+                return redirect()->to('cms/galeri');
+                
+            }
+            else
+            {
+                session()->setFlashdata('succ', "Sukses Tambah $totalFile Item");
+                return redirect()->to('cms/galeri');
+            }
+        }
+        
+    }
+
+    public function pagegaleri()
+    {
+        $ktgm = new Galeri();
+        $glar = array();
+        $glr = $ktgm->findAll();
+        foreach($glr as $glrr)
+        {
+            $glar[] = $glrr;
+        }
+        return $this->response->setJSON($glar);
     }
 }

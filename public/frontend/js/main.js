@@ -19,7 +19,7 @@ $(document).ready(function () {
         window.location.href = baseURL + '/' + lang+ '/'+rest;
     });
 
-});
+    });
 
 
     $('a.zoom').on('click', function(event) {

@@ -14,9 +14,9 @@ class Galeri extends Migration
                 'constraint' => 100,
                 'auto_increment' => true
             ],
-            'id_ket_gl' => [
-                'type' => 'int',
-                'constraint' =>100
+            'kategori' => [
+                'type' => 'varchar',
+                'constraint' =>255
             ],
             'desc' => [
                 'type' => 'varchar',

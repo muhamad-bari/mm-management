@@ -12,7 +12,7 @@ class Galeri extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['id_gl', 'id_ket_gl', 'desc', 'file'];
+    protected $allowedFields    = ['id_gl', 'kategori', 'desc', 'file'];
 
     // Dates
     protected $useTimestamps = false;
@@ -23,7 +23,7 @@ class Galeri extends Model
 
     // Validation
     protected $validationRules      = [
-        'desc' => 'required | min_length[3] | max_length[130]'
+        'desc' => 'required|min_length[3]|max_length[255]'
     ];
     protected $validationMessages   = [];
     protected $skipValidation       = false;
