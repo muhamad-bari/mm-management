@@ -131,4 +131,10 @@ class fr_index extends BaseController
         $data['locale'] = $this->request->getLocale();
         echo view('fr/pages/user-dashboard', $data);
     }
+
+    public function uiele()
+    {
+        $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/ui-elements', $data);
+    }
 }
