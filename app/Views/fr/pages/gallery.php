@@ -32,10 +32,13 @@
 	</section>
 	<!-- Our Agents -->
 	<div class="container-fluid portfolio-section portfolio-4-col">
-		<button class="btn btn-info" data-ktg='berangkat'>Keberangkatan</button>
-		<button class="btn btn-info" data-ktg='pelatihan'>pelatihan</button>
+	<div class="kategori-container p-4">
+                <h4>Kategori</h4>
+                <div class="bordered kategori">
+                </div>
+            </div>
 		<!-- Portfolio List -->
-		<div class="row portfolio-list">
+		<div class="row portfolio-list galeri-fr">
 			<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 portfolio-box" data-ktr='berangkat'>
 				<div class="portfolio-detail">
 					<i><img src="<?= base_url('') ?>frontend/images/gallery/home-portfolio-1.jpg" alt="Gallery" /></i>
@@ -149,7 +152,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="mbp_pagination mt30 text-center">
-				<ul class="page_navigation">
+				<ul class="page_navigation pageButtons">
 					<li class="page-item">
 						<a class="page-link" href="#"> <span class="fas fa-angle-left"></span></a>
 					</li>

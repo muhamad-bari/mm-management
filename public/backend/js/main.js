@@ -138,80 +138,92 @@ $('.tag-input')
 
 
         
-            $.ajax({
-                url: '/cms/pagegaleri',
-                method: 'GET',
-                dataType: 'json',
-                headers: {
-                    'X-CSRF-TOKEN': csrfToken
-                },
-                success: function(response) {
-                    
-                    var ktg = response.map((e) => e.kategori.split(',')).reduce((acc, cur) => acc.concat(cur),[])
-                    var uniqueKtg = [...new Set(ktg)];
-                    $('#kategori').html(uniqueKtg.map((e) => 
-                            `<span class="btn btn-sm btn-accent mx-1" role="button" data-kategori='${e}'>${e}</span>`
-                    ))
-                   
-                    // button item
-                    var itemperPage =  5
-                    var totalpage = Math.ceil(response.length/itemperPage)
-                    var buttonitem=''
-                    for(i=1; i<=totalpage; i++)
+    $.ajax({
+        url: '/cms/pagegaleri',
+        method: 'GET',
+        dataType: 'json',
+        headers: {
+            'X-CSRF-TOKEN': csrfToken
+        },
+        success: function(response) {
+            var ktgr ='';
+            var showndata = response
+            var ktg = response.map((e) => e.kategori.split(',')).reduce((acc, cur) => acc.concat(cur),[])
+            var uniqueKtg = [...new Set(ktg)];
+            $('.kategori').html(uniqueKtg.map((e) => 
+                    `<span class="btn btn-sm btn-accent mx-1 ktg-btn" role="button" data-kategori='${e}'>${e}</span>`
+            ) + `<span class="btn btn-sm btn-accent mx-1 ktg-btn" role="button" data-kategori=''>Show All</span>`)
+
+            $('.ktg-btn').on('click', function() {
+                ktgr = $(this).data('kategori')
+                console.log(ktgr)
+                var fdata = response.filter(e => e.kategori.includes(ktgr));
+                showndata = fdata;
+                console.log(showndata)
+                updateUIAndPageButtons()
+                
+            })
+            
+            function updateUIAndPageButtons() {
+            var itemperPage = 10
+            var totalpage = Math.ceil(showndata.length/itemperPage)
+            var buttonitem=''
+            for(i=1; i<=totalpage; i++)
+            {
+                
+                    buttonitem += `<button data-page='${i}' class='page-button-galeri'>${i}</button>`
+                
+            }
+            $('.pageButtons').html(buttonitem)
+                var sliceddata1 = showndata.slice(0, itemperPage)
+                $('.data-galeri').html(sliceddata1.map((e, i) => {
+                    var fsplit = e.file.split('.')
+                    var extf = fsplit[fsplit.length - 1]
+                    var ext  = ['jpg', 'png', 'svg', 'bmp', 'webp' ,'gif']
+                    if(ext.includes(extf))
                     {
-                       
-                           buttonitem += `<button data-page='${i}' class='page-button'>${i}</button>`
-                       
+                    return `<img src='../../uploads/galeri/${e.file}' width='250' height='250'>` 
                     }
-                    $('#pageButtons').html(buttonitem)
+                    else
+                    {
+                        return   `<video width="250" height="250" controls>
+                        <source src="../../uploads/galeri/${e.file}" type="video/${extf}">
+                        </video>`
+                    }
+                }))
 
-                    //updateui
-                        var sliceddata1 = response.slice(0, itemperPage)
-                        $('#data-container').html(sliceddata1.map((e, i) => {
-                            var fsplit = e.file.split('.')
-                            var extf = fsplit[fsplit.length - 1]
-                            var ext  = ['jpg', 'png', 'svg', 'bmp', 'webp' ,'gif']
-                            if(ext.includes(extf))
-                            {
-                            return `<img src='../../uploads/galeri/${e.file}' width='250' height='250'>` 
-                            }
-                            else
-                            {
-                             return   `<video width="250" height="250" controls>
-                                <source src="../../uploads/galeri/${e.file}" type="video/${extf}">
-                                </video>`
-                            }
-                            }))
+            $('.page-button-galeri').on('click', function() {
+                var page = $(this).data('page')
+                var currentindex = (page-1)*itemperPage
+                var sliceddata = showndata.slice(currentindex, currentindex+itemperPage)
+                $('.data-galeri').html(sliceddata.map((e, i) => {
+                    var fsplit = e.file.split('.')
+                    var extf = fsplit[fsplit.length - 1]
+                    var ext  = ['jpg', 'png', 'svg', 'bmp', 'webp' ,'gif']
+                    if(ext.includes(extf))
+                    {
+                    return `<img src='../../uploads/galeri/${e.file}' width='250' height='250'>` 
+                    }
+                    else
+                    {
+                        return   `<video width="250" height="250" controls>
+                        <source src="../../uploads/galeri/${e.file}" type="video/${extf}">
+                        </video>`
+                    }
+                    }))
+            })
+            $('.prevButton').on('click', function() {
+                
+            })
 
-                    $('.page-button').on('click', function() {
-                        var page = $(this).data('page')
-                        var currentindex = (page-1)*itemperPage
-                        var sliceddata = response.slice(currentindex, currentindex+itemperPage)
-                        $('#data-container').html(sliceddata.map((e, i) => {
-                            var fsplit = e.file.split('.')
-                            var extf = fsplit[fsplit.length - 1]
-                            var ext  = ['jpg', 'png', 'svg', 'bmp', 'webp' ,'gif']
-                            if(ext.includes(extf))
-                            {
-                            return `<img src='../../uploads/galeri/${e.file}' width='250' height='250'>` 
-                            }
-                            else
-                            {
-                             return   `<video width="250" height="250" controls>
-                                <source src="../../uploads/galeri/${e.file}" type="video/${extf}">
-                                </video>`
-                            }
-                            }))
-                    })
-
-                    
-                        
-
-                },
-                error: function(err) {
-                    console.error('Error:', err);
-                }
-            });
+        }
+                
+        updateUIAndPageButtons()
+        },
+        error: function(err) {
+            console.error('Error:', err);
+        }
+    });
         
     
         // Function to update the UI with fetched data

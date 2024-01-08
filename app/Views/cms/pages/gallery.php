@@ -88,13 +88,14 @@
 <!-- Show Gallery Item -->
             <div class="kategori-container p-4">
                 <h4>Kategori</h4>
-                <div id="kategori" class="bordered"></div>
+                <div class="bordered kategori">
+                </div>
             </div>
-            <div id="data-container"></div>
+            <div class="data-galeri"></div>
             <div id="pagination-container">
-                <button id="prevButton">Previous</button>
-                <div id="pageButtons"></div>
-                <button id="nextButton">Next</button>
+                <button class="prevButton">Previous</button>
+                <div class="pageButtons"></div>
+                <button class="nextButton">Next</button>
             </div>
 <!-- End Show Gallery Item -->
 <?= $this->endSection() ?>

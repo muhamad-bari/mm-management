@@ -8,6 +8,7 @@
   <meta name="keywords" content="PJTKI, Indonesia, Tenaga Kerja Indonesia, Management mandiri, Management Internasional, PT MM Management, TKI, Terpercaya, Tumbuh, Kembang, Mandiri, Management, Internasional, Loker Luar Negeri">
   <meta name="description" content="#">
   <meta name="CreativeLayers" content="ATFN">
+  <meta name="csrf-token" content="<?= csrf_hash() ?>">
   <!-- css file -->
   <link rel="stylesheet" href="<?php echo base_url() ?>frontend/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php echo base_url() ?>frontend/css/jquery-ui.min.css">

@@ -8,6 +8,7 @@
   <meta name="keywords" content="PJTKI, Indonesia, Tenaga Kerja Indonesia, Management mandiri, Management Internasional, PT MM Management, TKI, Terpercaya, Tumbuh, Kembang, Mandiri, Management, Internasional, Loker Luar Negeri">
   <meta name="description" content="About">
   <meta name="CreativeLayers" content="ATFN">
+  <meta name="csrf-token" content="<?= csrf_hash() ?>">
   <!-- css file -->
   <link rel="stylesheet" href="<?= base_url() ?>frontend/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?= base_url() ?>frontend/css/ace-responsive-menu.css">
@@ -22,6 +23,7 @@
   <link rel="stylesheet" href="<?= base_url() ?>frontend/css/slider.css">
   <link rel="stylesheet" href="<?= base_url() ?>frontend/css/style.css">
   <link rel="stylesheet" href="<?= base_url() ?>frontend/css/galer.css">
+  <!-- <link rel="stylesheet" href="<?= base_url('backend/css/style.css')?>"> -->
   <link rel="stylesheet" href="css/dashbord_navitaion.css">
   <link rel="stylesheet" href="css/ud-custom-spacing.css">
   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
