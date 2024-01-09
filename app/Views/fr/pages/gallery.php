@@ -33,7 +33,7 @@
 	<!-- Our Agents -->
 	<div class="container-fluid portfolio-section portfolio-4-col">
 	<div class="kategori-container p-4">
-                <h4>Kategori</h4>
+                <!-- <h4>Kategori</h4> -->
                 <div class="bordered kategori">
                 </div>
             </div>
@@ -170,7 +170,7 @@
 						<a class="page-link" href="#"><span class="fas fa-angle-right"></span></a>
 					</li>
 				</ul>
-				<p class="mt10 mb-0 pagination_page_count text-center">1 – 20 of 300+ Talent available</p>
+				<!-- <p class="mt10 mb-0 pagination_page_count text-center">1 – 20 of 300+ Talent available</p> -->
 				<br>
 			</div>
 		</div>
