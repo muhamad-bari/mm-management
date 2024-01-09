@@ -33,8 +33,8 @@ $(document).ready(function () {
             var ktg = response.map((e) => e.kategori.split(',')).reduce((acc, cur) => acc.concat(cur),[])
             var uniqueKtg = [...new Set(ktg)];
             $('.kategori').html(uniqueKtg.map((e) => 
-                    `<span class="btn btn-sm btn-accent mx-1 ktg-btn" role="button" data-kategori='${e}'>${e}</span>`
-            ).join('') + `<span class="btn btn-sm btn-accent mx-1 ktg-btn" role="button" data-kategori=''>Show All</span>`)
+                    `<span class="ud-btn btn-gray me-2 ktg-btn" role="button" data-kategori='${e}'>${e}</span>`
+            ).join('') + `<span class="ud-btn btn-gray me-2 ktg-btn" role="button" data-kategori=''>Show All</span>`)
 
             $('.ktg-btn').on('click', function() {
                 ktgr = $(this).data('kategori')

@@ -2,6 +2,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/ptmanage/public_html/
     - /bin/cp -r public/frontend/ $DEPLOYPATH
+    - /bin/cp -r public/backend/ $DEPLOYPATH
     - /bin/cp public/.htaccess $DEPLOYPATH
     - /bin/cp public/favicon.ico $DEPLOYPATH
     - /bin/cp public/robots.txt $DEPLOYPATH
