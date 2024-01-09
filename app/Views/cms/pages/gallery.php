@@ -19,7 +19,6 @@
         </div>
     </div>
 </div>
-
 <!-- Modal  Kategori-->
 <div class="modal fade" id="tambah-ktg-modal" tabindex="-1" aria-labelledby="" aria-hidden="true">
   <div class="modal-dialog w-100 d-flex flex-column">
@@ -78,7 +77,7 @@
         </form>
       </div>
       </div>
-
+            
     </div>
 </div>
 <!-- End Modal Galeri -->
@@ -87,15 +86,33 @@
 
 <!-- Show Gallery Item -->
             <div class="kategori-container p-4">
-                <h4>Kategori</h4>
                 <div class="bordered kategori">
                 </div>
             </div>
-            <div class="data-galeri"></div>
+            <div class="row data-galeri"></div>
             <div id="pagination-container">
-                <button class="prevButton">Previous</button>
+                <button class="prevButton btn btn-submit p-3"><i class="fa-solid fa-chevron-left"></i></button>
                 <div class="pageButtons"></div>
-                <button class="nextButton">Next</button>
+                <button class="nextButton btn btn-submit p-3"><i class="fa-solid fa-chevron-right"></i></button>
             </div>
 <!-- End Show Gallery Item -->
+
+
+<!-- modal-show-item -->
+<div class="modal fade" id="modal-galeri" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered" >
+        <div class="modal-content w-100">
+            <div class="modal-header">
+                <span class="btn btn-close" role="button" data-bs-dismiss="modal"></span>
+            </div>
+            <div class="modal-body w-100">
+            <img src="" alt="" id="img-modal" >
+            <video id="vd-modal"  class="w-100"controls>
+                <source src="" >
+            </video>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- modal-show-item -->
 <?= $this->endSection() ?>

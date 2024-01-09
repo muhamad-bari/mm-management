@@ -9,6 +9,7 @@
 			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 		</div>
 		<img src="" id="pop-img" alt="Gallery" />
+		<div id="cp-img"></div>
 	</div>
 </div>
 

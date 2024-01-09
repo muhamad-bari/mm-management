@@ -150,4 +150,20 @@ class BeCms extends BaseController
         }
         return $this->response->setJSON($glar);
     }
+
+    public function delgaleri($id)
+    {
+        $glM = new Galeri;
+        $gll = $glM->where('id_gl', $id)->delete();
+        if($gll)
+        {
+            session()->setFlashdata('succ', "Sukses Hapus Data");
+                return redirect()->to('cms/galeri');
+        }
+        else
+        {
+            session()->setFlashdata('err',"Gagal Hapus Data");
+                return redirect()->to('cms/galeri');
+        }
+    }
 }
