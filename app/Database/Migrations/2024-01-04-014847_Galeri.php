@@ -24,6 +24,10 @@ class Galeri extends Migration
             ],
             'file' => [
                 'type' => 'TEXT'
+            ],
+            'visibility' => [
+                'type' => 'INT',
+                'constraint' => 10,
             ]
         ]);
         $this->forge->addKey('id_gl', true);

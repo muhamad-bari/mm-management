@@ -86,18 +86,22 @@ $('.tag-input')
         success: function(response) {
             var page = 1
             var ktgr ='';
+            var vsb= '';
             var showndata = response
-            var ktg = response.map((e) => e.kategori.split(',')).reduce((acc, cur) => acc.concat(cur),[])
-            var uniqueKtg = [...new Set(ktg)];
-            $('.kategori').html(uniqueKtg.map((e) => 
-                    `<span class="btn btn-sm btn-accent mx-1 ktg-btn" role="button" data-kategori='${e}'>${e}</span>`
-            ).join('') + `<span class="btn btn-sm btn-accent mx-1 ktg-btn" role="button" data-kategori=''>Show All</span>`)
+            
             $('.ktg-btn').on('click', function() {
                 ktgr = $(this).data('kategori')
                 var fdata = response.filter(e => e.kategori.includes(ktgr));
                 showndata = fdata;
                 updateUIAndPageButtons()  
+                $('.vsb-btn').on('click', function() {
+                    vsb = $(this).data('visible')
+                    var fdata = response.filter(e => e.visibility.includes(vsb));
+                    showndata = fdata;
+                    updateUIAndPageButtons()  
+                })
             })
+            
             function updateUIAndPageButtons() {
                 var itemperPage = 10
                 var totalpage = Math.ceil(showndata.length/itemperPage)

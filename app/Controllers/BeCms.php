@@ -67,8 +67,10 @@ class BeCms extends BaseController
     // Pages Load
     public function gallery()
     {
-        $ktgm = new Galeri();
-        $data['glr'] = $ktgm->findAll();
+        $glrm = new Galeri();
+        $ktgM = new KtgGl();
+        $data['glr'] = $glrm->findAll();
+        $data['ktg'] = $ktgM->findAll();
         $data['title'] = "Gallery Edit Page";
         return view('cms/pages/gallery', $data);
     }
@@ -105,6 +107,7 @@ class BeCms extends BaseController
         $totalFile = 0;
         $kategori = $this->request->getVar('kategori_gl');
         $deskripsi = $this->request->getVar('desc_gl');
+        $visibility = $this->request->getVar('visibility');
         if($this->request->getFileMultiple('file_gl'))
         {
             $files = $this->request->getFileMultiple('file_gl');
@@ -117,7 +120,8 @@ class BeCms extends BaseController
                     $data = [
                         'kategori' => $kategori,
                         'desc' => $deskripsi,
-                        'file' => $name
+                        'file' => $name,
+                        'visibility' => (int)$visibility
                     ];
                     $glM = new Galeri;
                     $insgl = $glM->save($data);
@@ -142,8 +146,9 @@ class BeCms extends BaseController
     public function pagegaleri()
     {
         $ktgm = new Galeri();
+        $ktgM = new KtgGl();
         $glar = array();
-        $glr = $ktgm->findAll();
+        $glr = $ktgm->join('mm_gl_ket','mm-galeri.kategori = mm_gl_ket.id_gl_ket','left')->findAll();
         foreach($glr as $glrr)
         {
             $glar[] = $glrr;
@@ -154,9 +159,13 @@ class BeCms extends BaseController
     public function delgaleri($id)
     {
         $glM = new Galeri;
+        $dataG = $glM->where('id_gl', $id)->first();
+        $fileG = $dataG['file'];
+
         $gll = $glM->where('id_gl', $id)->delete();
         if($gll)
         {
+            unlink('uploads/galeri/'. $fileG);
             session()->setFlashdata('succ', "Sukses Hapus Data");
                 return redirect()->to('cms/galeri');
         }
