@@ -69,6 +69,8 @@
 				{
 					$noo = $no++;
 					$ktgg = $ktgr['id_gl_ket'];
+					if(count($tgaleri[$noo] > 0))
+					{
 					?>
 					<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 portfolio-box">
 						<div class="portfolio-detail" style="width:250px; height:250px;">
@@ -80,6 +82,15 @@
 						</div>
                     </div>
 					<?php
+					}
+					else
+					{
+						?>
+						<div class="col-md-12">
+							<span>Tidak Ada Album Item Galeri</span>
+						</div>
+						<?php
+					}
 				}
 			}
 			?>
