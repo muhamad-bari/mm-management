@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ERROR - 2024-01-10 19:31:59 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
  in C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
 Stack trace:
@@ -31,11 +32,47 @@ Stack trace:
 #10 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
 #11 {main}
 CRITICAL - 2024-01-10 19:31:59 --> Unable to connect to the database.
+=======
+ERROR - 2024-01-10 07:59:35 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'mm-management', 3306, '', 0)
+#1 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\wildan\code\mm-management\app\Controllers\BeCms.php(21): CodeIgniter\BaseModel->first()
+#7 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\BeCms->check_login()
+#8 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeCms))
+#9 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\wildan\code\mm-management\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\wildan\\code\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\wildan\code\mm-management\app\Controllers\BeCms.php(21): CodeIgniter\BaseModel->first()
+#6 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\BeCms->check_login()
+#7 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeCms))
+#8 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\wildan\code\mm-management\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\wildan\\code\\...')
+#11 {main}
+CRITICAL - 2024-01-10 07:59:35 --> Unable to connect to the database.
+>>>>>>> 05fa16bacbc87d33be54ecca5b5a576fc3e89fcf
 Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
 
 in SYSTEMPATH\Database\BaseConnection.php on line 428.
  1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
  2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+<<<<<<< HEAD
 FROM `mm-galeri`', [], false)
  3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
  4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
@@ -78,11 +115,58 @@ Stack trace:
 #10 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
 #11 {main}
 CRITICAL - 2024-01-10 19:34:07 --> Unable to connect to the database.
+=======
+FROM `tb_user`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\BeCms.php(21): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BeCms->check_login()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeCms))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\wildan\\code\\mm-management\\public\\index.php')
+ERROR - 2024-01-10 08:02:29 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'mm-management', 3306, '', 0)
+#1 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\wildan\code\mm-management\app\Controllers\BeCms.php(21): CodeIgniter\BaseModel->first()
+#7 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\BeCms->check_login()
+#8 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeCms))
+#9 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\wildan\code\mm-management\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\wildan\\code\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\wildan\code\mm-management\app\Controllers\BeCms.php(21): CodeIgniter\BaseModel->first()
+#6 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\BeCms->check_login()
+#7 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeCms))
+#8 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\wildan\code\mm-management\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\wildan\\code\\...')
+#11 {main}
+CRITICAL - 2024-01-10 08:02:29 --> Unable to connect to the database.
+>>>>>>> 05fa16bacbc87d33be54ecca5b5a576fc3e89fcf
 Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
 
 in SYSTEMPATH\Database\BaseConnection.php on line 428.
  1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
  2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+<<<<<<< HEAD
 FROM `mm-galeri`', [], false)
  3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
  4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
@@ -125,11 +209,58 @@ Stack trace:
 #10 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
 #11 {main}
 CRITICAL - 2024-01-10 19:34:32 --> Unable to connect to the database.
+=======
+FROM `tb_user`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\BeCms.php(21): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BeCms->check_login()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeCms))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\wildan\\code\\mm-management\\public\\index.php')
+ERROR - 2024-01-10 08:02:45 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'mm-management', 3306, '', 0)
+#1 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\wildan\code\mm-management\app\Controllers\BeCms.php(21): CodeIgniter\BaseModel->first()
+#7 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\BeCms->check_login()
+#8 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeCms))
+#9 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\wildan\code\mm-management\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\wildan\\code\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 D:\wildan\code\mm-management\app\Controllers\BeCms.php(21): CodeIgniter\BaseModel->first()
+#6 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\BeCms->check_login()
+#7 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeCms))
+#8 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\wildan\code\mm-management\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\wildan\\code\\...')
+#11 {main}
+CRITICAL - 2024-01-10 08:02:45 --> Unable to connect to the database.
+>>>>>>> 05fa16bacbc87d33be54ecca5b5a576fc3e89fcf
 Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
 
 in SYSTEMPATH\Database\BaseConnection.php on line 428.
  1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
  2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+<<<<<<< HEAD
 FROM `mm-galeri`', [], false)
  3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
  4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
@@ -797,3 +928,54 @@ FROM `mm-galeri`', [], false)
  8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mm-management\\public\\index.php')
+=======
+FROM `tb_user`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\BeCms.php(21): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BeCms->check_login()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeCms))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\wildan\\code\\mm-management\\public\\index.php')
+INFO - 2024-01-10 08:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 09:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 09:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 09:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 09:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 09:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+>>>>>>> 05fa16bacbc87d33be54ecca5b5a576fc3e89fcf

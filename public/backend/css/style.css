@@ -85,6 +85,13 @@ body {
     .side-bar .close-btn  {
         display:block;
     }
+    .act-gallery {
+        position:absolute;
+        z-index:1;
+        top:50%;
+        left: 43%;
+        display:none;
+    }
 }
 
 
@@ -100,7 +107,19 @@ body {
     background: var(--btn-accent);
     padding:10px;
 }
-.cheader h1,h2,h3,h4,h5 {
+.c-header-secondary {
+    background: var(--btn-secondary);
+    padding:10px;
+}
+.c-header-tertiary {
+    background: var(--btn-tertiary);
+    padding:10px;
+}
+.c-header-active {
+    background: var(--btn-active);
+    padding:10px;
+}
+.cheader,.c-header-active,.c-header-secondary,.c-header-tertiary h1,h2,h3,h4,h5 {
     color: var(--font-color);
 }
 .c-body {

@@ -17,7 +17,7 @@
               </select>
             </li>
             <li class="list-inline-item bg-white">
-              <select class="selectpicker language show-tick" id="language">
+              <select class="selectpicker language show-tick" id="languagess">
                 <?php
                 $lang = [
                   'en' => 'English',

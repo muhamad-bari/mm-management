@@ -4,12 +4,25 @@
 
 <!-- Modal -->
 <div class="modal fade" id="galeri-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	<div class="modal-dialog w-100 bg-warning d-flex flex-column">
-		<div class="d-flex justify-content-end">
-			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	<div class="modal-dialog modal-fullscreen d-flex flex-column">
+		<div class="modal-content m-auto" style="width:90%; height:100vh; overflow:auto;">
+			<div class="d-flex justify-content-end">
+				<button type="button" class="btn-close p-3 bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+
+			<div id="cp-img" class="row justify-content-center"></div>
 		</div>
-		<img src="" id="pop-img" alt="Gallery" />
-		<div id="cp-img"></div>
+	</div>
+</div>
+
+<div class="modal fade" id="galeri-modal-detail" tabindex="-1">
+	<div class="modal-dialog modal-fullscreen d-flex flex-column">
+		<div class="modal-content m-auto" style="width:90%; height:100vh; overflow:auto; background:transparent;">
+			<div class="d-flex justify-content-end">
+				<button type="button" class="btn-close p-3 bg-light modal-galeri-detail" data-bs-toggle="modal" data-bs-target="#galeri-modal" aria-label="Close"></button>
+			</div>
+			<img src="" alt="" id="img-galeri-detail">
+		</div>
 	</div>
 </div>
 
@@ -33,121 +46,47 @@
 	</section>
 	<!-- Our Agents -->
 	<div class="container-fluid portfolio-section portfolio-4-col">
-	<div class="kategori-container p-4">
-                <!-- <h4>Kategori</h4> -->
-                <div class="bordered kategori">
-                </div>
-            </div>
+		<div class="kategori-container p-4">
+			<!-- <h4>Kategori</h4> -->
+			<div class="bordered kategori">
+			</div>
+		</div>
 		<!-- Portfolio List -->
-		<div class="row portfolio-list galeri-fr">
-			<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 portfolio-box" data-ktr='berangkat'>
-				<div class="portfolio-detail">
-					<i><img src="<?= base_url('') ?>frontend/images/gallery/home-portfolio-1.jpg" alt="Gallery" /></i>
-					<div class="portfolio-content">
-						<a href="#">Pelatihan Lanayan Baby Sitter</a>
-						<a href="#" data-img="<?= base_url() ?>frontend/images/gallery/home-portfolio-1.jpg" data-bs-toggle="modal" data-bs-target="#galeri-modal" class="zoom" title="Work Title Goes right here"><i class="fa fa-search"></i></a>
-					</div>
+		<div class="row portfolio-list galeri-fr justify-content-center">
+			<?php
+			if (!$ktg) {
+			?>
+				<div class="col-md-12">
+					<span>Tidak Ada Album Item Galeri</span>
 				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 portfolio-box" data-ktr='pelatihan'>
-				<div class="portfolio-detail">
-					<i><img src="<?= base_url('') ?>frontend/images/gallery/home-portfolio-2.jpg" alt="Gallery" /></i>
-					<div class="portfolio-content">
-						<a href="#">Persiapan Keberangkatan</a>
-						<a href="<?= base_url('') ?>frontend/images/gallery/home-portfolio-2.jpg" class="zoom" title="Work Title Goes right here"><i class="fa fa-search"></i></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 portfolio-box">
-				<div class="portfolio-detail">
-					<i><img src="<?= base_url('') ?>frontend/images/gallery/home-portfolio-3.jpg" alt="Gallery" /></i>
-					<div class="portfolio-content">
-						<a href="#">Persiapan Keberangkatan</a>
-						<a href="<?= base_url('') ?>frontend/images/gallery/home-portfolio-3.jpg" class="zoom" title="Work Title Goes right here"><i class="fa fa-search"></i></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 portfolio-box">
-				<div class="portfolio-detail">
-					<i><img src="<?= base_url('') ?>frontend/images/gallery/home-portfolio-4.jpg" alt="Gallery" /></i>
-					<div class="portfolio-content">
-						<a href="#">Persiapan Keberangkatan</a>
-						<a href="<?= base_url('') ?>frontend/images/gallery/home-portfolio-4.jpg" class="zoom" title="Work Title Goes right here"><i class="fa fa-search"></i></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 portfolio-box">
-				<div class="portfolio-detail">
-					<i><img src="<?= base_url('') ?>frontend/images/gallery/home-portfolio-5.jpg" alt="Gallery" /></i>
-					<div class="portfolio-content">
-						<a href="#">Persiapan Keberangkatan</a>
-						<a href="<?= base_url('') ?>frontend/images/gallery/home-portfolio-5.jpg" class="zoom" title="Work Title Goes right here"><i class="fa fa-search"></i></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 portfolio-box">
-				<div class="portfolio-detail">
-					<i><img src="<?= base_url('') ?>frontend/images/gallery/home-portfolio-6.jpg" alt="Gallery" /></i>
-					<div class="portfolio-content">
-						<a href="#">Persiapan Keberangkatan</a>
-						<a href="<?= base_url('') ?>frontend/images/gallery/home-portfolio-6.jpg" class="zoom" title="Work Title Goes right here"><i class="fa fa-search"></i></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 portfolio-box">
-				<div class="portfolio-detail">
-					<i><img src="<?= base_url('') ?>frontend/images/gallery/home-portfolio-7.jpg" alt="Gallery" /></i>
-					<div class="portfolio-content">
-						<a href="#">Pelatihan Materi</a>
-						<a href="<?= base_url('') ?>frontend/images/gallery/home-portfolio-7.jpg" class="zoom" title="Work Title Goes right here"><i class="fa fa-search"></i></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 portfolio-box">
-				<div class="portfolio-detail">
-					<i><img src="<?= base_url('') ?>frontend/images/gallery/home-portfolio-8.jpg" alt="Gallery" /></i>
-					<div class="portfolio-content">
-						<a href="#">Persiapan Keberangkatan</a>
-						<a href="<?= base_url('') ?>frontend/images/gallery/home-portfolio-8.jpg" class="zoom" title="Work Title Goes right here"><i class="fa fa-search"></i></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 portfolio-box">
-				<div class="portfolio-detail">
-					<i><img src="<?= base_url('') ?>frontend/images/gallery/home-portfolio-9.jpg" alt="Gallery" /></i>
-					<div class="portfolio-content">
-						<a href="#">Pelatihan Layanan Chef</a>
-						<a href="<?= base_url('') ?>frontend/images/gallery/home-portfolio-9.jpg" class="zoom" title="Work Title Goes right here"><i class="fa fa-search"></i></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 portfolio-box">
-				<div class="portfolio-detail">
-					<i><img src="<?= base_url('') ?>frontend/images/gallery/home-portfolio-10.jpg" alt="Gallery" /></i>
-					<div class="portfolio-content">
-						<a href="#">Pelatihan Materi</a>
-						<a href="<?= base_url('') ?>frontend/images/gallery/home-portfolio-10.jpg" class="zoom" title="Work Title Goes right here"><i class="fa fa-search"></i></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 portfolio-box">
-				<div class="portfolio-detail">
-					<i><img src="<?= base_url('') ?>frontend/images/gallery/home-portfolio-11.jpg" alt="Gallery" /></i>
-					<div class="portfolio-content">
-						<a href="#">Pelatihan Layanan Chef</a>
-						<a href="<?= base_url('') ?>frontend/images/gallery/home-portfolio-11.jpg" class="zoom" title="Work Title Goes right here"><i class="fa fa-search"></i></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 portfolio-box">
-				<div class="portfolio-detail">
-					<i><img src="<?= base_url('') ?>frontend/images/gallery/home-portfolio-12.jpg" alt="Gallery" /></i>
-					<div class="portfolio-content">
-						<a href="#">Pelatihan Layanan Asisten Rumah Tangga</a>
-						<a href="<?= base_url('') ?>frontend/images/gallery/home-portfolio-12.jpg" class="zoom" title="Work Title Goes right here"><i class="fa fa-search"></i></a>
-					</div>
-				</div>
-			</div>
+				<?php
+			} else {
+				$no = 0;
+				foreach ($ktg as $ktgr) {
+					$noo = $no++;
+					$ktgg = $ktgr['id_gl_ket'];
+					if (count($tgaleri[$noo]) > 0) {
+				?>
+						<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 portfolio-box">
+							<div class="portfolio-detail" style="width:250px; height:250px;">
+								<i style="width:250px; height:250px"><img src="<?= base_url('uploads/galeri/' . $galeri[$noo]['file']) ?>" alt="Gallery" width="400" height="400" /></i>
+								<div class="portfolio-content">
+									<a href="#"><?= $ktgr['nama_gl_ket'] ?>(<?= count($tgaleri[$noo]) ?>)</a>
+									<a href="#galeri-modal" data-alb=<?= $ktgg ?> data-bs-toggle="modal" class="zoom glr-btn" title="Work Title Goes right here"><i class="fa fa-search"></i></a>
+								</div>
+							</div>
+						</div>
+					<?php
+					} else {
+					?>
+						<div class="col-md-12">
+							<span>Tidak Ada Album Item Galeri</span>
+						</div>
+			<?php
+					}
+				}
+			}
+			?>
 		</div><!-- Row -->
 	</div>
 	<div class="container">

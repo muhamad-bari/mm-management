@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use App\Models\Galeri;
+use App\Models\KtgGl;
 use App\Controllers\BaseController;
 
 class fr_index extends BaseController
@@ -38,6 +40,17 @@ class fr_index extends BaseController
 
     public function gallery()
     {
+        $ktgM = new KtgGl();
+        $glrM = new Galeri();
+        $data['ktg'] = $ktgM->findAll();
+        $data['galeri'] = [];
+        foreach($data['ktg'] as $row)
+        {
+            $idKtg = $row['id_gl_ket'];
+            $data['galeri'][]= $glrM->where('kategori', $idKtg)->first();
+            $data['tgaleri'][]= $glrM->where('kategori', $idKtg)->findAll();
+
+        }
         $data['locale'] = $this->request->getLocale();
         echo view('fr/pages/gallery', $data);
     }
