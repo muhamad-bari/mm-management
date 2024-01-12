@@ -9,6 +9,7 @@ return [
 
     'sign' => 'Sign In',
     'join' => 'Join',
+    'lang' => 'language',
 
     'services' => 'Services',
     'house' => 'Household Assistant',

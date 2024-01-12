@@ -9,6 +9,7 @@ return [
 
     'sign' => 'Masuk',
     'join' => 'Bergabung',
+    'lang' => 'Bahasa',
 
     'services' => 'Layanan',
     'house' => 'Asisten Rumah Tangga',

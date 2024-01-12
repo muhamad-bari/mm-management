@@ -9,7 +9,6 @@
 			<div class="d-flex justify-content-end">
 				<button type="button" class="btn-close p-3 bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
-
 			<div id="cp-img" class="row justify-content-center"></div>
 		</div>
 	</div>
@@ -57,7 +56,7 @@
 			if (!$ktg) {
 			?>
 				<div class="col-md-12">
-					<span>Tidak Ada Album Item Galeri</span>
+					<span><?= lang('gallery.coming') ?></span>
 				</div>
 				<?php
 			} else {
@@ -80,7 +79,7 @@
 					} else {
 					?>
 						<div class="col-md-12">
-							<span>Tidak Ada Album Item Galeri</span>
+							<span><?= lang('gallery.coming') ?></span>
 						</div>
 			<?php
 					}
@@ -89,7 +88,7 @@
 			?>
 		</div><!-- Row -->
 	</div>
-	<div class="container">
+	<!-- <div class="container">
 		<div class="row">
 			<div class="mbp_pagination mt30 text-center">
 				<ul class="page_navigation pageButtons">
@@ -110,11 +109,11 @@
 						<a class="page-link" href="#"><span class="fas fa-angle-right"></span></a>
 					</li>
 				</ul>
-				<!-- <p class="mt10 mb-0 pagination_page_count text-center">1 – 20 of 300+ Talent available</p> -->
+				<p class="mt10 mb-0 pagination_page_count text-center">1 – 20 of 300+ Talent available</p>
 				<br>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 
 	<?= $this->endSection() ?>
