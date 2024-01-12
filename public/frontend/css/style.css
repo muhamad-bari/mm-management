@@ -13965,5 +13965,7 @@ hr {
     font-size: 36px;
   }
 }
-
+.page-button-active {
+  background-color: rgb(228, 142, 29);
+}
 /*# sourceMappingURL=style.css.map */

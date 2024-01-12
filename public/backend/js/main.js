@@ -1,5 +1,7 @@
-var csrfToken = $('meta[name="csrf-token"]').attr('content');
+import { updateUI, nexprev } from "./function.js";
 
+var csrfToken = $('meta[name="csrf-token"]').attr('content');
+$(document).ready(function() {
 $('#menu-button').on('click', ()=> {
     $('.side-bar').toggleClass('side-bar-toggled');
 })
@@ -40,71 +42,7 @@ $('.menu-link').each((i, e) => {
     }
 })
 
-// $(document).ready(function () {
-//     var canvas = $('#signature')[0];
-//     var context = canvas.getContext('2d');
-//     var isDrawing = false;
-//     $(canvas).mousedown(function (e) {
-//         isDrawing = true;
-//         context.beginPath();
-//         context.moveTo(e.pageX - $(this).offset().left, e.pageY - $(this).offset().top);
-//     });
-//     $(canvas).mousemove(function (e) {
-//         if (isDrawing) {
-//             context.lineTo(e.pageX - $(this).offset().left, e.pageY - $(this).offset().top);
-//             context.stroke();
-//         }
-//     });
-//     $(document).mouseup(function () {
-//         isDrawing = false;
-//         context.closePath();
-//     });
 
-
-//     $('#konf-sign').click(function () {
-
-//         var imageData = canvas.toDataURL('image/png');
-
-//         $('.bukti').html('<h4>Signature Image</h4><img src="' + imageData + '">');
-
-//         $('#signature64').val(imageData);
-//         $('#sign-modal').modal('hide')
-//         return false
-//     });
-//     $('#reset-sign').click(function() {
-//         context.clearRect(0, 0, canvas.width, canvas.height);
-//         return false
-//     })
-// });
-
-// $('#pay_method').on('change', function() {
-//     if($('#pay_method').val()==="1")
-//     {
-//         $('#rek_kirim').prop('readonly', true).val('0');
-//         $('#rek_terima').prop('readonly', true).val('0');
-//     }
-//     else
-//     {
-//         $('#rek_kirim').prop('readonly', false);
-//         $('#rek_terima').prop('readonly', false);
-//     }
-// })
-// $('#jenis').on('change', function() {
-//     if($('#jenis').val()==="1")
-//     {
-//         $('#label_rek').html('Rekening Pengirim');
-//         $('#rek_kirim').prop('type', 'number').val('0');
-//         $('#rek_terima').prop('type', 'hidden').val('0');
-//     }
-//     else
-//     {
-//         $('#label_rek').html('Rekening Penerima');
-//         $('#rek_kirim').prop('type', 'hidden').val('0');
-//         $('#rek_terima').prop('type', 'number').val('0');
-//     }
-// })
-
-// 
 $('#tambah-ktg').on('click', function() {
     var ktg = $('#ktg').val();
     if(ktg.length < 3 || ktg.length > 15)
@@ -136,7 +74,7 @@ $('.tag-input')
         })
         .trigger('change');
 
-
+    
         
     $.ajax({
         url: '/cms/pagegaleri',
@@ -146,85 +84,100 @@ $('.tag-input')
             'X-CSRF-TOKEN': csrfToken
         },
         success: function(response) {
+            var page = 1
             var ktgr ='';
+            var vsb= '';
             var showndata = response
-            var ktg = response.map((e) => e.kategori.split(',')).reduce((acc, cur) => acc.concat(cur),[])
-            var uniqueKtg = [...new Set(ktg)];
-            $('.kategori').html(uniqueKtg.map((e) => 
-                    `<span class="btn btn-sm btn-accent mx-1 ktg-btn" role="button" data-kategori='${e}'>${e}</span>`
-            ) + `<span class="btn btn-sm btn-accent mx-1 ktg-btn" role="button" data-kategori=''>Show All</span>`)
-
+            
             $('.ktg-btn').on('click', function() {
                 ktgr = $(this).data('kategori')
-                console.log(ktgr)
                 var fdata = response.filter(e => e.kategori.includes(ktgr));
                 showndata = fdata;
-                console.log(showndata)
-                updateUIAndPageButtons()
-                
+                updateUIAndPageButtons()  
+                $('.vsb-btn').on('click', function() {
+                    vsb = $(this).data('visible')
+                    var fdata = response.filter(e => e.visibility.includes(vsb));
+                    showndata = fdata;
+                    updateUIAndPageButtons()  
+                })
             })
             
             function updateUIAndPageButtons() {
-            var itemperPage = 10
-            var totalpage = Math.ceil(showndata.length/itemperPage)
-            var buttonitem=''
-            for(i=1; i<=totalpage; i++)
-            {
-                
-                    buttonitem += `<button data-page='${i}' class='page-button-galeri'>${i}</button>`
-                
-            }
-            $('.pageButtons').html(buttonitem)
+                var itemperPage = 10
+                var totalpage = Math.ceil(showndata.length/itemperPage)
+                var buttonitem=''
+                for(var i=1; i<=totalpage; i++)
+                {
+                    buttonitem += `<button data-page='${i}' class='btn mx-2 page-button-galeri '>${i}</button>`
+                }
+                $('.pageButtons').html(buttonitem)
                 var sliceddata1 = showndata.slice(0, itemperPage)
-                $('.data-galeri').html(sliceddata1.map((e, i) => {
-                    var fsplit = e.file.split('.')
-                    var extf = fsplit[fsplit.length - 1]
-                    var ext  = ['jpg', 'png', 'svg', 'bmp', 'webp' ,'gif']
-                    if(ext.includes(extf))
-                    {
-                    return `<img src='../../uploads/galeri/${e.file}' width='250' height='250'>` 
-                    }
-                    else
-                    {
-                        return   `<video width="250" height="250" controls>
-                        <source src="../../uploads/galeri/${e.file}" type="video/${extf}">
-                        </video>`
-                    }
-                }))
+                $('.data-galeri').html(updateUI(sliceddata1))
+                    
 
-            $('.page-button-galeri').on('click', function() {
-                var page = $(this).data('page')
-                var currentindex = (page-1)*itemperPage
-                var sliceddata = showndata.slice(currentindex, currentindex+itemperPage)
-                $('.data-galeri').html(sliceddata.map((e, i) => {
-                    var fsplit = e.file.split('.')
-                    var extf = fsplit[fsplit.length - 1]
-                    var ext  = ['jpg', 'png', 'svg', 'bmp', 'webp' ,'gif']
-                    if(ext.includes(extf))
-                    {
-                    return `<img src='../../uploads/galeri/${e.file}' width='250' height='250'>` 
-                    }
-                    else
-                    {
-                        return   `<video width="250" height="250" controls>
-                        <source src="../../uploads/galeri/${e.file}" type="video/${extf}">
-                        </video>`
-                    }
-                    }))
-            })
-            $('.prevButton').on('click', function() {
+                $(document).on('click', '.page-button-galeri', function() {
+                    $(this).addClass('page-button-active')
+                    $('.page-button-galeri').not(this).removeClass('page-button-active');
+                    page = $(this).data('page')
+                    var currentindex = (page-1)*itemperPage
+                    var sliceddata = showndata.slice(currentindex, currentindex+itemperPage)
+                    $('.data-galeri').html(updateUI(sliceddata))
                 
-            })
 
-        }
-                
-        updateUIAndPageButtons()
+                })
+                $(document).on('click', '.prevButton', function() {
+                    page = page-1
+                    var activeButton = $('.page-button-galeri').filter(function () {
+                        return $(this).data('page') === page;
+                    });
+                    activeButton.addClass('page-button-active')
+                    $('.page-button-galeri').not(activeButton).removeClass('page-button-active');
+                    var currentindex = (page-1)*itemperPage
+                    var sliceddata = showndata.slice(currentindex, currentindex+itemperPage)
+                    $('.data-galeri').html(updateUI(sliceddata))
+                })   
+                $(document).on('click', '.nextButton', function() {
+                    page = page+1
+                    var activeButton = $('.page-button-galeri').filter(function () {
+                        return $(this).data('page') === page;
+                    });
+                    activeButton.addClass('page-button-active')
+                    $('.page-button-galeri').not(activeButton).removeClass('page-button-active');
+                    var currentindex = (page-1)*itemperPage
+                    var sliceddata = showndata.slice(currentindex, currentindex+itemperPage)
+                    $('.data-galeri').html(updateUI(sliceddata))
+                })          
+
+            }
+            updateUIAndPageButtons()
         },
         error: function(err) {
             console.error('Error:', err);
         }
+
     });
-        
+    $(document).on('click', '.img-thumb', function() {
+        var img = $(this).data('img');
+        $('#img-modal').attr('src',img)
+        $('#img-modal').css('display', 'block');
+        $('#vd-modal').css('display','none')
+    });
+    $(document).on('click', '.vd-thumb', function() {
+        var vd = $(this).data('vd');
+        var ext = $(this).data('ext');
+        $('#vd-modal').attr('src',vd)
+        $('#vd-modal').attr('type','video/'+ ext)
+        $('#img-modal').css('display','none')
+        $('#vd-modal').css('display', 'block');
+    });
+
+    $(document).on('click', '.delg', function() {
+        return confirm('Yakin Hapus Data ?')
+    })
+
     
+    
+        
+})
         // Function to update the UI with fetched data
     
