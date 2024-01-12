@@ -471,3 +471,215 @@ in APPPATH\Views\fr\pages\gallery.php on line 53.
 10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\wildan\\code\\mm-management\\public\\index.php')
 INFO - 2024-01-12 09:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 >>>>>>> ed9e367808300330db22ab956200467c0864b2a7
+ERROR - 2024-01-12 10:44:14 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'mm-management', 3306, '', 0)
+#1 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\mm-management\app\Controllers\fr_index.php(45): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\fr_index->gallery()
+#8 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fr_index))
+#9 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\mm-management\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\mm-management\app\Controllers\fr_index.php(45): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\fr_index->gallery()
+#7 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fr_index))
+#8 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\mm-management\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-01-12 10:44:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mm_gl_ket`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\fr_index.php(45): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\fr_index->gallery()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fr_index))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\mm-management\\public\\index.php')
+CRITICAL - 2024-01-12 11:00:11 --> Trying to access array offset on value of type null
+in APPPATH\Views\fr\pages\gallery.php on line 207.
+ 1 APPPATH\Views\fr\pages\gallery.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\mm-management\\app\\Views\\fr\\pages\\gallery.php', 207)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\mm-management\\app\\Views\\fr\\pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('fr/pages/gallery', [], true)
+ 5 APPPATH\Controllers\fr_index.php(55): view('fr/pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\fr_index->gallery()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fr_index))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\mm-management\\public\\index.php')
+CRITICAL - 2024-01-12 11:00:25 --> Trying to access array offset on value of type null
+in APPPATH\Views\fr\pages\gallery.php on line 207.
+ 1 APPPATH\Views\fr\pages\gallery.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\mm-management\\app\\Views\\fr\\pages\\gallery.php', 207)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\mm-management\\app\\Views\\fr\\pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('fr/pages/gallery', [], true)
+ 5 APPPATH\Controllers\fr_index.php(55): view('fr/pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\fr_index->gallery()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fr_index))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\mm-management\\public\\index.php')
+CRITICAL - 2024-01-12 11:05:48 --> Trying to access array offset on value of type null
+in APPPATH\Views\fr\pages\gallery.php on line 64.
+ 1 APPPATH\Views\fr\pages\gallery.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\mm-management\\app\\Views\\fr\\pages\\gallery.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\mm-management\\app\\Views\\fr\\pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('fr/pages/gallery', [], true)
+ 5 APPPATH\Controllers\fr_index.php(55): view('fr/pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\fr_index->gallery()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fr_index))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\mm-management\\public\\index.php')
+CRITICAL - 2024-01-12 11:05:52 --> Trying to access array offset on value of type null
+in APPPATH\Views\fr\pages\gallery.php on line 64.
+ 1 APPPATH\Views\fr\pages\gallery.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\mm-management\\app\\Views\\fr\\pages\\gallery.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\mm-management\\app\\Views\\fr\\pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('fr/pages/gallery', [], true)
+ 5 APPPATH\Controllers\fr_index.php(55): view('fr/pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\fr_index->gallery()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fr_index))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\mm-management\\public\\index.php')
+CRITICAL - 2024-01-12 11:06:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\fr\pages\gallery.php on line 64.
+ 1 APPPATH\Views\fr\pages\gallery.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\mm-management\\app\\Views\\fr\\pages\\gallery.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\mm-management\\app\\Views\\fr\\pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('fr/pages/gallery', [], true)
+ 5 APPPATH\Controllers\fr_index.php(55): view('fr/pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\fr_index->gallery()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fr_index))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\mm-management\\public\\index.php')
+INFO - 2024-01-12 16:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-12 16:18:48 --> unlink(uploads/galeri/1704419214_681da05feb875f7a0c40.png): No such file or directory
+in APPPATH\Controllers\BeCms.php on line 168.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(uploads/galeri/1704419214_681da05feb875f7a0c40.png): No such file or directory', 'D:\\xampp\\htdocs\\mm-management\\app\\Controllers\\BeCms.php', 168)
+ 2 APPPATH\Controllers\BeCms.php(168): unlink('uploads/galeri/1704419214_681da05feb875f7a0c40.png')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BeCms->delgaleri('7')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeCms))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\mm-management\\public\\index.php')
+INFO - 2024-01-12 16:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-12 16:19:06 --> unlink(uploads/galeri/1704419214_16fb9c2ea0fb555eb378.png): No such file or directory
+in APPPATH\Controllers\BeCms.php on line 168.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(uploads/galeri/1704419214_16fb9c2ea0fb555eb378.png): No such file or directory', 'D:\\xampp\\htdocs\\mm-management\\app\\Controllers\\BeCms.php', 168)
+ 2 APPPATH\Controllers\BeCms.php(168): unlink('uploads/galeri/1704419214_16fb9c2ea0fb555eb378.png')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BeCms->delgaleri('8')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeCms))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\mm-management\\public\\index.php')
+INFO - 2024-01-12 16:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-12 16:19:11 --> unlink(uploads/galeri/1704419215_08798297f5076ab124b1.png): No such file or directory
+in APPPATH\Controllers\BeCms.php on line 168.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(uploads/galeri/1704419215_08798297f5076ab124b1.png): No such file or directory', 'D:\\xampp\\htdocs\\mm-management\\app\\Controllers\\BeCms.php', 168)
+ 2 APPPATH\Controllers\BeCms.php(168): unlink('uploads/galeri/1704419215_08798297f5076ab124b1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BeCms->delgaleri('10')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeCms))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\mm-management\\public\\index.php')
+INFO - 2024-01-12 16:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-12 16:19:15 --> unlink(uploads/galeri/1704419215_ce3b049052e6321a61aa.png): No such file or directory
+in APPPATH\Controllers\BeCms.php on line 168.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(uploads/galeri/1704419215_ce3b049052e6321a61aa.png): No such file or directory', 'D:\\xampp\\htdocs\\mm-management\\app\\Controllers\\BeCms.php', 168)
+ 2 APPPATH\Controllers\BeCms.php(168): unlink('uploads/galeri/1704419215_ce3b049052e6321a61aa.png')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BeCms->delgaleri('9')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeCms))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\mm-management\\public\\index.php')
+INFO - 2024-01-12 16:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-12 16:19:21 --> unlink(uploads/galeri/1704419215_ba5cdb89f15b032fda9a.png): No such file or directory
+in APPPATH\Controllers\BeCms.php on line 168.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(uploads/galeri/1704419215_ba5cdb89f15b032fda9a.png): No such file or directory', 'D:\\xampp\\htdocs\\mm-management\\app\\Controllers\\BeCms.php', 168)
+ 2 APPPATH\Controllers\BeCms.php(168): unlink('uploads/galeri/1704419215_ba5cdb89f15b032fda9a.png')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BeCms->delgaleri('11')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeCms))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\mm-management\\public\\index.php')
+INFO - 2024-01-12 16:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-12 16:19:24 --> unlink(uploads/galeri/1704424079_c747c75c3aeeec083e69.mp4): No such file or directory
+in APPPATH\Controllers\BeCms.php on line 168.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(uploads/galeri/1704424079_c747c75c3aeeec083e69.mp4): No such file or directory', 'D:\\xampp\\htdocs\\mm-management\\app\\Controllers\\BeCms.php', 168)
+ 2 APPPATH\Controllers\BeCms.php(168): unlink('uploads/galeri/1704424079_c747c75c3aeeec083e69.mp4')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BeCms->delgaleri('12')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeCms))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\mm-management\\public\\index.php')
+INFO - 2024-01-12 16:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 16:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -54,42 +54,35 @@
 		<!-- Portfolio List -->
 		<div class="row portfolio-list galeri-fr justify-content-center">
 			<?php
-			if(!$ktg)
-			{
-				?>
+			if (!$ktg) {
+			?>
 				<div class="col-md-12">
 					<span>Tidak Ada Album Item Galeri</span>
 				</div>
 				<?php
-			}
-			else
-			{
-				$no=0;
-				foreach($ktg as $ktgr)
-				{
+			} else {
+				$no = 0;
+				foreach ($ktg as $ktgr) {
 					$noo = $no++;
 					$ktgg = $ktgr['id_gl_ket'];
-					if(count($tgaleri[$noo]) > 0))
-					{
-					?>
-					<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 portfolio-box">
-						<div class="portfolio-detail" style="width:250px; height:250px;">
-							<i style="width:250px; height:250px"><img src="<?= base_url('uploads/galeri/'.$galeri[$noo]['file']) ?>" alt="Gallery" width="400" height="400"/></i>
-							<div class="portfolio-content">
-								<a href="#"><?= $ktgr['nama_gl_ket']?>(<?= count($tgaleri[$noo]) ?>)</a>
-								<a href="#galeri-modal" data-alb=<?= $ktgg ?>  data-bs-toggle="modal" class="zoom glr-btn" title="Work Title Goes right here"><i class="fa fa-search"></i></a>
+					if (count($tgaleri[$noo]) > 0) {
+				?>
+						<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 portfolio-box">
+							<div class="portfolio-detail" style="width:250px; height:250px;">
+								<i style="width:250px; height:250px"><img src="<?= base_url('uploads/galeri/' . $galeri[$noo]['file']) ?>" alt="Gallery" width="400" height="400" /></i>
+								<div class="portfolio-content">
+									<a href="#"><?= $ktgr['nama_gl_ket'] ?>(<?= count($tgaleri[$noo]) ?>)</a>
+									<a href="#galeri-modal" data-alb=<?= $ktgg ?> data-bs-toggle="modal" class="zoom glr-btn" title="Work Title Goes right here"><i class="fa fa-search"></i></a>
+								</div>
 							</div>
 						</div>
-                    </div>
 					<?php
-					}
-					else
-					{
-						?>
+					} else {
+					?>
 						<div class="col-md-12">
 							<span>Tidak Ada Album Item Galeri</span>
 						</div>
-						<?php
+			<?php
 					}
 				}
 			}
