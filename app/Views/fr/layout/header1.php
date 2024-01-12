@@ -129,7 +129,7 @@
               <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
                 <li class="visible_list"> <a class="list-item" href="<?= base_url('/') . $locale ?>"><span class="title"><?= lang('Header.home') ?></span></a></li>
                 <li class="visible_list"> <a class="list-item" href="<?= base_url($locale . '/about') ?>"><span class="title"><?= lang('Header.about') ?></span></a></li>
-                <li class="visible_list"> <a class="list-item" href="<?= base_url($locale . '/blog') ?>"><span class="title"><?= lang('Header.blog') ?></span></a></li>
+                <li class="visible_list"> <a class="list-item" href="<?= base_url($locale . '/career') ?>"><span class="title"><?= lang('Header.career') ?></span></a></li>
                 <li class="visible_list"> <a class="list-item" href="<?= base_url($locale . '/gallery') ?>"><span class="title"><?= lang('Header.gallery') ?></span></a></li>
                 <li> <a class="list-item" href="<?= base_url($locale . '/contact') ?>"><?= lang('Header.contact') ?></a></li>
               </ul>
@@ -188,7 +188,7 @@
       <ul>
         <li><a href="<?= base_url('/') . $locale ?>"><?= lang('Header.home') ?></a></li>
         <li><a href="<?= base_url($locale . '/about') ?>"><?= lang('Header.about') ?></a></li>
-        <li><a href="<?= base_url($locale . '/blog') ?>"><?= lang('Header.blog') ?></a></span></li>
+        <li><a href="<?= base_url($locale . '/career') ?>"><?= lang('Header.career') ?></a></span></li>
         <li><a href="<?= base_url($locale . '/contact') ?>"><?= lang('Header.contact') ?></a>
         <li><a href="<?= base_url($locale . '/gallery') ?>"><?= lang('Header.gallery') ?></a></li>
         <!-- Only for Mobile View -->

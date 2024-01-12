@@ -1,10 +1,11 @@
 <?php
 return [
     'home' => 'Home',
-    'about' => 'About',
+    'about' => 'About Us',
     'blog' => 'Blog',
     'gallery' => 'Gallery',
-    'contact' => 'Contact Us',
+    'contact' => 'Contact',
+    'career' => 'Career',
 
     'sign' => 'Sign In',
     'join' => 'Join',

@@ -359,8 +359,69 @@
     </div>
   </section>
 
+    <!-- Our Blog -->
+    <section class="pt20 pb90 pb30-md">
+      <div class="container">
+        <div class="row align-items-center wow fadeInUp" data-wow-delay="00ms">
+          <div class="col-lg-9">
+            <div class="main-title">
+              <h2 class="title"><?= lang('blog.ourblog') ?></h2>
+              <p class="paragraph"><?= lang('blog.subourblog') ?></p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="text-start text-lg-end mb-4 mb-lg-2">
+              <a class="ud-btn2" href="<?= base_url('/blog') ?>"><?= lang('blog.viewmore') ?><i class="fal fa-arrow-right-long"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="row wow fadeInUp" data-wow-delay="300ms">
+          <div class="col-sm-6 col-xl-3">
+            <div class="blog-style1 bdr1 at-home5 overflow-hidden">
+            <div class="blog-img"><img class="w-100" src="<?= base_url() ?>frontend/images/blog/blog-1.jpg" alt=""></div>
+                    <div class="blog-content">
+                      <a class="date" href="#">March 16, 2022</a>
+                      <h4 class="title mt-1"><a href="<?= base_url($locale . '/blog1') ?>">Informasi Ketenagakerjaan : Bagi Pekerja Migran Indonesia (PMI) khususnya yang bekerja di Perusahaan (Muassasah / Syarikah)</a></h4>
+                      <p class="text mb-0">Bagi Pekerja di Perusahaan (Muassasah / Syarikah) yang tidak diperpanjang izin tinggalnya (iqomah), <a href="<?= base_url($locale . '/blog1') ?>">Read More...</a></p>
+                    </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xl-3">
+            <div class="blog-style1 bdr1 at-home5 overflow-hidden">
+            <div class="blog-img"><img class="w-100" src="<?= base_url() ?>frontend/images/blog/blog-2.jpg" alt=""></div>
+                    <div class="blog-content">
+                      <a class="date" href="#">August 25, 2023</a>
+                      <h4 class="title mt-1"><a href="<?= base_url($locale . '/blog2') ?>">Bertemu PMI di Arab Saudi, Menaker Ida: Yang Mau Kerja di Arab Harus Lewat Syarikah</a></h4>
+                      <p class="text mb-0">Menteri Ketenagakerjaan (Menaker) Ida Fauziyah mengatakan, <a href="<?= base_url($locale . '/blog2') ?>">Read More...</a></p>
+                    </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xl-3">
+            <div class="blog-style1 bdr1 at-home5 overflow-hidden">
+            <div class="blog-img"><img class="w-100" src="<?= base_url() ?>frontend/images/blog/blog-3.jpg" alt=""></div>
+                    <div class="blog-content">
+                      <a class="date" href="#">August 26, 2023</a>
+                      <h4 class="title mt-1"><a href="<?= base_url($locale . '/blog3') ?>">Temui Pekerja Migran di Arab Saudi, Menaker Ingatkan Pentingnya Kompetensi</a></h4>
+                      <p class="text mb-0">Menteri Ketenagakerjaan, Ida Fauziyah kembali menemui Pekerja Migran Indonesia (PMI) <a href="<?= base_url($locale . '/blog3') ?>">Read More...</a></p>
+                    </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xl-3">
+            <div class="blog-style1 bdr1 at-home5 overflow-hidden">
+            <div class="blog-img"><img class="w-100" src="<?= base_url() ?>frontend/images/blog/blog-2.jpg" alt=""></div>
+                    <div class="blog-content">
+                      <a class="date" href="#">August 25, 2023</a>
+                      <h4 class="title mt-1"><a href="<?= base_url($locale . '/blog2') ?>">Bertemu PMI di Arab Saudi, Menaker Ida: Yang Mau Kerja di Arab Harus Lewat Syarikah</a></h4>
+                      <p class="text mb-0">Menteri Ketenagakerjaan (Menaker) Ida Fauziyah mengatakan, <a href="<?= base_url($locale . '/blog2') ?>">Read More...</a></p>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   <!-- CTA Banner -->
-  <section class="pb90 pb30-md">
+  <!-- <section class="pb90 pb30-md">
     <div class="container">
       <div class="row align-items-center wow fadeInUp">
         <div class="col-lg-9">
@@ -458,9 +519,9 @@
       </div>
     </div>
   </section>
-  <br class="d-none d-xl-block">
+  <br class="d-none d-xl-block"> -->
   <!-- Our CTA -->
-  <section class="home11-cta-3 at-home15 bgc-thm4 bdrs24 mx30">
+  <!-- <section class="home11-cta-3 at-home15 bgc-thm4 bdrs24 mx30">
     <div class="container">
       <div class="row align-items-center justify-content-between">
         <div class="col-md-6 col-lg-8 wow fadeInLeft">
@@ -476,7 +537,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- Customers Testimonials -->
   <section class="our-testimonial">
     <div class="container wow fadeInUp" data-wow-delay="300ms">
@@ -550,9 +611,9 @@
   </section>
 
   <!-- For Clien -->
-  <section class="pb120 pb60-sm">
+  <!-- <section class="pb120 pb60-sm">
     <div class="container">
-      <!-- <div class="row align-items-center wow fadeInUp mb100 mb0-md">
+      <div class="row align-items-center wow fadeInUp mb100 mb0-md">
         <div class="col-md-6 col-xl-6">
           <div class="text-center mb30-sm">
             <img class="w-100 bdrs4" src="<?= base_url() ?>frontend/images/about/about-14.jpg" alt="">
@@ -566,7 +627,7 @@
           </div>
           <a href="<?= base_url($locale . '/talent') ?>" class="ud-btn btn-white2 bdrs60">Get Started <i class="fal fa-arrow-right-long"></i></a>
         </div>
-      </div> -->
+      </div>
       <div class="row align-items-center wow fadeInUp mt20">
         <div class="col-md-6 col-xl-4">
           <div class="main-title">
@@ -583,6 +644,6 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <?= $this->endSection() ?>
