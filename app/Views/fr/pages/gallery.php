@@ -54,6 +54,16 @@
 		<!-- Portfolio List -->
 		<div class="row portfolio-list galeri-fr justify-content-center">
 			<?php
+			if(!$ktg)
+			{
+				?>
+				<div class="col-md-12">
+					<span>Tidak Ada Album Item Galeri</span>
+				</div>
+				<?php
+			}
+			else
+			{
 				$no=0;
 				foreach($ktg as $ktgr)
 				{
@@ -71,6 +81,7 @@
                     </div>
 					<?php
 				}
+			}
 			?>
 		</div><!-- Row -->
 	</div>
