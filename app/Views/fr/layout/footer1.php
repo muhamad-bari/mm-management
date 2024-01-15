@@ -105,7 +105,7 @@
                    <option>IDR Rupiah</option>
                  </select>
                </li>
-               <li class="list-inline-item">
+               <!-- <li class="list-inline-item">
                  <select class="selectpicker language" id="language">
                    <?php
                     $lang = [
@@ -120,7 +120,7 @@
                     }
                     ?>
                  </select>
-               </li>
+               </li> -->
              </ul>
            </div>
          </div>

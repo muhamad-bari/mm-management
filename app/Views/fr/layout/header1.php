@@ -132,6 +132,22 @@
                 <li class="visible_list"> <a class="list-item" href="<?= base_url($locale . '/career') ?>"><span class="title"><?= lang('Header.career') ?></span></a></li>
                 <li class="visible_list"> <a class="list-item" href="<?= base_url($locale . '/gallery') ?>"><span class="title"><?= lang('Header.gallery') ?></span></a></li>
                 <li> <a class="list-item" href="<?= base_url($locale . '/contact') ?>"><?= lang('Header.contact') ?></a></li>
+                <li class="visible_list"> <a class="list-item" href="#"><span class="title"><?= lang('Header.lang') ?></span></a>
+                  <ul>
+                  <?php
+                    $lang = [
+                      'en' => 'English',
+                      'id' => 'Indonesia',
+                      'ar' => 'عربي'
+                    ];
+
+                    foreach ($lang as $lid => $language) {
+                      $selected = ($locale == $lid) ? 'selected' : '';
+                      echo "<li><a href='$lid' $selected><span class='title'>$language</span></a></li>";
+                    }
+                    ?>
+                  </ul>
+                </li>
               </ul>
               <a class="login-info bdrl1 pl15-lg pl30" data-bs-toggle="modal" href="#exampleModalToggle" role="button"><span class="flaticon-loupe"></span></a>
               <a class="login-info mx15-lg mx30" href="<?= base_url($locale . '/login') ?>"><span class="d-none d-xl-inline-block"><?= lang('Header.sign') ?></span> </a>
@@ -173,6 +189,23 @@
           <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
             <a class="mobile_logo" href="<?= base_url('/') . $locale ?>"><img src="<?= base_url() ?>frontend/images/header-logo-mobile.png" alt=""></a>
             <div class="right-side text-end">
+            <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
+              <li><a class="" href="#"><?= lang('Header.lang') ?></a></li>
+              <ul>
+              <?php
+                    $lang = [
+                      'en' => 'English',
+                      'id' => 'Indonesia',
+                      'ar' => 'عربي'
+                    ];
+
+                    foreach ($lang as $lid => $language) {
+                      $selected = ($locale == $lid) ? 'selected' : '';
+                      echo "<li><a href='$lid' $selected><span class='title'>$language</span></a></li>";
+                    }
+                    ?>
+              </ul>
+            </ul>
               <a class="" href="<?= base_url($locale . '/login') ?>"><?= lang('Header.join') ?></a>
               <a class="menubar ml30" href="#menu"><img src="<?= base_url() ?>frontend/images/mobile-dark-nav-icon.svg" alt=""></a>
             </div>

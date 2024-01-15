@@ -105,6 +105,29 @@
             <div class="col-6 col-lg-auto">
               <div class="text-center text-lg-end header_right_widgets">
                 <ul class="dashboard_dd_menu_list d-flex align-items-center justify-content-center justify-content-sm-end mb-0 p-0">
+                <li class="d-none d-sm-block">
+                    <a class="text-center mr5 text-thm2 dropdown-toggle fz20" type="button" data-bs-toggle="dropdown" href="#"><span class="fa-light fa-language"></span></a>
+                    <div class="dropdown-menu">
+                      <div class="dboard_notific_dd px30 pt10 pb15">
+                      <div class="notif_list d-flex align-items-center bdrb1 pb15 mb10">
+                      <ul>
+                  <?php
+                    $lang = [
+                      'en' => 'English',
+                      'id' => 'Indonesia',
+                      'ar' => 'عربي'
+                    ];
+
+                    foreach ($lang as $lid => $language) {
+                      $selected = ($locale == $lid) ? 'selected' : '';
+                      echo "<p class='text mb-0'><a href='$lid' $selected><p class='text mb-0'>$language</p></a></p>";
+                    }
+                    ?>
+                  </ul>
+                  </div>
+                      </div>
+                    </div>
+                  </li>
                   <li class="d-none d-sm-block">
                     <a class="text-center mr5 text-thm2 dropdown-toggle fz20" type="button" data-bs-toggle="dropdown" href="#"><span class="flaticon-notification"></span></a>
                     <div class="dropdown-menu">

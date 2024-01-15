@@ -106,3 +106,67 @@ INFO - 2024-01-15 14:01:00 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2024-01-15 14:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-01-15 14:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-01-15 14:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-15 20:03:47 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'mm-management', 3306, '', 0)
+#1 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\mm-management\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\mm-management\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-01-15 20:18:13 --> mysqli_sql_exception: Unknown table 'mm-management.your_table_name' in C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('DROP TABLE `you...', 0)
+#1 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `you...')
+#2 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `you...')
+#3 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `you...')
+#4 C:\xampp\htdocs\mm-management\app\Database\Migrations\2024-01-04-014243_KtgGl.php(28): CodeIgniter\Database\Forge->dropTable('your_table_name')
+#5 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(873): App\Database\Migrations\KtgGl->down()
+#6 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(295): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Commands\Database\MigrateRollback.php(86): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(115): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\mm-management\spark(102): CodeIgniter\CLI\Console->run()
+#14 {main}
+CRITICAL - 2024-01-15 21:23:55 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::extend() in C:\xampp\htdocs\mm-management\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Debug\Exceptions.php(149): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#4 [internal function]: CodeIgniter\Debug\Except
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Page Not Found
+#0 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound(NULL)
+#1 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\mm-management\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\mm-management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+in APPPATH\Views\errors\html\error_404.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

@@ -16,7 +16,7 @@
                 <option>Pound</option>
               </select>
             </li>
-            <li class="list-inline-item bg-white">
+            <!-- <li class="list-inline-item bg-white">
               <select class="selectpicker language show-tick" id="languagess">
                 <?php
                 $lang = [
@@ -31,7 +31,7 @@
                 }
                 ?>
               </select>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
