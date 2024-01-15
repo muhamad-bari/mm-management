@@ -107,7 +107,9 @@ class BeCms extends BaseController
         $totalFile = 0;
         $kategori = $this->request->getVar('kategori_gl');
         $deskripsi = $this->request->getVar('desc_gl');
-        $visibility = $this->request->getVar('visibility');
+        $vsb = $this->request->getVar('visibility');
+
+        // var_dump($kategori, $deskripsi, $vsb);
         if($this->request->getFileMultiple('file_gl'))
         {
             $files = $this->request->getFileMultiple('file_gl');
@@ -117,14 +119,15 @@ class BeCms extends BaseController
                 {
                     $name = $file->getRandomName();
                     $file->move('uploads/galeri/', $name);
-                    $data = [
+                    $dataGl = [
                         'kategori' => $kategori,
                         'desc' => $deskripsi,
                         'file' => $name,
-                        'visibility' => (int)$visibility
+                        'visibility' => (int)$vsb
                     ];
                     $glM = new Galeri;
-                    $insgl = $glM->save($data);
+                    $insgl = $glM->save($dataGl);
+                    $queries = $glM->getLastQuery();
                     $totalFile++;
                 }
             }

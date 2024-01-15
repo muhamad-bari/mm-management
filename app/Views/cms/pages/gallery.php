@@ -79,7 +79,7 @@
            </div>
            <div class="form-group mt-3">
                 <label for="">Upload File</label>
-                <input type="file" name="file_gl[]" id="" class="form-text" multiple accept=".jpg, .png, .svg, .bmp, .webp, .gif, .mov, .avi, .mp4, .mkv, .flv, .webM" required>
+                <input type="file" name="file_gl[]" id="" class="form-text" multiple accept=".jpg, .jpeg, .png, .svg, .bmp, .webp, .gif, .mov, .avi, .mp4, .mkv, .flv, .webM" required>
            </div>
            <div class="form-group mt-3">
                 <label for="">Visibilitas</label>

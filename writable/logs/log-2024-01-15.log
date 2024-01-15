@@ -1,0 +1,108 @@
+ERROR - 2024-01-15 13:04:14 --> mysqli_sql_exception: Unknown table 'mm-management.your_table_name' in D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('DROP TABLE `you...', 0)
+#1 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `you...')
+#2 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `you...')
+#3 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `you...')
+#4 D:\wildan\code\mm-management\app\Database\Migrations\2024-01-04-014243_KtgGl.php(28): CodeIgniter\Database\Forge->dropTable('your_table_name')
+#5 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(873): App\Database\Migrations\KtgGl->down()
+#6 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(295): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Commands\Database\MigrateRollback.php(86): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(115): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 D:\wildan\code\mm-management\spark(102): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2024-01-15 13:53:08 --> mysqli_sql_exception: Unknown column 'visibility' in 'where clause' in D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\wildan\code\mm-management\app\Controllers\fr_index.php(45): CodeIgniter\BaseModel->findAll()
+#7 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\fr_index->gallery()
+#8 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fr_index))
+#9 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\wildan\code\mm-management\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\wildan\\code\\...')
+#12 {main}
+CRITICAL - 2024-01-15 13:53:08 --> Unknown column 'visibility' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mm_gl_ket`
+WHERE `visibility` = :visibility:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\fr_index.php(45): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\fr_index->gallery()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fr_index))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\wildan\\code\\mm-management\\public\\index.php')
+ERROR - 2024-01-15 13:55:00 --> mysqli_sql_exception: Unknown column 'visibility' in 'where clause' in D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\wildan\code\mm-management\app\Controllers\fr_index.php(47): CodeIgniter\BaseModel->findAll()
+#7 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\fr_index->gallery()
+#8 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fr_index))
+#9 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\wildan\code\mm-management\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\wildan\\code\\...')
+#12 {main}
+CRITICAL - 2024-01-15 13:55:00 --> Unknown column 'visibility' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mm_gl_ket`
+WHERE `visibility` = :visibility:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\fr_index.php(47): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\fr_index->gallery()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fr_index))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\wildan\\code\\mm-management\\public\\index.php')
+INFO - 2024-01-15 13:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-15 13:55:11 --> mysqli_sql_exception: Unknown column 'visibility' in 'where clause' in D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\wildan\code\mm-management\app\Controllers\fr_index.php(47): CodeIgniter\BaseModel->findAll()
+#7 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\fr_index->gallery()
+#8 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fr_index))
+#9 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\wildan\code\mm-management\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\wildan\\code\\...')
+#12 {main}
+CRITICAL - 2024-01-15 13:55:11 --> Unknown column 'visibility' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mm_gl_ket`
+WHERE `visibility` = :visibility:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\fr_index.php(47): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\fr_index->gallery()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fr_index))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\wildan\\code\\mm-management\\public\\index.php')
+INFO - 2024-01-15 13:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 14:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -23,7 +23,7 @@ $(document).ready(function () {
 $('.glr-btn').on('click' , function() {
     var alb = $(this).data('alb')
     $.ajax({
-        url: '/cms/pagegaleri',
+        url: '/user/pagegaleriuser',
         method: 'GET',
         dataType: 'json',
         headers: {

@@ -132,7 +132,7 @@
                   <li class="visible_list"> <a class="list-item" href="<?php echo base_url($locale . '/gallery') ?>"><span class="title"><?= lang('Header.gallery') ?></span></a></li>
                   <li> <a class="list-item pe-0" href="<?php echo base_url($locale . '/contact') ?>"><?= lang('Header.contact') ?>
                 </a></li>
-                  <!-- <li class="visible_list"> <a class="list-item" href="#"><span class="title"><?= lang('Header.lang') ?></span></a>
+                  <li class="visible_list"> <a class="list-item" href="#"><span class="title"><?= lang('Header.lang') ?></span></a>
                   <ul>
                   <?php
                     $lang = [
@@ -147,7 +147,7 @@
                     }
                     ?>
                   </ul>
-                </li> -->
+                </li>
                 </ul>
               </div>
             </div>

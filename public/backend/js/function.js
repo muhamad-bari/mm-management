@@ -2,7 +2,7 @@ export function updateUI(data) {
     return data.map((e, i) => {
         var fsplit = e.file.split('.')
         var extf = fsplit[fsplit.length - 1]
-        var ext  = ['jpg', 'png', 'svg', 'bmp', 'webp' ,'gif']
+        var ext  = ['jpg', 'png', 'svg', 'bmp', 'webp' ,'gif','jpeg']
         if(ext.includes(extf))
         {
         return `

@@ -38,6 +38,19 @@ class fr_index extends BaseController
         echo view('fr/pages/blog', $data);
     }
 
+    public function pagegaleriuser()
+    {
+        $ktgm = new Galeri();
+        $ktgM = new KtgGl();
+        $glar = array();
+        $glr = (session()->get('logged_in')==true) ? $ktgm->join('mm_gl_ket','mm-galeri.kategori = mm_gl_ket.id_gl_ket','left')->findAll(): $ktgm->join('mm_gl_ket','mm-galeri.kategori = mm_gl_ket.id_gl_ket','left')->where('visibility', 0)->findAll();
+        foreach($glr as $glrr)
+        {
+            $glar[] = $glrr;
+        }
+        return $this->response->setJSON($glar);
+    }
+
     public function gallery()
     {
         $ktgM = new KtgGl();
@@ -47,8 +60,12 @@ class fr_index extends BaseController
         foreach($data['ktg'] as $row)
         {
             $idKtg = $row['id_gl_ket'];
+            $dataGl = [
+                'kategori' => $idKtg,
+                'visibility' => 0
+            ];
             $data['galeri'][]= $glrM->where('kategori', $idKtg)->first();
-            $data['tgaleri'][]= $glrM->where('kategori', $idKtg)->findAll();
+            $data['tgaleri'][]= (session()->get('logged_in')==true) ? $glrM->where('kategori', $idKtg)->findAll() : $glrM->where($dataGl)->findAll();
 
         }
         $data['locale'] = $this->request->getLocale();

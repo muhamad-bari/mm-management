@@ -12,7 +12,7 @@ class Galeri extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['id_gl', 'kategori', 'desc', 'file'];
+    protected $allowedFields    = ['id_gl', 'kategori', 'desc', 'file','visibility'];
 
     // Dates
     protected $useTimestamps = false;

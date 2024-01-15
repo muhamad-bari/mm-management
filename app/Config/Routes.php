@@ -49,3 +49,6 @@ $routes->get('{locale}/blog3', 'fr_index::blog3');
 $routes->get('{locale}/career', 'fr_index::career');
 $routes->get('{locale}/user-dashboard', 'fr_index::dashboardUser');
 $routes->get('{locale}/ui-elements', 'fr_index::uiele');
+
+// user post
+$routes->get('user/pagegaleriuser', 'fr_index::pagegaleriuser');

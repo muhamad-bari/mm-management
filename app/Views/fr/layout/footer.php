@@ -106,7 +106,7 @@
               </select>
             </li>
             <li class="list-inline-item">
-              <select class="selectpicker language" id="language_one">
+              <!-- <select class="selectpicker language" id="language_one">
                 <?php
                 $lang = [
                   'en' => 'English',
@@ -119,7 +119,7 @@
                   echo "<option value='$lid' $selected>$language</option>";
                 }
                 ?>
-              </select>
+              </select> -->
             </li>
           </ul>
         </div>
