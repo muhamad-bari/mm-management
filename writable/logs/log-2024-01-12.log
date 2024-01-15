@@ -116,3 +116,15 @@ in APPPATH\Views\fr\pages\gallery.php on line 53.
  9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\wildan\\code\\mm-management\\public\\index.php')
 INFO - 2024-01-12 09:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-12 11:12:46 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Views\fr\pages\gallery.php on line 72.
+ 1 APPPATH\Views\fr\pages\gallery.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'D:\\wildan\\code\\mm-management\\app\\Views\\fr\\pages\\gallery.php', 72, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\wildan\\code\\mm-management\\app\\Views\\fr\\pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('fr/pages/gallery', [], true)
+ 5 APPPATH\Controllers\fr_index.php(55): view('fr/pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\fr_index->gallery()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fr_index))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\wildan\\code\\mm-management\\public\\index.php')
