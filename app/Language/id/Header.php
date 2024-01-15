@@ -1,13 +1,15 @@
 <?php
 return [
     'home' => 'Beranda',
-    'about' => 'Tentang',
+    'about' => 'Tentang Kami',
     'blog' => 'Blog',
     'gallery' => 'Galeri',
-    'contact' => 'Hubungi Kami',
+    'contact' => 'Kontak',
+    'career' => 'Karir',
 
     'sign' => 'Masuk',
     'join' => 'Bergabung',
+    'lang' => 'Bahasa',
 
     'services' => 'Layanan',
     'house' => 'Asisten Rumah Tangga',

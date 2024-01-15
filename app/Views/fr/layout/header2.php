@@ -293,7 +293,7 @@
         <ul>
           <li><a href="<?= base_url('/') . $locale ?>"><?= lang('Header.home') ?></a></li>
           <li><a href="<?= base_url($locale . '/about') ?>"><?= lang('Header.about') ?></a></li>
-          <li><a href="<?= base_url($locale . '/blog') ?>"><?= lang('Header.blog') ?></a></span></li>
+          <li><a href="<?= base_url($locale . '/career') ?>"><?= lang('Header.career') ?></a></span></li>
           <li><a href="<?= base_url($locale . '/contact') ?>"><?= lang('Header.contact') ?></a>
           <li><a href="<?= base_url($locale . '/gallery') ?>"><?= lang('Header.gallery') ?></a></li>
           <!-- Only for Mobile View -->

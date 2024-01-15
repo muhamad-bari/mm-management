@@ -38,7 +38,7 @@ $('.glr-btn').on('click' , function() {
                 $('#cp-img').html(showndata.map((e, i) => {
                     var fsplit = e.file.split('.')
                     var extf = fsplit[fsplit.length - 1]
-                    var ext  = ['jpg', 'png', 'svg', 'bmp', 'webp' ,'gif']
+                    var ext  = ['jpg', 'png', 'svg', 'bmp', 'webp' ,'gif' ,'jpeg']
                     if(ext.includes(extf))
                     {
                     return `<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 portfolio-box">

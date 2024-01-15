@@ -234,5 +234,5 @@
   </div>
 </section>
 
-<?= $this->include('fr/layout/faq') ?>
+<!-- <?= $this->include('fr/layout/faq') ?> -->
 <?= $this->endSection() ?>

@@ -4,24 +4,23 @@
 
 <!-- Modal -->
 <div class="modal fade" id="galeri-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	<div class="modal-dialog modal-fullscreen d-flex flex-column" >
+	<div class="modal-dialog modal-fullscreen d-flex flex-column">
 		<div class="modal-content m-auto" style="width:90%; height:100vh; overflow:auto;">
-		<div class="d-flex justify-content-end">
-			<button type="button" class="btn-close p-3 bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
-		</div>
-
-		<div id="cp-img" class="row justify-content-center"></div>
+			<div class="d-flex justify-content-end">
+				<button type="button" class="btn-close p-3 bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div id="cp-img" class="row justify-content-center"></div>
 		</div>
 	</div>
 </div>
 
 <div class="modal fade" id="galeri-modal-detail" tabindex="-1">
-	<div class="modal-dialog modal-fullscreen d-flex flex-column" >
+	<div class="modal-dialog modal-fullscreen d-flex flex-column">
 		<div class="modal-content m-auto" style="width:90%; height:100vh; overflow:auto; background:transparent;">
-		<div class="d-flex justify-content-end">
-			<button type="button" class="btn-close p-3 bg-light modal-galeri-detail" data-bs-toggle="modal" data-bs-target="#galeri-modal" aria-label="Close"></button>
-		</div>
-		<img src="" alt="" id="img-galeri-detail">
+			<div class="d-flex justify-content-end">
+				<button type="button" class="btn-close p-3 bg-light modal-galeri-detail" data-bs-toggle="modal" data-bs-target="#galeri-modal" aria-label="Close"></button>
+			</div>
+			<img src="" alt="" id="img-galeri-detail">
 		</div>
 	</div>
 </div>
@@ -46,27 +45,23 @@
 	</section>
 	<!-- Our Agents -->
 	<div class="container-fluid portfolio-section portfolio-4-col">
-	<div class="kategori-container p-4">
-                <!-- <h4>Kategori</h4> -->
-                <div class="bordered kategori">
-                </div>
-            </div>
+		<div class="kategori-container p-4">
+			<!-- <h4>Kategori</h4> -->
+			<div class="bordered kategori">
+			</div>
+		</div>
 		<!-- Portfolio List -->
 		<div class="row portfolio-list galeri-fr justify-content-center">
 			<?php
-			if(!$ktg)
-			{
-				?>
+			if (!$ktg) {
+			?>
 				<div class="col-md-12">
-					<span>Tidak Ada Album Item Galeri</span>
+					<span><?= lang('gallery.coming') ?></span>
 				</div>
 				<?php
-			}
-			else
-			{
-				$no=0;
-				foreach($ktg as $ktgr)
-				{
+			} else {
+				$no = 0;
+				foreach ($ktg as $ktgr) {
 					$noo = $no++;
 					$ktgg = $ktgr['id_gl_ket'];
 					if(count($tgaleri[$noo]) > 0)
@@ -82,21 +77,19 @@
 						</div>
                     </div>
 					<?php
-					}
-					else
-					{
-						?>
+					} else {
+					?>
 						<div class="col-md-12">
-							<span>Tidak Ada Album Item Galeri</span>
+							<span><?= lang('gallery.coming') ?></span>
 						</div>
-						<?php
+			<?php
 					}
 				}
 			}
 			?>
 		</div><!-- Row -->
 	</div>
-	<div class="container">
+	<!-- <div class="container">
 		<div class="row">
 			<div class="mbp_pagination mt30 text-center">
 				<ul class="page_navigation pageButtons">
@@ -117,11 +110,11 @@
 						<a class="page-link" href="#"><span class="fas fa-angle-right"></span></a>
 					</li>
 				</ul>
-				<!-- <p class="mt10 mb-0 pagination_page_count text-center">1 – 20 of 300+ Talent available</p> -->
+				<p class="mt10 mb-0 pagination_page_count text-center">1 – 20 of 300+ Talent available</p>
 				<br>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 
 	<?= $this->endSection() ?>

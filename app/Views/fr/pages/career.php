@@ -232,7 +232,7 @@
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="job-list-style1 bdr1">
             <div class="icon d-flex align-items-center mb20">
-              <img class="wa" src="<?= base_url() ?>frontend/images/team/client-2.png" alt="">
+              <img class="wa" src="<?= base_url() ?>frontend/images/team/client.png" alt="">
               <h6 class="mb-0 text-thm ml20">PT. Management Mandiri Internasional</h6>
               <span class="fav-icon flaticon-star"></span>
             </div>
@@ -249,7 +249,7 @@
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="job-list-style1 bdr1">
             <div class="icon d-flex align-items-center mb20">
-              <img class="wa" src="<?= base_url() ?>frontend/images/team/client-1.png" alt="">
+              <img class="wa" src="<?= base_url() ?>frontend/images/team/client.png" alt="">
               <h6 class="mb-0 text-thm ml20">PT. Management Mandiri Internasional</h6>
               <span class="fav-icon flaticon-star"></span>
             </div>
@@ -266,7 +266,7 @@
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="job-list-style1 bdr1">
             <div class="icon d-flex align-items-center mb20">
-              <img class="wa" src="<?= base_url() ?>frontend/images/team/client-3.png" alt="">
+              <img class="wa" src="<?= base_url() ?>frontend/images/team/client.png" alt="">
               <h6 class="mb-0 text-thm ml20">PT. Management Mandiri Internasional</h6>
               <span class="fav-icon flaticon-star"></span>
             </div>
@@ -283,7 +283,7 @@
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="job-list-style1 bdr1">
             <div class="icon d-flex align-items-center mb20">
-              <img class="wa" src="<?= base_url() ?>frontend/images/team/client-6.png" alt="">
+              <img class="wa" src="<?= base_url() ?>frontend/images/team/client.png" alt="">
               <h6 class="mb-0 text-thm ml20">PT. Management Mandiri Internasional</h6>
               <span class="fav-icon flaticon-star"></span>
             </div>
@@ -301,7 +301,7 @@
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="job-list-style1 bdr1">
             <div class="icon d-flex align-items-center mb20">
-              <img class="wa" src="<?= base_url() ?>frontend/images/team/client-5.png" alt="">
+              <img class="wa" src="<?= base_url() ?>frontend/images/team/client.png" alt="">
               <h6 class="mb-0 text-thm ml20">PT. Management Mandiri Internasional</h6>
               <span class="fav-icon flaticon-star"></span>
             </div>
@@ -317,7 +317,7 @@
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="job-list-style1 bdr1">
             <div class="icon d-flex align-items-center mb20">
-              <img class="wa" src="<?= base_url() ?>frontend/images/team/client-8.png" alt="">
+              <img class="wa" src="<?= base_url() ?>frontend/images/team/client.png" alt="">
               <h6 class="mb-0 text-thm ml20">PT. Management Mandiri Internasional</h6>
               <span class="fav-icon flaticon-star"></span>
             </div>
@@ -333,7 +333,7 @@
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="job-list-style1 bdr1">
             <div class="icon d-flex align-items-center mb20">
-              <img class="wa" src="<?= base_url() ?>frontend/images/team/client-7.png" alt="">
+              <img class="wa" src="<?= base_url() ?>frontend/images/team/client.png" alt="">
               <h6 class="mb-0 text-thm ml20">PT. Management Mandiri Internasional</h6>
               <span class="fav-icon flaticon-star"></span>
             </div>
@@ -351,7 +351,7 @@
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="job-list-style1 bdr1">
             <div class="icon d-flex align-items-center mb20">
-              <img class="wa" src="<?= base_url() ?>frontend/images/team/client-4.png" alt="">
+              <img class="wa" src="<?= base_url() ?>frontend/images/team/client.png" alt="">
               <h6 class="mb-0 text-thm ml20">PT. Management Mandiri Internasional</h6>
               <span class="fav-icon flaticon-star"></span>
             </div>
@@ -367,7 +367,7 @@
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="job-list-style1 bdr1">
             <div class="icon d-flex align-items-center mb20">
-              <img class="wa" src="<?= base_url() ?>frontend/images/team/client-2.png" alt="">
+              <img class="wa" src="<?= base_url() ?>frontend/images/team/client.png" alt="">
               <h6 class="mb-0 text-thm ml20">PT. Management Mandiri Internasional</h6>
               <span class="fav-icon flaticon-star"></span>
             </div>
@@ -385,7 +385,7 @@
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="job-list-style1 bdr1">
             <div class="icon d-flex align-items-center mb20">
-              <img class="wa" src="<?= base_url() ?>frontend/images/team/client-1.png" alt="">
+              <img class="wa" src="<?= base_url() ?>frontend/images/team/client.png" alt="">
               <h6 class="mb-0 text-thm ml20">PT. Management Mandiri Internasional</h6>
               <span class="fav-icon flaticon-star"></span>
             </div>
@@ -403,7 +403,7 @@
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="job-list-style1 bdr1">
             <div class="icon d-flex align-items-center mb20">
-              <img class="wa" src="<?= base_url() ?>frontend/images/team/client-3.png" alt="">
+              <img class="wa" src="<?= base_url() ?>frontend/images/team/client.png" alt="">
               <h6 class="mb-0 text-thm ml20">PT. Management Mandiri Internasional</h6>
               <span class="fav-icon flaticon-star"></span>
             </div>
@@ -420,7 +420,7 @@
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="job-list-style1 bdr1">
             <div class="icon d-flex align-items-center mb20">
-              <img class="wa" src="<?= base_url() ?>frontend/images/team/client-6.png" alt="">
+              <img class="wa" src="<?= base_url() ?>frontend/images/team/client.png" alt="">
               <h6 class="mb-0 text-thm ml20">PT. Management Mandiri Internasional</h6>
               <span class="fav-icon flaticon-star"></span>
             </div>
@@ -436,7 +436,7 @@
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="job-list-style1 bdr1">
             <div class="icon d-flex align-items-center mb20">
-              <img class="wa" src="<?= base_url() ?>frontend/images/team/client-2.png" alt="">
+              <img class="wa" src="<?= base_url() ?>frontend/images/team/client.png" alt="">
               <h6 class="mb-0 text-thm ml20">PT. Management Mandiri Internasional</h6>
               <span class="fav-icon flaticon-star"></span>
             </div>
@@ -453,7 +453,7 @@
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="job-list-style1 bdr1">
             <div class="icon d-flex align-items-center mb20">
-              <img class="wa" src="<?= base_url() ?>frontend/images/team/client-1.png" alt="">
+              <img class="wa" src="<?= base_url() ?>frontend/images/team/client.png" alt="">
               <h6 class="mb-0 text-thm ml20">PT. Management Mandiri Internasional</h6>
               <span class="fav-icon flaticon-star"></span>
             </div>
@@ -471,7 +471,7 @@
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="job-list-style1 bdr1">
             <div class="icon d-flex align-items-center mb20">
-              <img class="wa" src="<?= base_url() ?>frontend/images/team/client-3.png" alt="">
+              <img class="wa" src="<?= base_url() ?>frontend/images/team/client.png" alt="">
               <h6 class="mb-0 text-thm ml20">PT. Management Mandiri Internasional</h6>
               <span class="fav-icon flaticon-star"></span>
             </div>
@@ -488,7 +488,7 @@
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="job-list-style1 bdr1">
             <div class="icon d-flex align-items-center mb20">
-              <img class="wa" src="<?= base_url() ?>frontend/images/team/client-6.png" alt="">
+              <img class="wa" src="<?= base_url() ?>frontend/images/team/client.png" alt="">
               <h6 class="mb-0 text-thm ml20">PT. Management Mandiri Internasional</h6>
               <span class="fav-icon flaticon-star"></span>
             </div>
