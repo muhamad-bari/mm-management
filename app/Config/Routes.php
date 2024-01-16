@@ -14,6 +14,7 @@ $routes->get('logout', 'BeCms::logout');
 $routes->get('cms/galeri', 'BeCms::gallery',['filter' => 'Auth']);
 $routes->post('cms/add_ktg_gl', 'BeCms::add_ktg_gl',['filter' => 'Auth']);
 $routes->post('cms/addgaleri', 'BeCms::addgaleri',['filter' => 'Auth']);
+$routes->post('cms/updategaleri', 'BeCms::updategaleri',['filter' => 'Auth']);
 $routes->get('cms/pagegaleri', 'BeCms::pagegaleri');
 $routes->get('cms/del-gallery/(:num)', 'BeCms::delgaleri/$1', ['filter' => 'Auth']);
 

@@ -86,13 +86,13 @@
                 <div class="row mt-3">
                     <div class="col-6">
                         <label for="userradio">
-                        <input type="radio" name="visibility" id="userradio" value="1">
+                        <input type="radio" name="visibility" id="" value="1">
                         User
                         </label>
                     </div>
                     <div class="col-6">
                         <label for="publicradio">
-                        <input type="radio" name="visibility" id="publicradio" value="0">
+                        <input type="radio" name="visibility" id="" value="0">
                         Public
                         </label>
                     </div>
@@ -170,4 +170,67 @@
     </div>
 </div>
 <!-- modal-show-item -->
+
+<!-- modal update galeri -->
+
+<div class="modal fade" id="modal-up-galeri" tabindex="-1" aria-labelledby="" aria-hidden="true">
+  <div class="modal-dialog w-100 d-flex flex-column">
+	  <div class="modal-content">
+      <div class="card-form">
+        <div class="c-header d-flex justify-content-between align-items-center">
+            <h4>Tambah Galeri</h4>
+            <span type="button" data-bs-dismiss="modal" class="text-light" aria-label="Close"><i class="fa-solid fa-xl fa-xmark"></i></span>
+        </div>
+        <form action="<?= base_url('cms/updategaleri')?>" method="post" enctype="multipart/form-data">
+        <input type="hidden" name="<?= csrf_token() ?>" value="<?= csrf_hash()?>">
+        <input type="hidden" name="id_gl" id="id_gl">
+        <div class="c-body">
+           <!-- <div class="form-group mt-2">
+                <label for="">Kategori</label>
+                <input type="text" name="kategori_gl" id="" data-role="tagsinput" class="form-text" required>
+           </div> -->
+           <div class="form-group">
+                <label for="">Kategori</label>
+                <select name="kategori_gl" id="ktg_gl" class="form-text">
+                    <?php
+                        foreach($ktg as $ktgg)
+                        {
+                            echo "<option value='$ktgg[id_gl_ket]'>$ktgg[nama_gl_ket]</option>";
+                        }
+                    ?>
+                </select>
+           </div>
+           <div class="form-group">
+                <label for="">Deskripsi</label>
+                <textarea name="desc_gl" id="desc" cols="20" rows="5" class="form-text" required></textarea>
+           </div>
+           <div class="form-group mt-3">
+                <label for="">Visibilitas</label>
+                <div class="row mt-3">
+                    <div class="col-6">
+                        <label for="userradio">
+                        <input type="radio" name="visibility" id="userradio" value="1">
+                        User
+                        </label>
+                    </div>
+                    <div class="col-6">
+                        <label for="publicradio">
+                        <input type="radio" name="visibility" id="publicradio" value="0">
+                        Public
+                        </label>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="c-footer text-center mt-3">
+            <input type="submit" value="Update" name="update-galeri" id="tambah-ktg"class="btn btn-sm btn-submit">
+        </div>
+        </form>
+      </div>
+      </div>
+            
+    </div>
+</div>
+
+<!-- endmodal update galeri -->
 <?= $this->endSection() ?>

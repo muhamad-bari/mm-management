@@ -178,4 +178,34 @@ class BeCms extends BaseController
                 return redirect()->to('cms/galeri');
         }
     }
+
+    public function updategaleri()
+    {
+        $id_gl = $this->request->getVar('id_gl');
+        $kategori = $this->request->getVar('kategori_gl');
+        $deskripsi = $this->request->getVar('desc_gl');
+        $vsb = $this->request->getVar('visibility');
+        $dataUp = [
+            'id_gl' =>$id_gl,
+            'kategori' => $kategori,
+            'desc' => $deskripsi,
+            'visibility' => (int)$vsb
+        ];
+        $glM = new Galeri;
+        $upGl = $glM->set($dataUp)->where('id_gl', $id_gl)->update();
+        if(!$upGl)
+            {
+                session()->setFlashdata('err',"Gagal Update Data");
+                return redirect()->to('cms/galeri');
+                
+            }
+            else
+            {
+                session()->setFlashdata('succ', "Sukses update Data");
+                return redirect()->to('cms/galeri');
+            }
+        
+
+
+    }
 }
