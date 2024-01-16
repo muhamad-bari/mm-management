@@ -5,4 +5,4 @@
 /app/Config/Database.php
 
 #environment
-.env
+*.env
