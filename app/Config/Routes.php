@@ -13,6 +13,8 @@ $routes->get('cms/dashboard', 'BeCms::dashboard',['filter' => 'Auth']);
 $routes->get('logout', 'BeCms::logout');
 $routes->get('cms/galeri', 'BeCms::gallery',['filter' => 'Auth']);
 $routes->post('cms/add_ktg_gl', 'BeCms::add_ktg_gl',['filter' => 'Auth']);
+$routes->post('cms/update_ktg_gl', 'BeCms::update_ktg_gl',['filter' => 'Auth']);
+$routes->post('cms/delete_ktg_gl', 'BeCms::delete_ktg_gl',['filter' => 'Auth']);
 $routes->post('cms/addgaleri', 'BeCms::addgaleri',['filter' => 'Auth']);
 $routes->post('cms/updategaleri', 'BeCms::updategaleri',['filter' => 'Auth']);
 $routes->get('cms/pagegaleri', 'BeCms::pagegaleri');

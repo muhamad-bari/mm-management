@@ -38,3 +38,29 @@ INFO - 2024-01-16 08:36:56 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2024-01-16 08:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-01-16 08:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-01-16 08:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 09:05:12 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::extend() in D:\wildan\code\mm-management\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(241): include()
+#1 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404, 'D:\\wildan\\code\\...')
+#3 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Debug\Exceptions.php(149): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Page Not Found
+#0 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(989): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound(NULL)
+#1 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 D:\wildan\code\mm-management\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 D:\wildan\code\mm-management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\wildan\\code\\...')
+#4 {main}
+in APPPATH\Views\errors\html\error_404.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-01-16 09:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 09:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 09:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 09:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 09:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 09:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 09:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 09:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 09:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

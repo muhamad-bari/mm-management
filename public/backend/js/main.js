@@ -74,7 +74,30 @@ $('.tag-input')
         })
         .trigger('change');
 
-    
+    $(document).on('click', '.add-ktg', function() {
+        var form= $(this).data('form')
+        $('.ktg-gl').css('display','none')
+        $('.ktgi-gl').css('display','block')
+        $('#tambah-ktg').val('Tambah')
+        $('#ktg').val()
+        $('#form-kategori').attr('action', form)
+    })
+    $(document).on('click', '.edit-ktg', function() {
+        var form= $(this).data('form')
+        $('.ktg-gl').css('display','block')
+        $('.ktgi-gl').css('display','block')
+        $('#tambah-ktg').val('Update')
+        $('#ktg').val()
+        $('#form-kategori').attr('action', form)
+    })
+    $(document).on('click', '.del-ktg', function() {
+        var form= $(this).data('form')
+        $('.ktg-gl').css('display','block')
+        $('.ktgi-gl').css('display','none')
+        $('#tambah-ktg').val('Hapus')
+        $('#ktg').val('Delete')
+        $('#form-kategori').attr('action', form)
+    })
         
     $.ajax({
         url: '/cms/pagegaleri',
