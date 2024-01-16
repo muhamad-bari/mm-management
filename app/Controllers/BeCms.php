@@ -102,6 +102,46 @@ class BeCms extends BaseController
         }
     }
 
+    public function update_ktg_gl()
+    {
+        $ktg= $this->request->getVar('ktg');
+        $ktgGl= $this->request->getVar('ktg-gl');
+        $ktgm = new KtgGl();
+        $upKtg = $ktgm->set('nama_gl_ket', $ktg)->where('id_gl_ket', $ktgGl)->update();
+        if(!$upKtg)
+            {
+                session()->setFlashdata('err',"Gagal Update Data");
+                return redirect()->to('cms/galeri');
+                
+            }
+            else
+            {
+                session()->setFlashdata('succ', "Sukses update Data");
+                return redirect()->to('cms/galeri');
+            }
+
+    }
+    public function delete_ktg_gl()
+    {
+        $ktg= $this->request->getVar('ktg');
+        $ktgGl= $this->request->getVar('ktg-gl');
+        $ktgm = new KtgGl();
+        $delKtg = $ktgm->where('id_gl_ket', $ktgGl)->delete();
+        if(!$delKtg)
+            {
+                session()->setFlashdata('err',"Gagal Hapus Data");
+                return redirect()->to('cms/galeri');
+                
+            }
+            else
+            {
+                session()->setFlashdata('succ', "Sukses Hapus Data");
+                return redirect()->to('cms/galeri');
+            }
+
+    }
+
+
     public function addgaleri()
     {
         $totalFile = 0;
@@ -177,5 +217,35 @@ class BeCms extends BaseController
             session()->setFlashdata('err',"Gagal Hapus Data");
                 return redirect()->to('cms/galeri');
         }
+    }
+
+    public function updategaleri()
+    {
+        $id_gl = $this->request->getVar('id_gl');
+        $kategori = $this->request->getVar('kategori_gl');
+        $deskripsi = $this->request->getVar('desc_gl');
+        $vsb = $this->request->getVar('visibility');
+        $dataUp = [
+            'id_gl' =>$id_gl,
+            'kategori' => $kategori,
+            'desc' => $deskripsi,
+            'visibility' => (int)$vsb
+        ];
+        $glM = new Galeri;
+        $upGl = $glM->set($dataUp)->where('id_gl', $id_gl)->update();
+        if(!$upGl)
+            {
+                session()->setFlashdata('err',"Gagal Update Data");
+                return redirect()->to('cms/galeri');
+                
+            }
+            else
+            {
+                session()->setFlashdata('succ', "Sukses update Data");
+                return redirect()->to('cms/galeri');
+            }
+        
+
+
     }
 }
