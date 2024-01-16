@@ -23,7 +23,7 @@
   <link rel="stylesheet" href="<?= base_url() ?>frontend/css/slider.css">
   <link rel="stylesheet" href="<?= base_url() ?>frontend/css/style.css">
   <link rel="stylesheet" href="<?= base_url() ?>frontend/css/galer.css">
-  <!-- <link rel="stylesheet" href="<?= base_url('backend/css/style.css')?>"> -->
+  <!-- <link rel="stylesheet" href="<?= base_url('backend/css/style.css') ?>"> -->
   <link rel="stylesheet" href="css/dashbord_navitaion.css">
   <link rel="stylesheet" href="css/ud-custom-spacing.css">
   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
@@ -134,7 +134,7 @@
                 <li> <a class="list-item" href="<?= base_url($locale . '/contact') ?>"><?= lang('Header.contact') ?></a></li>
                 <li class="visible_list"> <a class="list-item" href="#"><span class="title"><?= lang('Header.lang') ?></span></a>
                   <ul>
-                  <?php
+                    <?php
                     $lang = [
                       'en' => 'English',
                       'id' => 'Indonesia',
@@ -189,23 +189,6 @@
           <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
             <a class="mobile_logo" href="<?= base_url('/') . $locale ?>"><img src="<?= base_url() ?>frontend/images/header-logo-mobile.png" alt=""></a>
             <div class="right-side text-end">
-            <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
-              <li><a class="" href="#"><?= lang('Header.lang') ?></a></li>
-              <ul>
-              <?php
-                    $lang = [
-                      'en' => 'English',
-                      'id' => 'Indonesia',
-                      'ar' => 'عربي'
-                    ];
-
-                    foreach ($lang as $lid => $language) {
-                      $selected = ($locale == $lid) ? 'selected' : '';
-                      echo "<li><a href='$lid' $selected><span class='title'>$language</span></a></li>";
-                    }
-                    ?>
-              </ul>
-            </ul>
               <a class="" href="<?= base_url($locale . '/login') ?>"><?= lang('Header.join') ?></a>
               <a class="menubar ml30" href="#menu"><img src="<?= base_url() ?>frontend/images/mobile-dark-nav-icon.svg" alt=""></a>
             </div>
@@ -219,7 +202,14 @@
     <!-- /.mobile-menu -->
     <nav id="menu" class="">
       <ul>
-        <li><a href="<?= base_url('/') . $locale ?>"><?= lang('Header.home') ?></a></li>
+        <li><a href="<?= base_url($locale . '/') . $locale ?>"><?= lang('Header.home') ?></a></li>
+        <li><span><?= lang('Header.lang') ?></span>
+          <ul>
+            <li><a href="#">English</a></li>
+            <li><a href="#">Indonesia</a></li>
+            <li><a href="#">عربي</a></li>
+          </ul>
+        </li>
         <li><a href="<?= base_url($locale . '/about') ?>"><?= lang('Header.about') ?></a></li>
         <li><a href="<?= base_url($locale . '/career') ?>"><?= lang('Header.career') ?></a></span></li>
         <li><a href="<?= base_url($locale . '/contact') ?>"><?= lang('Header.contact') ?></a>
