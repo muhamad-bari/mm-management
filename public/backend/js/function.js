@@ -8,7 +8,8 @@ export function updateUI(data) {
         return `
         <div class="col-md-3 gal-cnt mb-2">
             <div class="act-gallery">
-                <a href="#modal-galeri" data-bs-toggle="modal" class="img-thumb text-light mx-2" data-img="../../uploads/galeri/${e.file}"><i class="fa-solid fa-xl fa-magnifying-glass-plus"></i></a>
+                <a href="#modal-galeri" data-bs-toggle="modal" class="img-thumb text-light" data-img="../../uploads/galeri/${e.file}"><i class="fa-solid fa-xl fa-magnifying-glass-plus"></i></a>
+                <a href="#modal-up-galeri" data-bs-toggle="modal" class="img-update text-light mx-2" data-id="${e.id_gl}" data-ktg="${e.kategori}" data-desc="${e.desc}" data-vis="${e.visibility}"><i class="fa-regular fa-xl fa-pen-to-square"></i></a>
                 <a href="del-gallery/${e.id_gl}" class="delg text-danger" data-img="../../uploads/galeri/${e.file}"><i class="fa-solid fa-xl fa-trash"></i></a>
             </div>
             <div class="d-flex justify-content-center">
@@ -21,7 +22,8 @@ export function updateUI(data) {
             return   `
             <div class="col-md-3 gal-cnt mb-2">
             <div class="act-gallery">
-                <a href="#modal-galeri" data-bs-toggle="modal" class="vd-thumb text-light mx-2" data-vd="../../uploads/galeri/${e.file}" data-ext="${extf}"><i class="fa-solid fa-xl fa-magnifying-glass-plus"></i></a>
+                <a href="#modal-galeri" data-bs-toggle="modal" class="vd-thumb text-light" data-vd="../../uploads/galeri/${e.file}" data-ext="${extf}"><i class="fa-solid fa-xl fa-magnifying-glass-plus"></i></a>
+                <a href="#modal-up-galeri" data-bs-toggle="modal" class="img-update text-light mx-2" data-id="${e.id_gl}" data-ktg="${e.kategori}" data-desc="${e.desc}" data-vis="${e.visibility}"><i class="fa-regular fa-xl fa-pen-to-square"></i></a>
                 <a href="del-gallery/${e.id_gl}" class="delg text-danger" data-img="../../uploads/galeri/${e.file}"><i class="fa-solid fa-xl fa-trash"></i></a>
             </div>
             <div class="d-flex justify-content-center">

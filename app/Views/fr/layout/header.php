@@ -140,23 +140,23 @@
                   <li class="visible_list"> <a class="list-item" href="<?php echo base_url($locale . '/career') ?>"><span class="title"><?= lang('Header.career') ?></span></a></li>
                   <li class="visible_list"> <a class="list-item" href="<?php echo base_url($locale . '/gallery') ?>"><span class="title"><?= lang('Header.gallery') ?></span></a></li>
                   <li> <a class="list-item pe-0" href="<?php echo base_url($locale . '/contact') ?>"><?= lang('Header.contact') ?>
-                </a></li>
+                    </a></li>
                   <li class="visible_list"> <a class="list-item" href="#"><span class="title"><?= lang('Header.lang') ?></span></a>
-                  <ul>
-                  <?php
-                    $lang = [
-                      'en' => 'English',
-                      'id' => 'Indonesia',
-                      'ar' => 'عربي'
-                    ];
+                    <ul>
+                      <?php
+                      $lang = [
+                        'en' => 'English',
+                        'id' => 'Indonesia',
+                        'ar' => 'عربي'
+                      ];
 
-                    foreach ($lang as $lid => $language) {
-                      $selected = ($locale == $lid) ? 'selected' : '';
-                      echo "<li><a href='$lid' $selected><span class='title'>$language</span></a></li>";
-                    }
-                    ?>
-                  </ul>
-                </li>
+                      foreach ($lang as $lid => $language) {
+                        $selected = ($locale == $lid) ? 'selected' : '';
+                        echo "<li><a href='$lid' $selected><span class='title'>$language</span></a></li>";
+                      }
+                      ?>
+                    </ul>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -195,6 +195,13 @@
       <nav id="menu" class="">
         <ul>
           <li><a href="<?= base_url($locale . '/') . $locale ?>"><?= lang('Header.home') ?></a></li>
+          <li><span><?= lang('Header.lang') ?></span>
+            <ul>
+              <li><a href="#">English</a></li>
+              <li><a href="#">Indonesia</a></li>
+              <li><a href="#">عربي</a></li>
+            </ul>
+          </li>
           <li><a href="<?= base_url($locale . '/about') ?>"><?= lang('Header.about') ?></a></li>
           <li><a href="<?= base_url($locale . '/career') ?>"><?= lang('Header.career') ?></a></span></li>
           <li><a href="<?= base_url($locale . '/contact') ?>"><?= lang('Header.contact') ?></a>

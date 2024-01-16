@@ -114,26 +114,26 @@
             <div class="col-6 col-lg-auto">
               <div class="text-center text-lg-end header_right_widgets">
                 <ul class="dashboard_dd_menu_list d-flex align-items-center justify-content-center justify-content-sm-end mb-0 p-0">
-                <li class="d-none d-sm-block">
+                  <li class="d-none d-sm-block">
                     <a class="text-center mr5 text-thm2 dropdown-toggle fz20" type="button" data-bs-toggle="dropdown" href="#"><span class="fa-light fa-language"></span></a>
                     <div class="dropdown-menu">
                       <div class="dboard_notific_dd px30 pt10 pb15">
-                      <div class="notif_list d-flex align-items-center bdrb1 pb15 mb10">
-                      <ul>
-                  <?php
-                    $lang = [
-                      'en' => 'English',
-                      'id' => 'Indonesia',
-                      'ar' => 'عربي'
-                    ];
+                        <div class="notif_list d-flex align-items-center bdrb1 pb15 mb10">
+                          <ul>
+                            <?php
+                            $lang = [
+                              'en' => 'English',
+                              'id' => 'Indonesia',
+                              'ar' => 'عربي'
+                            ];
 
-                    foreach ($lang as $lid => $language) {
-                      $selected = ($locale == $lid) ? 'selected' : '';
-                      echo "<p class='text mb-0'><a href='$lid' $selected><p class='text mb-0'>$language</p></a></p>";
-                    }
-                    ?>
-                  </ul>
-                  </div>
+                            foreach ($lang as $lid => $language) {
+                              $selected = ($locale == $lid) ? 'selected' : '';
+                              echo "<p class='text mb-0'><a href='$lid' $selected><p class='text mb-0'>$language</p></a></p>";
+                            }
+                            ?>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </li>
@@ -323,7 +323,14 @@
       <!-- /.mobile-menu -->
       <nav id="menu" class="">
         <ul>
-          <li><a href="<?= base_url('/') . $locale ?>"><?= lang('Header.home') ?></a></li>
+          <li><a href="<?= base_url($locale . '/') . $locale ?>"><?= lang('Header.home') ?></a></li>
+          <li><span><?= lang('Header.lang') ?></span>
+            <ul>
+              <li><a href="#">English</a></li>
+              <li><a href="#">Indonesia</a></li>
+              <li><a href="#">عربي</a></li>
+            </ul>
+          </li>
           <li><a href="<?= base_url($locale . '/about') ?>"><?= lang('Header.about') ?></a></li>
           <li><a href="<?= base_url($locale . '/career') ?>"><?= lang('Header.career') ?></a></span></li>
           <li><a href="<?= base_url($locale . '/contact') ?>"><?= lang('Header.contact') ?></a>

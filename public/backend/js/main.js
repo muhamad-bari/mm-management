@@ -74,7 +74,30 @@ $('.tag-input')
         })
         .trigger('change');
 
-    
+    $(document).on('click', '.add-ktg', function() {
+        var form= $(this).data('form')
+        $('.ktg-gl').css('display','none')
+        $('.ktgi-gl').css('display','block')
+        $('#tambah-ktg').val('Tambah')
+        $('#ktg').val()
+        $('#form-kategori').attr('action', form)
+    })
+    $(document).on('click', '.edit-ktg', function() {
+        var form= $(this).data('form')
+        $('.ktg-gl').css('display','block')
+        $('.ktgi-gl').css('display','block')
+        $('#tambah-ktg').val('Update')
+        $('#ktg').val()
+        $('#form-kategori').attr('action', form)
+    })
+    $(document).on('click', '.del-ktg', function() {
+        var form= $(this).data('form')
+        $('.ktg-gl').css('display','block')
+        $('.ktgi-gl').css('display','none')
+        $('#tambah-ktg').val('Hapus')
+        $('#ktg').val('Delete')
+        $('#form-kategori').attr('action', form)
+    })
         
     $.ajax({
         url: '/cms/pagegaleri',
@@ -100,6 +123,12 @@ $('.tag-input')
                     showndata = fdata;
                     updateUIAndPageButtons()  
                 })
+            })
+            $('.vsb-btn').on('click', function() {
+                vsb = $(this).data('visible')
+                var fdata = response.filter(e => e.visibility.includes(vsb));
+                showndata = fdata;
+                updateUIAndPageButtons()  
             })
             
             function updateUIAndPageButtons() {
@@ -175,9 +204,24 @@ $('.tag-input')
         return confirm('Yakin Hapus Data ?')
     })
 
-    
+    $(document).on('click', '.img-update', function() {
+        var kategori = $(this).data('ktg')
+        var desc = $(this).data('desc')
+        var vis = $(this).data('vis')
+        var id_gl = $(this).data('id')
+        $('#id_gl').val(id_gl)
+        $('#ktg_gl').val(kategori)
+        $('#desc').html(desc)
+        if (vis === 1) {
+            $('#userradio').prop('checked', true);
+            $('#publicradio').prop('checked', false);
+        } else if (vis === 0) {
+            $('#userradio').prop('checked', false);
+            $('#publicradio').prop('checked', true);
+        }
+    })
     
         
 })
-        // Function to update the UI with fetched data
+        
     
