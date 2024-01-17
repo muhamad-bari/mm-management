@@ -128,8 +128,7 @@
                             ];
 
                             foreach ($lang as $lid => $language) {
-                              $selected = ($locale == $lid) ? 'selected' : '';
-                              echo "<p class='text mb-0'><a href='$lid' $selected><p class='text mb-0'>$language</p></a></p>";
+                              echo "<span class='text mb-1 '><a data-lang='$lid' role='button' class='lang-switch w-100'>$language</a></span>";
                             }
                             ?>
                           </ul>
@@ -326,9 +325,9 @@
           <li><a href="<?= base_url($locale . '/') . $locale ?>"><?= lang('Header.home') ?></a></li>
           <li><span><?= lang('Header.lang') ?></span>
             <ul>
-              <li><a href="#">English</a></li>
-              <li><a href="#">Indonesia</a></li>
-              <li><a href="#">عربي</a></li>
+              <li><a data-lang='en' role='button' class='lang-switch'>English</a></li>
+              <li><a data-lang='id' role='button' class='lang-switch'>Indonesia</a></li>
+              <li><a data-lang='ar' role='button' class='lang-switch'>عربي</a></li>
             </ul>
           </li>
           <li><a href="<?= base_url($locale . '/about') ?>"><?= lang('Header.about') ?></a></li>
