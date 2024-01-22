@@ -361,6 +361,7 @@
         });
     }
     
+
     /* ----- Mega Dropdown Content ----- */
     $(document).on('ready', function(){
         $(".drop_btn").on('click',function(){
@@ -408,5 +409,28 @@
         // add your functions
     });
 
+    // modal
+    var modal = document.getElementById('myModal');
+
+    // Get the link that opens the modal
+    var link = document.getElementById('openModal');
+  
+    // When the user clicks the link, open the modal
+    link.onclick = function() {
+      modal.style.display = 'block';
+    }
+  
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = 'none';
+      }
+    }
+  
+    // Optional: Add functionality to close the modal with the close button
+    var closeBtn = document.getElementsByClassName('close')[0];
+    closeBtn.onclick = function() {
+      modal.style.display = 'none';
+    }
 
 })(window.jQuery);

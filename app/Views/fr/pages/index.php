@@ -229,7 +229,7 @@
                 </div>
                 <div class="list-content">
                   <p class="list-text body-color fz14 mb-1"><?= lang('index.services') ?></p>
-                  <h5 class="list-title"><a href="<?= base_url($locale . '/login') ?>"><?= lang('index.house') ?></a></h5>
+                  <h5 class="list-title"><a href="#" id="openModal"><?= lang('index.house') ?></a></h5>
                   <div class="review-meta d-flex align-items-center">
                     <i class="fas fa-star fz10 review-color me-2"></i>
                     <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
@@ -358,6 +358,42 @@
       </div>
     </div>
   </section>
+
+<!-- Example modal -->
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <!-- Close button -->
+    <span class="close">&times;</span>
+
+    <!-- Modal content -->
+    <p><?= lang('modal.service')?> <?= lang('index.house') ?></p>
+    <ul>
+      <li><?= lang('modal.from')?></li>
+      <li><?= lang('modal.experience')?></li>
+    </ul>
+
+    <p><?= lang('modal.criteria')?></p>
+    <ol>
+      <li><?= lang('modal.one')?></li>
+      <li><?= lang('modal.two')?></li>
+      <li><?= lang('modal.three')?></li>
+      <li><?= lang('modal.four')?></li>
+      <li><?= lang('modal.five')?></li>
+    </ol>
+
+    <p><?= lang('modal.category')?></p>
+    <ul>
+      <li><?= lang('modal.c1')?></li>
+      <li><?= lang('modal.c2')?></li>
+      <li><?= lang('modal.c3')?></li>
+    </ul>
+
+     <!-- Apply button -->
+     <a href="<?= base_url('/login') ?>" class="ud-btn btn-dark mb25 me-4" id="applyButton" ><?= lang('modal.btn') ?></a>
+  </div>
+</div>
+
+
 
     <!-- Our Blog -->
     <section class="pt20 pb90 pb30-md">
