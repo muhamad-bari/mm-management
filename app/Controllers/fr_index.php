@@ -167,4 +167,10 @@ class fr_index extends BaseController
         $data['locale'] = $this->request->getLocale();
         echo view('fr/pages/ui-elements', $data);
     }
+
+    public function review()
+    {
+        $data['locale'] = $this->request->getLocale();
+        echo view('fr/pages/shop-single', $data);
+    }
 }
