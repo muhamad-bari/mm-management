@@ -54,34 +54,34 @@
           </div>
           <div class="col-lg-6">
             <div class="shop-single-content">
-              <h2 class="mb15">Urban Bags - KeySmart - Premium Key Holders</h2>
+              <h2 class="mb15"><?= lang('service.house')?></h2>
               <div class="list-style1 mb10">
                 <ul class="mb-1">
-                  <li class="mb-1"><i class="far fa-check text-thm3 bgc-thm3-light"></i>432 in stock</li>
+                  <li class="mb-1"><i class="far fa-check text-thm3 bgc-thm3-light"></i><?= lang('details.avail') ?></li>
                 </ul>
               </div>
-              <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus nulla faucibus viverra <br class="d-none d-lg-block"> nisl non senectus tortor. Suspendisse pellentesque elementum proin diam.</p>
-              <h4 class="price mb30">$765.99 <small><del class="body-light-color fz13 fw400">$959</del></small></h4>
+              <p class="text"><?= lang('details.detailhouse') ?></p>
+              <h4 class="price mb30">$3.199/SAR 12.000 <small><del class="body-light-color fz13 fw400">$4.000</del></small></h4>
               <div class="d-sm-flex">
                 <div class="cart-quantity mb10-xs mr20">
                   <div class="quantity-block">
                     <button class="quantity-arrow-minus"> <span class="fa fa-minus"></span> </button>
-                    <input class="quantity-num" type="number" value="12">
+                    <input class="quantity-num" type="number" value="1">
                     <button class="quantity-arrow-plus"> <span class="fas fa-plus"></span> </button>
                   </div>
                 </div>
-                <a class="ud-btn btn-thm" href="page-shop-checkout.html">Add to cart<i class="fal fa-arrow-right-long"></i></a>
+                <a class="ud-btn btn-thm" href="<?= base_url($locale . '/checkout') ?>"><?= lang('details.checkout') ?><i class="fal fa-arrow-right-long"></i></a>
               </div>
               <div class="d-flex mt30 mb20-sm">
                 <ul class="ps-0">
-                  <li class="text">Sku:</li>
-                  <li class="text">Category:</li>
-                  <li class="text">Tags:</li>
+                  <li class="text"><?= lang('details.id') ?>:</li>
+                  <li class="text"><?= lang('details.age') ?></li>
+                  <li class="text"><?= lang('details.service') ?></li>
                 </ul>
                 <ul class="ps-0 ms-4">
                   <li class="text">RTA-0058</li>
-                  <li class="text">Book</li>
-                  <li class="text">business / seo</li>
+                  <li class="text">23</li>
+                  <li class="text"><?= lang('service.house')?></li>
                 </ul>
               </div>
             </div>
@@ -93,8 +93,8 @@
               <div class="widget_list">
                 <nav>
                   <div class="nav flex-column nav-tabs text-start" id="nav-tab" role="tablist">
-                    <button class="nav-link active text-start" id="nav-accountpayment-tab" data-bs-toggle="tab" data-bs-target="#nav-accountpayment" type="button" role="tab" aria-controls="nav-accountpayment" aria-selected="true"><span>Description</span></button>
-                    <button class="nav-link text-start" id="nav-manageother-tab" data-bs-toggle="tab" data-bs-target="#nav-manageother" type="button" role="tab" aria-controls="nav-manageother" aria-selected="false"><span>Review</span></button>
+                    <button class="nav-link active text-start" id="nav-accountpayment-tab" data-bs-toggle="tab" data-bs-target="#nav-accountpayment" type="button" role="tab" aria-controls="nav-accountpayment" aria-selected="true"><span><?= lang('details.desc') ?></span></button>
+                    <!-- <button class="nav-link text-start" id="nav-manageother-tab" data-bs-toggle="tab" data-bs-target="#nav-manageother" type="button" role="tab" aria-controls="nav-manageother" aria-selected="false"><span>Review</span></button> -->
                   </div>
                 </nav>
               </div>
@@ -105,25 +105,38 @@
               <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="nav-accountpayment" role="tabpanel" aria-labelledby="nav-accountpayment-tab">
                   <div class="grids">
-                    <h4 class="title mb20">Details</h4>
-                    <p class="mb25 text fz15">Do you want to become a UI/UX designer but you don't know where to start? This course will allow you to develop your user interface design skills and you can add UI designer to your CV and start getting clients for your skills.</p>
-                    <p class="mb25 text fz15">Hi everyone. I'm Arash and I'm a UI/UX designer. In this course, I will help you learn and master Figma app comprehensively from scratch. Figma is an innovative and brilliant tool for User Interface design. It's used by everyone from entrepreneurs and start-ups to Apple, Airbnb, Facebook, etc.</p>
-                    <h4 class="title">Material and care</h4>
+                    <h4 class="title"><?= lang('modal.service') ?> <?= lang('service.house') ?></h4>
                     <div class="custom_bsp_grid d-sm-flex align-items-center">
                       <ul class="list-style-type-bullet p-0 ml15 mb0-sm">
-                        <li>Main: 100% Cotton</li>
-                        <li>Soft twill.</li>
-                        <li>Ribbed, diagonal pattern</li>
+                        <li><?= lang('modal.from') ?></li>
+                        <li><?= lang('modal.experience') ?></li>
                       </ul>
-                      <ul class="list-style-type-bullet p-0 ml80 ml15-sm">
-                        <li>One size fits all</li>
-                        <li>Imported</li>
-                        <li>Product color: Dark greenish</li>
+                    </div>
+                  </div>
+                  <div class="grids">
+                    <h4 class="title"><?= lang('modal.criteria') ?></h4>
+                    <div class="custom_bsp_grid d-sm-flex align-items-center">
+                      <ul class="list-style-type-bullet p-0 ml15 mb0-sm">
+                        <li><?= lang('modal.one') ?></li>
+                        <li><?= lang('modal.two') ?></li>
+                        <li><?= lang('modal.three') ?></li>
+                        <li><?= lang('modal.four') ?></li>
+                        <li><?= lang('modal.five') ?></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="grids">
+                    <h4 class="title"><?= lang('modal.category') ?></h4>
+                    <div class="custom_bsp_grid d-sm-flex align-items-center">
+                      <ul class="list-style-type-bullet p-0 ml15 mb0-sm">
+                        <li><?= lang('modal.c1') ?></li>
+                        <li><?= lang('modal.c2') ?></li>
+                        <li><?= lang('modal.c3') ?></li>
                       </ul>
                     </div>
                   </div>
                 </div>
-                <div class="tab-pane fade" id="nav-manageother" role="tabpanel" aria-labelledby="nav-manageother-tab">
+                <!-- <div class="tab-pane fade" id="nav-manageother" role="tabpanel" aria-labelledby="nav-manageother-tab">
                   <div class="grids">
                     <div class="product_single_content mb50">
                       <div class="mbp_pagination_comments">
@@ -163,7 +176,7 @@
                           </div>
                           <div class="col-md-12">
                             <div class="position-relative bdrb1 pb50">
-                              <a href="page-service-single.html" class="ud-btn btn-light-thm">See More<i class="fal fa-arrow-right-long"></i></a>
+                              <a href="#" class="ud-btn btn-light-thm">See More<i class="fal fa-arrow-right-long"></i></a>
                             </div>
                           </div>
                         </div>
@@ -205,7 +218,7 @@
                       </form>
                     </div>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>

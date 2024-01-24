@@ -53,6 +53,7 @@ $routes->get('{locale}/career', 'fr_index::career');
 $routes->get('{locale}/user-dashboard', 'fr_index::dashboardUser');
 $routes->get('{locale}/ui-elements', 'fr_index::uiele');
 $routes->get('{locale}/shop-single', 'fr_index::review');
+$routes->get('{locale}/checkout', 'fr_index::checkout');
 
 // user post
 $routes->get('user/pagegaleriuser', 'fr_index::pagegaleriuser');

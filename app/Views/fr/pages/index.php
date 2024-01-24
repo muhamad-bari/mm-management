@@ -389,7 +389,7 @@
     </ul>
 
      <!-- Apply button -->
-     <a href="<?= base_url('/login') ?>" class="ud-btn btn-dark mb25 me-4" id="applyButton" ><?= lang('modal.btn') ?></a>
+     <a href="<?= base_url($locale . '/login') ?>" class="ud-btn btn-dark mb25 me-4" id="applyButton" ><?= lang('modal.btn') ?></a>
   </div>
 </div>
 
