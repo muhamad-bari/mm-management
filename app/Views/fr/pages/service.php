@@ -214,12 +214,12 @@
         <div class="col-sm-6 col-xl-3">
           <div class="listing-style1">
             <div class="list-thumb">
-              <div class="listing-thumbIn-slider position-relative navi_pagi_bottom_center slider-1-grid owl-carousel owl-theme">
-                <div class="item">
-                  <img class="w-100" src="<?= base_url() ?>frontend/images/listings/g-2.jpg" alt="">
-                  <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
-                </div>
-                <div class="item">
+              <!-- <div class="listing-thumbIn-slider position-relative navi_pagi_bottom_center slider-1-grid owl-carousel owl-theme"> -->
+              <div class="item">
+                <img class="w-100" src="<?= base_url() ?>frontend/images/listings/g-2.jpg" alt="">
+                <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
+              </div>
+              <!-- <div class="item">
                   <img class="w-100" src="<?= base_url() ?>frontend/images/listings/g-3.jpg" alt="">
                   <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
                 </div>
@@ -230,8 +230,8 @@
                 <div class="item">
                   <img class="w-100" src="<?= base_url() ?>frontend/images/listings/g-5.jpg" alt="">
                   <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
-                </div>
-              </div>
+                </div> 
+              </div>-->
             </div>
             <div class="list-content">
               <p class="list-text body-color fz14 mb-1"><?= lang('service.service') ?></p>
